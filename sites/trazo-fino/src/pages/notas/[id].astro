@@ -2,7 +2,7 @@
 import Diario from '../../layouts/Diario.astro';
 import Dibujo from '../../components/Dibujo.astro';
 import { getCollection, render } from 'astro:content';
-import { artista, esMagico, estudioDe, DIVULGACION } from 'directorio';
+import { artista, esMagico, estudioDe, lugar, DIVULGACION } from 'directorio';
 export async function getStaticPaths() {
   const todas = (await getCollection('notas')).sort((a, b) => b.data.fecha.valueOf() - a.data.fecha.valueOf());
   return todas.map((n, i) => ({ params: { id: n.id }, props: { n, otra: todas[(i + 1) % todas.length] } }));
@@ -29,7 +29,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'BlogPosting', headl
           <span class="mano">las manos de esta nota ↓</span>
           <ol>
             {fichas.map((a) => (
-              <li><span class="nombre">{a.nombre}{esMagico(a) && <sup>✦</sup>}</span><span class="lugar">{a.ciudad}{estudioDe(a) ? ` · ${estudioDe(a)!.nombre}` : `, ${a.pais}`}</span></li>
+              <li><span class="nombre">{a.nombre}{esMagico(a) && <sup>✦</sup>}</span><span class="lugar">{lugar(a)}{estudioDe(a) && ` · ${estudioDe(a)!.nombre}`}</span></li>
             ))}
           </ol>
         </section>

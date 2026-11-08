@@ -1,6 +1,6 @@
 ---
 import Diario from '../layouts/Diario.astro';
-import { porEstilo, estudioDe, esMagico, DIVULGACION } from 'directorio';
+import { porEstilo, estudioDe, esMagico, lugar, DIVULGACION } from 'directorio';
 const lista = porEstilo('fine-line');
 ---
 <Diario titulo="lista corta" descripcion="Artistas de línea fina y microrrealismo que seguimos de cerca, en México y el mundo.">
@@ -8,12 +8,12 @@ const lista = porEstilo('fine-line');
     <span class="mano">sin orden de importancia</span>
     <h1>lista corta</h1>
     <div class="tabla">
-      <div class="fila cab"><span>#</span><span>artista</span><span>ciudad</span><span>estudio</span></div>
+      <div class="fila cab"><span>#</span><span>artista</span><span>lugar</span><span>estudio</span></div>
       {lista.map((a, i) => (
         <div class="fila">
           <span class="mano">{String(i + 1).padStart(2, '0')}</span>
           <span class="nombre">{a.nombre}{esMagico(a) && <sup>✦</sup>}{a.instagram && <a href={`https://instagram.com/${a.instagram}`} rel="noopener"> @{a.instagram}</a>}</span>
-          <span>{a.ciudad}, {a.pais}</span>
+          <span>{lugar(a)}</span>
           <span class="tenue">{estudioDe(a)?.nombre ?? '—'}</span>
         </div>
       ))}
