@@ -1,0 +1,13 @@
+{
+  "name": "magico-red-editorial",
+  "private": true,
+  "workspaces": ["packages/*", "sites/*"],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "dev:mexico": "npm run dev -w tinta-capital",
+    "dev:mundial": "npm run dev -w atlas-ink",
+    "dev:realismo": "npm run dev -w gris-absoluto",
+    "dev:fineline": "npm run dev -w trazo-fino",
+    "dev:color": "npm run dev -w color-bravo"
+  }
+}

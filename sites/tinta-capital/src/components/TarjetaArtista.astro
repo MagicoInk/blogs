@@ -1,0 +1,22 @@
+---
+import { estudioDe, esMagico, estilo } from 'directorio';
+const { a } = Astro.props;
+const estudio = estudioDe(a);
+const magico = esMagico(a);
+---
+<article class="tarjeta">
+  <div class="foto" aria-hidden="true">{a.nombre.replace(/[\[\]]/g, '').split(' ').map((p: string) => p[0]).slice(0, 2).join('')}</div>
+  <div>
+    {magico && <span class="etiqueta rosa">Magico Ink · casa</span>}
+    <h3>{a.nombre}</h3>
+    <p class="meta">{a.ciudad}{estudio && ` · ${estudio.nombre}`}</p>
+    <p class="meta">{a.estilos.map((e: string) => estilo(e)?.nombre ?? e).join(', ')}</p>
+    {a.instagram && <a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a>}
+  </div>
+</article>
+<style>
+  .tarjeta { display: grid; grid-template-columns: 72px 1fr; gap: 14px; padding: 16px; border: 3px solid var(--negro); background: #fff; }
+  .foto { width: 72px; height: 72px; background: repeating-linear-gradient(45deg, var(--amarillo) 0 8px, #ffe666 8px 16px); display: grid; place-items: center; font: 400 22px var(--display); border: 2px solid var(--negro); }
+  h3 { font-size: 18px; margin: 6px 0 2px; }
+  .meta { margin: 0; font-size: 14px; color: var(--sutil); }
+</style>

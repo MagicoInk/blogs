@@ -1,0 +1,28 @@
+---
+import Diario from '../layouts/Diario.astro';
+const preguntas: [string, string][] = [
+  ['¿Las líneas finas se borran con el tiempo?', 'Se suavizan, como cualquier tatuaje. Si el artista trabaja a la profundidad correcta y el diseño tiene un tamaño adecuado, una línea fina se mantiene legible durante muchos años. El protector solar ayuda muchísimo.'],
+  ['¿Duele menos que un tatuaje tradicional?', 'Suele ser una sesión más corta y con menos saturación, así que mucha gente la siente más llevadera. El dolor depende sobre todo de la zona.'],
+  ['¿Qué tan pequeño puede ser?', 'Depende del nivel de detalle. Un símbolo simple puede ser muy pequeño; un microrretrato necesita más espacio del que imaginas. Pregunta al artista por el tamaño mínimo que recomienda para tu idea.'],
+  ['¿En qué zonas no conviene?', 'Dedos, manos, pies y zonas de roce constante tienden a perder definición más rápido. Antebrazo, brazo, clavícula y costado suelen envejecer mejor.'],
+  ['¿Puedo llevar mi propio diseño?', 'Sí, como referencia. Un buen artista lo adaptará a la piel y a la escala para que funcione con el tiempo.'],
+  ['¿Cuánto tarda en sanar?', 'La superficie suele cerrar en un par de semanas, pero la piel sigue regenerándose varias semanas más. Sigue los cuidados que te indique tu artista.'],
+];
+const jsonld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: preguntas.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
+---
+<Diario titulo="preguntas" descripcion="Preguntas frecuentes sobre tatuajes de línea fina y microrrealismo." jsonld={jsonld}>
+  <h1>preguntas</h1>
+  {preguntas.map(([q, a]) => (
+    <details>
+      <summary>{q}</summary>
+      <p>{a}</p>
+    </details>
+  ))}
+</Diario>
+<style>
+  details { border-top: .5px solid #e2d9d2; padding: 18px 0; }
+  summary { font: 400 22px/1.3 var(--serif); cursor: pointer; list-style: none; }
+  summary::after { content: ' +'; color: var(--tenue); }
+  details[open] summary::after { content: ' –'; }
+  details p { margin: 12px 0 0; }
+</style>

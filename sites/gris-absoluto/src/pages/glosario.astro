@@ -1,0 +1,32 @@
+---
+import Sala from '../layouts/Sala.astro';
+const terminos: [string, string][] = [
+  ['Black and grey', 'Tatuaje trabajado solo con tinta negra y sus diluciones. Es el lenguaje clásico del realismo.'],
+  ['Dilución (gray wash)', 'Tinta negra rebajada en distintas proporciones para obtener grises más claros.'],
+  ['Valor tonal', 'Qué tan claro u oscuro es un área. El realismo se construye con valores, no con líneas.'],
+  ['Contraste', 'Diferencia entre los valores más claros y los más oscuros de la pieza. Sin contraste, el realismo se "lava" con los años.'],
+  ['Altas luces', 'Zonas más claras de la imagen. A menudo se reservan como piel limpia o se marcan con tinta blanca al final.'],
+  ['Esténcil', 'Calco del diseño que se transfiere a la piel como guía antes de empezar.'],
+  ['Mapeo', 'Primera fase en la que el artista marca las masas principales de sombra.'],
+  ['Capa', 'Cada pasada de sombreado. Los tonos profundos se construyen por capas, no de una sola vez.'],
+  ['Textura', 'Simulación de superficies (piel, pelo, metal, tela) mediante variaciones de aguja y movimiento.'],
+  ['Cicatrizado', 'El tatuaje ya sanado. Es la única forma honesta de juzgar un realismo.'],
+  ['Lectura a distancia', 'Si la pieza se entiende a dos o tres metros. Un realismo que solo funciona de cerca envejecerá mal.'],
+];
+const jsonld = { '@context': 'https://schema.org', '@type': 'DefinedTermSet', name: 'Glosario de realismo en negro y gris', hasDefinedTerm: terminos.map(([name, description]) => ({ '@type': 'DefinedTerm', name, description })) };
+---
+<Sala titulo="Glosario" descripcion="Glosario de términos del tatuaje realista en negro y gris." jsonld={jsonld}>
+  <section class="cab"><p class="mono">Referencia</p><h1>Glosario</h1></section>
+  <dl>
+    {terminos.map(([t, d]) => <div><dt>{t}</dt><dd>{d}</dd></div>)}
+  </dl>
+</Sala>
+<style>
+  .cab { padding: 48px 40px 16px; }
+  h1 { font-size: clamp(44px, 8vw, 88px); margin: 8px 0; }
+  dl { margin: 0; border-top: 1px solid var(--grafito); }
+  dl div { display: grid; grid-template-columns: 280px 1fr; gap: 24px; padding: 20px 40px; border-bottom: 1px solid var(--grafito); }
+  dt { color: var(--blanco); font-weight: 500; font-size: 20px; }
+  dd { margin: 0; }
+  @media (max-width: 760px) { .cab { padding: 32px 16px 12px; } dl div { grid-template-columns: 1fr; gap: 4px; padding: 16px; } }
+</style>

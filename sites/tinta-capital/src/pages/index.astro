@@ -1,0 +1,85 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { ciudades, porCiudad, slugify } from 'directorio';
+
+const notas = (await getCollection('guias')).sort((a, b) => b.data.fecha.valueOf() - a.data.fecha.valueOf());
+const portada = notas.find((n) => n.data.destacada) ?? notas[0];
+const resto = notas.filter((n) => n !== portada);
+const guias = resto.filter((n) => n.data.seccion !== 'Listas');
+const listas = resto.filter((n) => n.data.seccion === 'Listas');
+const fecha = (d: Date) => d.toLocaleDateString('es-MX', { day: 'numeric', month: 'short', year: 'numeric' });
+---
+<Base titulo="Tinta Capital" descripcion="Guías, listas y recomendaciones para tatuarte en México: cómo elegir artista, qué estudios visitar y qué esperar de tu sesión.">
+  <section class="portada">
+    <div class="contenedor rejilla-portada">
+      <a class="principal" href={`/guias/${portada.id}/`}>
+        <span class="etiqueta">{portada.data.seccion}</span>
+        <h1>{portada.data.titulo}</h1>
+        <p>{portada.data.bajada}</p>
+      </a>
+      <aside class="ciudades">
+        <h2>Dónde tatuarte</h2>
+        <ul>
+          {ciudades('México').map((c) => (
+            <li><a href={`/ciudades/${slugify(c)}/`}>{c}<span>{porCiudad(c).length}</span></a></li>
+          ))}
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="contenedor bloque" id="guias">
+    <h2 class="titulo-seccion">Guías</h2>
+    <div class="rejilla">
+      {guias.map((n) => (
+        <a class="nota" href={`/guias/${n.id}/`}>
+          <span class="etiqueta">{n.data.seccion}</span>
+          <h3>{n.data.titulo}</h3>
+          <p>{n.data.bajada}</p>
+          <time datetime={n.data.fecha.toISOString()}>{fecha(n.data.fecha)}</time>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="listas" id="listas">
+    <div class="contenedor bloque">
+      <h2 class="titulo-seccion">Listas</h2>
+      <ol class="lista-numerada">
+        {listas.map((n) => (
+          <li><a href={`/guias/${n.id}/`}><strong>{n.data.titulo}</strong><span>{n.data.bajada}</span></a></li>
+        ))}
+      </ol>
+    </div>
+  </section>
+</Base>
+<style>
+  .portada { background: var(--amarillo); border-bottom: 4px solid var(--negro); padding: 40px 0; }
+  .rejilla-portada { display: grid; grid-template-columns: 2fr 1fr; gap: 32px; }
+  .principal { text-decoration: none; display: block; }
+  .principal h1 { font-size: clamp(2.2rem, 6vw, 4.2rem); margin-top: 14px; }
+  .principal p { font-size: 1.2rem; max-width: 640px; }
+  .ciudades { background: var(--negro); color: #fff; padding: 20px; }
+  .ciudades h2 { color: var(--amarillo); font-size: 1.4rem; }
+  .ciudades ul { list-style: none; margin: 0; padding: 0; }
+  .ciudades a { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #333; text-decoration: none; font-weight: 700; }
+  .ciudades a:hover { color: var(--amarillo); }
+  .ciudades span { color: var(--amarillo); }
+  .bloque { padding-top: 48px; padding-bottom: 24px; }
+  .titulo-seccion { font-size: 2rem; border-bottom: 4px solid var(--negro); padding-bottom: 8px; }
+  .rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+  .nota { text-decoration: none; display: block; border-top: 3px solid var(--negro); padding-top: 14px; }
+  .nota h3 { font-size: 1.35rem; margin-top: 10px; }
+  .nota:hover h3 { text-decoration: underline; text-decoration-color: var(--rosa); text-decoration-thickness: 4px; }
+  .nota p { color: var(--sutil); margin: 0 0 8px; }
+  time { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; font-weight: 700; }
+  .listas { background: var(--gris); margin-top: 32px; }
+  .lista-numerada { counter-reset: n; list-style: none; padding: 0; margin: 0; }
+  .lista-numerada li { counter-increment: n; border-bottom: 2px solid var(--negro); }
+  .lista-numerada a { display: grid; grid-template-columns: 64px 1fr; grid-template-rows: auto auto; column-gap: 12px; padding: 18px 0; text-decoration: none; }
+  .lista-numerada a::before { content: counter(n, decimal-leading-zero); grid-row: span 2; font: 400 2.2rem/1 var(--display); color: var(--rosa); }
+  .lista-numerada strong { font-family: var(--display); font-weight: 400; font-size: 1.25rem; }
+  .lista-numerada span { color: var(--sutil); }
+  @media (max-width: 800px) { .rejilla-portada { grid-template-columns: 1fr; } }
+</style>

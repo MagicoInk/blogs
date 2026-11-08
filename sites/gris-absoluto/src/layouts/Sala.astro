@@ -1,0 +1,66 @@
+---
+import { DIVULGACION } from 'directorio';
+interface Props { titulo: string; descripcion: string; jsonld?: object }
+const { titulo, descripcion, jsonld } = Astro.props;
+const canonica = new URL(Astro.url.pathname, Astro.site);
+const ruta = Astro.url.pathname;
+const links = [['/', 'Inicio'], ['/sala/', 'Sala'], ['/tecnica/', 'Técnica'], ['/glosario/', 'Glosario'], ['/acerca/', 'Acerca']];
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{titulo} · Gris Absoluto</title>
+  <meta name="description" content={descripcion} />
+  <link rel="canonical" href={canonica} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content={`${titulo} · Gris Absoluto`} />
+  <meta property="og:description" content={descripcion} />
+  <meta name="theme-color" content="#0b0b0c" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;500;800&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" />
+  {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+</head>
+<body>
+  <aside class="riel">
+    <a href="/" class="marca"><span>GRIS</span><span>ABSO</span><span>LUTO</span></a>
+    <nav>{links.map(([h, t]) => <a href={h} aria-current={ruta === h ? 'page' : undefined}>{t}</a>)}</nav>
+    <div class="escala" aria-hidden="true">{[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => <i style={`background:hsl(0 0% ${i * 10}%)`} />)}</div>
+  </aside>
+  <div class="lienzo">
+    <main><slot /></main>
+    <footer><p>{DIVULGACION}</p><p class="mono">Gris Absoluto — realismo en negro y gris</p></footer>
+  </div>
+</body>
+</html>
+<style is:global>
+  :root { --negro: #0b0b0c; --carbon: #161618; --grafito: #2a2a2e; --plata: #b9b9be; --blanco: #f2f2f2; --acento: #e8e2d4; --sans: 'Inter Tight', system-ui, sans-serif; --mono: 'JetBrains Mono', ui-monospace, monospace; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--negro); color: var(--plata); font: 300 18px/1.7 var(--sans); display: grid; grid-template-columns: 200px 1fr; min-height: 100vh; }
+  a { color: var(--blanco); }
+  h1, h2, h3 { color: var(--blanco); font-weight: 800; letter-spacing: -.03em; line-height: 1; }
+  .mono { font: 400 12px/1.5 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: #77777d; }
+  @media (max-width: 760px) { body { grid-template-columns: 1fr; } }
+</style>
+<style>
+  .riel { position: sticky; top: 0; height: 100vh; border-right: 1px solid var(--grafito); padding: 24px 20px; display: flex; flex-direction: column; gap: 32px; }
+  .marca { display: flex; flex-direction: column; font: 800 26px/0.9 var(--sans); text-decoration: none; letter-spacing: -.04em; }
+  .marca span:nth-child(2) { color: var(--plata); }
+  .marca span:nth-child(3) { color: #5f5f66; }
+  nav { display: flex; flex-direction: column; gap: 8px; font: 400 13px var(--mono); text-transform: uppercase; letter-spacing: .12em; }
+  nav a { text-decoration: none; color: var(--plata); }
+  nav a[aria-current] { color: var(--blanco); }
+  nav a[aria-current]::before { content: '■ '; }
+  .escala { display: grid; grid-template-columns: repeat(10, 1fr); height: 10px; margin-top: auto; }
+  .lienzo { min-width: 0; }
+  footer { border-top: 1px solid var(--grafito); padding: 32px 40px; font-size: 15px; }
+  @media (max-width: 760px) {
+    .riel { position: static; height: auto; flex-direction: row; align-items: center; justify-content: space-between; padding: 14px 16px; border-right: 0; border-bottom: 1px solid var(--grafito); flex-wrap: wrap; gap: 12px; }
+    .marca { flex-direction: row; font-size: 20px; gap: 0; }
+    nav { flex-direction: row; flex-wrap: wrap; gap: 12px; }
+    .escala { display: none; }
+    footer { padding: 24px 16px; }
+  }
+</style>

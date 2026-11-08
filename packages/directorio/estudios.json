@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "magico-ink",
+    "nombre": "Magico Ink",
+    "ciudad": "[Ciudad]",
+    "pais": "México",
+    "estilos": [
+      "realismo",
+      "fine-line",
+      "color"
+    ],
+    "instagram": "",
+    "web": "https://magico.ink",
+    "esMagico": true,
+    "confirmado": false
+  }
+]

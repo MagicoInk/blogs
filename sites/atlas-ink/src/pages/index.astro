@@ -1,0 +1,57 @@
+---
+import Atlas from '../layouts/Atlas.astro';
+import { getCollection } from 'astro:content';
+import { internacionales } from 'directorio';
+const exp = (await getCollection('expediciones')).sort((a, b) => b.data.numero - a.data.numero);
+const [primera, ...resto] = exp;
+const paises = [...new Set(internacionales().map((a) => a.pais))].sort((a, b) => a.localeCompare(b, 'es'));
+const romano = (n: number) => ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'][n] ?? String(n);
+---
+<Atlas descripcion="Crónicas sobre los artistas, estudios y ciudades que definen el tatuaje contemporáneo en el mundo.">
+  <section class="columna apertura">
+    <p class="mono">Expedición {romano(primera.data.numero)} · {primera.data.lugar}</p>
+    <h1><a href={`/expediciones/${primera.id}`}>{primera.data.titulo}</a></h1>
+    <p class="entradilla">{primera.data.entradilla}</p>
+    <a class="leer" href={`/expediciones/${primera.id}`}>Leer la crónica →</a>
+  </section>
+  <hr class="columna" />
+  <section class="ancha sumario">
+    <h2>Sumario</h2>
+    <ol>
+      {resto.map((e) => (
+        <li>
+          <span class="num">{romano(e.data.numero)}</span>
+          <div>
+            <a href={`/expediciones/${e.id}`}>{e.data.titulo}</a>
+            <p>{e.data.entradilla}</p>
+            <p class="mono">{e.data.lugar}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+  <section class="ancha mapa">
+    <h2>El mapa, por ahora</h2>
+    <p class="nota">Países con artistas en nuestro índice. El atlas crece con cada expedición.</p>
+    <ul>{paises.map((p) => <li><a href={`/indice#${p}`}>{p}</a></li>)}</ul>
+  </section>
+</Atlas>
+<style>
+  .apertura { text-align: center; padding-top: 56px; padding-bottom: 8px; }
+  hr.columna { margin: 40px auto; max-width: 680px; }
+  h1 { font-size: clamp(36px, 6vw, 60px); margin: 12px 0 20px; }
+  h1 a { color: var(--tinta); text-decoration: none; }
+  .entradilla { font-style: italic; font-size: 22px; color: var(--suave); }
+  .leer { font: 400 13px var(--mono); text-transform: uppercase; letter-spacing: .14em; }
+  .sumario h2, .mapa h2 { font-size: 32px; text-align: center; }
+  .sumario ol { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px 48px; }
+  .sumario li { display: grid; grid-template-columns: 56px 1fr; border-top: 1px solid var(--linea); padding-top: 16px; }
+  .num { font: 300 36px/1 var(--titular); color: var(--sepia); }
+  .sumario a { font: 600 22px/1.25 var(--titular); color: var(--tinta); text-decoration: none; }
+  .sumario p { margin: 6px 0; font-size: 17px; }
+  .sumario p.mono { font-size: 12px; }
+  .mapa { margin-top: 64px; text-align: center; }
+  .nota { font-style: italic; color: var(--suave); }
+  .mapa ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 24px; font: 300 24px var(--titular); }
+  .mapa a { color: var(--tinta); }
+</style>

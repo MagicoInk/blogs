@@ -1,0 +1,52 @@
+---
+import Sala from '../layouts/Sala.astro';
+import { getCollection } from 'astro:content';
+import { porEstilo } from 'directorio';
+const lecciones = (await getCollection('tecnica')).sort((a, b) => a.data.orden - b.data.orden);
+const sala = porEstilo('realismo');
+---
+<Sala titulo="Realismo en negro y gris" descripcion="Técnica, artistas y criterio para el tatuaje realista en negro y gris.">
+  <section class="hero">
+    <p class="mono">Del 0 % al 100 % de negro</p>
+    <h1>El realismo<br />vive en los<br /><em>grises.</em></h1>
+    <p class="lema">Técnica, criterio y los artistas que mejor dominan el retrato y la escena en negro y gris, en México y en el mundo.</p>
+  </section>
+  <section class="bloque">
+    <header class="fila"><h2>Técnica</h2><a href="/tecnica/" class="mono">Ver todas →</a></header>
+    <ol class="lecciones">
+      {lecciones.map((l) => (
+        <li>
+          <a href={`/tecnica/${l.id}/`}>
+            <span class="mono">{String(l.data.orden).padStart(2, '0')} · {l.data.nivel}</span>
+            <strong>{l.data.titulo}</strong>
+            <span class="resumen">{l.data.resumen}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </section>
+  <section class="bloque">
+    <header class="fila"><h2>En sala</h2><a href="/sala/" class="mono">Recorrer la sala →</a></header>
+    <p class="mono">{sala.length} artistas de realismo en exhibición</p>
+  </section>
+</Sala>
+<style>
+  .hero { min-height: 78vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 40px; background: radial-gradient(ellipse at 70% 30%, #3a3a3f 0%, var(--negro) 60%); border-bottom: 1px solid var(--grafito); }
+  h1 { font-size: clamp(56px, 11vw, 150px); margin: 12px 0 24px; }
+  h1 em { font-style: normal; background: linear-gradient(90deg, #fff, #444); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .lema { max-width: 520px; font-size: 20px; }
+  .bloque { padding: 48px 40px; border-bottom: 1px solid var(--grafito); }
+  .fila { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+  h2 { font-size: 40px; margin: 0 0 24px; }
+  .fila a { text-decoration: none; }
+  .lecciones { list-style: none; padding: 0; margin: 0; }
+  .lecciones a { display: grid; grid-template-columns: 220px 1fr; gap: 4px 24px; padding: 22px 0; border-top: 1px solid var(--grafito); text-decoration: none; transition: padding .2s; }
+  .lecciones a:hover { padding-left: 12px; background: var(--carbon); }
+  .lecciones strong { font-size: 24px; color: var(--blanco); font-weight: 500; }
+  .resumen { grid-column: 2; color: var(--plata); }
+  @media (max-width: 760px) {
+    .hero, .bloque { padding-left: 16px; padding-right: 16px; }
+    .lecciones a { grid-template-columns: 1fr; }
+    .resumen { grid-column: 1; }
+  }
+</style>

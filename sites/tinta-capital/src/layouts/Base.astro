@@ -1,0 +1,67 @@
+---
+import '../styles/global.css';
+import { DIVULGACION } from 'directorio';
+
+interface Props { titulo: string; descripcion: string; tipo?: 'website' | 'article'; jsonld?: object }
+const { titulo, descripcion, tipo = 'website', jsonld } = Astro.props;
+const canonica = new URL(Astro.url.pathname, Astro.site);
+const tituloCompleto = titulo === 'Tinta Capital' ? 'Tinta Capital — tatuaje en México, sin rodeos' : `${titulo} | Tinta Capital`;
+const secciones = [
+  ['Guías', '/#guias'], ['Listas', '/#listas'], ['Ciudades', '/ciudades/'], ['Nosotros', '/nosotros/'],
+];
+---
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{tituloCompleto}</title>
+  <meta name="description" content={descripcion} />
+  <link rel="canonical" href={canonica} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta property="og:type" content={tipo} />
+  <meta property="og:title" content={tituloCompleto} />
+  <meta property="og:description" content={descripcion} />
+  <meta property="og:url" content={canonica} />
+  <meta property="og:locale" content="es_MX" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+</head>
+<body>
+  <div class="franja">Tatuaje en México · Guías, listas y dónde tatuarte</div>
+  <header class="cabecera">
+    <div class="contenedor fila">
+      <a href="/" class="logo">TINTA<span>CAPITAL</span></a>
+      <nav aria-label="Secciones">
+        {secciones.map(([n, h]) => <a href={h}>{n}</a>)}
+      </nav>
+    </div>
+  </header>
+  <main><slot /></main>
+  <footer class="pie">
+    <div class="contenedor">
+      <a href="/" class="logo chico">TINTA<span>CAPITAL</span></a>
+      <p>{DIVULGACION} <a href="/nosotros/">Quiénes somos</a>.</p>
+      <p class="mini">© {new Date().getFullYear()} Tinta Capital. Las fotos de cada artista se publican con su permiso.</p>
+    </div>
+  </footer>
+</body>
+</html>
+<style>
+  .franja { background: var(--negro); color: var(--amarillo); font: 700 12px/1 var(--cuerpo); text-transform: uppercase; letter-spacing: .1em; text-align: center; padding: 8px 16px; }
+  .cabecera { background: var(--amarillo); border-bottom: 4px solid var(--negro); position: sticky; top: 0; z-index: 10; }
+  .fila { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 12px; padding-bottom: 12px; flex-wrap: wrap; }
+  .logo { font: 400 28px/1 var(--display); text-decoration: none; letter-spacing: -.03em; color: var(--negro); }
+  .logo span { background: var(--negro); color: var(--amarillo); padding: 0 6px; margin-left: 4px; }
+  .logo.chico { font-size: 20px; }
+  nav { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav a { font-weight: 700; text-decoration: none; text-transform: uppercase; font-size: 14px; letter-spacing: .04em; }
+  nav a:hover { text-decoration: underline; text-decoration-thickness: 3px; }
+  .pie { background: var(--negro); color: #ddd; margin-top: 64px; padding: 40px 0; font-size: 15px; }
+  .pie .logo { color: #fff; }
+  .pie .logo span { background: var(--amarillo); color: var(--negro); }
+  .mini { color: #999; font-size: 13px; }
+</style>

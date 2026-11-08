@@ -1,0 +1,16 @@
+---
+import Bravo from '../layouts/Bravo.astro';
+---
+<Bravo titulo="Quiénes somos" descripcion="Quién hace Color Bravo.">
+  <div class="envoltura texto">
+    <h1>QUIÉNES SOMOS</h1>
+    <p>Color Bravo existe porque el tatuaje a color merece más que un "ah, qué bonito". Hacemos tops, explicamos estilos y señalamos a quienes lo hacen mejor.</p>
+    <p class="caja dueño"><strong>Color Bravo es un proyecto de Magico Ink</strong>, estudio de tatuaje. Cuando alguien de Magico Ink aparece en un top, lleva una ★ y un aviso arriba. Sin letra chiquita.</p>
+    <p>Nadie paga por salir. Las fotos se publican con permiso de cada artista.</p>
+  </div>
+</Bravo>
+<style>
+  .texto { max-width: 760px; padding-top: 48px; font-size: 20px; }
+  h1 { font-size: clamp(56px, 10vw, 110px); }
+  .dueño { padding: 20px; background: var(--amarillo); }
+</style>

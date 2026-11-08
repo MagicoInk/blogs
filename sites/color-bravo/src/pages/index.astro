@@ -1,0 +1,49 @@
+---
+import Bravo from '../layouts/Bravo.astro';
+import { getCollection } from 'astro:content';
+import { estilos } from '../estilos';
+const tops = (await getCollection('top')).sort((a, b) => b.data.fecha.valueOf() - a.data.fecha.valueOf());
+const fondo = { rojo: 'var(--rojo)', azul: 'var(--azul)', verde: 'var(--verde)', naranja: 'var(--naranja)' };
+---
+<Bravo titulo="Tatuajes a color, sin miedo" descripcion="Rankings, estilos y artistas del tatuaje a color y neotradicional. Sin rodeos.">
+  <section class="hero envoltura">
+    <h1>EL GRIS<br />ES PARA<br /><span>OTROS.</span></h1>
+    <p>Tops, estilos y artistas del tatuaje a color. Directo, sin rodeos y sin miedo al pigmento.</p>
+    <a href="/quiz/" class="boton caja">¿QUÉ ESTILO ERES? HAZ EL QUIZ →</a>
+  </section>
+  <section class="envoltura">
+    <h2 class="tit">TOPS</h2>
+    <div class="tops">
+      {tops.map((t) => (
+        <a href={`/top/${t.id}/`} class="top caja" style={`--c:${fondo[t.data.color]}`}>
+          <span class="n">{t.data.puestos.length}</span>
+          <h3>{t.data.titulo}</h3>
+          <p>{t.data.gancho}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+  <section class="envoltura">
+    <h2 class="tit">ESTILOS</h2>
+    <div class="estilos">
+      {estilos.map((e) => <a href={`/estilos/${e.slug}/`} style={`background:${e.color}`}>{e.nombre}</a>)}
+    </div>
+  </section>
+</Bravo>
+<style>
+  .hero { padding-top: 48px; padding-bottom: 48px; }
+  h1 { font-size: clamp(72px, 16vw, 200px); }
+  h1 span { color: var(--rojo); -webkit-text-stroke: 3px var(--negro); }
+  .hero p { font-size: 22px; font-weight: 700; max-width: 560px; }
+  .boton { display: inline-block; padding: 16px 22px; font-weight: 700; text-decoration: none; background: var(--amarillo); }
+  .boton:hover { transform: translate(-3px, -3px); box-shadow: 11px 11px 0 var(--negro); }
+  .tit { font-size: 64px; margin-top: 48px; }
+  .tops { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
+  .top { display: block; padding: 24px; text-decoration: none; background: var(--c); color: #fff; position: relative; overflow: hidden; }
+  .top .n { position: absolute; right: -10px; top: -30px; font: 400 180px/1 var(--titular); opacity: .25; }
+  .top h3 { font-size: 40px; position: relative; }
+  .top p { font-weight: 700; position: relative; }
+  .estilos { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0; border: 4px solid var(--negro); }
+  .estilos a { font: 400 34px/1 var(--titular); text-transform: uppercase; color: #fff; padding: 40px 20px; text-decoration: none; border: 2px solid var(--negro); }
+  .estilos a:hover { filter: brightness(1.1); text-decoration: underline; }
+</style>

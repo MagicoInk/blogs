@@ -1,0 +1,347 @@
+[
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "magico-artista-1",
+    "nombre": "[Artista Magico Ink 1]",
+    "estudio": "magico-ink",
+    "ciudad": "[Ciudad]",
+    "pais": "México",
+    "estilos": [
+      "realismo"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "magico-artista-2",
+    "nombre": "[Artista Magico Ink 2]",
+    "estudio": "magico-ink",
+    "ciudad": "[Ciudad]",
+    "pais": "México",
+    "estilos": [
+      "fine-line"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "magico-artista-3",
+    "nombre": "[Artista Magico Ink 3]",
+    "estudio": "magico-ink",
+    "ciudad": "[Ciudad]",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "mx-01",
+    "nombre": "[Artista México 01]",
+    "estudio": "",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "realismo"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "mx-02",
+    "nombre": "[Artista México 02]",
+    "estudio": "",
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "estilos": [
+      "fine-line"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "mx-03",
+    "nombre": "[Artista México 03]",
+    "estudio": "",
+    "ciudad": "Monterrey",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "mx-04",
+    "nombre": "[Artista México 04]",
+    "estudio": "",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "fine-line"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "mx-05",
+    "nombre": "[Artista México 05]",
+    "estudio": "",
+    "ciudad": "Tijuana",
+    "pais": "México",
+    "estilos": [
+      "realismo"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "mx-06",
+    "nombre": "[Artista México 06]",
+    "estudio": "",
+    "ciudad": "Oaxaca",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-01",
+    "nombre": "[Artista internacional 01]",
+    "estudio": "",
+    "ciudad": "Los Ángeles",
+    "pais": "Estados Unidos",
+    "estilos": [
+      "fine-line"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-02",
+    "nombre": "[Artista internacional 02]",
+    "estudio": "",
+    "ciudad": "Nueva York",
+    "pais": "Estados Unidos",
+    "estilos": [
+      "color"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-03",
+    "nombre": "[Artista internacional 03]",
+    "estudio": "",
+    "ciudad": "Londres",
+    "pais": "Reino Unido",
+    "estilos": [
+      "color"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-04",
+    "nombre": "[Artista internacional 04]",
+    "estudio": "",
+    "ciudad": "Berlín",
+    "pais": "Alemania",
+    "estilos": [
+      "realismo"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-05",
+    "nombre": "[Artista internacional 05]",
+    "estudio": "",
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "estilos": [
+      "fine-line"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-06",
+    "nombre": "[Artista internacional 06]",
+    "estudio": "",
+    "ciudad": "Seúl",
+    "pais": "Corea del Sur",
+    "estilos": [
+      "fine-line"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-07",
+    "nombre": "[Artista internacional 07]",
+    "estudio": "",
+    "ciudad": "Kiev",
+    "pais": "Ucrania",
+    "estilos": [
+      "realismo"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-08",
+    "nombre": "[Artista internacional 08]",
+    "estudio": "",
+    "ciudad": "Varsovia",
+    "pais": "Polonia",
+    "estilos": [
+      "realismo"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-09",
+    "nombre": "[Artista internacional 09]",
+    "estudio": "",
+    "ciudad": "São Paulo",
+    "pais": "Brasil",
+    "estilos": [
+      "color"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-10",
+    "nombre": "[Artista internacional 10]",
+    "estudio": "",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "estilos": [
+      "realismo"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-11",
+    "nombre": "[Artista internacional 11]",
+    "estudio": "",
+    "ciudad": "Tokio",
+    "pais": "Japón",
+    "estilos": [
+      "color"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-12",
+    "nombre": "[Artista internacional 12]",
+    "estudio": "",
+    "ciudad": "Roma",
+    "pais": "Italia",
+    "estilos": [
+      "realismo"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-13",
+    "nombre": "[Artista internacional 13]",
+    "estudio": "",
+    "ciudad": "Melbourne",
+    "pais": "Australia",
+    "estilos": [
+      "color"
+    ]
+  },
+  {
+    "bio": "",
+    "instagram": "",
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "slug": "int-14",
+    "nombre": "[Artista internacional 14]",
+    "estudio": "",
+    "ciudad": "Ámsterdam",
+    "pais": "Países Bajos",
+    "estilos": [
+      "fine-line"
+    ]
+  }
+]

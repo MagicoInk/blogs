@@ -1,0 +1,29 @@
+---
+import Atlas from '../layouts/Atlas.astro';
+import { artistas, esMagico, DIVULGACION } from 'directorio';
+const grupos = Object.entries(Object.groupBy(artistas, (a) => a.pais)).sort(([a], [b]) => a.localeCompare(b, 'es'));
+---
+<Atlas titulo="Índice de artistas" descripcion="Índice por país de los artistas del tatuaje que aparecen en Atlas Ink.">
+  <section class="ancha">
+    <h1>Índice de artistas</h1>
+    <p class="intro">Ordenado por país. Cada ficha se publica con la autorización del artista.</p>
+    <div class="paises">
+      {grupos.map(([pais, lista]) => (
+        <section id={pais}>
+          <h2>{pais}</h2>
+          <ul>{lista!.map((a) => <li><a href={`/artistas/${a.slug}`}>{a.nombre}</a> <span>{a.ciudad}</span>{esMagico(a) && <sup>*</sup>}</li>)}</ul>
+        </section>
+      ))}
+    </div>
+    <p class="aviso"><sup>*</sup> {DIVULGACION}</p>
+  </section>
+</Atlas>
+<style>
+  h1 { font-size: 48px; text-align: center; margin-top: 48px; }
+  .intro, .aviso { text-align: center; font-style: italic; color: var(--suave); }
+  .paises { columns: 3 260px; column-gap: 48px; margin-top: 32px; }
+  .paises section { break-inside: avoid; margin-bottom: 24px; }
+  h2 { font-size: 26px; border-bottom: 1px solid var(--linea); padding-bottom: 4px; margin: 0 0 8px; }
+  ul { list-style: none; padding: 0; margin: 0; font-size: 17px; }
+  li span { font: 400 12px var(--mono); color: var(--suave); margin-left: 6px; }
+</style>

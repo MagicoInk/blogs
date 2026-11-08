@@ -1,0 +1,41 @@
+---
+import Atlas from '../../layouts/Atlas.astro';
+import { getCollection } from 'astro:content';
+import { artistas, estudioDe, esMagico, estilo, DIVULGACION } from 'directorio';
+export function getStaticPaths() {
+  return artistas.map((a) => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props;
+const estudio = estudioDe(a);
+const apariciones = (await getCollection('expediciones')).filter((e) => e.data.artistas.includes(a.slug));
+const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.nombre, jobTitle: 'Artista del tatuaje', address: { '@type': 'PostalAddress', addressLocality: a.ciudad, addressCountry: a.pais }, ...(estudio && { worksFor: { '@type': 'Organization', name: estudio.nombre } }), ...(a.instagram && { sameAs: [`https://instagram.com/${a.instagram}`] }) };
+---
+<Atlas titulo={a.nombre} descripcion={`${a.nombre}, artista del tatuaje en ${a.ciudad}, ${a.pais}.`} jsonld={jsonld}>
+  <section class="columna ficha">
+    <p class="mono">Ficha del índice · {a.pais}</p>
+    <h1>{a.nombre}</h1>
+    <dl>
+      <dt>Ciudad</dt><dd>{a.ciudad}, {a.pais}</dd>
+      <dt>Lenguaje</dt><dd>{a.estilos.map((s: string) => estilo(s)?.nombre ?? s).join(', ')}</dd>
+      {estudio && <><dt>Estudio</dt><dd>{estudio.nombre}</dd></>}
+      {a.instagram && <><dt>Archivo</dt><dd><a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a></dd></>}
+    </dl>
+    {a.bio ? <p>{a.bio}</p> : <p class="pendiente">Semblanza en preparación.</p>}
+    {esMagico(a) && <p class="aviso">{DIVULGACION}</p>}
+    {apariciones.length > 0 && (
+      <>
+        <p class="mono">Aparece en</p>
+        <ul>{apariciones.map((e) => <li><a href={`/expediciones/${e.id}`}>{e.data.titulo}</a></li>)}</ul>
+      </>
+    )}
+    <p><a href="/indice">← Volver al índice</a></p>
+  </section>
+</Atlas>
+<style>
+  .ficha { padding-top: 48px; }
+  h1 { font-size: clamp(36px, 6vw, 56px); margin: 8px 0 24px; }
+  dl { display: grid; grid-template-columns: 120px 1fr; gap: 8px 16px; border-top: 1px solid var(--linea); border-bottom: 1px solid var(--linea); padding: 16px 0; }
+  dt { font: 400 12px/2 var(--mono); text-transform: uppercase; letter-spacing: .12em; color: var(--suave); }
+  dd { margin: 0; }
+  .pendiente, .aviso { font-style: italic; color: var(--suave); }
+</style>

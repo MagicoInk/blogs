@@ -1,0 +1,63 @@
+---
+import { DIVULGACION } from 'directorio';
+interface Props { titulo?: string; descripcion: string; articulo?: boolean; jsonld?: object }
+const { titulo, descripcion, articulo = false, jsonld } = Astro.props;
+const completo = titulo ? `${titulo} — Atlas Ink` : 'Atlas Ink · Crónicas del tatuaje en el mundo';
+const canonica = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{completo}</title>
+  <meta name="description" content={descripcion} />
+  <link rel="canonical" href={canonica} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta property="og:type" content={articulo ? 'article' : 'website'} />
+  <meta property="og:title" content={completo} />
+  <meta property="og:description" content={descripcion} />
+  <meta property="og:site_name" content="Atlas Ink" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet" />
+  {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+</head>
+<body>
+  <header>
+    <p class="sobre">Crónicas del tatuaje contemporáneo</p>
+    <a href="/" class="cabezal">Atlas <em>Ink</em></a>
+    <nav><a href="/">Expediciones</a><span>·</span><a href="/indice">Índice de artistas</a><span>·</span><a href="/colofon">Colofón</a></nav>
+  </header>
+  <main><slot /></main>
+  <footer>
+    <p class="colofon">{DIVULGACION} <a href="/colofon">Leer el colofón</a>.</p>
+    <p class="mono">Atlas Ink · {new Date().getFullYear()}</p>
+  </footer>
+</body>
+</html>
+<style is:global>
+  :root {
+    --papel: #f4efe6; --tinta: #1d2a3a; --sepia: #8a5a2b; --linea: #d6cbb8; --suave: #5b6470;
+    --titular: 'Fraunces', Georgia, serif; --texto: 'Source Serif 4', Georgia, serif; --mono: 'IBM Plex Mono', ui-monospace, monospace;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--papel); color: var(--tinta); font: 400 19px/1.7 var(--texto); }
+  a { color: var(--sepia); }
+  .columna { max-width: 680px; margin: 0 auto; padding: 0 16px; }
+  .ancha { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+  .mono { font: 400 12px/1.4 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--suave); }
+  h1, h2, h3 { font-family: var(--titular); font-weight: 300; line-height: 1.1; }
+  hr { border: 0; border-top: 1px solid var(--linea); margin: 48px 0; }
+</style>
+<style>
+  header { text-align: center; padding: 32px 16px 20px; border-bottom: 3px double var(--tinta); margin: 0 16px; }
+  .sobre { font: 400 12px var(--mono); letter-spacing: .2em; text-transform: uppercase; margin: 0; color: var(--suave); }
+  .cabezal { display: block; font: 600 clamp(48px, 10vw, 96px)/1 var(--titular); color: var(--tinta); text-decoration: none; letter-spacing: -.03em; margin: 8px 0 14px; }
+  .cabezal em { font-weight: 300; color: var(--sepia); }
+  nav { font: 400 13px var(--mono); text-transform: uppercase; letter-spacing: .14em; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+  nav a { color: var(--tinta); text-decoration: none; }
+  nav span { color: var(--linea); }
+  footer { margin: 80px 16px 0; padding: 32px 0 48px; border-top: 3px double var(--tinta); text-align: center; }
+  .colofon { font-style: italic; max-width: 560px; margin: 0 auto 12px; }
+</style>

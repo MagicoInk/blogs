@@ -1,0 +1,28 @@
+---
+import Diario from '../layouts/Diario.astro';
+import { getCollection } from 'astro:content';
+const notas = (await getCollection('notas')).sort((a, b) => b.data.fecha.valueOf() - a.data.fecha.valueOf());
+const f = (d: Date) => d.toLocaleDateString('es', { day: 'numeric', month: 'long' });
+---
+<Diario descripcion="Un diario sobre tatuajes de línea fina y microrrealismo: cómo planearlos, cuidarlos y con quién hacerlos.">
+  <p class="intro">Notas breves sobre tatuajes pequeños, líneas delicadas y las personas que saben hacerlas.</p>
+  <ul class="notas">
+    {notas.map((n) => (
+      <li>
+        <time class="tenue" datetime={n.data.fecha.toISOString()}>{f(n.data.fecha)}</time>
+        <a href={`/notas/${n.id}/`}><h2>{n.data.titulo}</h2></a>
+        <p>{n.data.extracto}</p>
+        <div>{n.data.temas.map((t) => <span class="tema">{t}</span>)}</div>
+      </li>
+    ))}
+  </ul>
+</Diario>
+<style>
+  .intro { font: italic 400 24px/1.4 var(--serif); color: var(--tenue); margin: 0 0 48px; }
+  .notas { list-style: none; padding: 0; margin: 0; }
+  .notas li { padding: 32px 0; border-top: .5px solid #e2d9d2; }
+  .notas a { text-decoration: none; }
+  h2 { font-size: 30px; margin: 4px 0 8px; }
+  .notas a:hover h2 { font-style: italic; }
+  p { margin: 0 0 12px; }
+</style>

@@ -1,0 +1,43 @@
+---
+import Diario from '../../layouts/Diario.astro';
+import { getCollection, render } from 'astro:content';
+import { artista, esMagico, estudioDe, DIVULGACION } from 'directorio';
+export async function getStaticPaths() {
+  return (await getCollection('notas')).map((n) => ({ params: { id: n.id }, props: { n } }));
+}
+const { n } = Astro.props;
+const { Content } = await render(n);
+const fichas = n.data.artistas.map(artista).filter(Boolean);
+const divulgar = n.data.mencionaMagico || fichas.some(esMagico);
+const jsonld = { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: n.data.titulo, description: n.data.extracto, datePublished: n.data.fecha.toISOString(), keywords: n.data.temas.join(', '), publisher: { '@type': 'Organization', name: 'trazo fino', parentOrganization: { '@type': 'Organization', name: 'Magico Ink' } } };
+---
+<Diario titulo={n.data.titulo} descripcion={n.data.extracto} jsonld={jsonld}>
+  <article>
+    <p class="tenue">{n.data.fecha.toLocaleDateString('es', { dateStyle: 'long' })}</p>
+    <h1>{n.data.titulo}</h1>
+    <div class="cuerpo"><Content /></div>
+    {fichas.length > 0 && (
+      <section class="fichas">
+        {fichas.map((a) => (
+          <div class="ficha">
+            <span class="nombre">{a.nombre}{esMagico(a) && <sup>✦</sup>}</span>
+            <span class="tenue">{a.ciudad}{estudioDe(a) && ` · ${estudioDe(a).nombre}`}</span>
+          </div>
+        ))}
+      </section>
+    )}
+    {divulgar && <p class="tenue aviso">✦ {DIVULGACION}</p>}
+    <p class="temas">{n.data.temas.map((t) => <span class="tema">{t}</span>)}</p>
+    <p><a href="/">← todas las notas</a></p>
+  </article>
+</Diario>
+<style>
+  h1 { margin: 4px 0 32px; }
+  .cuerpo :global(h2) { font-size: 26px; margin-top: 40px; }
+  .cuerpo :global(blockquote) { margin: 32px 0; font: italic 400 24px/1.4 var(--serif); color: var(--tenue); border: 0; padding: 0; }
+  .fichas { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin: 40px 0 16px; }
+  .ficha { background: var(--rubor); border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; }
+  .nombre { font: 400 22px var(--serif); }
+  .aviso { font-style: italic; }
+  .temas { margin-top: 32px; }
+</style>

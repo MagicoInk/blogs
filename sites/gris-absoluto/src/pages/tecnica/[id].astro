@@ -1,0 +1,40 @@
+---
+import Sala from '../../layouts/Sala.astro';
+import { getCollection, render } from 'astro:content';
+export async function getStaticPaths() {
+  const todas = (await getCollection('tecnica')).sort((a, b) => a.data.orden - b.data.orden);
+  return todas.map((l, i) => ({ params: { id: l.id }, props: { l, siguiente: todas[i + 1] } }));
+}
+const { l, siguiente } = Astro.props;
+const { Content } = await render(l);
+const jsonld = { '@context': 'https://schema.org', '@type': 'TechArticle', headline: l.data.titulo, description: l.data.resumen, proficiencyLevel: l.data.nivel, datePublished: l.data.fecha.toISOString(), publisher: { '@type': 'Organization', name: 'Gris Absoluto', parentOrganization: { '@type': 'Organization', name: 'Magico Ink' } } };
+---
+<Sala titulo={l.data.titulo} descripcion={l.data.resumen} jsonld={jsonld}>
+  <article>
+    <header class="cab">
+      <p class="mono">Técnica {String(l.data.orden).padStart(2, '0')} · Nivel {l.data.nivel.toLowerCase()}</p>
+      <h1>{l.data.titulo}</h1>
+      <p class="resumen">{l.data.resumen}</p>
+      <ul class="claves">{l.data.claves.map((c) => <li>{c}</li>)}</ul>
+    </header>
+    <div class="texto"><Content /></div>
+    {siguiente && <a class="siguiente" href={`/tecnica/${siguiente.id}/`}><span class="mono">Siguiente</span>{siguiente.data.titulo} →</a>}
+  </article>
+</Sala>
+<style>
+  .cab { padding: 56px 40px 32px; border-bottom: 1px solid var(--grafito); }
+  h1 { font-size: clamp(36px, 6vw, 72px); margin: 10px 0 16px; max-width: 900px; }
+  .resumen { font-size: 21px; max-width: 680px; }
+  .claves { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .claves li { font: 400 11px var(--mono); border: 1px solid #444; padding: 3px 8px; text-transform: uppercase; }
+  .texto { padding: 24px 40px 48px; max-width: 760px; }
+  .texto :global(h2) { font-size: 30px; margin-top: 48px; }
+  .texto :global(strong) { color: var(--blanco); font-weight: 500; }
+  .texto :global(table) { width: 100%; border-collapse: collapse; font-size: 16px; margin: 24px 0; }
+  .texto :global(th), .texto :global(td) { border-bottom: 1px solid var(--grafito); padding: 10px 8px; text-align: left; }
+  .texto :global(th) { font: 400 12px var(--mono); text-transform: uppercase; letter-spacing: .1em; }
+  .texto :global(blockquote) { margin: 32px 0; padding-left: 20px; border-left: 2px solid var(--blanco); color: var(--blanco); font-size: 22px; }
+  .siguiente { display: block; padding: 32px 40px; border-top: 1px solid var(--grafito); text-decoration: none; font-size: 24px; color: var(--blanco); }
+  .siguiente span { display: block; }
+  @media (max-width: 760px) { .cab, .texto, .siguiente { padding-left: 16px; padding-right: 16px; } }
+</style>

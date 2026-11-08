@@ -1,0 +1,33 @@
+---
+import Sala from '../../layouts/Sala.astro';
+import { getCollection } from 'astro:content';
+const lecciones = (await getCollection('tecnica')).sort((a, b) => a.data.orden - b.data.orden);
+---
+<Sala titulo="Técnica" descripcion="Cómo se construye un tatuaje realista: referencias, valores, capas y envejecimiento.">
+  <section class="cab">
+    <p class="mono">Índice técnico</p>
+    <h1>Técnica</h1>
+    <p>Para clientes que quieren entender lo que piden y para quienes empiezan en el oficio.</p>
+  </section>
+  <div class="tarjetas">
+    {lecciones.map((l) => (
+      <a href={`/tecnica/${l.id}/`}>
+        <span class="mono">{String(l.data.orden).padStart(2, '0')} / {l.data.nivel}</span>
+        <h2>{l.data.titulo}</h2>
+        <p>{l.data.resumen}</p>
+        <ul>{l.data.claves.map((c) => <li>{c}</li>)}</ul>
+      </a>
+    ))}
+  </div>
+</Sala>
+<style>
+  .cab { padding: 48px 40px 24px; }
+  h1 { font-size: clamp(44px, 8vw, 88px); margin: 8px 0 12px; }
+  .tarjetas { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1px; background: var(--grafito); border-top: 1px solid var(--grafito); }
+  .tarjetas a { background: var(--negro); padding: 28px; text-decoration: none; }
+  .tarjetas a:hover { background: var(--carbon); }
+  h2 { font-size: 26px; font-weight: 500; letter-spacing: -.02em; margin: 12px 0; line-height: 1.15; }
+  ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  li { font: 400 11px var(--mono); border: 1px solid var(--grafito); padding: 3px 8px; text-transform: uppercase; }
+  @media (max-width: 760px) { .cab { padding: 32px 16px 16px; } }
+</style>

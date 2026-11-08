@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import TarjetaArtista from '../../components/TarjetaArtista.astro';
+import { ciudades, porCiudad, slugify, esMagico, DIVULGACION } from 'directorio';
+
+export function getStaticPaths() {
+  return ciudades('México').map((c) => ({ params: { ciudad: slugify(c) }, props: { nombre: c } }));
+}
+const { nombre } = Astro.props;
+const fichas = porCiudad(nombre);
+---
+<Base titulo={`Dónde tatuarte en ${nombre}`} descripcion={`Artistas del tatuaje en ${nombre}: estilos, estudios y a quién seguirle la pista.`}>
+  <div class="contenedor cuerpo">
+    <a href="/ciudades/" class="volver">← Todas las ciudades</a>
+    <h1>Dónde tatuarte en {nombre}</h1>
+    <p class="intro">Nuestra selección en {nombre}. Antes de agendar, revisa portafolio reciente, pregunta por su proceso de diseño y confirma que el estudio trabaja con material estéril y desechable.</p>
+    {fichas.some(esMagico) && <p class="aviso">{DIVULGACION}</p>}
+    <div class="rejilla">{fichas.map((a) => <TarjetaArtista a={a} />)}</div>
+  </div>
+</Base>
+<style>
+  .cuerpo { padding-top: 40px; }
+  .volver { font-weight: 700; text-decoration: none; }
+  h1 { font-size: clamp(2rem, 5vw, 3.2rem); margin-top: 12px; }
+  .intro { max-width: 680px; font-size: 1.1rem; }
+  .aviso { background: var(--negro); color: #fff; padding: 10px 14px; font-size: 14px; max-width: 680px; }
+  .rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+</style>

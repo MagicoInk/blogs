@@ -1,0 +1,38 @@
+---
+import Sala from '../layouts/Sala.astro';
+import { porEstilo, estudioDe, esMagico, DIVULGACION } from 'directorio';
+const obras = porEstilo('realismo');
+const tonos = ['#1c1c1f', '#2a2a2e', '#38383d', '#46464c', '#24242a'];
+---
+<Sala titulo="Sala de realismo" descripcion="Artistas de realismo en negro y gris de México y del mundo.">
+  <header class="cab">
+    <p class="mono">Sala permanente</p>
+    <h1>Sala de realismo</h1>
+    <p>Cada pieza de la sala se muestra con permiso del artista. Las fichas indican ciudad, estudio y enlace a su archivo.</p>
+  </header>
+  <div class="muro">
+    {obras.map((a, i) => (
+      <figure style={`--tono:${tonos[i % tonos.length]}`} class={i % 3 === 0 ? 'alta' : ''}>
+        <div class="obra" role="img" aria-label={`Obra de ${a.nombre} (pendiente de imagen)`}></div>
+        <figcaption>
+          <strong>{a.nombre}{esMagico(a) && ' *'}</strong>
+          <span class="mono">{a.ciudad} · {a.pais}{estudioDe(a) && ` · ${estudioDe(a).nombre}`}</span>
+          {a.instagram && <a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a>}
+        </figcaption>
+      </figure>
+    ))}
+  </div>
+  {obras.some(esMagico) && <p class="nota">* {DIVULGACION}</p>}
+</Sala>
+<style>
+  .cab { padding: 48px 40px 24px; max-width: 760px; }
+  h1 { font-size: clamp(44px, 8vw, 88px); margin: 8px 0 16px; }
+  .muro { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); grid-auto-flow: dense; gap: 2px; background: var(--grafito); border-top: 1px solid var(--grafito); }
+  figure { margin: 0; background: var(--negro); display: flex; flex-direction: column; }
+  .alta { grid-row: span 2; }
+  .obra { flex: 1; min-height: 240px; background: radial-gradient(circle at 40% 35%, #8a8a90 0%, var(--tono) 45%, var(--negro) 100%); filter: grayscale(1); }
+  figcaption { padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; }
+  figcaption strong { color: var(--blanco); font-weight: 500; }
+  .nota { padding: 24px 40px; font-size: 15px; }
+  @media (max-width: 760px) { .cab, .nota { padding-left: 16px; padding-right: 16px; } }
+</style>

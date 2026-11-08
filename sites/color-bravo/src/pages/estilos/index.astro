@@ -1,0 +1,24 @@
+---
+import Bravo from '../../layouts/Bravo.astro';
+import { estilos } from '../../estilos';
+---
+<Bravo titulo="Estilos a color" descripcion="Neotradicional, tradicional americano, realismo a color e ilustrativo: en qué se diferencian y cuál va contigo.">
+  <div class="envoltura">
+    <h1 class="tit">ESTILOS</h1>
+    <div class="lista">
+      {estilos.map((e) => (
+        <a href={`/estilos/${e.slug}/`} class="caja" style={`--c:${e.color}`}>
+          <h2>{e.nombre}</h2>
+          <p>{e.frase}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</Bravo>
+<style>
+  .tit { font-size: clamp(64px, 12vw, 140px); margin-top: 40px; }
+  .lista { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; }
+  .lista a { text-decoration: none; padding: 24px; border-top: 24px solid var(--c); }
+  h2 { font-size: 40px; }
+  p { font-weight: 700; font-size: 20px; }
+</style>

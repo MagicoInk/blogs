@@ -1,0 +1,57 @@
+---
+import Bravo from '../../layouts/Bravo.astro';
+import { getCollection, render } from 'astro:content';
+import { artista, estudioDe, esMagico, DIVULGACION } from 'directorio';
+export async function getStaticPaths() {
+  return (await getCollection('top')).map((t) => ({ params: { id: t.id }, props: { t } }));
+}
+const { t } = Astro.props;
+const { Content } = await render(t);
+const fondo = { rojo: 'var(--rojo)', azul: 'var(--azul)', verde: 'var(--verde)', naranja: 'var(--naranja)' }[t.data.color];
+const puestos = t.data.puestos.map((p) => ({ ...p, a: p.artista ? artista(p.artista) : undefined }));
+const divulgar = puestos.some((p) => p.a && esMagico(p.a));
+const jsonld = { '@context': 'https://schema.org', '@type': 'ItemList', name: t.data.titulo, itemListElement: puestos.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.a?.nombre ?? p.titulo })) };
+---
+<Bravo titulo={t.data.titulo} descripcion={t.data.gancho} jsonld={jsonld}>
+  <header class="cab" style={`--c:${fondo}`}>
+    <div class="envoltura">
+      <p class="sello">TOP {puestos.length}</p>
+      <h1>{t.data.titulo}</h1>
+      <p class="gancho">{t.data.gancho}</p>
+    </div>
+  </header>
+  <div class="envoltura">
+    <div class="intro"><Content /></div>
+    {divulgar && <p class="aviso caja">⚠ {DIVULGACION} Lo marcamos con ★.</p>}
+    <ol class="puestos">
+      {puestos.map((p, i) => (
+        <li class="caja" style={`--c:${fondo}`}>
+          <span class="num">{String(i + 1).padStart(2, '0')}</span>
+          <div>
+            <h2>{p.a ? p.a.nombre : p.titulo}{p.a && esMagico(p.a) && ' ★'}</h2>
+            {p.a && <p class="meta">{p.a.ciudad}, {p.a.pais}{estudioDe(p.a) && ` / ${estudioDe(p.a).nombre}`}</p>}
+            <p>{p.porque}</p>
+            {p.a?.instagram && <a href={`https://instagram.com/${p.a.instagram}`} rel="noopener">@{p.a.instagram} →</a>}
+          </div>
+        </li>
+      ))}
+    </ol>
+    <a href="/quiz/" class="caja otro">¿AÚN NO SABES QUÉ ESTILO VA CONTIGO? HAZ EL QUIZ →</a>
+  </div>
+</Bravo>
+<style>
+  .cab { background: var(--c); color: #fff; border-bottom: 4px solid var(--negro); padding: 48px 0; }
+  .sello { display: inline-block; background: var(--amarillo); color: var(--negro); font: 400 22px var(--titular); padding: 4px 12px; border: 3px solid var(--negro); transform: rotate(-3deg); }
+  h1 { font-size: clamp(48px, 9vw, 110px); margin-top: 16px; }
+  .gancho { font-size: 22px; font-weight: 700; max-width: 680px; }
+  .intro { max-width: 720px; margin: 40px 0; font-size: 20px; }
+  .aviso { padding: 14px 18px; font-weight: 700; background: var(--amarillo); }
+  .puestos { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 28px; margin-top: 40px; }
+  .puestos li { display: grid; grid-template-columns: 140px 1fr; gap: 20px; padding: 24px; }
+  .num { font: 400 110px/0.85 var(--titular); color: var(--c); -webkit-text-stroke: 3px var(--negro); }
+  .puestos h2 { font-size: 40px; }
+  .meta { font-weight: 700; text-transform: uppercase; font-size: 14px; letter-spacing: .06em; margin: 0 0 8px; }
+  .puestos a { font-weight: 700; }
+  .otro { display: block; margin-top: 48px; padding: 24px; text-align: center; font: 400 30px var(--titular); text-decoration: none; background: var(--rojo); color: #fff; }
+  @media (max-width: 640px) { .puestos li { grid-template-columns: 1fr; } .num { font-size: 80px; } }
+</style>

@@ -1,0 +1,18 @@
+---
+import Sala from '../layouts/Sala.astro';
+---
+<Sala titulo="Acerca" descripcion="Qué es Gris Absoluto y quién lo edita.">
+  <section class="texto">
+    <p class="mono">Acerca</p>
+    <h1>Acerca de Gris Absoluto</h1>
+    <p>Gris Absoluto es un sitio dedicado por completo al realismo en negro y gris: cómo se hace, cómo se juzga y quién lo hace mejor.</p>
+    <p><strong>Lo edita Magico Ink</strong>, estudio de tatuaje que trabaja realismo, entre otros estilos. Cuando un artista de Magico Ink aparece en la sala o en un artículo, va marcado con un asterisco.</p>
+    <p>Los artistas no pagan por aparecer. Cada imagen se publica con permiso de su autor, que puede pedir que la retiremos cuando quiera.</p>
+  </section>
+</Sala>
+<style>
+  .texto { padding: 48px 40px; max-width: 760px; }
+  h1 { font-size: clamp(40px, 7vw, 72px); margin: 8px 0 24px; }
+  strong { color: var(--blanco); font-weight: 500; }
+  @media (max-width: 760px) { .texto { padding: 32px 16px; } }
+</style>

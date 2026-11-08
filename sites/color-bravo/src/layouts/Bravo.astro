@@ -1,0 +1,53 @@
+---
+import { DIVULGACION } from 'directorio';
+interface Props { titulo: string; descripcion: string; jsonld?: object }
+const { titulo, descripcion, jsonld } = Astro.props;
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{titulo} /// COLOR BRAVO</title>
+  <meta name="description" content={descripcion} />
+  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content={`${titulo} /// COLOR BRAVO`} />
+  <meta property="og:description" content={descripcion} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet" />
+  {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+</head>
+<body>
+  <header>
+    <a href="/" class="logo">COLOR<br />BRAVO</a>
+    <nav><a href="/">TOPS</a><a href="/estilos/">ESTILOS</a><a href="/quiz/" class="quiz">QUIZ ★</a><a href="/quienes/">QUIÉNES</a></nav>
+  </header>
+  <main><slot /></main>
+  <footer>
+    <div class="cinta">COLOR BRAVO /// COLOR BRAVO /// COLOR BRAVO /// COLOR BRAVO /// COLOR BRAVO /// COLOR BRAVO ///</div>
+    <p>{DIVULGACION}</p>
+  </footer>
+</body>
+</html>
+<style is:global>
+  :root { --rojo: #ff4b1f; --azul: #1f3dff; --amarillo: #ffe500; --verde: #00c46a; --naranja: #ff9f1c; --negro: #0d0d0d; --crema: #fff6e5; --titular: 'Anton', Impact, sans-serif; --texto: 'Space Grotesk', system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--crema); color: var(--negro); font: 400 18px/1.6 var(--texto); }
+  a { color: inherit; }
+  h1, h2, h3 { font-family: var(--titular); font-weight: 400; text-transform: uppercase; line-height: .95; letter-spacing: .01em; margin: 0 0 .3em; }
+  .caja { border: 4px solid var(--negro); box-shadow: 8px 8px 0 var(--negro); background: #fff; }
+  .envoltura { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+</style>
+<style>
+  header { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 16px; border-bottom: 4px solid var(--negro); background: var(--amarillo); flex-wrap: wrap; }
+  .logo { font: 400 32px/.85 var(--titular); text-decoration: none; }
+  nav { display: flex; gap: 8px; flex-wrap: wrap; }
+  nav a { font-weight: 700; text-decoration: none; border: 3px solid var(--negro); padding: 6px 12px; background: #fff; }
+  nav a:hover { background: var(--negro); color: var(--amarillo); }
+  nav .quiz { background: var(--rojo); color: #fff; }
+  footer { margin-top: 80px; border-top: 4px solid var(--negro); }
+  .cinta { background: var(--negro); color: var(--amarillo); font: 400 28px var(--titular); white-space: nowrap; overflow: hidden; padding: 10px 0; }
+  footer p { padding: 16px; margin: 0; font-weight: 700; }
+</style>

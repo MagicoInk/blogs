@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+import TarjetaArtista from '../../components/TarjetaArtista.astro';
+import { getCollection, render } from 'astro:content';
+import { artista, esMagico, DIVULGACION } from 'directorio';
+
+export async function getStaticPaths() {
+  const notas = await getCollection('guias');
+  return notas.map((nota) => ({ params: { slug: nota.id }, props: { nota } }));
+}
+const { nota } = Astro.props;
+const { Content } = await render(nota);
+const fichas = nota.data.artistas.map(artista).filter(Boolean);
+const divulgar = nota.data.mencionaMagico || fichas.some(esMagico);
+const jsonld = {
+  '@context': 'https://schema.org', '@type': 'Article', headline: nota.data.titulo, description: nota.data.bajada,
+  datePublished: nota.data.fecha.toISOString(), author: { '@type': 'Organization', name: nota.data.autor },
+  publisher: { '@type': 'Organization', name: 'Tinta Capital', parentOrganization: { '@type': 'Organization', name: 'Magico Ink' } },
+};
+---
+<Base titulo={nota.data.titulo} descripcion={nota.data.bajada} tipo="article" jsonld={jsonld}>
+  <header class="encabezado">
+    <div class="contenedor">
+      <span class="etiqueta">{nota.data.seccion}</span>
+      <h1>{nota.data.titulo}</h1>
+      <p class="bajada">{nota.data.bajada}</p>
+      <p class="firma">Por {nota.data.autor} · {nota.data.fecha.toLocaleDateString('es-MX', { dateStyle: 'long' })}</p>
+    </div>
+  </header>
+  <div class="contenedor cuerpo">
+    {divulgar && <p class="aviso">Ojo: {DIVULGACION}</p>}
+    <article class="prosa"><Content /></article>
+    {fichas.length > 0 && (
+      <section class="fichas">
+        <h2>Los mencionados</h2>
+        <div class="rejilla">{fichas.map((a) => <TarjetaArtista a={a} />)}</div>
+      </section>
+    )}
+  </div>
+</Base>
+<style>
+  .encabezado { background: var(--amarillo); border-bottom: 4px solid var(--negro); padding: 40px 0 28px; }
+  h1 { font-size: clamp(2rem, 5vw, 3.4rem); max-width: 900px; margin-top: 14px; }
+  .bajada { font-size: 1.25rem; max-width: 720px; margin: 0 0 12px; }
+  .firma { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; margin: 0; }
+  .cuerpo { padding-top: 32px; }
+  .aviso { max-width: 720px; background: var(--negro); color: #fff; padding: 10px 14px; font-size: 14px; }
+  .fichas { margin-top: 48px; }
+  .fichas h2 { font-size: 1.8rem; }
+  .rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+</style>

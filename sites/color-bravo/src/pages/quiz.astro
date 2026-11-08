@@ -1,0 +1,94 @@
+---
+import Bravo from '../layouts/Bravo.astro';
+import { estilos } from '../estilos';
+const preguntas = [
+  { q: 'Tu playlist ideal para tatuarte es…', r: [['Rock clásico de rocola', 'tradicional'], ['Un soundtrack de película', 'realismo-color'], ['Algo raro que nadie conoce', 'ilustrativo'], ['Boleros con producción moderna', 'neotradicional']] },
+  { q: '¿Qué dirías de tu tatuaje en 30 años?', r: [['Que sigue igual de legible', 'tradicional'], ['Que fue una obra maestra', 'realismo-color'], ['Que nadie más tiene uno igual', 'ilustrativo'], ['Que envejeció como vino', 'neotradicional']] },
+  { q: 'Elige una paleta', r: [['Rojo, amarillo, verde y negro', 'tradicional'], ['La de la vida real', 'realismo-color'], ['Neón, pastel, lo que sea', 'ilustrativo'], ['Vino, mostaza, esmeralda', 'neotradicional']] },
+  { q: 'Tu referencia favorita es…', r: [['Un flash de los años 40', 'tradicional'], ['Una foto de tu perro', 'realismo-color'], ['Una portada de cómic', 'ilustrativo'], ['Un grabado antiguo con flores', 'neotradicional']] },
+  { q: '¿Cuánto espacio le das?', r: [['Lo que haga falta, pero simple', 'tradicional'], ['Mucho: brazo o pierna', 'realismo-color'], ['Depende de la idea', 'ilustrativo'], ['Medio a grande, bien compuesto', 'neotradicional']] },
+];
+const datos = Object.fromEntries(estilos.map((e) => [e.slug, { nombre: e.nombre, frase: e.frase, ideal: e.ideal, color: e.color }]));
+---
+<Bravo titulo="Quiz: ¿qué estilo de tatuaje a color eres?" descripcion="Cinco preguntas, un estilo. Descubre qué tatuaje a color va contigo y compártelo.">
+  <div class="envoltura">
+    <h1 class="tit">¿QUÉ ESTILO<br />ERES?</h1>
+    <p class="sub">Cinco preguntas. Cero filosofía. Un resultado para presumir.</p>
+    <form id="quiz">
+      {preguntas.map((p, i) => (
+        <fieldset class="caja">
+          <legend><span>{i + 1}/{preguntas.length}</span> {p.q}</legend>
+          {p.r.map(([texto, estilo], j) => (
+            <label><input type="radio" name={`p${i}`} value={estilo} required={j === 0} /> {texto}</label>
+          ))}
+        </fieldset>
+      ))}
+      <button type="submit" class="caja">VER MI RESULTADO →</button>
+    </form>
+    <section id="resultado" class="caja" hidden aria-live="polite">
+      <p class="sello">TU ESTILO ES</p>
+      <h2 id="r-nombre"></h2>
+      <p id="r-frase" class="frase"></p>
+      <p id="r-ideal"></p>
+      <div class="acciones">
+        <a id="r-link" href="#">CONOCE EL ESTILO →</a>
+        <button id="compartir" type="button">COMPARTIR RESULTADO</button>
+        <button id="otra" type="button">REPETIR</button>
+      </div>
+      <p id="copiado" class="copiado" hidden>Link copiado. Pásaselo a tu grupo.</p>
+    </section>
+  </div>
+  <script is:inline define:vars={{ datos }}>
+    const form = document.getElementById('quiz');
+    const res = document.getElementById('resultado');
+    function mostrar(slug) {
+      const e = datos[slug];
+      if (!e) return;
+      document.getElementById('r-nombre').textContent = e.nombre;
+      document.getElementById('r-frase').textContent = e.frase;
+      document.getElementById('r-ideal').textContent = e.ideal;
+      document.getElementById('r-link').href = `/estilos/${slug}/`;
+      res.style.setProperty('--c', e.color);
+      form.hidden = true; res.hidden = false;
+      history.replaceState(null, '', `?r=${slug}`);
+      res.scrollIntoView({ behavior: 'smooth' });
+    }
+    form.addEventListener('submit', (ev) => {
+      ev.preventDefault();
+      const cuenta = {};
+      for (const [, v] of new FormData(form)) cuenta[v] = (cuenta[v] || 0) + 1;
+      mostrar(Object.entries(cuenta).sort((a, b) => b[1] - a[1])[0][0]);
+    });
+    document.getElementById('otra').addEventListener('click', () => {
+      form.reset(); form.hidden = false; res.hidden = true; history.replaceState(null, '', location.pathname); window.scrollTo(0, 0);
+    });
+    document.getElementById('compartir').addEventListener('click', async () => {
+      const texto = `Mi estilo de tatuaje es ${document.getElementById('r-nombre').textContent}. ¿Y el tuyo?`;
+      if (navigator.share) { try { await navigator.share({ title: 'Color Bravo', text: texto, url: location.href }); } catch {} return; }
+      try { await navigator.clipboard.writeText(`${texto} ${location.href}`); document.getElementById('copiado').hidden = false; } catch {}
+    });
+    const r = new URLSearchParams(location.search).get('r');
+    if (r) mostrar(r);
+  </script>
+</Bravo>
+<style>
+  .tit { font-size: clamp(64px, 12vw, 140px); margin-top: 40px; }
+  .sub { font-size: 22px; font-weight: 700; }
+  form { display: flex; flex-direction: column; gap: 28px; margin-top: 32px; max-width: 760px; }
+  fieldset { padding: 20px 24px; margin: 0; }
+  legend { font: 400 30px/1.1 var(--titular); text-transform: uppercase; padding: 0 8px; background: var(--crema); }
+  legend span { background: var(--negro); color: var(--amarillo); padding: 0 8px; }
+  label { display: flex; gap: 12px; align-items: center; padding: 10px 12px; font-weight: 700; cursor: pointer; border: 2px solid transparent; }
+  label:hover { border-color: var(--negro); }
+  label:has(input:checked) { background: var(--amarillo); border-color: var(--negro); }
+  input { width: 20px; height: 20px; accent-color: var(--rojo); }
+  button { font: 400 26px var(--titular); padding: 18px; cursor: pointer; background: var(--rojo); color: #fff; }
+  #resultado { margin-top: 40px; padding: 32px; max-width: 760px; border-top: 32px solid var(--c, var(--rojo)); }
+  .sello { display: inline-block; background: var(--negro); color: var(--amarillo); font: 400 20px var(--titular); padding: 4px 10px; }
+  #r-nombre { font-size: clamp(56px, 10vw, 110px); margin-top: 12px; }
+  .frase { font-size: 26px; font-weight: 700; }
+  .acciones { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+  .acciones a, .acciones button { font: 700 16px var(--texto); padding: 12px 16px; border: 3px solid var(--negro); background: #fff; color: var(--negro); text-decoration: none; cursor: pointer; }
+  .acciones #compartir { background: var(--amarillo); }
+  .copiado { font-weight: 700; }
+</style>

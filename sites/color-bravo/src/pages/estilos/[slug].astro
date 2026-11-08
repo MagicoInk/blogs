@@ -1,0 +1,29 @@
+---
+import Bravo from '../../layouts/Bravo.astro';
+import { estilos } from '../../estilos';
+export function getStaticPaths() {
+  return estilos.map((e) => ({ params: { slug: e.slug }, props: { e } }));
+}
+const { e } = Astro.props;
+---
+<Bravo titulo={e.nombre} descripcion={`${e.nombre}: ${e.frase} Rasgos, para quién es y qué revisar antes de tatuarte.`}>
+  <header class="cab" style={`background:${e.color}`}>
+    <div class="envoltura"><h1>{e.nombre}</h1><p>{e.frase}</p></div>
+  </header>
+  <div class="envoltura rejilla">
+    <section class="caja"><h2>RASGOS</h2><ul>{e.rasgos.map((r) => <li>{r}</li>)}</ul></section>
+    <section class="caja"><h2>ES PARA TI SI…</h2><p>{e.ideal}</p></section>
+    <section class="caja ojo"><h2>OJO</h2><p>{e.ojo}</p></section>
+  </div>
+  <div class="envoltura"><a href="/estilos/">← TODOS LOS ESTILOS</a></div>
+</Bravo>
+<style>
+  .cab { color: #fff; padding: 56px 0; border-bottom: 4px solid var(--negro); }
+  h1 { font-size: clamp(56px, 11vw, 130px); }
+  .cab p { font-size: 26px; font-weight: 700; }
+  .rejilla { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px; margin: 48px auto; }
+  .rejilla section { padding: 24px; }
+  h2 { font-size: 36px; }
+  .ojo { background: var(--amarillo); }
+  a { font-weight: 700; }
+</style>

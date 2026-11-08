@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import { ciudades, porCiudad, slugify } from 'directorio';
+const lista = ciudades('México');
+---
+<Base titulo="Dónde tatuarte en México, ciudad por ciudad" descripcion="Artistas y estudios recomendados en las principales ciudades de México.">
+  <div class="contenedor cuerpo">
+    <h1>Dónde tatuarte, ciudad por ciudad</h1>
+    <p class="intro">Cada ciudad tiene su escena. Aquí juntamos a los artistas que estamos siguiendo de cerca, con su estilo y su estudio.</p>
+    <div class="mosaico">
+      {lista.map((c) => (
+        <a href={`/ciudades/${slugify(c)}/`}><strong>{c}</strong><span>{porCiudad(c).length} artistas</span></a>
+      ))}
+    </div>
+  </div>
+</Base>
+<style>
+  .cuerpo { padding-top: 40px; }
+  h1 { font-size: clamp(2rem, 5vw, 3.2rem); }
+  .intro { max-width: 640px; font-size: 1.15rem; }
+  .mosaico { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin-top: 24px; }
+  .mosaico a { background: var(--amarillo); border: 3px solid var(--negro); padding: 24px 18px; text-decoration: none; display: flex; flex-direction: column; gap: 6px; box-shadow: 6px 6px 0 var(--negro); }
+  .mosaico a:hover { transform: translate(-2px, -2px); box-shadow: 8px 8px 0 var(--negro); }
+  strong { font: 400 1.5rem/1.1 var(--display); }
+</style>

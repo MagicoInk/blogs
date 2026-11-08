@@ -1,0 +1,5 @@
+[
+  { "slug": "realismo", "nombre": "Realismo", "resumen": "Retratos y escenas que buscan parecer fotografía sobre la piel, casi siempre en negro y gris." },
+  { "slug": "fine-line", "nombre": "Fine line", "resumen": "Líneas muy finas, piezas delicadas y microrrealismo a escala pequeña." },
+  { "slug": "color", "nombre": "Color y neotradicional", "resumen": "Paletas intensas, contornos firmes y composiciones que se leen a distancia." }
+]
