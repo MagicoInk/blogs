@@ -17,7 +17,14 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'TechArticle', headl
       <p class="resumen">{l.data.resumen}</p>
       <ul class="claves">{l.data.claves.map((c) => <li>{c}</li>)}</ul>
     </header>
-    <div class="texto"><Content /></div>
+    <div class="texto"><Content />
+      {l.data.fuentes.length > 0 && (
+      <section class="fuentes">
+        <h2>Fuentes</h2>
+        <ol>{l.data.fuentes.map((f) => <li><a href={f.url} rel="noopener">{f.titulo}</a></li>)}</ol>
+      </section>
+    )}
+    </div>
     {siguiente && <a class="siguiente" href={`/tecnica/${siguiente.id}/`}><span class="mono">Siguiente</span>{siguiente.data.titulo} →</a>}
   </article>
 </Sala>
@@ -37,4 +44,8 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'TechArticle', headl
   .siguiente { display: block; padding: 32px 40px; border-top: 1px solid var(--grafito); text-decoration: none; font-size: 24px; color: var(--blanco); }
   .siguiente span { display: block; }
   @media (max-width: 760px) { .cab, .texto, .siguiente { padding-left: 16px; padding-right: 16px; } }
+  .fuentes { margin-top: 48px; border-top: 1px solid var(--grafito); padding-top: 16px; font-size: 14px; }
+  .fuentes h2 { font: 400 12px var(--mono) !important; letter-spacing: .1em; text-transform: uppercase; color: #77777d; margin: 0 0 8px !important; }
+  .fuentes li { margin: 4px 0; word-break: break-word; }
+  .fuentes a { color: var(--plata); }
 </style>

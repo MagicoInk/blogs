@@ -36,6 +36,12 @@ const jsonld = {
         <div class="rejilla">{fichas.map((a) => <TarjetaArtista a={a} />)}</div>
       </section>
     )}
+    {nota.data.fuentes.length > 0 && (
+      <section class="fuentes">
+        <h2>Fuentes</h2>
+        <ol>{nota.data.fuentes.map((f) => <li><a href={f.url} rel="noopener">{f.titulo}</a></li>)}</ol>
+      </section>
+    )}
   </div>
 </Base>
 <style>
@@ -48,4 +54,7 @@ const jsonld = {
   .fichas { margin-top: 48px; }
   .fichas h2 { font-size: 1.8rem; }
   .rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .fuentes { max-width: 720px; margin-top: 48px; border-top: 4px solid var(--negro); padding-top: 12px; font-size: 14px; }
+  .fuentes h2 { font-size: 1.2rem; }
+  .fuentes li { margin: 4px 0; word-break: break-word; }
 </style>

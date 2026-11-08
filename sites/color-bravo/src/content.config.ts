@@ -8,6 +8,7 @@ const top = defineCollection({
     gancho: z.string(),
     fecha: z.coerce.date(),
     color: z.enum(['rojo', 'azul', 'verde', 'naranja']),
+    fuentes: z.array(z.object({ titulo: z.string(), url: z.string().url() })).default([]),
     puestos: z.array(z.object({
       titulo: z.string().optional(),
       artista: z.string().optional(),

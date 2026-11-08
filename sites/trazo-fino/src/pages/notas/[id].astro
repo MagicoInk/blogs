@@ -35,6 +35,12 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'BlogPosting', headl
         </section>
       )}
       {divulgar && <p class="aviso">✦ {DIVULGACION}</p>}
+      {n.data.fuentes.length > 0 && (
+      <section class="fuentes">
+        <h2>Fuentes</h2>
+        <ol>{n.data.fuentes.map((f) => <li><a href={f.url} rel="noopener">{f.titulo}</a></li>)}</ol>
+      </section>
+    )}
       <a href={`/notas/${otra.id}/`} class="siguiente"><span class="mano">sigue leyendo</span><strong>{otra.data.titulo} →</strong></a>
     </div>
   </article>
@@ -68,4 +74,8 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'BlogPosting', headl
     .fichas li { grid-template-columns: 32px 1fr; }
     .lugar { grid-column: 2; text-align: left; }
   }
+  .fuentes { margin-top: 40px; font-size: 14px; color: var(--tenue); }
+  .fuentes h2 { font: 500 22px var(--mano); color: var(--lapiz); margin: 0 0 6px; }
+  .fuentes li { margin: 4px 0; word-break: break-word; }
+  .fuentes a { color: var(--tenue); }
 </style>

@@ -28,7 +28,14 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline:
     </div>
   </header>
   <div class="ancho rejilla">
-    <article class="cronica"><Content /></article>
+    <article class="cronica"><Content />
+      {e.data.fuentes.length > 0 && (
+      <section class="fuentes">
+        <h2>Fuentes</h2>
+        <ol>{e.data.fuentes.map((f) => <li><a href={f.url} rel="noopener">{f.titulo}</a></li>)}</ol>
+      </section>
+    )}
+    </article>
     <aside class="bitacora">
       <div class="tarjeta">
         <p class="mono titulo">Bitácora</p>
@@ -85,4 +92,8 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline:
   .citados .mono { font-size: 10px; color: var(--suave); }
   .aviso { font-size: 13px; color: var(--suave); margin: 16px 0 0; }
   @media (max-width: 900px) { .rejilla-cab, .rejilla { grid-template-columns: 1fr; } .tarjeta { position: static; } }
+  .fuentes { margin-top: 56px; background: #fff; border-radius: 16px; padding: 20px 24px; font-size: 14px; }
+  .fuentes h2 { font: 500 12px var(--mono) !important; letter-spacing: .14em; text-transform: uppercase; color: var(--coral); margin: 0 0 8px !important; }
+  .fuentes h2::before { content: none !important; }
+  .fuentes li { margin: 4px 0; word-break: break-word; }
 </style>

@@ -11,6 +11,7 @@ const notas = defineCollection({
     dibujo: z.enum(['rosa', 'luna', 'ola', 'golondrina']),
     artistas: z.array(z.string()).default([]),
     mencionaMagico: z.boolean().default(false),
+    fuentes: z.array(z.object({ titulo: z.string(), url: z.string().url() })).default([]),
   }),
 });
 

@@ -36,6 +36,12 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'ItemList', name: t.
         </li>
       ))}
     </ol>
+    {t.data.fuentes.length > 0 && (
+      <section class="fuentes">
+        <h2>Fuentes</h2>
+        <ol>{t.data.fuentes.map((f) => <li><a href={f.url} rel="noopener">{f.titulo}</a></li>)}</ol>
+      </section>
+    )}
     <a href="/quiz/" class="caja otro">¿AÚN NO SABES QUÉ ESTILO VA CONTIGO? HAZ EL QUIZ →</a>
   </div>
 </Bravo>
@@ -54,4 +60,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'ItemList', name: t.
   .puestos a { font-weight: 700; }
   .otro { display: block; margin-top: 48px; padding: 24px; text-align: center; font: 400 30px var(--titular); text-decoration: none; background: var(--rojo); color: #fff; }
   @media (max-width: 640px) { .puestos li { grid-template-columns: 1fr; } .num { font-size: 80px; } }
+  .fuentes { margin-top: 48px; font-size: 14px; border-top: 4px solid var(--negro); padding-top: 12px; }
+  .fuentes h2 { font-size: 32px; }
+  .fuentes li { margin: 4px 0; word-break: break-word; font-weight: 700; }
 </style>

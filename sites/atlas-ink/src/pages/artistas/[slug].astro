@@ -29,10 +29,22 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
       </div>
       <div class="der"><Mapa resaltar={['Ciudad de México', a.ciudad]} /></div>
     </div>
+    {a.datos?.length > 0 && (
+      <div class="hitos">
+        <p class="mono">Hitos documentados</p>
+        <ul>{a.datos.map((d: { texto: string; fuente: string }) => <li>{d.texto} <a href={d.fuente} rel="noopener" class="mono">fuente</a></li>)}</ul>
+      </div>
+    )}
     {apariciones.length > 0 && (
       <div class="aparece">
         <p class="mono">Aparece en</p>
         {apariciones.map((e) => <a href={`/expediciones/${e.id}`}>Exp. {String(e.data.numero).padStart(2, '0')} — {e.data.titulo}</a>)}
+      </div>
+    )}
+    {a.fuentes?.length > 0 && (
+      <div class="hitos">
+        <p class="mono">Fuentes</p>
+        <ol>{a.fuentes.map((f: string) => <li><a href={f} rel="noopener">{new URL(f).hostname.replace('www.', '')}</a></li>)}</ol>
       </div>
     )}
     <p><a href="/indice">← Volver al índice</a></p>
@@ -54,4 +66,8 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
   .pendiente { color: var(--suave); font-style: italic; }
   .aparece { margin-top: 24px; display: flex; flex-direction: column; gap: 6px; }
   @media (max-width: 800px) { .pase { grid-template-columns: 1fr; } .datos { grid-template-columns: 1fr; } }
+  .hitos { margin-top: 24px; background: #fff; border-radius: 16px; padding: 20px 24px; font-size: 16px; }
+  .hitos .mono { color: var(--coral); margin: 0 0 8px; }
+  .hitos li { margin: 6px 0; }
+  .hitos li a.mono { font-size: 10px; margin-left: 6px; }
 </style>
