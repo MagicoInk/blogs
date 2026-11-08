@@ -87,7 +87,7 @@ La capital de Jalisco tiene números que impresionan, aunque hay que leerlos con
 
 Y tiene una de las convenciones más longevas: la **Expo Tatuaje Guadalajara** llegó en 2026 a su **edición 30**, en el Pabellón Cultural Universitario de Zapopan, a mediados de agosto (los directorios no coinciden en los días exactos).
 
-Todavía no tenemos fichas documentadas de artistas tapatíos en nuestro directorio. Estamos en eso.
+Todavía no tenemos fichas documentadas de artistas tapatíos en nuestro directorio. Estamos en eso. *Actualización:* ya las tenemos; lee [Guadalajara en su tinta](/guias/escena-tatuaje-guadalajara/).
 
 ## Sonora, Baja California Sur e Hidalgo: pistas sueltas
 
@@ -117,4 +117,4 @@ Todas las fechas, con sus advertencias, en [el calendario de convenciones](/guia
 
 ## Lo que nos falta (y te pedimos)
 
-Esta es una guía viva. Nos faltan Monterrey, León, Querétaro, Mérida a nivel de estudios, Chihuahua, Chiapas y muchas más. Si conoces artistas o estudios con trayectoria documentada en prensa o publicaciones, compártenos las fuentes. Mientras tanto, date una vuelta por [15 tatuadores mexicanos que debes seguir](/guias/tatuadores-mexicanos-que-debes-seguir/) y por todas las páginas de [Dónde tatuarte](/ciudades/).
+Esta es una guía viva. Nos faltan Monterrey, León, Querétaro, Mérida a nivel de estudios, Chihuahua, Chiapas y muchas más. Si conoces artistas o estudios con trayectoria documentada en prensa o publicaciones, compártenos las fuentes. Ya publicamos notas sobre [Guadalajara](/guias/escena-tatuaje-guadalajara/), [Monterrey](/guias/tatuaje-monterrey-tinta-regia/), [Querétaro, León y San Luis Potosí](/guias/tatuaje-queretaro-bajio/) y [Mérida y la península](/guias/tatuaje-merida-peninsula/), además de una [guía para elegir estudio fuera de la capital](/guias/elegir-estudio-fuera-de-cdmx/). Mientras tanto, date una vuelta por [15 tatuadores mexicanos que debes seguir](/guias/tatuadores-mexicanos-que-debes-seguir/) y por todas las páginas de [Dónde tatuarte](/ciudades/).

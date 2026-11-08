@@ -70,4 +70,20 @@ export const estilos: Estilo[] = [
       'Por eso dentro del ilustrativo cabe casi todo: la acuarela de Sasha Unisex, que pinta primero en papel lo que va a tatuar; el bordado de tenango que Fernanda Álvarez traduce a la piel; el art nouveau de Molly; el concepto NeoAzteca de Pedro Álvarez. Lo que los une no es una técnica, sino que cada uno tiene una mano reconocible.',
       'En México, el ilustrativo dialoga con una tradición visual enorme: gráfica popular, textiles, muralismo, cartel. Dr. Lakra, cuya obra está en colecciones de museos como el MoMA, es quizá el ejemplo más claro de cómo el tatuaje y el arte contemporáneo pueden compartir la misma mano.',
     ] },
+  { slug: 'japones', nombre: 'Japonés', color: 'var(--negro)', frase: 'Un cuerpo, una sola historia.',
+    rasgos: [
+      'Composición pensada para todo el cuerpo: espalda, manga, pierna o pecho que se leen como una sola obra',
+      'Fondos de viento, agua, nubes u olas que unen las figuras y siguen la anatomía',
+      'Repertorio con siglos de historia: carpas koi, dragones, tigres, flores de cerezo, peonías, oni, héroes y guerreros',
+      'Contorno negro firme, sombreado de fondo denso y color pleno en la figura principal',
+      'Puede hacerse con máquina o con tebori, la técnica tradicional a mano',
+    ],
+    ideal: 'Para quien quiere una pieza grande y tiene paciencia para un proyecto de muchas sesiones. Brilla en espalda completa, mangas y piernas, donde la composición puede moverse con el cuerpo. También funciona en piezas sueltas, siempre que respeten el lenguaje del estilo.',
+    ojo: 'No es una colección de motivos bonitos: cada figura, flor y estación tiene su lógica, y combinarlas sin criterio se nota. Elige a alguien formado en la tradición, pregunta cómo planea el fondo y la continuidad con futuras piezas, y pide ver trabajos de gran formato cicatrizados. Si te interesa el tebori, pregunta quién lo practica de verdad: no todos los estudios lo ofrecen.',
+    historia: [
+      'El tatuaje de cuerpo completo que hoy llamamos irezumi tomó forma en el Japón del periodo Edo, muy ligado a la cultura de las estampas ukiyo-e. Entre 1827 y 1830, las estampas de Utagawa Kuniyoshi sobre los héroes del Suikoden, una novela de origen chino, se volvieron un modelo para quienes querían llevar a esos personajes en la piel, y buena parte del repertorio clásico viene de ese mundo visual.',
+      'En 1872, el gobierno Meiji prohibió el tatuaje como parte de su modernización frente a Occidente. La prohibición se levantó en 1948, durante la ocupación aliada, pero el estigma quedó: durante décadas el tatuaje se asoció en Japón con el crimen organizado. Una encuesta de 2015 mostró que alrededor del 56 % de los onsen, los baños termales, no admitía a personas tatuadas, y en 2016 la Agencia de Turismo les pidió por primera vez que aceptaran a turistas extranjeros con tatuajes, en una petición no vinculante.',
+      'El 17 de septiembre de 2020, el Tribunal Supremo de Japón confirmó que tatuar no es un acto médico y que los tatuadores no necesitan licencia médica, al cerrar el caso del tatuador de Osaka Taiki Masuda. Fue un alivio para el oficio, aunque el sector sigue en una zona legal gris. Mientras tanto, la tradición se ha transmitido como siempre: de maestro a aprendiz, a veces con el nombre incluido, como Horiyoshi III, que heredó el suyo de su maestro.',
+      'Hoy el estilo se practica en todo el mundo, y fuera de Japón tiene artistas muy serios: desde Buenos Aires hasta la Ciudad de México, donde Moroko Gon aprendió el oficio tras mudarse a Japón. Lo que separa a quien lo honra de quien lo copia es el respeto por sus reglas de composición y por su historia.',
+    ] },
 ];

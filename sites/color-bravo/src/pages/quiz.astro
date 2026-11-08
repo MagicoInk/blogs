@@ -3,10 +3,10 @@ import Bravo from '../layouts/Bravo.astro';
 import { estilos } from '../estilos';
 const preguntas = [
   { q: 'Tu playlist ideal para tatuarte es…', r: [['Rock clásico de rocola', 'tradicional'], ['Un soundtrack de película', 'realismo-color'], ['Algo raro que nadie conoce', 'ilustrativo'], ['Boleros con producción moderna', 'neotradicional']] },
-  { q: '¿Qué dirías de tu tatuaje en 30 años?', r: [['Que sigue igual de legible', 'tradicional'], ['Que fue una obra maestra', 'realismo-color'], ['Que nadie más tiene uno igual', 'ilustrativo'], ['Que envejeció como vino', 'neotradicional']] },
-  { q: 'Elige una paleta', r: [['Rojo, amarillo, verde y negro', 'tradicional'], ['La de la vida real', 'realismo-color'], ['Neón, pastel, lo que sea', 'ilustrativo'], ['Vino, mostaza, esmeralda', 'neotradicional']] },
-  { q: 'Tu referencia favorita es…', r: [['Un flash de los años 40', 'tradicional'], ['Una foto de tu perro', 'realismo-color'], ['Una portada de cómic', 'ilustrativo'], ['Un grabado antiguo con flores', 'neotradicional']] },
-  { q: '¿Cuánto espacio le das?', r: [['Lo que haga falta, pero simple', 'tradicional'], ['Mucho: brazo o pierna', 'realismo-color'], ['Depende de la idea', 'ilustrativo'], ['Medio a grande, bien compuesto', 'neotradicional']] },
+  { q: '¿Qué dirías de tu tatuaje en 30 años?', r: [['Que sigue igual de legible', 'tradicional'], ['Que fue una obra maestra', 'realismo-color'], ['Que nadie más tiene uno igual', 'ilustrativo'], ['Que valió cada una de las sesiones', 'japones']] },
+  { q: 'Elige una paleta', r: [['Rojo, amarillo, verde y negro', 'tradicional'], ['La de la vida real', 'realismo-color'], ['Vino, mostaza, esmeralda', 'neotradicional'], ['Negro profundo con rojos y flores en pleno', 'japones']] },
+  { q: 'Tu referencia favorita es…', r: [['Un flash de los años 40', 'tradicional'], ['Una portada de cómic', 'ilustrativo'], ['Un grabado antiguo con flores', 'neotradicional'], ['Una estampa ukiyo-e con olas y dragones', 'japones']] },
+  { q: '¿Cuánto espacio le das?', r: [['Mucho: brazo o pierna, con detalle', 'realismo-color'], ['Depende de la idea', 'ilustrativo'], ['Medio a grande, bien compuesto', 'neotradicional'], ['La espalda completa, sin miedo', 'japones']] },
 ];
 const datos = Object.fromEntries(estilos.map((e) => [e.slug, { nombre: e.nombre, frase: e.frase, ideal: e.ideal, color: e.color }]));
 ---
