@@ -4,3 +4,5 @@ dist/
 .DS_Store
 .env
 vista-previa/
+sites/*/public/media/
+packages/media/.cabeceras

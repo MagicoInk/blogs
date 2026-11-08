@@ -10,6 +10,7 @@ const tecnica = defineCollection({
     orden: z.number(),
     fecha: z.coerce.date(),
     claves: z.array(z.string()).max(4),
+    portada: z.string().optional(),
     fuentes: z.array(z.object({ titulo: z.string(), url: z.string().url() })).default([]),
   }),
 });

@@ -14,6 +14,7 @@ const destinos = [...new Set(citados.map((a) => a.ciudad))].filter((c) => ciudad
 const divulgar = e.data.mencionaMagico || citados.some(esMagico);
 const capitulos = headings.filter((h) => h.depth === 2);
 const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline: e.data.titulo, description: e.data.entradilla, datePublished: e.data.fecha.toISOString(), author: { '@type': 'Organization', name: e.data.firma }, publisher: { '@type': 'Organization', name: 'Atlas Ink', parentOrganization: { '@type': 'Organization', name: 'Magico Ink' } } };
+import { imagen, src, credito } from 'media';
 ---
 <Atlas titulo={e.data.titulo} descripcion={e.data.entradilla} articulo jsonld={jsonld}>
   <header class="cab">
@@ -28,7 +29,9 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline:
     </div>
   </header>
   <div class="ancho rejilla">
-    <article class="cronica"><Content />
+    <article class="cronica">{(() => { const p = e.data.portada && imagen(e.data.portada); return p && (
+      <figure class="portada"><img src={src(p)} alt={p.descripcion || p.tituloCommons} width={p.ancho} height={p.alto} loading="eager" /><figcaption>{p.tituloCommons} — {credito(p)}. <a href={p.fuente} rel="noopener">Wikimedia Commons</a></figcaption></figure>
+    ); })()}<Content />
       {e.data.fuentes.length > 0 && (
       <section class="fuentes">
         <h2>Fuentes</h2>
@@ -96,4 +99,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline:
   .fuentes h2 { font: 500 12px var(--mono) !important; letter-spacing: .14em; text-transform: uppercase; color: var(--coral); margin: 0 0 8px !important; }
   .fuentes h2::before { content: none !important; }
   .fuentes li { margin: 4px 0; word-break: break-word; }
+  .portada { margin: 0 0 32px; max-width: 760px; }
+  .portada img { width: 100%; height: auto; display: block; }
+  .portada figcaption { font-size: 12px; opacity: .75; margin-top: 6px; line-height: 1.4; }
 </style>

@@ -1,0 +1,32 @@
+---
+import Diario from '../layouts/Diario.astro';
+import { porTema, src, credito } from 'media';
+const lista = porTema('botanica', 'ilustracion');
+---
+<Diario titulo="láminas" descripcion="Láminas botánicas y grabados antiguos en dominio público: referencias para tatuajes de línea fina.">
+  <section class="hoja">
+    <span class="mano">referencias de dominio público ↓</span>
+    <h1>láminas</h1>
+    <p class="intro">Rosas de Redouté, golondrinas y anclas de grabados antiguos. Buenas referencias para llevarle a tu artista: son de dominio público y el trazo original se puede adaptar a la piel.</p>
+    {lista.length === 0 ? <p>Láminas en preparación.</p> : (
+      <div class="rejilla">
+        {lista.map((i) => (
+          <figure>
+            <a href={i.fuente} rel="noopener"><img src={src(i)} alt={i.descripcion || i.tituloCommons} width={i.ancho} height={i.alto} loading="lazy" /></a>
+            <figcaption><span class="mano">{i.tituloCommons}</span><small>{credito(i)}</small></figcaption>
+          </figure>
+        ))}
+      </div>
+    )}
+  </section>
+</Diario>
+<style>
+  h1 { font-size: clamp(56px, 10vw, 120px); margin: 0 0 16px; }
+  .intro { max-width: 620px; color: #474a50; }
+  .rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); border-top: 1px solid var(--tinta); border-left: 1px solid var(--tinta); margin-top: 32px; }
+  figure { margin: 0; background: #fff; border-right: 1px solid var(--tinta); border-bottom: 1px solid var(--tinta); padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+  img { width: 100%; height: 280px; object-fit: contain; display: block; mix-blend-mode: multiply; }
+  figcaption { display: flex; flex-direction: column; gap: 4px; }
+  figcaption .mano { font-size: 18px; color: var(--tinta); }
+  small { color: var(--tenue); font-size: 12px; }
+</style>

@@ -1,0 +1,41 @@
+---
+import Atlas from '../layouts/Atlas.astro';
+import { imagenes, src, credito } from 'media';
+const nombres: Record<string, string> = { irezumi: 'Irezumi', japon: 'Japón', historia: 'Historia', occidente: 'Occidente', marinos: 'Marinos', maquinas: 'Máquinas', herramientas: 'Herramientas', mexico: 'Mesoamérica', ilustracion: 'Ilustración', botanica: 'Botánica', flash: 'Flash' };
+const orden = ['irezumi', 'marinos', 'occidente', 'herramientas', 'maquinas', 'mexico', 'flash', 'ilustracion'];
+const vistos = new Set<string>();
+const salas = orden.map((t) => ({ t, lista: imagenes.filter((i) => i.temas.includes(t) && !vistos.has(i.slug) && (vistos.add(i.slug), true)) })).filter((s) => s.lista.length);
+---
+<Atlas titulo="Gabinete de imágenes" descripcion="Gabinete de imágenes históricas del tatuaje en dominio público: ukiyo-e, fotografía del siglo XIX, marinos, herramientas y flash.">
+  <section class="cab"><div class="ancho"><p class="mono">Gabinete</p><h1>Imágenes del viaje</h1><p>{imagenes.length} piezas en dominio público, ordenadas por sala. Pulsa una imagen para ver su ficha en Wikimedia Commons.</p></div></section>
+  <div class="ancho">
+    {salas.length === 0 && <p class="vacio">El gabinete se está montando.</p>}
+    {salas.map(({ t, lista }) => (
+      <section class="sala">
+        <h2><span class="codigo">{String(lista.length).padStart(2, '0')}</span> {nombres[t]}</h2>
+        <div class="fila">
+          {lista.map((i) => (
+            <figure>
+              <a href={i.fuente} rel="noopener"><img src={src(i)} alt={i.descripcion || i.tituloCommons} width={i.ancho} height={i.alto} loading="lazy" /></a>
+              <figcaption>{i.tituloCommons}<span class="mono">{credito(i)}</span></figcaption>
+            </figure>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Atlas>
+<style>
+  .cab { background: var(--mar); color: #fff; padding: 48px 0 40px; }
+  .cab .mono { color: var(--coral); margin: 0; }
+  h1 { font-size: clamp(40px, 7vw, 80px); font-weight: 800; margin: 8px 0; }
+  .cab p:last-child { color: #c9d6fb; margin: 0; }
+  .sala { margin-top: 48px; }
+  h2 { font-size: 30px; display: flex; gap: 12px; align-items: center; }
+  .fila { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+  figure { margin: 0; background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 6px 20px rgba(11,31,77,.08); font-size: 14px; }
+  img { width: 100%; height: 260px; object-fit: cover; display: block; }
+  figcaption { padding: 10px 14px 14px; display: flex; flex-direction: column; gap: 4px; }
+  figcaption .mono { font-size: 10px; color: var(--suave); letter-spacing: .06em; }
+  .vacio { margin-top: 32px; color: var(--suave); }
+</style>

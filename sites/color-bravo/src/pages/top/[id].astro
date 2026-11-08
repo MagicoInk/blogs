@@ -11,6 +11,7 @@ const fondo = { rojo: 'var(--rojo)', azul: 'var(--azul)', verde: 'var(--verde)',
 const puestos = t.data.puestos.map((p) => ({ ...p, a: p.artista ? artista(p.artista) : undefined }));
 const divulgar = puestos.some((p) => p.a && esMagico(p.a));
 const jsonld = { '@context': 'https://schema.org', '@type': 'ItemList', name: t.data.titulo, itemListElement: puestos.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.a?.nombre ?? p.titulo })) };
+import { imagen, src, credito } from 'media';
 ---
 <Bravo titulo={t.data.titulo} descripcion={t.data.gancho} jsonld={jsonld}>
   <header class="cab" style={`--c:${fondo}`}>
@@ -21,6 +22,9 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'ItemList', name: t.
     </div>
   </header>
   <div class="envoltura">
+    {(() => { const p = t.data.portada && imagen(t.data.portada); return p && (
+      <figure class="portada"><img src={src(p)} alt={p.descripcion || p.tituloCommons} width={p.ancho} height={p.alto} loading="eager" /><figcaption>{p.tituloCommons} — {credito(p)}. <a href={p.fuente} rel="noopener">Wikimedia Commons</a></figcaption></figure>
+    ); })()}
     <div class="intro"><Content /></div>
     {divulgar && <p class="aviso caja">⚠ {DIVULGACION} Lo marcamos con ★.</p>}
     <ol class="puestos">
@@ -63,4 +67,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'ItemList', name: t.
   .fuentes { margin-top: 48px; font-size: 14px; border-top: 4px solid var(--negro); padding-top: 12px; }
   .fuentes h2 { font-size: 32px; }
   .fuentes li { margin: 4px 0; word-break: break-word; font-weight: 700; }
+  .portada { margin: 0 0 32px; max-width: 760px; }
+  .portada img { width: 100%; height: auto; display: block; }
+  .portada figcaption { font-size: 12px; opacity: .75; margin-top: 6px; line-height: 1.4; }
 </style>

@@ -8,6 +8,7 @@ export async function getStaticPaths() {
 const { l, siguiente } = Astro.props;
 const { Content } = await render(l);
 const jsonld = { '@context': 'https://schema.org', '@type': 'TechArticle', headline: l.data.titulo, description: l.data.resumen, proficiencyLevel: l.data.nivel, datePublished: l.data.fecha.toISOString(), publisher: { '@type': 'Organization', name: 'Gris Absoluto', parentOrganization: { '@type': 'Organization', name: 'Magico Ink' } } };
+import { imagen, src, credito } from 'media';
 ---
 <Sala titulo={l.data.titulo} descripcion={l.data.resumen} jsonld={jsonld}>
   <article>
@@ -17,7 +18,9 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'TechArticle', headl
       <p class="resumen">{l.data.resumen}</p>
       <ul class="claves">{l.data.claves.map((c) => <li>{c}</li>)}</ul>
     </header>
-    <div class="texto"><Content />
+    <div class="texto">{(() => { const p = l.data.portada && imagen(l.data.portada); return p && (
+      <figure class="portada"><img src={src(p)} alt={p.descripcion || p.tituloCommons} width={p.ancho} height={p.alto} loading="eager" /><figcaption>{p.tituloCommons} — {credito(p)}. <a href={p.fuente} rel="noopener">Wikimedia Commons</a></figcaption></figure>
+    ); })()}<Content />
       {l.data.fuentes.length > 0 && (
       <section class="fuentes">
         <h2>Fuentes</h2>
@@ -48,4 +51,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'TechArticle', headl
   .fuentes h2 { font: 400 12px var(--mono) !important; letter-spacing: .1em; text-transform: uppercase; color: #77777d; margin: 0 0 8px !important; }
   .fuentes li { margin: 4px 0; word-break: break-word; }
   .fuentes a { color: var(--plata); }
+  .portada { margin: 0 0 32px; max-width: 760px; }
+  .portada img { width: 100%; height: auto; display: block; }
+  .portada figcaption { font-size: 12px; opacity: .75; margin-top: 6px; line-height: 1.4; }
 </style>

@@ -17,6 +17,7 @@ const jsonld = {
   datePublished: nota.data.fecha.toISOString(), author: { '@type': 'Organization', name: nota.data.autor },
   publisher: { '@type': 'Organization', name: 'Tinta Capital', parentOrganization: { '@type': 'Organization', name: 'Magico Ink' } },
 };
+import { imagen, src, credito } from 'media';
 ---
 <Base titulo={nota.data.titulo} descripcion={nota.data.bajada} tipo="article" jsonld={jsonld}>
   <header class="encabezado">
@@ -28,6 +29,9 @@ const jsonld = {
     </div>
   </header>
   <div class="contenedor cuerpo">
+    {(() => { const p = nota.data.portada && imagen(nota.data.portada); return p && (
+      <figure class="portada"><img src={src(p)} alt={p.descripcion || p.tituloCommons} width={p.ancho} height={p.alto} loading="eager" /><figcaption>{p.tituloCommons} — {credito(p)}. <a href={p.fuente} rel="noopener">Wikimedia Commons</a></figcaption></figure>
+    ); })()}
     {divulgar && <p class="aviso">Ojo: {DIVULGACION}</p>}
     <article class="prosa"><Content /></article>
     {fichas.length > 0 && (
@@ -57,4 +61,7 @@ const jsonld = {
   .fuentes { max-width: 720px; margin-top: 48px; border-top: 4px solid var(--negro); padding-top: 12px; font-size: 14px; }
   .fuentes h2 { font-size: 1.2rem; }
   .fuentes li { margin: 4px 0; word-break: break-word; }
+  .portada { margin: 0 0 32px; max-width: 760px; }
+  .portada img { width: 100%; height: auto; display: block; }
+  .portada figcaption { font-size: 12px; opacity: .75; margin-top: 6px; line-height: 1.4; }
 </style>

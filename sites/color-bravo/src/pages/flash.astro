@@ -1,0 +1,31 @@
+---
+import Bravo from '../layouts/Bravo.astro';
+import { porTema, src, credito } from 'media';
+const lista = porTema('flash', 'irezumi', 'ilustracion', 'marinos');
+---
+<Bravo titulo="Flash antiguo" descripcion="Flash antiguo, ukiyo-e y grabados en dominio público: de dónde viene el tatuaje a color.">
+  <div class="envoltura">
+    <h1 class="tit">FLASH<br />ANTIGUO</h1>
+    <p class="sub">Láminas, ukiyo-e y grabados en dominio público. Así se veía el color antes de Instagram.</p>
+    {lista.length === 0 ? <p class="sub">Muro en construcción.</p> : (
+      <div class="muro">
+        {lista.map((i, n) => (
+          <figure class="caja" style={`--r:${(n % 5) - 2}deg`}>
+            <a href={i.fuente} rel="noopener"><img src={src(i)} alt={i.descripcion || i.tituloCommons} width={i.ancho} height={i.alto} loading="lazy" /></a>
+            <figcaption><strong>{i.tituloCommons}</strong><span>{credito(i)}</span></figcaption>
+          </figure>
+        ))}
+      </div>
+    )}
+  </div>
+</Bravo>
+<style>
+  .tit { font-size: clamp(64px, 12vw, 140px); margin-top: 40px; }
+  .sub { font-size: 22px; font-weight: 700; max-width: 640px; }
+  .muro { columns: 3 260px; column-gap: 28px; margin-top: 32px; }
+  figure { break-inside: avoid; margin: 0 0 28px; transform: rotate(var(--r)); transition: transform .2s; }
+  figure:hover { transform: rotate(0) scale(1.02); }
+  img { width: 100%; height: auto; display: block; border-bottom: 4px solid var(--negro); }
+  figcaption { padding: 10px 12px; display: flex; flex-direction: column; font-size: 13px; }
+  figcaption strong { font-weight: 700; }
+</style>

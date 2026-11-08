@@ -12,6 +12,7 @@ const expediciones = defineCollection({
     firma: z.string().default('La redacción de Atlas'),
     artistas: z.array(z.string()).default([]),
     mencionaMagico: z.boolean().default(false),
+    portada: z.string().optional(),
     fuentes: z.array(z.object({ titulo: z.string(), url: z.string().url() })).default([]),
   }),
 });

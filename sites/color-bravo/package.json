@@ -2,6 +2,17 @@
   "name": "color-bravo",
   "private": true,
   "type": "module",
-  "scripts": { "dev": "astro dev", "build": "astro build", "preview": "astro preview" },
-  "dependencies": { "astro": "5.18.2", "@astrojs/sitemap": "3.6.0", "directorio": "*" }
+  "scripts": {
+    "predev": "node ../../scripts/copiar-media.mjs",
+    "dev": "astro dev",
+    "prebuild": "node ../../scripts/copiar-media.mjs",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "5.18.2",
+    "@astrojs/sitemap": "3.6.0",
+    "directorio": "*",
+    "media": "*"
+  }
 }

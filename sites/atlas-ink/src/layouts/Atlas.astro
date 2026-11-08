@@ -32,6 +32,7 @@ const ruta = Astro.url.pathname;
       <a href="/" aria-current={ruta === '/' ? 'page' : undefined}>Expediciones</a>
       <a href="/paises" aria-current={ruta.startsWith('/paises') ? 'page' : undefined}>Países</a>
       <a href="/indice" aria-current={ruta.startsWith('/indice') ? 'page' : undefined}>Índice</a>
+      <a href="/gabinete" aria-current={ruta.startsWith('/gabinete') ? 'page' : undefined}>Gabinete</a>
       <a href="/convenciones" aria-current={ruta.startsWith('/convenciones') ? 'page' : undefined}>Convenciones</a>
       <a href="/colofon" aria-current={ruta.startsWith('/colofon') ? 'page' : undefined}>Colofón</a>
     </nav>

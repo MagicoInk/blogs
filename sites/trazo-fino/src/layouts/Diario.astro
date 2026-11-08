@@ -4,7 +4,7 @@ interface Props { titulo?: string; descripcion: string; jsonld?: object }
 const { titulo, descripcion, jsonld } = Astro.props;
 const completo = titulo ? `${titulo} · trazo fino` : 'trazo fino · cuaderno de línea fina y microrrealismo';
 const ruta = Astro.url.pathname;
-const links = [['/', 'cuaderno'], ['/artistas/', 'lista corta'], ['/preguntas/', 'preguntas'], ['/sobre/', 'sobre']];
+const links = [['/', 'cuaderno'], ['/artistas/', 'lista corta'], ['/laminas/', 'láminas'], ['/preguntas/', 'preguntas'], ['/sobre/', 'sobre']];
 ---
 <!doctype html>
 <html lang="es">

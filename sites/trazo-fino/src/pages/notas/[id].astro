@@ -12,6 +12,7 @@ const { Content } = await render(n);
 const fichas = n.data.artistas.map(artista).filter(Boolean) as NonNullable<ReturnType<typeof artista>>[];
 const divulgar = n.data.mencionaMagico || fichas.some(esMagico);
 const jsonld = { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: n.data.titulo, description: n.data.extracto, datePublished: n.data.fecha.toISOString(), keywords: n.data.temas.join(', '), publisher: { '@type': 'Organization', name: 'trazo fino', parentOrganization: { '@type': 'Organization', name: 'Magico Ink' } } };
+import { imagen, src, credito } from 'media';
 ---
 <Diario titulo={n.data.titulo} descripcion={n.data.extracto} jsonld={jsonld}>
   <article class="hoja pliego">
@@ -22,6 +23,9 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'BlogPosting', headl
     </aside>
     <div class="pagina">
       <h1>{n.data.titulo}</h1>
+      {(() => { const p = n.data.portada && imagen(n.data.portada); return p && (
+      <figure class="portada"><img src={src(p)} alt={p.descripcion || p.tituloCommons} width={p.ancho} height={p.alto} loading="eager" /><figcaption>{p.tituloCommons} — {credito(p)}. <a href={p.fuente} rel="noopener">Wikimedia Commons</a></figcaption></figure>
+    ); })()}
       <p class="extracto">{n.data.extracto}</p>
       <div class="cuerpo"><Content /></div>
       {fichas.length > 0 && (
@@ -78,4 +82,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'BlogPosting', headl
   .fuentes h2 { font: 500 22px var(--mano); color: var(--lapiz); margin: 0 0 6px; }
   .fuentes li { margin: 4px 0; word-break: break-word; }
   .fuentes a { color: var(--tenue); }
+  .portada { margin: 0 0 32px; max-width: 760px; }
+  .portada img { width: 100%; height: auto; display: block; }
+  .portada figcaption { font-size: 12px; opacity: .75; margin-top: 6px; line-height: 1.4; }
 </style>

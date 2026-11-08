@@ -12,6 +12,7 @@ const guias = defineCollection({
     artistas: z.array(z.string()).default([]),
     mencionaMagico: z.boolean().default(false),
     destacada: z.boolean().default(false),
+    portada: z.string().optional(),
     fuentes: z.array(z.object({ titulo: z.string(), url: z.string().url() })).default([]),
   }),
 });
