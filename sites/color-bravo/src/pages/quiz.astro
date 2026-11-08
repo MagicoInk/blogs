@@ -50,7 +50,7 @@ const datos = Object.fromEntries(estilos.map((e) => [e.slug, { nombre: e.nombre,
       document.getElementById('r-link').href = `/estilos/${slug}/`;
       res.style.setProperty('--c', e.color);
       form.hidden = true; res.hidden = false;
-      history.replaceState(null, '', `?r=${slug}`);
+      try { history.replaceState(null, '', `?r=${slug}`); } catch {}
       res.scrollIntoView({ behavior: 'smooth' });
     }
     form.addEventListener('submit', (ev) => {
@@ -60,7 +60,7 @@ const datos = Object.fromEntries(estilos.map((e) => [e.slug, { nombre: e.nombre,
       mostrar(Object.entries(cuenta).sort((a, b) => b[1] - a[1])[0][0]);
     });
     document.getElementById('otra').addEventListener('click', () => {
-      form.reset(); form.hidden = false; res.hidden = true; history.replaceState(null, '', location.pathname); window.scrollTo(0, 0);
+      form.reset(); form.hidden = false; res.hidden = true; try { history.replaceState(null, '', location.pathname); } catch {} window.scrollTo(0, 0);
     });
     document.getElementById('compartir').addEventListener('click', async () => {
       const texto = `Mi estilo de tatuaje es ${document.getElementById('r-nombre').textContent}. ¿Y el tuyo?`;

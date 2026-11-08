@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Red editorial Magico Ink</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fraunces:wght@300&family=Inter+Tight:wght@800&family=Cormorant+Garamond:ital@1&family=Anton&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root { --fondo: #f5f4f0; --texto: #151515; --sutil: #5d5d5d; --borde: #dcdad3; --tarjeta: #fff; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --fondo: #121212; --texto: #f0f0f0; --sutil: #a5a5a5; --borde: #2c2c2c; --tarjeta: #1b1b1b; } }
+  :root[data-theme="dark"] { --fondo: #121212; --texto: #f0f0f0; --sutil: #a5a5a5; --borde: #2c2c2c; --tarjeta: #1b1b1b; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 400 16px/1.55 'Work Sans', system-ui, sans-serif; }
+  .marco { max-width: 1100px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font: 600 clamp(28px, 4vw, 40px)/1.15 'Work Sans', sans-serif; margin: 0 0 8px; letter-spacing: -.02em; }
+  .intro { color: var(--sutil); max-width: 640px; margin: 0 0 32px; }
+  .rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+  a.sitio { display: flex; flex-direction: column; text-decoration: none; color: var(--texto); background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 12px; overflow: hidden; transition: transform .15s; }
+  a.sitio:hover { transform: translateY(-2px); }
+  .muestra { height: 140px; display: grid; place-items: center; font-size: 34px; }
+  .info { padding: 14px 16px 18px; }
+  .info strong { display: block; font-size: 17px; }
+  .info span { color: var(--sutil); font-size: 14px; }
+  .nota { margin-top: 32px; color: var(--sutil); font-size: 14px; max-width: 680px; }
+</style>
+</head>
+<body>
+<div class="marco">
+  <h1>Red editorial Magico Ink</h1>
+  <p class="intro">Vista previa de los 5 sitios. Cada uno tiene su propio diseño, estructura y voz. Entra a cualquiera y navega como si estuviera en línea.</p>
+  <div class="rejilla">
+    <a class="sitio" href="tinta-capital/index.html"><div class="muestra" style="background:#ffd60a;color:#111;font-family:'Archivo Black'">TINTA CAPITAL</div><div class="info"><strong>Tinta Capital</strong><span>México · revista urbana, guías y ciudades</span></div></a>
+    <a class="sitio" href="atlas-ink/index.html"><div class="muestra" style="background:#f4efe6;color:#1d2a3a;font-family:Fraunces;font-weight:300">Atlas <i style="color:#8a5a2b">Ink</i></div><div class="info"><strong>Atlas Ink</strong><span>Mundial · crónicas, índice de artistas</span></div></a>
+    <a class="sitio" href="gris-absoluto/index.html"><div class="muestra" style="background:radial-gradient(circle at 60% 40%,#444,#0b0b0c 70%);color:#f2f2f2;font-family:'Inter Tight';font-weight:800;letter-spacing:-.04em">GRIS ABSOLUTO</div><div class="info"><strong>Gris Absoluto</strong><span>Realismo negro y gris · técnica, sala, glosario</span></div></a>
+    <a class="sitio" href="trazo-fino/index.html"><div class="muestra" style="background:#f6ede8;color:#3b3b3b;font-family:'Cormorant Garamond';font-style:italic">trazo fino</div><div class="info"><strong>trazo fino</strong><span>Fine line · diario, lista corta, preguntas</span></div></a>
+    <a class="sitio" href="color-bravo/index.html"><div class="muestra" style="background:#ff4b1f;color:#fff;font-family:Anton">COLOR BRAVO</div><div class="info"><strong>Color Bravo</strong><span>Color y neotradicional · tops, estilos, quiz</span></div></a>
+  </div>
+  <p class="nota">Los artistas son marcadores pendientes de confirmar. Cada sitio declara en su pie de página que es un proyecto editorial de Magico Ink.</p>
+</div>
+</body>
+</html>
