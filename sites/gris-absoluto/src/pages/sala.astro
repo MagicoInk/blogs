@@ -1,6 +1,6 @@
 ---
 import Sala from '../layouts/Sala.astro';
-import { porEstilo, estudioDe, esMagico, DIVULGACION } from 'directorio';
+import { porEstilo, estudioDe, esMagico, lugar, DIVULGACION } from 'directorio';
 const obras = porEstilo('realismo');
 const tonos = ['#1c1c1f', '#2a2a2e', '#38383d', '#46464c', '#24242a'];
 ---
@@ -16,7 +16,7 @@ const tonos = ['#1c1c1f', '#2a2a2e', '#38383d', '#46464c', '#24242a'];
         <div class="obra" role="img" aria-label={`Obra de ${a.nombre} (pendiente de imagen)`}></div>
         <figcaption>
           <strong>{a.nombre}{esMagico(a) && ' *'}</strong>
-          <span class="mono">{a.ciudad} · {a.pais}{estudioDe(a) && ` · ${estudioDe(a).nombre}`}</span>
+          <span class="mono">{lugar(a, ' · ')}{estudioDe(a) && ` · ${estudioDe(a).nombre}`}</span>
           {a.instagram && <a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a>}
         </figcaption>
       </figure>
