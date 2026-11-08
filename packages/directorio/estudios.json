@@ -25,7 +25,12 @@
     "instagram": "",
     "web": "",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio privado de Dr. Woo en Los Ángeles, abierto en noviembre de 2016 tras su salida de Shamrock Social Club. Su ubicación no es pública y solo se revela a quien consigue cita; un titular de Los Angeles Times de 2017 lo situó en un famoso hotel de Hollywood (el Roosevelt). Dr. Woo también ofrece talleres en Airbnb bajo el nombre Hideaway Wrkshp.",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Dr._Woo",
+      "https://www.airbnb.com/experiences/6101778"
+    ]
   },
   {
     "slug": "shamrock-social-club",
@@ -38,7 +43,13 @@
     "instagram": "",
     "web": "",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio de Mark Mahoney, abierto en 2001 en Sunset Boulevard, uno de los referentes del negro y gris a aguja única en Los Ángeles; de él salió, entre otros, Dr. Woo. En marzo de 2024 se trasladó a un nuevo local en la misma calle, según LA Magazine.",
+    "fuentes": [
+      "https://lamag.com/tag/shamrock-social-club/",
+      "https://www.timeout.com/los-angeles/shopping/shamrock-social-club",
+      "https://www.moma.org/interactives/exhibitions/2013/designandviolence/author/mmahoney/"
+    ]
   },
   {
     "slug": "bang-bang",
@@ -51,7 +62,12 @@
     "instagram": "",
     "web": "",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio neoyorquino fundado por Keith \"Bang Bang\" McCurdy, conocido por su clientela de celebridades (Rihanna, Justin Bieber y numerosos deportistas). Su sitio oficial indica una sede en el 62 de Grand Street y recoge que Vogue llamó a su fundador \"el tatuador más famoso del mundo\". Allí trabaja Mr. K, especialista en micro style a aguja única. Las fuentes no coinciden en las sedes actuales (Lower East Side, Chinatown, SoHo).",
+    "fuentes": [
+      "https://bangbangforever.com/",
+      "https://www.kqed.org/pop/58065/how-tattoo-artist-bang-bang-is-leaving-his-mark-on-celebrities"
+    ]
   },
   {
     "slug": "atelier-eva",
@@ -64,7 +80,13 @@
     "instagram": "",
     "web": "",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio de Eva Karabudak en Williamsburg (Brooklyn). El primer local abrió en 2020 en Havemeyer Street, con un interior de aire de spa reseñado por Interior Design y Hospitality Design; el segundo, en Grand Street, lo diseñó Alp Bozkurt y lo publicó Dezeen.",
+    "fuentes": [
+      "https://interiordesign.net/projects/atelier-eva-tattoo-parlor-in-brooklyn-offers-clients-an-upscale-vibe/",
+      "https://hospitalitydesign.com/news/atelier-eva-brooklyn/116644",
+      "https://www.dezeen.com/?p=1981692"
+    ]
   },
   {
     "slug": "hongdam-studio",
@@ -77,7 +99,11 @@
     "instagram": "",
     "web": "",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio del tatuador Hongdam en Seúl, uno de los más reconocidos de Corea del Sur por su fusión de tradiciones orientales y tatuaje contemporáneo en línea fina. Según Inked Magazine (septiembre de 2024), atrae a muchos clientes de Estados Unidos y Europa y anunció una sede en Los Ángeles con la artista Seolhee. Su nombre alude al sol, la luna y el agua. Según Inked, fue fundado en 2015.",
+    "fuentes": [
+      "https://inkedmag.com/culture/hongdam-studios-artistic-journey-from-seoul-to-los-angeles"
+    ]
   },
   {
     "slug": "dotstolines",
@@ -103,7 +129,12 @@
     "instagram": "",
     "web": "",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio y marca fundados en 2022 por Delphin Musquet en Shoreditch (Londres). Time Out lo describe como un estudio de alta gama con seguidores de culto, centrado en el realismo fine line en negro y gris. En 2024 lanzó con Sailor Jerry la cápsula de ropa \"Borderless\".",
+    "fuentes": [
+      "https://timeout.com/london/shopping/sans-patrie-tattoo-studio",
+      "https://www.vipermag.com/2024/11/14/feature-delphin-musquet-interview"
+    ]
   },
   {
     "slug": "black-anchor-collective",
@@ -117,7 +148,13 @@
     "instagram": "",
     "web": "",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio de tatuaje fundado por Nikko Hurtado en Hesperia (California), especializado en realismo y retrato a color. Su web oficial fecha la apertura en 2009 (Wikipedia dice 2010) y añade una segunda sede, estudio y galería, abierta en 2017 en Melrose Avenue (Los Ángeles). Allí se imparten los cursos de Black Anchor Academy; de su equipo salieron concursantes de Ink Master como Aric Taylor y Carlos Rojas.",
+    "fuentes": [
+      "https://blackanchorworldwide.com/",
+      "https://nikkohurtado.com/blogs/news/tagged/apof",
+      "https://cartermatt.com/256286/ink-master-season-9-aric-taylor-carlos-rojas-black-anchor-collective/"
+    ]
   },
   {
     "slug": "the-raven-and-the-wolves",
@@ -130,7 +167,12 @@
     "instagram": "",
     "web": "",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio de tatuaje y galería de bellas artes de Carlos Torres, en el segundo piso del 212 The Promenade N, en el centro de Long Beach (California). Además de tatuaje realista, organiza clases y seminarios; Tattoo Life lo visitó para un reportaje.",
+    "fuentes": [
+      "https://www.tattoolife.com/in-long-beach-with-carlos-torres-at-the-raven-and-the-wolves/",
+      "https://longbeachize.com/articles/raven-and-the-wolveslong-beachs-underrated-art-gemcontinues-its-rightful-legacy-of-forging-tattooing-into-the-fine-arts-world/"
+    ]
   },
   {
     "slug": "monarc-studios",
@@ -143,7 +185,12 @@
     "instagram": "",
     "web": "",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio privado de Jun Cha en el Arts District del centro de Los Ángeles, abierto en enero de 2015 con una exposición emergente de tatuaje y fotografía en The Well LA. Une tatuaje en negro y gris, pintura y escultura, y atiende solo con cita aprobada.",
+    "fuentes": [
+      "https://hypebeast.com/2015/1/tattooist-jun-cha-launches-monarc-studios",
+      "https://weandthecolor.com/pop-gallery-monarc-studios-tattoo-artist-jun-cha/49005"
+    ]
   },
   {
     "slug": "kings-avenue-tattoo",
@@ -156,7 +203,12 @@
     "instagram": "",
     "web": "",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio fundado en 2005 por Mike Rubendall en Massapequa (Long Island), con una segunda sede en el Bowery de Manhattan abierta en 2011. Reúne a varios de los tatuadores más solicitados del estilo japonés y de gran formato; Tattoo Life dedicó un reportaje a su equipo. Algunas fuentes mencionan también una sede en Durham (Carolina del Norte), no verificada.",
+    "fuentes": [
+      "https://www.tattoolife.com/kings-avenue-tattoo-meet-the-artists-of-mike-rubendalls-team/",
+      "https://www.kingsavenuetattoo.com"
+    ]
   },
   {
     "slug": "modern-classic-tattoo",
@@ -169,7 +221,11 @@
     "instagram": "",
     "web": "",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio de Fulham (Londres) abierto en 2014 por Valerie Vargas y su esposo, Stewart Robson, ambos copropietarios. Se centra en el tatuaje tradicional, a color y en negro y gris, según la página de artistas del estudio.",
+    "fuentes": [
+      "https://rhombus-lilac-5p6x.squarespace.com/artists"
+    ]
   },
   {
     "slug": "soy-feliz-studio",
@@ -180,10 +236,22 @@
       "fine-line",
       "color"
     ],
-    "instagram": "",
-    "web": "",
+    "instagram": "soyfelizstudio",
+    "web": "https://soyfelizstudio.com",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio y foro multidisciplinario en Enrique Rébsamen 743, Narvarte Poniente, fundado por Pablo Díaz. Además de tatuaje (Tama, Chang, Sey, Santillán, entre otros) ofrece clases de dibujo y pintura, estudio de grabación y coworking, según Chilango y Time Out.",
+    "fuentes": [
+      "https://www.chilango.com/que-hacer/arte-y-cultura/soy-feliz-studio-tatuajes/",
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/soy-feliz-studio",
+      "https://foodandpleasure.com/5-de-los-estudios-de-tatuajes-mas-cool-de-la-cdmx/"
+    ],
+    "datos": [
+      {
+        "texto": "Food and Pleasure fecha la fundación en 2015, mientras Chilango habla de diez años del estudio; ambas fuentes coinciden en Pablo Díaz como fundador.",
+        "fuente": "https://foodandpleasure.com/5-de-los-estudios-de-tatuajes-mas-cool-de-la-cdmx/"
+      }
+    ]
   },
   {
     "slug": "blcksstar-studio",
@@ -210,7 +278,12 @@
     "instagram": "",
     "web": "",
     "esMagico": false,
-    "confirmado": false
+    "confirmado": false,
+    "descripcion": "Estudio de Tijuana del tatuador José Arce, quien empezó a tatuar en el sur de California y se estableció en Tijuana tras ser deportado; World Tattoo Events publicó en 2018 una entrevista con imágenes de su trabajo en No Mercy.",
+    "fuentes": [
+      "https://www.worldtattooevents.com/tattoo_interviews/jose-arce-interview/",
+      "https://www.elimparcial.com/tij/tijuana/2024/03/28/jose-encuentra-su-libertad-al-deportado-de-estados-unidos/"
+    ]
   },
   {
     "slug": "diafano-tattoo-studio",
@@ -854,11 +927,16 @@
     "ciudad": "Monterrey",
     "pais": "México",
     "zona": null,
-    "estilos": [],
-    "descripcion": "",
+    "estilos": [
+      "realismo",
+      "color"
+    ],
+    "descripcion": "Estudio de Monterrey que Cultura Colectiva incluyó en su guía de ciudades mexicanas con los mejores tatuadores, como lugar de trabajo de Adolfo Rubio, especializado en realismo (retratos, animales y objetos) a color o en blanco y negro.",
     "instagram": "",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://culturacolectiva.com/estilo-de-vida/viajes/ciudades-de-mexico-con-los-mejores-tatuadores/"
+    ],
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
@@ -870,13 +948,23 @@
     "pais": "México",
     "zona": null,
     "estilos": [],
-    "descripcion": "",
-    "instagram": "",
+    "descripcion": "Estudio de tatuajes y perforaciones en Carretera Nacional 85, Monterrey. Su sitio oficial lo presenta con un equipo de tatuadores encabezado por Lissy Elizondo, además de servicio de diseño de uñas y cursos de tatuaje (curso básico de 2,500 pesos).",
+    "instagram": "goth_ink_tattoo",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://gothink.mx/",
+      "https://gothink.mx/conocenos/",
+      "https://gothink.mx/cursos/"
+    ],
     "esMagico": false,
     "confirmado": false,
-    "verificacion": "extractos-buscador"
+    "verificacion": "extractos-buscador",
+    "datos": [
+      {
+        "texto": "El sitio oficial da como contacto el correo contacto@gothink.mx y el Instagram @goth_ink_tattoo.",
+        "fuente": "https://gothink.mx/"
+      }
+    ]
   },
   {
     "slug": "academy-ink",
@@ -885,10 +973,12 @@
     "pais": "México",
     "zona": null,
     "estilos": [],
-    "descripcion": "",
+    "descripcion": "Escuela de tatuaje fundada por Manuel Garza que El Sol de San Luis describe como la primera escuela formal de tatuadores en San Luis Potosí. Su programa dura diez meses: cinco de fundamentos artísticos (dibujo, sombreado y color) y cinco de técnica y equipo; en la nota tenía 16 alumnos.",
     "instagram": "",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://oem.com.mx/elsoldesanluis/local/academy-ink-primera-escuela-de-tatuadores-en-san-luis-potosi-13392235"
+    ],
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
@@ -902,13 +992,22 @@
     "estilos": [
       "fine-line"
     ],
-    "descripcion": "",
+    "descripcion": "Estudio de la colonia Condesa (Amatlán 158) dirigido por la tatuadora Udra Castro. Time Out México y Chilango destacan su trabajo sobre cicatrices y cover-ups con un proceso centrado en la historia de cada cliente; atiende con cita previa, que se agenda por Instagram.",
     "instagram": "",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/conoce-a-udra-castro-la-tatuadora-al-frente-de-valiente-tattoo",
+      "https://www.chilango.com/ocio/tatuajes-valiente-cicatrices/"
+    ],
     "esMagico": false,
     "confirmado": false,
-    "verificacion": "extractos-buscador"
+    "verificacion": "extractos-buscador",
+    "datos": [
+      {
+        "texto": "Time Out recoge que Udra Castro quería ofrecer tatuajes de areola a mujeres con cáncer de mama, posiblemente con una asociación.",
+        "fuente": "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/conoce-a-udra-castro-la-tatuadora-al-frente-de-valiente-tattoo"
+      }
+    ]
   },
   {
     "slug": "kawaiink",
@@ -917,12 +1016,15 @@
     "pais": "México",
     "zona": null,
     "estilos": [
-      "color"
+      "color",
+      "ilustrativo"
     ],
-    "descripcion": "",
+    "descripcion": "Estudio al sur de la Ciudad de México fundado por Emi Montero, con tatuadores de temática otaku, pop y kawaii (Pokémon, personajes de Miyazaki, Zelda). Según Chilango también acepta piezas realistas, geométricas o de blackwork.",
     "instagram": "",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://www.chilango.com/cultura/tatuaje-estilo-kawaii-tatuadores-cdmx/"
+    ],
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
@@ -937,10 +1039,12 @@
       "fine-line",
       "realismo"
     ],
-    "descripcion": "",
+    "descripcion": "Estudio de tatuaje de Buenos Aires cofundado por Manuel Lacasa, a quien Time Out Buenos Aires incluye entre los mejores tatuadores de la ciudad por su microrrealismo, fine line y black and grey.",
     "instagram": "",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://www.timeout.com/es/buenos-aires/notas/mejores-tatuadores-en-buenos-aires-080124"
+    ],
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
@@ -955,10 +1059,12 @@
       "fine-line",
       "color"
     ],
-    "descripcion": "",
-    "instagram": "",
+    "descripcion": "Estudio de tatuaje de Barcelona donde trabajó durante unos cuatro años la tatuadora argentina Sara Rosa Corazón, según Tattoo Life, que cita su cuenta de Instagram @blackship.bcn.",
+    "instagram": "blackship.bcn",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://www.tattoolife.com/sara-rosa-corazon-a-new-beginning-in-the-name-of-love-and-tattooing/"
+    ],
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
@@ -972,10 +1078,13 @@
     "estilos": [
       "color"
     ],
-    "descripcion": "",
+    "descripcion": "Estudio de Belo Horizonte cofundado por el ilustrador y tatuador Fredão Oliveira, según Tattoo Life, que lo visitó para un reportaje. Directorios lo ubican en la Rua Leopoldina 61, en el barrio Santo Antônio.",
     "instagram": "",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://tattoolife.com/the-brazilian-artist-fredao-oliveira-invites-us-at-his-inkonik-tattoo-studio",
+      "https://tatscout.com/shops/inkonik-tattoo-studio-belo-horizonte"
+    ],
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
@@ -989,10 +1098,13 @@
     "estilos": [
       "realismo"
     ],
-    "descripcion": "",
+    "descripcion": "Estudio fundado en Lima en 1999 por Stefano Alcántara, especialista en realismo en negro y gris. Según la prensa, creció hasta sumar varias sedes en Lima y una en Fort Lauderdale (Florida), donde vive el fundador; Trome menciona además un local en Nueva York.",
     "instagram": "",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://eldiariony.com/?p=3033451",
+      "https://trome.com/actualidad/stefano-alcantara-tatuador-maluma-entrevista-noticia/"
+    ],
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
@@ -1004,10 +1116,12 @@
     "pais": "Chile",
     "zona": null,
     "estilos": [],
-    "descripcion": "",
+    "descripcion": "Estudio de tatuaje de Santiago de Chile donde trabaja Samantha Herrera, la tatuadora que cubrió con un Joker el antiguo tatuaje del exfutbolista Jorge Valdivia, según La Tercera. No se encontró más información pública sobre el estudio.",
     "instagram": "",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://www.latercera.com/tendencias/noticia/el-quedo-super-contento-habla-la-artista-que-tapo-el-polemico-tatuaje-de-jorge-valdivia/X623HCRTHRFK7JIEDLVAYKPKAQ/"
+    ],
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
@@ -1021,10 +1135,12 @@
     "estilos": [
       "color"
     ],
-    "descripcion": "",
+    "descripcion": "Estudio del barrio de Gràcia, en Barcelona, centrado en el tatuaje tradicional americano, japonés y neotradicional. Tattoo Life lo presentó a través de su tatuador Pablo Lillo, que describe al equipo como un grupo muy unido.",
     "instagram": "",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://www.tattoolife.com/spanish-tattooist-pablo-lillo-tells-his-definition-of-a-good-tattoo/"
+    ],
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
@@ -1032,16 +1148,19 @@
   {
     "slug": "chinatown-tattoo",
     "nombre": "Chinatown Tattoo",
-    "ciudad": "Madrid",
+    "ciudad": "Getafe",
     "pais": "España",
     "zona": null,
     "estilos": [
       "realismo"
     ],
-    "descripcion": "",
+    "descripcion": "Estudio de Adrián Sánchez, \"Black Sanchez\", especialista en realismo y terror hiperrealista. Según Madrid Secreto está en la Plaza de Carlos III de Getafe (Madrid); en Tattoo Life su dueño explica que el estudio trabaja todos los estilos y ofrece también piercing y láser.",
     "instagram": "",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://madridsecreto.co/en/best-tattoo-artists-madrid",
+      "https://tattoolife.com/adrian-sanchez-the-wizard-of-realism-from-madrid"
+    ],
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
@@ -1066,14 +1185,18 @@
   {
     "slug": "art-and-body",
     "nombre": "Art and Body",
-    "ciudad": "",
+    "ciudad": "Mount Maunganui",
     "pais": "Nueva Zelanda",
     "zona": null,
     "estilos": [],
-    "descripcion": "",
+    "descripcion": "Estudio creativo de tā moko en Mount Maunganui, en la Bahía de Plenty, dirigido por la artista, curadora y escritora Julie Paama-Pengelly, que lo abrió en 2012. La biblioteca municipal de Tauranga la presentó en 2013 como artista y directora de Art + Body.",
     "instagram": "",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://creativebop.org.nz/?p=10190",
+      "https://paekoroki.tauranga.govt.nz/nodes/view/6251",
+      "https://www.julesartistmoko.com/julie"
+    ],
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
@@ -1087,10 +1210,12 @@
     "estilos": [
       "color"
     ],
-    "descripcion": "",
+    "descripcion": "Estudio de tatuaje de Henk Schiffmacher, conocido como Hanky Panky, en Ámsterdam. La serie documental \"Schiffmachers' Legacy\" (NPO, 2024) siguió el proceso en que Schiffmacher traspasó el estudio. No se verificó quién lo dirige hoy.",
     "instagram": "",
     "web": "",
-    "fuentes": [],
+    "fuentes": [
+      "https://www.filmvandaag.nl/serie/13583-schiffmachers-legacy"
+    ],
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
@@ -1100,6 +1225,336 @@
     "nombre": "Tribal Tattoo",
     "ciudad": "Roma",
     "pais": "Italia",
+    "zona": null,
+    "estilos": [
+      "blackwork"
+    ],
+    "descripcion": "Estudio de Marco Manzo en la Via Cassia (Roma Norte). Según la prensa romana y la biografía del propio Manzo, abrió en 1992 como el primer estudio de tatuaje y piercing de Roma Norte (un perfil de TattooNOW da el año 2000). Se asocia al estilo tribal ornamental y de encaje que desarrolló su fundador.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.affaritaliani.it/roma/tatuaggi-piercing-prima-la-sicurezza-poi-arte-parla-marco-manzo-646972.html",
+      "https://cheyennetattoo.com/en/cheyenne-artists/marco-manzo"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "la-casita-magica",
+    "nombre": "La Casita Mágica",
+    "ciudad": "Mérida",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "blackflag-crew",
+    "nombre": "BlackFlag Crew",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "ink-dealers",
+    "nombre": "Ink Dealers",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "nueva-sangre-tattoo",
+    "nombre": "Nueva Sangre Tattoo",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "sigue-sigue-sputnik",
+    "nombre": "Sigue Sigue Sputnik",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "fine-line-hearts-club",
+    "nombre": "Fine Line Hearts Club",
+    "ciudad": "Londres",
+    "pais": "Reino Unido",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "artigiano-tatuatore",
+    "nombre": "Artigiano Tatuatore",
+    "ciudad": "Brembate di Sotto",
+    "pais": "Italia",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "skull-sword",
+    "nombre": "Skull & Sword",
+    "ciudad": "San Francisco",
+    "pais": "Estados Unidos",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "red-point-tattoo",
+    "nombre": "Red Point Tattoo",
+    "ciudad": "Londres",
+    "pais": "Reino Unido",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "enjambre-hermosillo",
+    "nombre": "Enjambre",
+    "ciudad": "Hermosillo",
+    "pais": "México",
+    "zona": "Palmas de Centenario",
+    "estilos": [],
+    "descripcion": "Estudio de tatuajes en calle Londres 83, colonia Palmas de Centenario, dirigido por el tatuador David Toral. En 2024 organizó una jornada de tatuajes a beneficio de un rescatista de gatos y se plantea como espacio de difusión cultural para otros artistas.",
+    "instagram": "enjambrehmo",
+    "web": "",
+    "fuentes": [
+      "https://www.elimparcial.com/son/hermosillo/2024/07/25/haran-tatuajes-para-ayudar-a-don-gato/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "candiani-hermosillo",
+    "nombre": "Candiani",
+    "ciudad": "Hermosillo",
+    "pais": "México",
+    "zona": "Centro",
+    "estilos": [],
+    "descripcion": "Tienda y estudio de Hugo Candiani en la calle Matamoros, en el centro de Hermosillo, abierto en 1991. Expreso lo considera pionero del tatuaje y la perforación en la ciudad; el área de tatuaje está en el piso superior del local.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.expreso.com.mx/noticias/hermosillo/hugo-candiani-un-pionero-del-tatuaje-en-hermosillo/187605"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "insecto-negro",
+    "nombre": "Insecto Negro",
+    "ciudad": "Morelia",
+    "pais": "México",
+    "zona": "Centro Histórico",
+    "estilos": [],
+    "descripcion": "Espacio independiente en Amado Nervo 45 que funciona como galería, taller de grabado y estudio de tatuajes de autor, con talleres abiertos al público. Lo integran Zaizhi Monfon, Raquel Palominos, Quetzal Fuerte y César Flores 'Magenta'.",
+    "instagram": "insecto.negroo",
+    "web": "",
+    "fuentes": [
+      "https://www.lavozdemichoacan.com.mx/michoacan/morelia/insecto-negro-taller-grafica-tatuaje-morelia/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "cuarto-de-maquinas",
+    "nombre": "Cuarto de Máquinas Tattoo & Body Piercing",
+    "ciudad": "Morelia",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "Estudio de tatuaje y perforación fundado por el tatuador moreliano Garo Lozada, autor de la exposición 'YUGO' (2026) sobre tatuaje tradicional japonés y cultura purépecha.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://cultura.michoacan.gob.mx/noticias/secum-presenta-yugo-un-encuentro-entre-el-tatuaje-japones-y-la-cultura-michoacana/",
+      "https://www.quadratin.com.mx/turismo/presenta-secum-yugo-fusion-del-tatuaje-japones-y-cultura-michoacana/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "alma-negra-toluca",
+    "nombre": "Alma Negra Tattoo Suite",
+    "ciudad": "Toluca",
+    "pais": "México",
+    "zona": "Francisco Murguía",
+    "estilos": [],
+    "descripcion": "Concepto creado por el tatuador Mawe que fusionó dos estudios en Cedro 103, colonia Francisco Murguía. Según AD Noticias reunía a 12 tatuadores con estilos propios, a color y en negro, y atendía de lunes a sábado de 10:00 a 20:00 con cita por Instagram.",
+    "instagram": "almanegra_tattoosuite",
+    "web": "",
+    "fuentes": [
+      "https://adnoticias.mx/alma-negra-donde-los-tatuajes-trascienden-la-piel/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "sublime-art-gallery",
+    "nombre": "Sublime Art Gallery",
+    "ciudad": "Toluca",
+    "pais": "México",
+    "zona": "Francisco Murguía",
+    "estilos": [],
+    "descripcion": "Estudio en José Vicente Villada 426, colonia Francisco Murguía, donde trabaja la tatuadora Kika Domínguez, especializada en tatuaje tipo bordado.",
+    "instagram": "sublimeartgallery19",
+    "web": "",
+    "fuentes": [
+      "https://adnoticias.mx/conoce-a-kika-dominguez-tatuatora-de-toluca-y-mexiquense-chingona/",
+      "https://adnoticias.mx/tatuajes-toluca-fc/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "tattooarme",
+    "nombre": "Tattooarme",
+    "ciudad": "Oaxaca",
+    "pais": "México",
+    "zona": "Reforma",
+    "estilos": [],
+    "descripcion": "Estudio de tatuajes y perforaciones de la colonia Reforma, en la ciudad de Oaxaca, abierto por el tatuador y pintor Alán Villanueva y la perforadora Consuelo Alonso. Ofrece cursos y exhibe pintura; en 2024 trabajaban ahí Alán Villanueva, Char-Lee y Yael Aeneas.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.jornada.com.mx/2024/11/07/cultura/a03n2cul"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "rey-lagarto-tattoo",
+    "nombre": "Rey Lagarto Tattoo Studio",
+    "ciudad": "Chihuahua",
+    "pais": "México",
+    "zona": "Zona Centro",
+    "estilos": [],
+    "descripcion": "Estudio del centro de Chihuahua (calle Guadalupe Victoria 1206) que El Heraldo de Chihuahua incluyó en 2022 entre los mejores de la capital. Celebró su aniversario de 2023 con un walk-in y bazar con varios tatuadores, según El Diario.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://oem.com.mx/elheraldodechihuahua/tendencias/los-mejores-estudios-de-tatuaje-en-chihuahua-capital-14406950",
+      "https://www.eldiariodechihuahua.mx/local/2023/sep/09/walk-in-tatoo-tendencia-en-arte-corporal-504777.html"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "tia-juana-tattoo",
+    "nombre": "Tia Juana Tattoo",
+    "ciudad": "Tijuana",
+    "pais": "México",
+    "zona": null,
+    "estilos": [
+      "neotradicional",
+      "tradicional"
+    ],
+    "descripcion": "Estudio tijuanense cofundado por Carlos 'Sharky' Hernández, tatuador neotradicional. SanDiegoRed recogió que una lista en línea lo situó entre los mejores estudios de Tijuana y que sus precios eran más bajos que los de San Diego.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.sandiegored.com/mexico/baja-california/tia-juana-tattoo-mejores-mexico/",
+      "https://www.sandiegored.com/en/news/tia-juana-tattoo-ranked-one-of-best-in-mexico/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "seco-tattoo-studio",
+    "nombre": "Seco Tattoo Studio",
+    "ciudad": "Hermosillo",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "de-por-vida-tattoo",
+    "nombre": "De por vida Tattoo",
+    "ciudad": "Morelia",
+    "pais": "México",
     "zona": null,
     "estilos": [],
     "descripcion": "",

@@ -19,6 +19,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'TattooParlor', name
     {e.descripcion && <p class="desc">{e.descripcion}</p>}
     {e.estilos?.length > 0 && <p><strong>Estilos:</strong> {e.estilos.map(etiqueta).join(', ')}</p>}
     {e.web && <p><a href={e.web} rel="noopener">Sitio oficial →</a></p>}
+    {e.instagram && <p><a href={`https://instagram.com/${e.instagram}`} rel="noopener">Instagram del estudio: @{e.instagram} →</a></p>}
     {equipo.length > 0 && (
       <>
         <h2>Artistas en el directorio</h2>

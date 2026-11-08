@@ -23,6 +23,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
   <div class="contenedor rejilla">
     <article class="prosa">
       {a.bio ? <p class="bio">{a.bio}</p> : <p class="bio">Ficha en preparación.</p>}
+      {a.instagram && <a class="ig" href={`https://instagram.com/${a.instagram}`} rel="noopener">Ver su trabajo en Instagram →</a>}
       {a.datos?.length > 0 && (
         <>
           <h2>Lo que está documentado</h2>
@@ -71,4 +72,5 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
   .vecinos ul { padding-left: 18px; }
   .aviso { background: var(--negro); color: #fff; padding: 10px 14px; font-size: 14px; }
   @media (max-width: 800px) { .rejilla { grid-template-columns: 1fr; } }
+  .ig { display: inline-block; background: var(--rosa); color: #fff; font-weight: 700; text-decoration: none; padding: 12px 18px; border: 3px solid var(--negro); box-shadow: 4px 4px 0 var(--negro); }
 </style>

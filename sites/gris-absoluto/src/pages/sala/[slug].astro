@@ -22,6 +22,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
       <div class="obra" role="img" aria-label={`Espacio reservado para obra de ${a.nombre}`}><span class="mono">Imagen pendiente de autorización</span></div>
       <div class="texto">
         {a.bio ? <p class="bio">{a.bio}</p> : <p class="bio">Ficha en preparación.</p>}
+        {a.instagram && <a class="ig" href={`https://instagram.com/${a.instagram}`} rel="noopener">Ver su trabajo en Instagram · @{a.instagram} ↗</a>}
         {a.datos?.length > 0 && (
           <>
             <h2>Registro</h2>
@@ -68,4 +69,6 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
     .obra { min-height: 220px; border-right: 0; }
     .pasillo a { padding: 18px 16px; font-size: 17px; }
   }
+  .ig { display: inline-block; margin: 8px 0 8px; padding: 10px 16px; border: 1px solid var(--blanco); color: var(--blanco); text-decoration: none; font: 400 13px var(--mono); text-transform: uppercase; letter-spacing: .08em; }
+  .ig:hover { background: var(--blanco); color: var(--negro); }
 </style>

@@ -23,6 +23,7 @@ const host = (u: string) => { try { return new URL(u).hostname.replace('www.', '
     <section class="caja bio">
       <h2>QUIÉN ES</h2>
       <p>{a.bio || 'Ficha en preparación.'}</p>
+      {a.instagram && <a class="ig caja" href={`https://instagram.com/${a.instagram}`} rel="noopener">VER SU TRABAJO EN INSTAGRAM →</a>}
     </section>
     <section class="caja datos">
       <h2>DATOS</h2>
@@ -70,4 +71,5 @@ const host = (u: string) => { try { return new URL(u).hostname.replace('www.', '
   .fuentes { font-size: 13px; font-weight: 700; word-break: break-word; }
   .aviso { padding: 14px; font-weight: 700; background: var(--amarillo); }
   @media (max-width: 700px) { .rejilla { grid-template-columns: 1fr; } }
+  .ig { display: inline-block; padding: 12px 16px; background: var(--amarillo); font-weight: 700; text-decoration: none; margin-top: 8px; }
 </style>
