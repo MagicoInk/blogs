@@ -3,7 +3,7 @@ import Atlas from '../layouts/Atlas.astro';
 import Mapa from '../components/Mapa.astro';
 import { getCollection } from 'astro:content';
 import { artista, internacionales, artistas } from 'directorio';
-import { codigo, ciudadesGeo } from '../geo';
+import { codigo, ciudadesActivas as ciudadesGeo } from '../geo';
 const exp = (await getCollection('expediciones')).sort((a, b) => b.data.numero - a.data.numero);
 const [primera, ...resto] = exp;
 const destinos = (e: typeof exp[number]) => [...new Set(e.data.artistas.map(artista).filter(Boolean).map((a) => a!.ciudad))].filter((c) => ciudadesGeo[c] && c !== 'Ciudad de México');

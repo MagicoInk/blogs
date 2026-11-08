@@ -19,5 +19,15 @@ export const ciudadesGeo: Record<string, { lat: number; lon: number; codigo: str
   Roma: { lat: 41.9, lon: 12.5, codigo: 'ROM' },
   Melbourne: { lat: -37.81, lon: 144.96, codigo: 'MEL' },
   Ámsterdam: { lat: 52.37, lon: 4.9, codigo: 'AMS' },
+  Puebla: { lat: 19.04, lon: -98.2, codigo: 'PBC' },
+  Hesperia: { lat: 34.43, lon: -117.3, codigo: 'HES' },
+  'Long Beach': { lat: 33.77, lon: -118.19, codigo: 'LGB' },
+  'Huntington Beach': { lat: 33.66, lon: -118.0, codigo: 'HTB' },
+  Odesa: { lat: 46.48, lon: 30.72, codigo: 'ODS' },
+  Yokohama: { lat: 35.44, lon: 139.64, codigo: 'YOK' },
+  Massapequa: { lat: 40.68, lon: -73.47, codigo: 'MSQ' },
 };
+import { artistas } from 'directorio';
+/** Solo las ciudades donde hay artistas en el directorio (más el origen, MEX). */
+export const ciudadesActivas = Object.fromEntries(Object.entries(ciudadesGeo).filter(([c]) => c === 'Ciudad de México' || artistas.some((a) => a.ciudad === c)));
 export const codigo = (ciudad: string) => ciudadesGeo[ciudad]?.codigo ?? '···';

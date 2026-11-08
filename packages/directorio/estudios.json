@@ -13,5 +13,203 @@
     "web": "https://magico.ink",
     "esMagico": true,
     "confirmado": false
+  },
+  {
+    "slug": "hideaway-at-suite-x",
+    "nombre": "Hideaway at Suite X",
+    "ciudad": "Los Ángeles",
+    "pais": "Estados Unidos",
+    "estilos": [
+      "fine-line"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "shamrock-social-club",
+    "nombre": "Shamrock Social Club",
+    "ciudad": "Los Ángeles",
+    "pais": "Estados Unidos",
+    "estilos": [
+      "fine-line"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "bang-bang",
+    "nombre": "Bang Bang",
+    "ciudad": "Nueva York",
+    "pais": "Estados Unidos",
+    "estilos": [
+      "fine-line"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "atelier-eva",
+    "nombre": "Atelier Eva",
+    "ciudad": "Nueva York",
+    "pais": "Estados Unidos",
+    "estilos": [
+      "fine-line"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "hongdam-studio",
+    "nombre": "Hongdam Studio",
+    "ciudad": "Seúl",
+    "pais": "Corea del Sur",
+    "estilos": [
+      "fine-line"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "dotstolines",
+    "nombre": "DotsToLines",
+    "ciudad": "",
+    "pais": "",
+    "estilos": [
+      "fine-line"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "sans-patrie",
+    "nombre": "Sans Patrie",
+    "ciudad": "Londres",
+    "pais": "Reino Unido",
+    "estilos": [
+      "fine-line"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "black-anchor-collective",
+    "nombre": "Black Anchor Collective",
+    "ciudad": "Hesperia",
+    "pais": "Estados Unidos",
+    "estilos": [
+      "realismo",
+      "color"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "the-raven-and-the-wolves",
+    "nombre": "The Raven and The Wolves",
+    "ciudad": "Long Beach",
+    "pais": "Estados Unidos",
+    "estilos": [
+      "realismo"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "monarc-studios",
+    "nombre": "MONARC Studios",
+    "ciudad": "Los Ángeles",
+    "pais": "Estados Unidos",
+    "estilos": [
+      "realismo"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "kings-avenue-tattoo",
+    "nombre": "Kings Avenue Tattoo",
+    "ciudad": "Massapequa",
+    "pais": "Estados Unidos",
+    "estilos": [
+      "color"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "modern-classic-tattoo",
+    "nombre": "Modern Classic Tattoo",
+    "ciudad": "Londres",
+    "pais": "Reino Unido",
+    "estilos": [
+      "color"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "soy-feliz-studio",
+    "nombre": "Soy Feliz Studio",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "fine-line",
+      "color"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "blcksstar-studio",
+    "nombre": "Blcksstar Studio",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "fine-line",
+      "realismo"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
+  },
+  {
+    "slug": "no-mercy-tattoo",
+    "nombre": "No Mercy Tattoo",
+    "ciudad": "Tijuana",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ],
+    "instagram": "",
+    "web": "",
+    "esMagico": false,
+    "confirmado": false
   }
 ]
