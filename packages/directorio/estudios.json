@@ -211,5 +211,918 @@
     "web": "",
     "esMagico": false,
     "confirmado": false
+  },
+  {
+    "slug": "diafano-tattoo-studio",
+    "nombre": "Diàfano Tattoo Studio",
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "Estudio tapatío fundado por el tatuador David Vallín. En 2023 participó en la residencia artística sobre tatuaje del MUSA, Museo de las Artes de la Universidad de Guadalajara, que incluyó visitas al estudio y un taller de diseño de tatuaje de autor impartido por su fundador.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://comsoc.udg.mx/noticia/musa-realizara-residencia-con-artistas-del-tatuaje",
+      "https://udg.mx/es/evento/taller-diseno-de-tatuaje-de-autor-con-david-vallin"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "makala-ink-studio",
+    "nombre": "Makalá Ink Studio",
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "zona": "Colonia Americana",
+    "estilos": [],
+    "descripcion": "Estudio de la colonia Americana que El Informador describió en 2023 como uno de los más grandes de Latinoamérica, con servicios de tatuaje, piercing y microblading. Guadalajara Secreta destaca que el espacio incluye galería, barra de café y varias salas.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.informador.mx/jalisco/Guadalajara-5-lugares-en-la-ciudad-para-hacerte-un-tatuaje-20230912-0079.html",
+      "https://guadalajarasecreta.com/makala-ink-studio/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "tintas-de-acero",
+    "nombre": "Tintas de Acero",
+    "ciudad": "Monterrey",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "Estudio regiomontano fundado por el tatuador Lucio Ramírez. Milenio lo presenta como la casa del tatuador y ceramista Alekz. Cultura Colectiva lo menciona en su guía de ciudades mexicanas con buenos tatuadores.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.milenio.com/politica/comunidad/del-tatuaje-a-la-nobleza-del-barro",
+      "https://culturacolectiva.com/estilo-de-vida/viajes/ciudades-de-mexico-con-los-mejores-tatuadores/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "estrella-norte-estudio",
+    "nombre": "Estrella Norte Estudio",
+    "ciudad": "Monterrey",
+    "pais": "México",
+    "zona": "Cumbres 2º Sector",
+    "estilos": [
+      "realismo",
+      "neotradicional",
+      "blackwork"
+    ],
+    "descripcion": "Estudio de tatuajes y perforaciones en Monterrey. Su sitio oficial lo describe como un espacio que combina arte, técnica y tatuaje personalizado, y presenta a sus artistas por especialidad, entre ellas realismo, neotradicional y blackwork. Trabaja con cita previa.",
+    "instagram": "estrellanorteestudio",
+    "web": "https://www.estrellanorteestudio.com/",
+    "fuentes": [
+      "https://www.estrellanorteestudio.com/",
+      "https://www.instagram.com/estrellanorteestudio/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "la-clinica-queretaro",
+    "nombre": "La Clínica Tatuajes y Perforaciones",
+    "ciudad": "Querétaro",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "Estudio que El Universal Querétaro señala como el primer establecimiento de su tipo en Querétaro. Según su propio perfil, opera desde 1995. Diario de Querétaro cubrió su 28.º aniversario y sus jornadas de tatuaje a cambio de donativos.",
+    "instagram": "tatuajeslaclinica",
+    "web": "",
+    "fuentes": [
+      "https://www.eluniversalqueretaro.mx/nuestras-historias/el-tatuaje-es-el-arte-que-llevas-siempre-cuenta-pelon-villagomez/",
+      "https://oem.com.mx/diariodequeretaro/gossip/la-clinica-cumple-28-anos-de-historia-y-lo-celebra-en-grande-18814528",
+      "https://oem.com.mx/diariodequeretaro/gossip/el-tatuaje-es-un-medio-para-crear-arte-luis-villagomez-18822907"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "rat-estudio",
+    "nombre": "RAT Estudio",
+    "ciudad": "Querétaro",
+    "pais": "México",
+    "zona": "Centro Histórico",
+    "estilos": [],
+    "descripcion": "Estudio fundado por los tatuadores Caro Floyd (Carolina Alcázar) y Quidam (Javier Estrada), formados en la Universidad Autónoma de Querétaro. El Universal Querétaro lo presenta como un estudio de tatuaje que también funciona como espacio de encuentro cultural y de otras disciplinas artísticas.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.eluniversalqueretaro.mx/nuestras-historias/rat-estudio-un-espacio-de-encuentro-cultural/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "imperial-estudio-merida",
+    "nombre": "Imperial Estudio",
+    "ciudad": "Mérida",
+    "pais": "México",
+    "zona": "Sol Campestre",
+    "estilos": [],
+    "descripcion": "Estudio del norte de Mérida, en la colonia Sol Campestre. En agosto de 2024 fue una de las tres sedes de 'Tatuando con Corazón', jornada en la que cerca de 15 tatuadores donaron sus ganancias al CRIT Yucatán.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.lajornadamaya.mx/yucatan/234609/tatuadores-de-merida-se-organizan-para-donar-ganancias-al-crit-yucatan"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "gold-balam-studio-tattoo",
+    "nombre": "Gold Balam Studio Tattoo",
+    "ciudad": "Mérida",
+    "pais": "México",
+    "zona": null,
+    "estilos": [
+      "color",
+      "fine-line",
+      "blackwork",
+      "japones"
+    ],
+    "descripcion": "Estudio de Mérida fundado por el tatuador Gooty Balam. Según su sitio oficial, su equipo incluye a Ana Rico (color y cover up), Lía Canul (fine line y ornamental) y Diego Poot (blackwork y japonés).",
+    "instagram": "",
+    "web": "https://goldbalam.com.mx/",
+    "fuentes": [
+      "https://goldbalam.com.mx/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "tattoo-tren",
+    "nombre": "Tattoo Tren",
+    "ciudad": "León",
+    "pais": "México",
+    "zona": null,
+    "estilos": [
+      "tradicional",
+      "blackwork"
+    ],
+    "descripcion": "Estudio que el tatuador 'Trenes', conocido por tatuar a Santa Fe Klan, abrió en León en febrero de 2023, según el Periódico AM. La nota lo ubicaba en Río Mayo 6004, esquina con Paseo de Jerez.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.am.com.mx/espectaculos/2023/2/8/tatuador-de-santa-fe-klan-alcalde-de-guanajuato-abre-su-estudio-en-leon-646631.html"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "tatuajes-san-luis",
+    "nombre": "Tatuajes San Luis",
+    "ciudad": "San Luis Potosí",
+    "pais": "México",
+    "zona": "Zona Centro",
+    "estilos": [],
+    "descripcion": "Estudio potosino reseñado por La Orquesta en su lista de siete estudios de tatuaje de la ciudad. Según la nota, trabajan tres tatuadores y, si no manejan el estilo que busca el cliente, lo recomiendan con otro tatuador o estudio.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://laorquesta.mx/estilodevida-siete-estudios-de-tatuajes-en-slp-que-debes-visitar/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "collective-tattoo-studio-cancun",
+    "nombre": "Collective Tattoo Studio",
+    "ciudad": "Cancún",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "Estudio colectivo de tatuaje en Cancún que reúne a varios artistas. Su sitio oficial menciona a Luis Canché, quien tatúa desde 2013 y declara premios en expos, y a Roger Ramos, entre otros.",
+    "instagram": "",
+    "web": "https://www.collectivetattoocancun.com/",
+    "fuentes": [
+      "https://www.collectivetattoocancun.com/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "tattoo-republic-playa-del-carmen",
+    "nombre": "Tattoo Republic México",
+    "ciudad": "Playa del Carmen",
+    "pais": "México",
+    "zona": "Gonzalo Guerrero",
+    "estilos": [],
+    "descripcion": "Estudio sobre la Quinta Avenida, entre las calles 8 y 10. Su sitio oficial afirma más de 18 años de experiencia y trabajo con artistas internacionales (dato autodeclarado).",
+    "instagram": "",
+    "web": "https://tattoorepublic.mx/en/",
+    "fuentes": [
+      "https://tattoorepublic.mx/en/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "myobu-estudio",
+    "nombre": "Myobu",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": "San Lucas, Coyoacán",
+    "estilos": [
+      "japones",
+      "tradicional"
+    ],
+    "descripcion": "Estudio al sur de la CDMX enfocado en la cultura japonesa. Revista Central señala que en algunas ocasiones se puede optar por la técnica tradicional tebori. Ahí han trabajado Moroko Gon, especialista en japonés, y Juan Homeless.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.revistacentral.com.mx/ponte-al-dia/mejores-estudios-tatuaje-en-la-cdmx",
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/moroko-gon-y-el-arte-del-tatuaje-japones",
+      "https://juanhomelesstattoo.com/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "estudio-184",
+    "nombre": "Estudio 184",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": "Roma",
+    "estilos": [
+      "japones"
+    ],
+    "descripcion": "Estudio de tatuajes y piercings sobre la calle Colima, en la Roma, que Time Out México calificó con 4 de 5 estrellas. Según la reseña, Rech hace tatuaje profesional y sombras, Rod trabaja piezas más de autor y Kid iconografía oriental.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/compras-estilo/estudio-184"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "fortuna-tattoo-gallery",
+    "nombre": "Fortuna Tattoo & Gallery",
+    "ciudad": "Ciudad de México (Zona Metropolitana)",
+    "pais": "México",
+    "zona": "Ciudad Satélite",
+    "estilos": [],
+    "descripcion": "Estudio en Satélite que Time Out México calificó con 5 de 5 estrellas. La reseña lo describe con una década de trayectoria, ampliado sin cambiar de concepto, y con una decoración dedicada a la buena fortuna: paredes rojas, gatos y peces de la suerte.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/fortuna-tattoo-gallery"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "avantgarde-tattoo",
+    "nombre": "Avantgarde Tattoo",
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "zona": null,
+    "estilos": [
+      "blackwork",
+      "realismo"
+    ],
+    "descripcion": "Estudio dirigido por Abel Miranda, a quien Time Out describe como un tatuador reconocido por sus estilos abstractos y de vanguardia. Femturisme lo presenta como el estudio de tatuajes más grande de Barcelona, y una guía le atribuye más de 18 artistas residentes, entre ellos especialistas en microrrealismo.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeout.es/barcelona/es/tiendas/avantgardetattoo",
+      "https://femturisme.cat/es/noticias/avantgarde-tattoo-el-estudio-de-tatuajes-referente-en-barcelona"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "ondo-tattoo",
+    "nombre": "ONDO Tattoo",
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "zona": "Sants-Montjuïc",
+    "estilos": [
+      "blackwork"
+    ],
+    "descripcion": "Time Out lo considera el estudio de referencia en Barcelona para el trabajo en blanco y negro. Fue fundado a mediados de 2014 por Fran y El Uf, artistas con raíces en el graffiti y el dibujo.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeout.es/barcelona/es/que-hacer/ondo-tattoo",
+      "https://www.tattoolife.com/el-uf-tattoos-black-with-a-twist/",
+      "https://www.neo2.com/?p=94982"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "la-mano-zurda",
+    "nombre": "La Mano Zurda",
+    "ciudad": "Madrid",
+    "pais": "España",
+    "zona": "Chueca",
+    "estilos": [],
+    "descripcion": "Según Time Out Madrid, cuenta con tres locales, el primero abierto en 2008 en el centro de la ciudad, y con más de 20 tatuadores residentes.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeout.es/madrid/es/que-hacer/la-mano-zurda"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "karbon-tattoo-gallery",
+    "nombre": "Karbon Tattoo & Gallery",
+    "ciudad": "Madrid",
+    "pais": "España",
+    "zona": "Centro",
+    "estilos": [
+      "color"
+    ],
+    "descripcion": "Estudio y galería en el centro de Madrid. Time Out lo considera posiblemente el mejor sitio de la ciudad para tatuajes a todo color.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeout.es/madrid/es/que-hacer/karbon-tattoo-gallery"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "la-mujer-barbuda",
+    "nombre": "La Mujer Barbuda",
+    "ciudad": "Madrid",
+    "pais": "España",
+    "zona": null,
+    "estilos": [
+      "neotradicional",
+      "ilustrativo",
+      "color"
+    ],
+    "descripcion": "Estudio madrileño de Debora Cherrys y su marido. Según su propia página abrió en 2015 y al año siguiente se trasladó a un local más grande. Se le asocian retratos femeninos ilustrativos, animales neotradicionales y piezas de cultura pop en color.",
+    "instagram": "lamujerbarbudatattoo",
+    "web": "",
+    "fuentes": [
+      "https://www.tattoolife.com/neo-traditional-girls-by-debora-cherrys/",
+      "https://www.worldfamoustattooink.com/pages/debora-cherrys"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "true-love-tattoo-madrid",
+    "nombre": "True Love Tattoo Madrid",
+    "ciudad": "Madrid",
+    "pais": "España",
+    "zona": null,
+    "estilos": [
+      "tradicional"
+    ],
+    "descripcion": "Estudio fundado en Madrid por Gustavo Barahona, 'El Bara', tatuador tradicional que antes dirigió un estudio en Buenos Aires. Tattoo Life le dedicó un reportaje.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.tattoolife.com/welcome-to-true-love-tattoo-madrid/",
+      "https://www.tattoolife.com/el-bara-a-life-for-traditional-tattoing/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "leds-tattoo",
+    "nombre": "Led's Tattoo",
+    "ciudad": "São Paulo",
+    "pais": "Brasil",
+    "zona": "Moema",
+    "estilos": [],
+    "descripcion": "Estudio fundado en 1982 por Sérgio Maciel, 'Leds', precursor en Brasil de la remoción de tatuajes y del tatuaje reconstructivo sobre cicatrices. Ocupa una casa de más de 800 m² en Moema y suele describirse como el estudio de tatuaje más grande de Brasil.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://viva.com.br/estilo-de-vida/tatuadores-60-contam-historia-da-tatoo-no-brasil-do-porto-as-redes-sociais.html",
+      "https://saopaulosecreto.com/estudio-de-tatuagem-em-sao-paulo/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "cucu-studio",
+    "nombre": "Cucú Studio",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "zona": null,
+    "estilos": [
+      "fine-line"
+    ],
+    "descripcion": "Estudio de Zina Samoletova. Time Out Buenos Aires lo presenta como el primer local de tatuajes fine line de Argentina, abierto en 2018.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeout.com/es/buenos-aires/notas/mejores-tatuadores-en-buenos-aires-080124",
+      "https://tatscout.com/shops/cucu-studio-buenos-aires"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "ink-club-montevideo",
+    "nombre": "Estudio Ink Club Montevideo",
+    "ciudad": "Montevideo",
+    "pais": "Uruguay",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "Estudio de Alejandro Rey y Fernando Guzmán, abierto en 2020. En una nota de La Diaria, Rey contó que él llevaba 22 años tatuando y su socio unos siete.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://ladiaria.com.uy/trabajo/articulo/2020/10/trabajo-en-tiempos-de-pandemia-alejandro-rey-y-fernando-guzman-de-estudio-ink-club-montevideo/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "cavalera-art-tattoo",
+    "nombre": "Cavalera Art & Tattoo",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "La guía 'Dónde tatuarse en Santiago' de revista Paula (La Tercera) lo destacó con ocho tatuadores de estilos variados y atención diaria. La nota es antigua y la plantilla puede haber cambiado.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.latercera.com/paula/donde-tatuarse-santiago/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "yellow-blaze-tattoo",
+    "nombre": "Yellow Blaze Tattoo",
+    "ciudad": "Yokohama",
+    "pais": "Japón",
+    "zona": "Ishikawa-cho, Naka-ku",
+    "estilos": [
+      "japones",
+      "color"
+    ],
+    "descripcion": "Estudio fundado por Shige (Shigenori Iwasaki), quien lo dirige junto a su esposa Chisato. Su seña es el tatuaje japonés con estética contemporánea. Una fuente en español lo ubica en Tokio, pero la mayoría lo sitúa en Yokohama.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://janm.org/exhibits/perseverance/artists",
+      "https://www.tattoolife.com/shige-and-no-regrets-tattoo-for-indian-motorcycle/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "three-tides-tattoo",
+    "nombre": "Three Tides Tattoo",
+    "ciudad": "Osaka",
+    "pais": "Japón",
+    "zona": null,
+    "estilos": [
+      "japones"
+    ],
+    "descripcion": "Estudio japonés de Osaka, abierto en 1998, con una segunda sede en Tokio (Harajuku) desde 2011. Su equipo trabaja sobre todo estilos japoneses y quiso ayudar a reducir el estigma del tatuaje en Japón. Suele recibir a artistas invitados del extranjero. Las direcciones de Osaka varían según la fuente.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.tattoolife.com/the-three-tides-tattoo/",
+      "https://en.jal.japantravel.com/tokyo/three-tides-tattoo/5391"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "studio-by-sol",
+    "nombre": "Studio by Sol",
+    "ciudad": "Seúl",
+    "pais": "Corea del Sur",
+    "zona": null,
+    "estilos": [
+      "fine-line",
+      "color"
+    ],
+    "descripcion": "Estudio del tatuador autodidacta Sol, conocido por la línea fina combinada con flores, colores pastel y efectos de acuarela. Ofrece información de reservas en inglés y en coreano.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://neocha.com/magazine/studio-by-sol/",
+      "https://10mag.com/english-speaking-tattoo-artists-seoul/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "seoul-ink-tattoo",
+    "nombre": "Seoul Ink Tattoo",
+    "ciudad": "Seúl",
+    "pais": "Corea del Sur",
+    "zona": "Sinsa-dong (Gangnam-gu)",
+    "estilos": [
+      "fine-line",
+      "realismo"
+    ],
+    "descripcion": "Estudio de Gangnam que trabaja desde 2007, con un equipo de gestión de habla inglesa que atiende las consultas. World Tattoo Events lo presenta como un estudio de referencia en Seúl, con artistas de microrrealismo y línea fina.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.worldtattooevents.com/tattoo_interviews/seoul-ink-tattoo-inside-seouls-powerhouse-tattoo-studio/",
+      "https://10mag.com/english-speaking-tattoo-artists-seoul/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "tin-tin-tatouages",
+    "nombre": "Tin-Tin Tatouages",
+    "ciudad": "París",
+    "pais": "Francia",
+    "zona": "37 rue de Douai, distrito 9",
+    "estilos": [],
+    "descripcion": "Estudio de Tin-Tin, fundador del Mondial du Tatouage y presidente del Syndicat National des Artistes Tatoueurs. Time Out París lo incluye entre los salones de referencia de la ciudad.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeout.fr/paris/shopping/tin-tin-tatouages",
+      "https://sortiraparis.com/interests/shopping-fashion/guides/173072-best-tattoo-shops-in-paris/lang/en"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "buena-vista-tattoo-club",
+    "nombre": "Buena Vista Tattoo Club",
+    "ciudad": "Würzburg",
+    "pais": "Alemania",
+    "zona": null,
+    "estilos": [
+      "blackwork",
+      "realismo"
+    ],
+    "descripcion": "Estudio abierto en 1998 por Volker Merschky y Simone Pfaff, cuna del estilo Trash Polka, que mezcla realismo, collage y grafismo en negro y rojo. No se verificó si sigue abierto hoy.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Trash_polka",
+      "https://artminuszero.com/?p=44"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "the-family-business",
+    "nombre": "The Family Business",
+    "ciudad": "Londres",
+    "pais": "Reino Unido",
+    "zona": "58 Exmouth Market, Clerkenwell (EC1R 4QE)",
+    "estilos": [
+      "tradicional",
+      "japones"
+    ],
+    "descripcion": "Estudio fundado en 2003 por Mo Coppoletta, conocido por su aire vintage y su imaginería ornamentada de influencia japonesa y art déco. El Museum of London lo incluye en su recorrido sobre el tatuaje londinense.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://museumoflondon.org.uk/discover/tattoo-london-under-skin",
+      "https://www.timeout.com/london/shopping/londons-best-tattoo-artists"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "the-saint-mariner",
+    "nombre": "The Saint Mariner",
+    "ciudad": "Milán",
+    "pais": "Italia",
+    "zona": null,
+    "estilos": [
+      "ilustrativo",
+      "realismo"
+    ],
+    "descripcion": "Estudio y alias de Pietro Sedda, abierto en Milán en 2010. Es conocido por los retratos surrealistas y la imaginería marina. Las fuentes no coinciden en la dirección (Via Carlo Tenca 10 o Viale Luigi Majno 17a).",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://manintown.com/pietro-sedda-the-king-of-tattoo/2018/02/05/?lang=en",
+      "https://zero.eu/luoghi/100038-the-saint-mariner,milano/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "ritual",
+    "nombre": "Ritual",
+    "ciudad": "Monterrey",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "goth-ink",
+    "nombre": "Goth Ink",
+    "ciudad": "Monterrey",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "la-clinica",
+    "nombre": "La Clínica",
+    "ciudad": "Querétaro",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "academy-ink",
+    "nombre": "Academy Ink",
+    "ciudad": "San Luis Potosí",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "valiente-tattoo",
+    "nombre": "Valiente Tattoo",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": null,
+    "estilos": [
+      "fine-line"
+    ],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "kawaiink",
+    "nombre": "Kawaiink",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": null,
+    "estilos": [
+      "color"
+    ],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "casa-estudio",
+    "nombre": "Casa Estudio",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "zona": null,
+    "estilos": [
+      "fine-line",
+      "realismo"
+    ],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "black-ship",
+    "nombre": "Black Ship",
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "zona": null,
+    "estilos": [
+      "fine-line",
+      "color"
+    ],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "inkonik-tattoo-studio",
+    "nombre": "Inkonik Tattoo Studio",
+    "ciudad": "Belo Horizonte",
+    "pais": "Brasil",
+    "zona": null,
+    "estilos": [
+      "color"
+    ],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "stefano-tattoo-studio",
+    "nombre": "Stefano Tattoo Studio",
+    "ciudad": "Lima",
+    "pais": "Perú",
+    "zona": null,
+    "estilos": [
+      "realismo"
+    ],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "andromeda-ink-studio",
+    "nombre": "Andrómeda Ink Studio",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "black-rose-tattoo",
+    "nombre": "Black Rose Tattoo",
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "zona": null,
+    "estilos": [
+      "color"
+    ],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "chinatown-tattoo",
+    "nombre": "Chinatown Tattoo",
+    "ciudad": "Madrid",
+    "pais": "España",
+    "zona": null,
+    "estilos": [
+      "realismo"
+    ],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "gotham-tattoo-madrid",
+    "nombre": "Gotham Tattoo Madrid",
+    "ciudad": "Madrid",
+    "pais": "España",
+    "zona": null,
+    "estilos": [
+      "color"
+    ],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "art-and-body",
+    "nombre": "Art and Body",
+    "ciudad": "",
+    "pais": "Nueva Zelanda",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "hanky-panky",
+    "nombre": "Hanky Panky",
+    "ciudad": "Ámsterdam",
+    "pais": "Países Bajos",
+    "zona": null,
+    "estilos": [
+      "color"
+    ],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "tribal-tattoo",
+    "nombre": "Tribal Tattoo",
+    "ciudad": "Roma",
+    "pais": "Italia",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "",
+    "instagram": "",
+    "web": "",
+    "fuentes": [],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
   }
 ]

@@ -1,1 +1,307 @@
-[]
+[
+  {
+    "tema": "convenciones",
+    "pais": "Argentina",
+    "ciudad": "Buenos Aires",
+    "texto": "La gran convención porteña se realiza en La Rural (Palermo) y ha usado varios nombres: Tattoo Show, Buenos Aires Tattoo Show y, más recientemente, Mandinga Tattoo Expo. La edición de 2026 se celebró del 20 al 22 de marzo; las fuentes no coinciden en su numeración (23.ª según el sitio de turismo porteño, 19.ª según otros listados).",
+    "fuente": "https://turismo.buenosaires.gob.ar/es/article/mandinga-tattoo-expo-buenos-aires"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Brasil",
+    "ciudad": "Río de Janeiro",
+    "texto": "Tattoo Week Rio se celebra cada enero desde 2013. Para la edición de 2016 en el centro de convenciones SulAmérica se anunciaron unos 900 artistas de 14 países y más de 240 stands.",
+    "fuente": "https://www.jb.com.br/cultura/noticias/2016/01/11/versao-carioca-da-tattoo-week-contara-com-cerca-de-900-artistas-de-14-paises.html"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Brasil",
+    "ciudad": "São Paulo",
+    "texto": "La edición paulista de Tattoo Week nació en 2011. Su 12.ª edición se celebró del 15 al 17 de noviembre de 2024 en el Expo Center Norte y la organización la promocionó como la mayor convención de tatuaje del mundo (afirmación promocional, no verificada de forma independiente).",
+    "fuente": "https://www.tribunadosertao.com.br/brasil/2024/11/17/692829-veja-imagens-da-maior-feira-de-tatuagens-do-mundo-sediada-no-brasil"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Colombia",
+    "ciudad": "Medellín",
+    "texto": "Expotatuaje Medellín se celebra en el centro de convenciones Plaza Mayor. Su 15.ª edición (2025) reunió artistas de cinco continentes y sumó por primera vez Expoanimé.",
+    "fuente": "https://www.elcolombiano.com/cultura/expotatuaje-medellin-2025-expoanime-anime-tatuajes-plaza-mayor-II27588077"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "España",
+    "ciudad": "Barcelona",
+    "texto": "La Barcelona Tattoo Expo nació en las Cotxeres de Sants, se celebró desde 2008 en La Farga de L'Hospitalet y en 2013 se trasladó al recinto de Montjuïc de Fira de Barcelona.",
+    "fuente": "https://stagingwww.firabarcelona.com/en/press-release/uncategorized/tattoo-culture-will-fill-the-montjuic-exhibition-centre/"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "España",
+    "ciudad": "Barcelona",
+    "texto": "La Barcelona Tattoo Expo, organizada por Urban Line Concept dentro del Baum Fest, anunció su 29.ª edición para el 2 al 4 de octubre de 2026 en Fira de Barcelona.",
+    "fuente": "https://inkppl.com/es/tattooevents/2026/october-2026/barcelona-tattoo-expo-2026"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "España",
+    "ciudad": "Madrid",
+    "texto": "La Madrid Tattoo Convention celebró su primera edición del 21 al 23 de noviembre de 2025 en la Ciudad Deportiva Príncipe Felipe de Arganda del Rey, con unos 150 tatuadores nacionales e internacionales. La segunda edición se programó para el 23 al 25 de octubre de 2026.",
+    "fuente": "https://vivirediciones.es/?p=1142351"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Chile",
+    "ciudad": "Santiago",
+    "texto": "La Expo Tattoo Santiago 2014, en el Club Hípico, reunió a unos 140 artistas, cerca del 60 % de ellos extranjeros.",
+    "fuente": "https://www.theclinic.cl/2014/05/19/santiago-se-convirtio-este-fin-de-semana-en-la-ciudad-del-tatuaje-sudamericano/"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Perú",
+    "ciudad": "Lima",
+    "texto": "La Inti Tattoo Expo Perú 2022 se celebró del 16 al 18 de septiembre de 2022 en el Centro de Convenciones María Angola, en Miraflores.",
+    "fuente": "https://inkppl.com/en/tattooevents/2022/september-2022/inti-tattoo-expo-peru-2022"
+  },
+  {
+    "tema": "historia",
+    "pais": "Brasil",
+    "ciudad": "Santos",
+    "texto": "El danés Knud Harald Lykke Gregersen, conocido como Tattoo Lucky, es considerado el primer tatuador profesional de Brasil. Llegó al puerto de Santos en 1959 con una máquina eléctrica de tatuar.",
+    "fuente": "https://viva.com.br/estilo-de-vida/tatuadores-60-contam-historia-da-tatoo-no-brasil-do-porto-as-redes-sociais.html"
+  },
+  {
+    "tema": "historia",
+    "pais": "Uruguay",
+    "ciudad": "Montevideo",
+    "texto": "Montevideo Portal presenta a Eduardo Sasía, con unos 33 años de oficio, como uno de los primeros tatuadores de Uruguay.",
+    "fuente": "https://www.montevideo.com.uy/Noticias/La-historia-de-Eduardo-Sasia-el-uruguayo-que-tatuo-a-soldados-de-EE-UU-en-Alemania-uc963627"
+  },
+  {
+    "tema": "regulacion",
+    "pais": "Argentina",
+    "ciudad": "Buenos Aires",
+    "texto": "En la Ciudad de Buenos Aires, la Ley 1897 (2005) regula tatuajes, perforaciones y micropigmentación. Contempla el consentimiento informado y las normas de habilitación de locales, y permite tatuar a menores de 18 años no emancipados solo con autorización escrita y firmada de sus padres o representantes.",
+    "fuente": "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/82019"
+  },
+  {
+    "tema": "regulacion",
+    "pais": "España",
+    "ciudad": "Barcelona",
+    "texto": "En Cataluña, el Decreto 90/2008, de 22 de abril, regula las prácticas de tatuaje, micropigmentación y piercing y los requisitos higiénico-sanitarios de los establecimientos. El Departament de Salut homologa los cursos de formación del personal aplicador.",
+    "fuente": "https://dibaaps.diba.cat/vnis/temp/CIDO_dogc_2008_04_20080424_08105216.pdf"
+  },
+  {
+    "tema": "regulacion",
+    "pais": "Colombia",
+    "ciudad": null,
+    "texto": "En Colombia, la Resolución 2263 de 2004 del Ministerio de la Protección Social fija los requisitos de apertura y funcionamiento de los centros de estética y establecimientos similares. Es el marco que se suele aplicar a los estudios de tatuaje, bajo vigilancia de las secretarías de salud locales.",
+    "fuente": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resoluci%C3%B3n_2263_de_2004.pdf"
+  },
+  {
+    "tema": "regulacion",
+    "pais": "Brasil",
+    "ciudad": null,
+    "texto": "En Brasil, según Anvisa, la fiscalización de los estudios de tatuaje, la emisión del permiso sanitario (alvará) y los procesos administrativos corresponden a las vigilancias sanitarias locales, aunque estados y municipios pueden sumar sus propias normas.",
+    "fuente": "https://www.gov.br/anvisa/pt-br/assuntos/servicosdesaude/saloes-tatuagens-creches/tatuagem-e-piercing"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Reino Unido",
+    "ciudad": "Londres",
+    "nombre": "International London Tattoo Convention",
+    "texto": "Miki Vialetto y Marcus Berriman organizaban la convención, que siempre se celebró en Tobacco Dock y reunía a más de 400 tatuadores invitados. Tuvo 15 ediciones consecutivas entre 2005 y 2019. El 15 de enero de 2021 Vialetto anunció su fin y citó la pandemia como factor.",
+    "fuente": "https://www.worldtattooevents.com/london-tattoo-convention/"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Reino Unido",
+    "ciudad": "Londres",
+    "nombre": "International London Tattoo Convention",
+    "texto": "Time Out Londres la describió en 2019 como la convención de tatuaje más grande de Europa.",
+    "fuente": "https://timeout.com/london/news/the-biggest-tattoo-convention-in-europe-returns-to-london-this-weekend-092519"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Francia",
+    "ciudad": "París",
+    "nombre": "Mondial du Tatouage",
+    "texto": "Tin-Tin creó el Mondial du Tatouage en 1999, y la convención se celebra en la Grande Halle de la Villette. La edición del 30 de enero al 1 de febrero de 2026 se anunció como la última, con unos 550 tatuadores previstos.",
+    "fuente": "https://sortiraparis.com/en/what-to-do-in-paris/shows-and-fairs/articles/272735-mondial-du-tatouage-in-paris-final-event-scheduled-for-2026"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Italia",
+    "ciudad": "Milán",
+    "nombre": "Milano Tattoo Convention",
+    "texto": "Nació en 1996 como una reunión de amigos aficionados al tatuaje, la música y las motos, y se convirtió en un evento internacional. Las últimas ediciones se celebran en el Superstudio Maxi de Milán. Las fuentes no coinciden en la numeración de las ediciones recientes.",
+    "fuente": "https://www.ilgiorno.it/cosa-fare/non-solo-tatuaggi-perche-la-milano-tattoo-convention-e-il-nuovo-rito-pop-della-citta-dzp7n2sm"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Alemania",
+    "ciudad": "Fráncfort",
+    "nombre": "Frankfurt Tattoo Convention / Gods of Ink",
+    "texto": "La Frankfurt Tattoo Convention tuvo 27 ediciones entre 1993 y 2019 en la Messe Frankfurt. Su sucesora, Gods of Ink, celebró su primera edición del 14 al 16 de abril de 2023 con unos 350 artistas seleccionados.",
+    "fuente": "https://www.worldtattooevents.com/?p=899"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Alemania",
+    "ciudad": "Berlín",
+    "nombre": "Tattoo Convention Berlin",
+    "texto": "Se fundó en 1991 como la 1.ª German Tattoo Convention y se celebra desde hace décadas en el Arena Berlin. visitBerlin la llama la feria de tatuaje más antigua del mundo, una afirmación promocional que choca con otras fuentes.",
+    "fuente": "https://www.visitberlin.de/en/event/tattoo-convention-berlin"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Italia",
+    "ciudad": "Florencia",
+    "nombre": "Florence Tattoo Convention",
+    "texto": "La primera edición se celebró en 2008 en el pabellón Cavaniglia de la Fortezza da Basso. La edición de 2019, la 12.ª, reunió a unos 390 tatuadores internacionales.",
+    "fuente": "https://www.gonews.it/2019/11/06/presentata-la-12esima-edizione-della-florence-tattoo-convention/amp/"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Estados Unidos",
+    "ciudad": "Phoenix",
+    "nombre": "Hell City Tattoo Festival",
+    "texto": "Durb Morrison fundó Hell City en Columbus (Ohio) en 2002 y la llevó a Phoenix en 2007. La edición del 14 al 16 de agosto de 2026 se celebró en el Arizona Biltmore con más de 200 artistas.",
+    "fuente": "https://www.phoenixnewtimes.com/arts-culture/2025-phoenix-hell-city-tattoo-fest-guide-22428090/"
+  },
+  {
+    "tema": "convenciones",
+    "pais": "Estados Unidos",
+    "ciudad": "Costa Mesa",
+    "nombre": "Musink",
+    "texto": "Travis Barker presenta Musink, que combina convención de tatuaje, exposición de coches y conciertos en el OC Fair & Event Center. La 9.ª edición (4-6 de marzo de 2016) reunió a más de 300 tatuadores.",
+    "fuente": "https://music.mxdwn.com/2016/01/19/news/travis-barker-presents-musink-announces-2016-lineup-including-the-transplants-deftones-and-circa-survive/"
+  },
+  {
+    "tema": "cultura",
+    "pais": "Tailandia",
+    "ciudad": "Nakhon Pathom",
+    "nombre": "Wai Khru de Wat Bang Phra",
+    "texto": "El templo Wat Bang Phra celebra cada año un Wai Khru, una ceremonia de respeto al maestro, en honor de Luang Pho Pern, el antiguo abad famoso por sus sak yant, que murió en 2002. Los devotos acuden a 'recargar' sus tatuajes y algunos entran en trance. Suele celebrarse en marzo, pero la fecha cambia cada año.",
+    "fuente": "https://www.theglobeandmail.com/life/thailands-temple-of-tattoos/article25280918"
+  },
+  {
+    "tema": "cultura",
+    "pais": "Tailandia",
+    "ciudad": null,
+    "nombre": null,
+    "texto": "En el sak yant ('sak' significa golpear o tatuar, y 'yant' viene de yantra) se mezclan influencias budistas, brahmánicas y animistas. Tradicionalmente lo aplica un ajarn o un monje, y quien lo recibe debe seguir reglas que varían según el maestro.",
+    "fuente": "https://thediplomat.com/2016/11/sacred-ink-thailands-magic-tattoos"
+  },
+  {
+    "tema": "historia",
+    "pais": "Nueva Zelanda",
+    "ciudad": null,
+    "nombre": null,
+    "texto": "Según la enciclopedia oficial Te Ara, el tā moko se hacía tradicionalmente con uhi, cinceles de hueso de ave marina (en algunas zonas, de albatros), golpeados con un pequeño mazo. El pigmento, llamado wai ngārahu, se elaboraba con carbón vegetal. Tras el contacto europeo llegaron los cinceles de metal; hacia la Primera Guerra Mundial se usaban agujas, y desde finales del siglo XX la máquina de tatuar.",
+    "fuente": "https://teara.govt.nz/en/ta-moko-maori-tattooing/page-2"
+  },
+  {
+    "tema": "cultura",
+    "pais": "Nueva Zelanda",
+    "ciudad": "Wellington",
+    "nombre": "Te Mātātuhi ki Te Papa",
+    "texto": "Entre finales de septiembre y principios de octubre de 2025, el colectivo Te Uhi ā Mataora organizó en el museo Te Papa tres días públicos de moko kanohi (moko facial) aplicado en vivo. Antes, guiado por Tā Derek Lardelli, el colectivo había estudiado más de 200 toi moko (cabezas tatuadas preservadas) repatriadas por el programa Karanga Aotearoa.",
+    "fuente": "https://www.rnz.co.nz/news/top/574746/te-papa-showcases-moko-kanohi-or-facial-tattooing-in-action"
+  },
+  {
+    "tema": "cultura",
+    "pais": "Nueva Zelanda",
+    "ciudad": null,
+    "nombre": null,
+    "texto": "La exposición de Te Papa con fotografías de Marti Friedlander retrata a las kuia que fueron la última generación en recibir el moko kauae (moko del mentón) por tradición ininterrumpida. Hoy cientos de mujeres maoríes lo llevan de nuevo.",
+    "fuente": "https://www.tepapa.govt.nz/node/317"
+  },
+  {
+    "tema": "historia",
+    "pais": "Italia",
+    "ciudad": null,
+    "nombre": null,
+    "texto": "Investigadores de EURAC cartografiaron 61 tatuajes en Ötzi, el hombre de hielo de unos 5300 años, agrupados en 19 conjuntos de líneas paralelas.",
+    "fuente": "https://www.smithsonianmag.com/smart-news/61-tattoos-otzi-5300-year-old-iceman-180954035/"
+  },
+  {
+    "tema": "historia",
+    "pais": "Italia",
+    "ciudad": null,
+    "nombre": null,
+    "texto": "Un estudio de 2024 en el European Journal of Archaeology, liderado por Aaron Deter-Wolf, concluyó que los tatuajes de Ötzi se hicieron probablemente por punción con un punzón de hueso o cobre, y no por incisiones frotadas con carbón como se creía.",
+    "fuente": "https://www.snexplores.org/article/how-otzi-iceman-mummy-got-tattoos"
+  },
+  {
+    "tema": "historia",
+    "pais": "Egipto",
+    "ciudad": null,
+    "nombre": null,
+    "texto": "En 2018, el British Museum y la Universidad de Oxford revelaron con fotografía infrarroja tatuajes figurativos en dos momias predinásticas de Gebelein (3351-3017 a. C.): un toro salvaje y un arruí en el brazo de un hombre, y motivos en forma de S en el hombro de una mujer. Son los tatuajes figurativos más antiguos que se conocen.",
+    "fuente": "https://www.nationalgeographic.com/history/article/ancient-egyptian-mummy-tattoos-spd"
+  },
+  {
+    "tema": "historia",
+    "pais": "Rusia",
+    "ciudad": null,
+    "nombre": null,
+    "texto": "La 'princesa de Ukok', una mujer de la cultura pazyryk hallada en 1993 en la meseta de Ukok (Altái), conserva gracias al permafrost tatuajes de animales míticos, como un ciervo con pico de grifo en el hombro izquierdo.",
+    "fuente": "https://www.history.com/articles/ice-maiden-mummy-siberia"
+  },
+  {
+    "tema": "historia",
+    "pais": "Japón",
+    "ciudad": null,
+    "nombre": null,
+    "texto": "El gobierno Meiji prohibió el tatuaje en 1872 como parte de su modernización frente a Occidente, y la prohibición se levantó en 1948, durante la ocupación aliada. Antes, entre 1827 y 1830, las estampas de Utagawa Kuniyoshi de los héroes del Suikoden habían inspirado el tatuaje de cuerpo completo.",
+    "fuente": "https://www.outlooktraveller.com/experiences/heritage/irezumi-the-history-and-meaning-of-japans-traditional-tattoos"
+  },
+  {
+    "tema": "regulacion",
+    "pais": null,
+    "ciudad": null,
+    "nombre": "Restricción REACH de tintas de tatuaje (UE)",
+    "texto": "Desde el 5 de enero de 2022, la restricción REACH (Reglamento (UE) 2020/2081, entrada 75 del anexo XVII) limita en la UE las sustancias peligrosas en tintas de tatuaje y maquillaje permanente. La propuesta de ECHA abarcaba unas 4000 sustancias. Su objetivo no era prohibir el tatuaje, sino fijar límites de concentración. Las mezclas deben llevar la mención 'Mixture for use in tattoos or permanent make-up'.",
+    "fuente": "https://echa.europa.eu/-/reach-restriction-of-hazardous-substances-in-tattoo-inks-and-permanent-make-up"
+  },
+  {
+    "tema": "regulacion",
+    "pais": null,
+    "ciudad": null,
+    "nombre": "Restricción REACH de tintas de tatuaje (UE)",
+    "texto": "Los pigmentos Blue 15:3 y Green 7 tuvieron una transición de 24 meses, más larga que el resto, y quedaron restringidos desde enero de 2023 porque la industria pidió más tiempo para encontrar alternativas.",
+    "fuente": "https://www.obelis.net/news/tattoo-inks-and-permanent-make-up-pigments-new-restrictions/"
+  },
+  {
+    "tema": "regulacion",
+    "pais": "Japón",
+    "ciudad": null,
+    "nombre": null,
+    "texto": "El 17 de septiembre de 2020, el Tribunal Supremo de Japón confirmó que tatuar no es un acto médico y que los tatuadores no necesitan licencia médica. Así cerró el caso del tatuador de Osaka Taiki Masuda; desde 2001 el Ministerio de Sanidad lo consideraba un acto médico. El sector sigue en una zona legal gris.",
+    "fuente": "https://www.timeout.com/tokyo/news/tattoo-artists-in-japan-no-longer-need-medical-license-to-practise-091820"
+  },
+  {
+    "tema": "regulacion",
+    "pais": "Japón",
+    "ciudad": null,
+    "nombre": null,
+    "texto": "En marzo de 2016, la Agencia de Turismo de Japón pidió por primera vez a los onsen que admitieran a turistas extranjeros tatuados. Fue una petición no vinculante. Una encuesta de 2015 había mostrado que alrededor del 56 % de los establecimientos no admitía tatuajes.",
+    "fuente": "https://www.japantimes.co.jp/news/2016/03/17/national/japans-government-to-ask-spa-operators-to-accept-tattooed-foreigners"
+  },
+  {
+    "tema": "regulacion",
+    "pais": "Corea del Sur",
+    "ciudad": null,
+    "nombre": null,
+    "texto": "Desde una sentencia del Tribunal Supremo de 1992, en Corea del Sur el tatuaje se consideraba un acto médico. En marzo de 2022, el Tribunal Constitucional mantuvo la prohibición para quienes no fueran médicos por 5 votos contra 4, en casos impulsados por el sindicato de tatuadores de Kim Do-yoon (Doy).",
+    "fuente": "https://www.arabnews.com/node/2054291/offbeat"
+  },
+  {
+    "tema": "regulacion",
+    "pais": "Corea del Sur",
+    "ciudad": null,
+    "nombre": "Ley de Tatuadores (Tattooist Act)",
+    "texto": "El 25 de septiembre de 2025 la Asamblea Nacional aprobó la Ley de Tatuadores, que permite tatuar a quien no es médico si aprueba un examen nacional y obtiene una licencia. La ley exige formación en higiene, mantiene prohibida la eliminación de tatuajes y entra en vigor tras un periodo de gracia de dos años.",
+    "fuente": "https://www.koreajoongangdaily.com/korea/national-assembly-passes-historic-tattooist-act-legalizes-tattooing-by-non-medical-professionals/12380266"
+  }
+]

@@ -1632,5 +1632,1996 @@
     "permisoImagenes": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "sammy-ramirez",
+    "nombre": "Sammy Ramírez",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuador tapatío considerado uno de los pioneros del tatuaje en Guadalajara. El Informador lo describió en 2013 como iniciador de la Expo Tatuaje Guadalajara, entonces en su decimonovena edición. Unión Jalisco lo incluyó en 2017 entre los tatuadores más reconocidos de la zona metropolitana.",
+    "datos": [
+      {
+        "texto": "El Informador (2013) señala que llevaba 30 años en la escena nacional y que fue el iniciador de la Expo Tatuaje Guadalajara.",
+        "fuente": "https://www.informador.mx/Suplementos/Tapatios-en-su-tinta-20130420-0020.html"
+      },
+      {
+        "texto": "Unión Jalisco (2017) lo menciona, junto con Aurelio 'Güello' García, como pionero del movimiento del tatuaje en la ciudad.",
+        "fuente": "https://www.unionjalisco.mx/2017/07/13/los-mejores-tatuadores-de-gdl/"
+      },
+      {
+        "texto": "Un boletín de la UdeG (2017) cita a 'El Sammy' entre los principales tatuadores nacionales que trabajan en la Zona Metropolitana de Guadalajara.",
+        "fuente": "https://comsoc.udg.mx/printpdf/52016"
+      }
+    ],
+    "fuentes": [
+      "https://www.informador.mx/Suplementos/Tapatios-en-su-tinta-20130420-0020.html",
+      "https://www.unionjalisco.mx/2017/07/13/los-mejores-tatuadores-de-gdl/",
+      "https://comsoc.udg.mx/printpdf/52016"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "aurelio-guello-garcia",
+    "nombre": "Don Güello",
+    "nombreReal": "Aurelio García Armas",
+    "estudio": "",
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuador de Guadalajara reconocido como uno de los fundadores del movimiento del tatuaje en la ciudad en los años ochenta. La prensa local lo ubica también como impulsor de las expos y convenciones de tatuaje en la metrópoli.",
+    "datos": [
+      {
+        "texto": "El Archivo del Tatuaje Mexicano (Escuela La Esmeralda) recoge que se presentó, en una entrevista radial de 2014 y en una conferencia de 2016, como uno de los fundadores del movimiento del tatuaje en Guadalajara en los años ochenta.",
+        "fuente": "https://www.esmeralda.edu.mx/archivo-del-tatuaje-mexicano?lang=en"
+      },
+      {
+        "texto": "Unión Jalisco (2017) lo señala como impulsor de las expos y convenciones de tatuaje en la metrópoli.",
+        "fuente": "https://www.unionjalisco.mx/2017/07/13/los-mejores-tatuadores-de-gdl/"
+      }
+    ],
+    "fuentes": [
+      "https://www.esmeralda.edu.mx/archivo-del-tatuaje-mexicano?lang=en",
+      "https://www.unionjalisco.mx/2017/07/13/los-mejores-tatuadores-de-gdl/",
+      "https://comsoc.udg.mx/printpdf/52016"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "david-el-barra-sanchez",
+    "nombre": "El Barra",
+    "nombreReal": "David Sánchez Rico",
+    "estudio": "",
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuador de Guadalajara citado por la Universidad de Guadalajara en un reportaje de 2017 sobre el auge del tatuaje en la ciudad. Ha formado aprendices llegados de otros estados.",
+    "datos": [
+      {
+        "texto": "En un boletín de la UdeG (2017) afirmó: 'Guadalajara es una de las mejores plazas del país en el tatuaje. Yo he tenido aprendices de otras partes del país'.",
+        "fuente": "https://comsoc.udg.mx/printpdf/52016"
+      },
+      {
+        "texto": "Unión Jalisco (2017) lo incluye entre los tatuadores más famosos de la zona metropolitana de Guadalajara.",
+        "fuente": "https://www.unionjalisco.mx/2017/07/13/los-mejores-tatuadores-de-gdl/"
+      }
+    ],
+    "fuentes": [
+      "https://comsoc.udg.mx/printpdf/52016",
+      "https://www.unionjalisco.mx/2017/07/13/los-mejores-tatuadores-de-gdl/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "adolfo-rubio",
+    "nombre": "Adolfo Rubio",
+    "nombreReal": null,
+    "estudio": "ritual",
+    "ciudad": "Monterrey",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "adolforubio",
+    "bio": "Tatuador que trabaja entre Monterrey y San Antonio, Texas. Su sitio oficial describe su estilo como versátil. Cultura Colectiva lo menciona entre los tatuadores destacados del norte del país, en el estudio Ritual.",
+    "datos": [
+      {
+        "texto": "Cultura Colectiva lo menciona como tatuador del estudio Ritual en su guía de ciudades mexicanas con los mejores tatuadores.",
+        "fuente": "https://culturacolectiva.com/estilo-de-vida/viajes/ciudades-de-mexico-con-los-mejores-tatuadores/"
+      },
+      {
+        "texto": "Su sitio oficial lo presenta como tatuador con presencia en Monterrey y San Antonio.",
+        "fuente": "https://www.rubiotattoo.com/en"
+      }
+    ],
+    "fuentes": [
+      "https://culturacolectiva.com/estilo-de-vida/viajes/ciudades-de-mexico-con-los-mejores-tatuadores/",
+      "https://www.rubiotattoo.com/en",
+      "https://www.instagram.com/adolforubio/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "lucio-ramirez",
+    "nombre": "Lucio Ramírez",
+    "nombreReal": null,
+    "estudio": "tintas-de-acero",
+    "ciudad": "Monterrey",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuador regiomontano, fundador del espacio Tintas de Acero. Cultura Colectiva lo destaca entre los tatuadores de Monterrey. También expone obra fuera de la piel.",
+    "datos": [
+      {
+        "texto": "Milenio lo identifica como fundador de Tintas de Acero, estudio donde trabaja el tatuador y ceramista Alekz.",
+        "fuente": "https://www.milenio.com/politica/comunidad/del-tatuaje-a-la-nobleza-del-barro"
+      },
+      {
+        "texto": "Cultura Colectiva lo menciona como tatuador destacado de Tintas de Acero.",
+        "fuente": "https://culturacolectiva.com/estilo-de-vida/viajes/ciudades-de-mexico-con-los-mejores-tatuadores/"
+      },
+      {
+        "texto": "En octubre de 2024 presentó la exposición individual 'Refugios del Alma' en el Centro de Arte Emergente de Querétaro.",
+        "fuente": "https://codiceinformativo.com/2024/10/anuncian-exposicion-del-mexico-pre-y-post-conquista/"
+      }
+    ],
+    "fuentes": [
+      "https://www.milenio.com/politica/comunidad/del-tatuaje-a-la-nobleza-del-barro",
+      "https://culturacolectiva.com/estilo-de-vida/viajes/ciudades-de-mexico-con-los-mejores-tatuadores/",
+      "https://codiceinformativo.com/2024/10/anuncian-exposicion-del-mexico-pre-y-post-conquista/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "lissy-elizondo",
+    "nombre": "Lissy Elizondo",
+    "nombreReal": null,
+    "estudio": "goth-ink",
+    "ciudad": "Monterrey",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuadora regiomontana al frente del estudio Goth Ink. El sitio del estudio la presenta como tatuadora con años de experiencia en piezas personalizadas y la incluye en su equipo.",
+    "datos": [
+      {
+        "texto": "El sitio oficial de Goth Ink la incluye en su equipo de tatuadores y destaca su trabajo en piezas personalizadas.",
+        "fuente": "https://gothink.mx/conocenos/"
+      }
+    ],
+    "fuentes": [
+      "https://gothink.mx/",
+      "https://gothink.mx/conocenos/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "trenes",
+    "nombre": "Trenes",
+    "nombreReal": null,
+    "estudio": "tattoo-tren",
+    "ciudad": "León",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "tradicional",
+      "blackwork"
+    ],
+    "instagram": "",
+    "bio": "Tatuador originario de Salamanca, Guanajuato, conocido por tatuar al rapero Santa Fe Klan. En febrero de 2023 abrió su propio estudio en León. Trabaja tradicional, old school y blackwork.",
+    "datos": [
+      {
+        "texto": "Periódico AM informó en febrero de 2023 que abrió su estudio en León, en Río Mayo 6004, esquina con Paseo de Jerez.",
+        "fuente": "https://www.am.com.mx/espectaculos/2023/2/8/tatuador-de-santa-fe-klan-alcalde-de-guanajuato-abre-su-estudio-en-leon-646631.html"
+      },
+      {
+        "texto": "Entre sus clientes figuran Santa Fe Klan y el alcalde de Guanajuato, según la misma nota.",
+        "fuente": "https://www.am.com.mx/espectaculos/2023/2/8/tatuador-de-santa-fe-klan-alcalde-de-guanajuato-abre-su-estudio-en-leon-646631.html"
+      }
+    ],
+    "fuentes": [
+      "https://www.am.com.mx/espectaculos/2023/2/8/tatuador-de-santa-fe-klan-alcalde-de-guanajuato-abre-su-estudio-en-leon-646631.html"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "luis-pelon-villagomez",
+    "nombre": "Pelón Villagómez",
+    "nombreReal": "Luis Villagómez",
+    "estudio": "la-clinica",
+    "ciudad": "Querétaro",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuador queretano considerado uno de los pioneros del tatuaje en el estado. Trabaja en La Clínica, que la prensa local señala como el primer estudio de su tipo en Querétaro. Ha participado en jornadas de tatuaje a cambio de donativos para asociaciones.",
+    "datos": [
+      {
+        "texto": "El Universal Querétaro lo describe como uno de los pioneros del tatuaje en el estado.",
+        "fuente": "https://www.eluniversalqueretaro.mx/nuestras-historias/el-tatuaje-es-el-arte-que-llevas-siempre-cuenta-pelon-villagomez/"
+      },
+      {
+        "texto": "Diario de Querétaro reportó una jornada solidaria en La Clínica con 136 tatuajes y 37 perforaciones a cambio de donativos.",
+        "fuente": "https://oem.com.mx/diariodequeretaro/gossip/el-tatuaje-es-un-medio-para-crear-arte-luis-villagomez-18822907"
+      }
+    ],
+    "fuentes": [
+      "https://oem.com.mx/diariodequeretaro/gossip/el-tatuaje-es-un-medio-para-crear-arte-luis-villagomez-18822907",
+      "https://www.eluniversalqueretaro.mx/nuestras-historias/el-tatuaje-es-el-arte-que-llevas-siempre-cuenta-pelon-villagomez/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "caro-floyd",
+    "nombre": "Caro Floyd",
+    "nombreReal": "Carolina Alcázar",
+    "estudio": "rat-estudio",
+    "ciudad": "Querétaro",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuadora queretana y cofundadora de RAT Estudio, junto con Quidam. Tiene formación multidisciplinaria en la Universidad Autónoma de Querétaro. Su estudio funciona también como espacio de encuentro cultural.",
+    "datos": [
+      {
+        "texto": "El Universal Querétaro la presenta como cofundadora de RAT Estudio, formada de manera multidisciplinaria en la UAQ.",
+        "fuente": "https://www.eluniversalqueretaro.mx/nuestras-historias/rat-estudio-un-espacio-de-encuentro-cultural/"
+      }
+    ],
+    "fuentes": [
+      "https://www.eluniversalqueretaro.mx/nuestras-historias/rat-estudio-un-espacio-de-encuentro-cultural/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "quidam",
+    "nombre": "Quidam",
+    "nombreReal": "Javier Estrada",
+    "estudio": "rat-estudio",
+    "ciudad": "Querétaro",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuador queretano y cofundador de RAT Estudio, junto con Caro Floyd. Tiene formación multidisciplinaria en la Universidad Autónoma de Querétaro.",
+    "datos": [
+      {
+        "texto": "El Universal Querétaro lo presenta como cofundador de RAT Estudio, formado de manera multidisciplinaria en la UAQ.",
+        "fuente": "https://www.eluniversalqueretaro.mx/nuestras-historias/rat-estudio-un-espacio-de-encuentro-cultural/"
+      }
+    ],
+    "fuentes": [
+      "https://www.eluniversalqueretaro.mx/nuestras-historias/rat-estudio-un-espacio-de-encuentro-cultural/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "miss-leto",
+    "nombre": "Miss Leto",
+    "nombreReal": "Leto Martín",
+    "estudio": "",
+    "ciudad": "Mérida",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuadora de Mérida con alrededor de una década de trayectoria según declaró en la Expo Tatuaje 2023. Participó en el Flash Day Feminista de 2019, organizado por tatuadoras para mujeres y la comunidad LGBT+.",
+    "datos": [
+      {
+        "texto": "En la Expo Tatuaje de Mérida declaró a La Jornada Maya: 'yo empecé a tatuar hace 10 años y había muy pocas mujeres'.",
+        "fuente": "https://www.lajornadamaya.mx/yucatan/108805/expo-tatuaje-reune-talento-internacional-de-la-tinta-en-merida"
+      },
+      {
+        "texto": "Figuró entre las participantes del Flash Day Feminista en el estudio Tattoo Inkdustry (2019).",
+        "fuente": "https://www.lajornadamaya.mx/yucatan/118869/Flash-Day-Feminista--tatuajes-hechos-por-mujeres-para-mujeres"
+      }
+    ],
+    "fuentes": [
+      "https://www.lajornadamaya.mx/yucatan/108805/expo-tatuaje-reune-talento-internacional-de-la-tinta-en-merida",
+      "https://www.lajornadamaya.mx/yucatan/118869/Flash-Day-Feminista--tatuajes-hechos-por-mujeres-para-mujeres"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "gooty-balam",
+    "nombre": "Gooty Balam",
+    "nombreReal": null,
+    "estudio": "gold-balam-studio-tattoo",
+    "ciudad": "Mérida",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Fundador y artista principal de Gold Balam Studio Tattoo en Mérida. El sitio del estudio afirma que obtuvo el segundo lugar en un certamen de tatuaje en Nueva York (dato autodeclarado, sin confirmación independiente).",
+    "datos": [
+      {
+        "texto": "Según el sitio oficial del estudio, es 'artista reconocido internacionalmente y segundo lugar en el certamen de tatuaje de Nueva York' (autodeclarado).",
+        "fuente": "https://goldbalam.com.mx/"
+      }
+    ],
+    "fuentes": [
+      "https://goldbalam.com.mx/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "israel-vampiro-pacheco",
+    "nombre": "El Vampiro",
+    "nombreReal": "Israel Pacheco",
+    "estudio": "tatuajes-san-luis",
+    "ciudad": "San Luis Potosí",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuador veterano de San Luis Potosí, con estudio propio en la Zona Centro. Ha declarado a la prensa local que, cuando llegó a la ciudad, solo existían tres estudios de tatuaje.",
+    "datos": [
+      {
+        "texto": "La Orquesta recoge que su estudio está en Uresti #330, Zona Centro, y su declaración: 'Cuando llegué a San Luis Potosí hace 25 años solo existían tres estudios de tatuajes'.",
+        "fuente": "https://laorquesta.mx/estilodevida-siete-estudios-de-tatuajes-en-slp-que-debes-visitar/"
+      },
+      {
+        "texto": "Plano Informativo (2014) lo cita como dueño de su propio estudio con más de 15 años en la ciudad.",
+        "fuente": "https://planoinformativo.com/314466/tatuajes-apertura-y-discriminacion-slp"
+      }
+    ],
+    "fuentes": [
+      "https://laorquesta.mx/estilodevida-siete-estudios-de-tatuajes-en-slp-que-debes-visitar/",
+      "https://planoinformativo.com/314466/tatuajes-apertura-y-discriminacion-slp"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "manuel-garza",
+    "nombre": "Manuel Garza",
+    "nombreReal": null,
+    "estudio": "academy-ink",
+    "ciudad": "San Luis Potosí",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuador originario de Ciudad Valles con más de una década en el oficio. Fundó Academy Ink, que El Sol de San Luis describe como la primera escuela formal de tatuadores del estado.",
+    "datos": [
+      {
+        "texto": "El Sol de San Luis presenta Academy Ink como la primera escuela de tatuadores en San Luis Potosí, con 16 alumnos en un programa de diez meses.",
+        "fuente": "https://oem.com.mx/elsoldesanluis/local/academy-ink-primera-escuela-de-tatuadores-en-san-luis-potosi-13392235"
+      }
+    ],
+    "fuentes": [
+      "https://oem.com.mx/elsoldesanluis/local/academy-ink-primera-escuela-de-tatuadores-en-san-luis-potosi-13392235"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "moroko-gon",
+    "nombre": "Moroko Gon",
+    "nombreReal": null,
+    "estudio": "myobu-estudio",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "japones"
+    ],
+    "instagram": "morokogon",
+    "bio": "Tatuador originario del Estado de México, especializado en tatuaje japonés tradicional. Aprendió el oficio tras mudarse a Japón. Time Out México lo ubicó trabajando en el estudio Myobu, al sur de la CDMX.",
+    "datos": [
+      {
+        "texto": "Time Out México lo presenta como experto en tatuaje japonés, que aprendió el oficio tras mudarse a Japón y trabaja en Myobu.",
+        "fuente": "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/moroko-gon-y-el-arte-del-tatuaje-japones"
+      },
+      {
+        "texto": "Según la misma nota, entre los motivos más pedidos están cobras, geishas, samuráis, flores de cerezo, peces koi y dragones.",
+        "fuente": "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/moroko-gon-y-el-arte-del-tatuaje-japones"
+      }
+    ],
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/moroko-gon-y-el-arte-del-tatuaje-japones"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "juan-homeless",
+    "nombre": "Juan Homeless",
+    "nombreReal": null,
+    "estudio": "myobu-estudio",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "tradicional",
+      "japones"
+    ],
+    "instagram": "",
+    "bio": "Tatuador residente en la Ciudad de México. Su sitio oficial lo presenta como especialista en tradicional americano, japonés y sombras. Trabaja en los estudios Myobu y Diablo Negro.",
+    "datos": [
+      {
+        "texto": "Su sitio oficial indica que trabaja tradicional americano, japonés y sombras, en Myobu y Diablo Negro.",
+        "fuente": "https://juanhomelesstattoo.com/"
+      }
+    ],
+    "fuentes": [
+      "https://juanhomelesstattoo.com/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "udra-castro",
+    "nombre": "Udra Castro",
+    "nombreReal": null,
+    "estudio": "valiente-tattoo",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "fine-line"
+    ],
+    "etiquetas": [
+      "fine-line"
+    ],
+    "instagram": "",
+    "bio": "Tatuadora al frente de Valiente Tattoo. Antes de tatuar fue cantante de jazz y se formó como aprendiz en varios estudios de la CDMX. Su estudio es conocido por trabajar sobre cicatrices y por piezas pequeñas y medianas hechas con agujas muy finas.",
+    "datos": [
+      {
+        "texto": "Time Out México relata que dejó su carrera como cantante de jazz para dedicarse al tatuaje y fue aprendiz en varios estudios de la CDMX.",
+        "fuente": "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/conoce-a-udra-castro-la-tatuadora-al-frente-de-valiente-tattoo"
+      },
+      {
+        "texto": "Dónde Ir (2019) describe Valiente como estudio privado en la Condesa especializado en tatuajes medianos y pequeños con agujas extremadamente finas.",
+        "fuente": "https://dondeir.com/ciudad/donde-tatuarse-en-la-cdmx/2019/09/"
+      }
+    ],
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/conoce-a-udra-castro-la-tatuadora-al-frente-de-valiente-tattoo",
+      "https://dondeir.com/ciudad/donde-tatuarse-en-la-cdmx/2019/09/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "javi-wolf",
+    "nombre": "Javi Wolf",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "color"
+    ],
+    "instagram": "",
+    "bio": "Tatuador especializado en acuarela. Time Out México lo llamó el 'rey de las acuarelas' en su lista de artistas emergentes del tatuaje en la CDMX. Ha trabajado en CDMX, Estado de México, Cancún, Guadalajara y Monterrey.",
+    "datos": [
+      {
+        "texto": "Time Out México: 'Si hay un rey de las acuarelas, ese es Javi'. La nota indica que se agenda por su página de Facebook, JaviWolfInk.",
+        "fuente": "https://www.timeoutmexico.mx/ciudad-de-mexico/compras-estilo/artistas-emergentes-del-tatuaje-df"
+      }
+    ],
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/compras-estilo/artistas-emergentes-del-tatuaje-df"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "alejandra-estrada",
+    "nombre": "Alejandra Estrada",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "alejandraestradatatuadora",
+    "bio": "Milenio la presentó como la primera mujer tatuadora profesional de la CDMX, con casi 30 años de trayectoria. Participa en exposiciones de tatuaje nacionales e internacionales desde 1998.",
+    "datos": [
+      {
+        "texto": "Milenio: 'Alejandra es la primera mujer tatuadora profesional en CdMx', con casi 30 años de experiencia.",
+        "fuente": "https://www.milenio.com/politica/comunidad/tatuajes-cdmx-alejandra-30-anos-experiencia-fotos"
+      },
+      {
+        "texto": "Ha participado en exposiciones de tatuaje desde 1998 y ha visitado Guatemala, Costa Rica, Panamá y Brasil.",
+        "fuente": "https://www.milenio.com/politica/comunidad/tatuajes-cdmx-alejandra-30-anos-experiencia-fotos"
+      }
+    ],
+    "fuentes": [
+      "https://www.milenio.com/politica/comunidad/tatuajes-cdmx-alejandra-30-anos-experiencia-fotos",
+      "https://www.instagram.com/alejandraestradatatuadora/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "gallonegro",
+    "nombre": "Gallonegro",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "realismo"
+    ],
+    "etiquetas": [
+      "realismo",
+      "blackwork"
+    ],
+    "instagram": "",
+    "bio": "Tatuador con estudio en la colonia Roma, incluido por Milenio en su lista de diez tatuadores mexicanos que debes conocer. Se especializa en tinta negra y diseños realistas, y es conocido por sus retratos.",
+    "datos": [
+      {
+        "texto": "Milenio indica que su especialidad son los tatuajes de tinta negra y diseños realistas, y que su estudio está en la colonia Roma.",
+        "fuente": "https://www.milenio.com/estilo/diez-tatuadores-mexicanos-que-debes-conocer"
+      }
+    ],
+    "fuentes": [
+      "https://www.milenio.com/estilo/diez-tatuadores-mexicanos-que-debes-conocer"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "emi-montero",
+    "nombre": "Emi Montero",
+    "nombreReal": null,
+    "estudio": "kawaiink",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "ilustrativo"
+    ],
+    "instagram": "",
+    "bio": "Fundador del Estudio Kawaiink, al sur de la Ciudad de México. Se especializa en temáticas otaku, pop y kawaii.",
+    "datos": [
+      {
+        "texto": "Chilango (2021): 'Emi Montero es el fundador del Estudio Kawaiink, ubicado en la zona sur de la capital'.",
+        "fuente": "https://www.chilango.com/cultura/tatuaje-estilo-kawaii-tatuadores-cdmx/"
+      }
+    ],
+    "fuentes": [
+      "https://www.chilango.com/cultura/tatuaje-estilo-kawaii-tatuadores-cdmx/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "hernan-coretta",
+    "nombre": "Hernán Coretta",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "japones"
+    ],
+    "instagram": "",
+    "bio": "Tatuador argentino especializado en estilo japonés, al que se dedica desde 2001 según Infobae. Empezó a tatuar en Buenos Aires en 1993 y forma parte de la primera generación de tatuadores del país. Es conocido por piezas de gran tamaño y trabaja en convenciones de distintos países.",
+    "datos": [
+      {
+        "texto": "Infobae lo presenta como parte de la primera generación de tatuadores argentinos y señala que en 2001 decidió dedicarse al estilo japonés.",
+        "fuente": "https://www.infobae.com/tendencias/2020/03/06/hernan-coretta-aca-es-muy-dificil-que-se-llegue-a-tatuar-cuerpo-entero-porque-somos-de-otra-cultura/"
+      },
+      {
+        "texto": "Dio un seminario en la edición 2020 del Tattoo Show de Buenos Aires.",
+        "fuente": "https://www.infobae.com/tendencias/2020/03/06/hernan-coretta-aca-es-muy-dificil-que-se-llegue-a-tatuar-cuerpo-entero-porque-somos-de-otra-cultura/"
+      },
+      {
+        "texto": "Tattoo Life indica que empezó a tatuar en Buenos Aires en 1993 y que, al momento de la entrevista, se había trasladado a California.",
+        "fuente": "https://tattoolife.com/hernan-coretta-his-own-personal-version-of-japanese"
+      }
+    ],
+    "fuentes": [
+      "https://www.infobae.com/tendencias/2020/03/06/hernan-coretta-aca-es-muy-dificil-que-se-llegue-a-tatuar-cuerpo-entero-porque-somos-de-otra-cultura/",
+      "https://tattoolife.com/hernan-coretta-his-own-personal-version-of-japanese",
+      "https://kintaro-publishing.com/pages/hernan-coretta"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "zina-samoletova",
+    "nombre": "Zina Samoletova",
+    "nombreReal": null,
+    "estudio": "cucu-studio",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "estilos": [
+      "fine-line"
+    ],
+    "etiquetas": [
+      "fine-line"
+    ],
+    "instagram": "",
+    "bio": "Tatuadora nacida en Rusia y radicada en Buenos Aires. Según Time Out Buenos Aires, en 2018 abrió Cucú Studio, presentado como el primer local de tatuajes fine line de Argentina.",
+    "datos": [
+      {
+        "texto": "Time Out Buenos Aires la incluye entre los mejores tatuadores de la ciudad y dice que en 2018 abrió Cucú Studio, el primer local de tatuajes fine line en Argentina.",
+        "fuente": "https://www.timeout.com/es/buenos-aires/notas/mejores-tatuadores-en-buenos-aires-080124"
+      }
+    ],
+    "fuentes": [
+      "https://www.timeout.com/es/buenos-aires/notas/mejores-tatuadores-en-buenos-aires-080124"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "manuel-lacasa",
+    "nombre": "Manuel Lacasa",
+    "nombreReal": null,
+    "estudio": "casa-estudio",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "estilos": [
+      "fine-line",
+      "realismo"
+    ],
+    "etiquetas": [
+      "fine-line",
+      "realismo"
+    ],
+    "instagram": "",
+    "bio": "Tatuador de Buenos Aires y cofundador de Casa Estudio. Time Out Buenos Aires lo incluye entre los mejores tatuadores de la ciudad y señala que se dedica al microrrealismo, el fine line y el black and grey.",
+    "datos": [
+      {
+        "texto": "Time Out Buenos Aires indica que se dedica al microrrealismo, fine line y black and grey, y que es cofundador de Casa Estudio.",
+        "fuente": "https://www.timeout.com/es/buenos-aires/notas/mejores-tatuadores-en-buenos-aires-080124"
+      }
+    ],
+    "fuentes": [
+      "https://www.timeout.com/es/buenos-aires/notas/mejores-tatuadores-en-buenos-aires-080124"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "sara-rosa-corazon",
+    "nombre": "Sara Rosa Corazón",
+    "nombreReal": null,
+    "estudio": "black-ship",
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "estilos": [
+      "fine-line",
+      "color"
+    ],
+    "etiquetas": [
+      "fine-line",
+      "neotradicional",
+      "ilustrativo"
+    ],
+    "instagram": "",
+    "bio": "Tatuadora argentina que trabaja en Barcelona. Tattoo Life la entrevistó y señala que trabajó cuatro años en el estudio Black Ship de esa ciudad. Directorios especializados describen su trabajo como fine line, sketch y neotradicional.",
+    "datos": [
+      {
+        "texto": "Tattoo Life la presenta como artista argentina que lleva cuatro años trabajando en Black Ship, en Barcelona.",
+        "fuente": "https://www.tattoolife.com/sara-rosa-corazon-a-new-beginning-in-the-name-of-love-and-tattooing/"
+      }
+    ],
+    "fuentes": [
+      "https://www.tattoolife.com/sara-rosa-corazon-a-new-beginning-in-the-name-of-love-and-tattooing/",
+      "https://tattooswizard.com/artists/sararosacorazon"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "el-bara",
+    "nombre": "El Bara",
+    "nombreReal": "Gustavo Barahona",
+    "estudio": "true-love-tattoo-madrid",
+    "ciudad": "Madrid",
+    "pais": "España",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "tradicional"
+    ],
+    "instagram": "",
+    "bio": "Tatuador de estilo tradicional con trayectoria entre Argentina y España. Según Tattoo Life, dirigió un estudio en Buenos Aires antes de abrir True Love Tattoo en Madrid.",
+    "datos": [
+      {
+        "texto": "Tattoo Life lo describe como artista dedicado al tatuaje tradicional, con un estudio previo en Buenos Aires antes de fundar True Love Tattoo en Madrid.",
+        "fuente": "https://www.tattoolife.com/el-bara-a-life-for-traditional-tattoing/"
+      }
+    ],
+    "fuentes": [
+      "https://www.tattoolife.com/el-bara-a-life-for-traditional-tattoing/",
+      "https://www.tattoolife.com/welcome-to-true-love-tattoo-madrid/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "victor-montaghini",
+    "nombre": "Victor Montaghini",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "São Paulo",
+    "pais": "Brasil",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "ilustrativo",
+      "blackwork"
+    ],
+    "instagram": "victormontaghini",
+    "bio": "Artista visual y tatuador de São Paulo, graduado en 1999 en la escuela Panamericana de Arte, que tatúa desde 2002. Guia da Semana lo incluyó entre los tatuadores brasileños a conocer y describió su estilo como contemporáneo y de trazo suelto.",
+    "datos": [
+      {
+        "texto": "Guia da Semana lo incluyó en su lista de 11 tatuadores brasileños que hay que conocer, con estudio propio en Vila Madalena en ese momento.",
+        "fuente": "https://www.guiadasemana.com.br/comportamento/noticia/11-tatuadores-brasileiros-que-voce-precisa-conhecer"
+      },
+      {
+        "texto": "En la plataforma Cocreate vende arte digital para tatuar, con tatuajes que se ejecutan en São Paulo.",
+        "fuente": "https://www.cocreate.ink/artists/victor-montaghini"
+      }
+    ],
+    "fuentes": [
+      "https://www.guiadasemana.com.br/comportamento/noticia/11-tatuadores-brasileiros-que-voce-precisa-conhecer",
+      "https://www.cocreate.ink/artists/victor-montaghini"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "fernando-souza",
+    "nombre": "Fernando Souza",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "São Paulo",
+    "pais": "Brasil",
+    "estilos": [
+      "realismo"
+    ],
+    "etiquetas": [
+      "realismo"
+    ],
+    "instagram": "",
+    "bio": "Tatuador paulistano especializado en hiperrealismo, a quien Tattoo Life llamó 'el maestro brasileño del hiperrealismo'. Según la revista, llegó al tatuaje después de otras carreras y ha cambiado de estudio ocho veces para seguir aprendiendo.",
+    "datos": [
+      {
+        "texto": "Tattoo Life señala que ha cambiado de estudio ocho veces para seguir aprendiendo y lo ubica en el barrio de Brooklin (escrito \"Brooklyn\" en la fuente), en São Paulo.",
+        "fuente": "https://www.tattoolife.com/fernando-souza-the-brazilian-master-of-hyper-realism/"
+      }
+    ],
+    "fuentes": [
+      "https://www.tattoolife.com/fernando-souza-the-brazilian-master-of-hyper-realism/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "fredao-oliveira",
+    "nombre": "Fredão Oliveira",
+    "nombreReal": null,
+    "estudio": "inkonik-tattoo-studio",
+    "ciudad": "Belo Horizonte",
+    "pais": "Brasil",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "ilustrativo",
+      "color"
+    ],
+    "instagram": "",
+    "bio": "Ilustrador y tatuador de Belo Horizonte que trabaja en Inkonik Tattoo Studio. Tattoo Life destaca su estilo influido por el cómic.",
+    "datos": [
+      {
+        "texto": "Tattoo Life lo presenta como ilustrador y tatuador con base en Belo Horizonte, en Inkonik Tattoo Studio.",
+        "fuente": "https://www.tattoolife.com/the-brazilian-artist-fredao-oliveira-invites-us-at-his-inkonik-tattoo-studio/"
+      }
+    ],
+    "fuentes": [
+      "https://www.tattoolife.com/the-brazilian-artist-fredao-oliveira-invites-us-at-his-inkonik-tattoo-studio/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "picara-clavel",
+    "nombre": "Pícara Clavel",
+    "nombreReal": "Ana Sofía Uriza",
+    "estudio": "",
+    "ciudad": "",
+    "pais": "Colombia",
+    "estilos": [
+      "realismo",
+      "fine-line"
+    ],
+    "etiquetas": [
+      "realismo",
+      "fine-line"
+    ],
+    "instagram": "",
+    "bio": "Tatuadora colombiana conocida como Pícara Clavel. Radio Nacional de Colombia la destaca a nivel internacional por sus piezas microrrealistas y señala que es egresada de la Universidad de Los Andes, con formación en diseño.",
+    "datos": [
+      {
+        "texto": "Radio Nacional de Colombia la describe como tatuadora destacada a nivel internacional por sus diseños microrrealistas.",
+        "fuente": "https://radionacional.co/cultura/arte/tatuajes-mitos-y-realidades"
+      }
+    ],
+    "fuentes": [
+      "https://radionacional.co/cultura/arte/tatuajes-mitos-y-realidades"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "marckos-ruiz",
+    "nombre": "Marckos Ruiz",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "",
+    "pais": "Colombia",
+    "estilos": [
+      "color",
+      "realismo"
+    ],
+    "etiquetas": [
+      "color",
+      "realismo"
+    ],
+    "instagram": "marckosruiztattoo",
+    "bio": "Tatuador colombiano a quien la revista Semana considera uno de los de mayor reconocimiento internacional del país. Se describe con especial afinidad por la acuarela y el realismo animal, y combina color con escala de grises. Impulsa la iniciativa 'Tattoo Love Revolution'.",
+    "datos": [
+      {
+        "texto": "Semana lo presenta como uno de los tatuadores colombianos con mayor reconocimiento internacional.",
+        "fuente": "https://www.semana.com/cultura/arte/articulo/la-inspiradora-historia-de-marckos-ruiz-el-tatuador-de-los-famosos-hoy-junto-a-su-esposa-cambian-vidas-gracias-al-tatuaje/202321/"
+      },
+      {
+        "texto": "Un blog de El Tiempo de 2017 lo llamó 'el tatuador del fútbol colombiano' y dijo que había trabajado con más de 17 futbolistas.",
+        "fuente": "https://blogs.eltiempo.com/tatuajes-y-periodismo/2017/11/30/tatuador-del-futbol-colombiano/"
+      }
+    ],
+    "fuentes": [
+      "https://www.semana.com/cultura/arte/articulo/la-inspiradora-historia-de-marckos-ruiz-el-tatuador-de-los-famosos-hoy-junto-a-su-esposa-cambian-vidas-gracias-al-tatuaje/202321/",
+      "https://blogs.eltiempo.com/tatuajes-y-periodismo/2017/11/30/tatuador-del-futbol-colombiano/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "nico-guarnizo",
+    "nombre": "Nico Guarnizo",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "",
+    "pais": "Colombia",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "tradicional",
+      "ilustrativo"
+    ],
+    "instagram": "",
+    "bio": "Tatuador colombiano cuyo estilo, según Radiónica, dialoga entre el tatuaje tradicional, el arte budista y la ilustración clásica, con símbolos de la cultura hispanoamericana. Antes de tatuar pintó murales y graffiti.",
+    "datos": [
+      {
+        "texto": "El Espectador informa que obtuvo tres premios en el Baltimore Tattoo Arts Festival y que en 2020 empezó a trabajar en el estudio True Fellas.",
+        "fuente": "https://www.elespectador.com/entretenimiento/gente/nico-guarnizo-un-tatuador-que-hace-historia/"
+      },
+      {
+        "texto": "En 2023 expuso su obra en East Side Mags, en Nueva Jersey.",
+        "fuente": "https://radionica.rocks/artes/un-colombiano-expone-su-obra-en-east-side-mags"
+      }
+    ],
+    "fuentes": [
+      "https://www.elespectador.com/entretenimiento/gente/nico-guarnizo-un-tatuador-que-hace-historia/",
+      "https://radionica.rocks/artes/un-colombiano-expone-su-obra-en-east-side-mags"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "stefano-alcantara",
+    "nombre": "Stefano Alcántara",
+    "nombreReal": null,
+    "estudio": "stefano-tattoo-studio",
+    "ciudad": "Lima",
+    "pais": "Perú",
+    "estilos": [
+      "realismo"
+    ],
+    "etiquetas": [
+      "realismo"
+    ],
+    "instagram": "",
+    "bio": "Tatuador nacido y criado en Lima, especializado en realismo en blanco y negro. Estudió diseño gráfico publicitario y abrió su propio estudio en 1999, que luego sumó sedes en Lima y en Fort Lauderdale (Florida).",
+    "datos": [
+      {
+        "texto": "INKPPL indica que abrió Stefano Tattoo Studio en 1999 y que después se abrieron cuatro sedes más, tres en Lima y una en Fort Lauderdale.",
+        "fuente": "https://inkppl.com/es/magazine/tattoo-artists/stefano-alcantara-realismo-en-tatuajes-desde-peru"
+      },
+      {
+        "texto": "Tattoo Life le dedicó un perfil sobre su evolución como tatuador.",
+        "fuente": "https://www.tattoolife.com/stefano-alcantara-the-continuous-evolution-of-a-man-and-a-tattoo-artist/"
+      },
+      {
+        "texto": "En una entrevista con Trome dijo que vive en Fort Lauderdale y reparte su tiempo con un estudio en Nueva York.",
+        "fuente": "https://trome.com/actualidad/stefano-alcantara-tatuador-maluma-entrevista-noticia/"
+      }
+    ],
+    "fuentes": [
+      "https://inkppl.com/es/magazine/tattoo-artists/stefano-alcantara-realismo-en-tatuajes-desde-peru",
+      "https://www.tattoolife.com/stefano-alcantara-the-continuous-evolution-of-a-man-and-a-tattoo-artist/",
+      "https://trome.com/actualidad/stefano-alcantara-tatuador-maluma-entrevista-noticia/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "eduardo-sasia",
+    "nombre": "Eduardo Sasía",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Montevideo",
+    "pais": "Uruguay",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuador uruguayo con unos 33 años de oficio, lo que según Montevideo Portal lo convierte en uno de los primeros del país. Trabajó en Alemania, donde en 2006 tatuó a militares estadounidenses.",
+    "datos": [
+      {
+        "texto": "Montevideo Portal señala que lleva aproximadamente 33 años en el rubro y que es uno de los primeros tatuadores de Uruguay.",
+        "fuente": "https://www.montevideo.com.uy/Noticias/La-historia-de-Eduardo-Sasia-el-uruguayo-que-tatuo-a-soldados-de-EE-UU-en-Alemania-uc963627"
+      },
+      {
+        "texto": "En la misma nota comenta que el público le envía dibujos hechos con inteligencia artificial.",
+        "fuente": "https://www.montevideo.com.uy/Noticias/La-historia-de-Eduardo-Sasia-el-uruguayo-que-tatuo-a-soldados-de-EE-UU-en-Alemania-uc963627"
+      }
+    ],
+    "fuentes": [
+      "https://www.montevideo.com.uy/Noticias/La-historia-de-Eduardo-Sasia-el-uruguayo-que-tatuo-a-soldados-de-EE-UU-en-Alemania-uc963627"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "samantha-herrera",
+    "nombre": "Samantha Herrera",
+    "nombreReal": null,
+    "estudio": "andromeda-ink-studio",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuadora chilena del estudio Andrómeda Ink Studio. La Tercera la entrevistó por el cover up con el que transformó un tatuaje antiguo del futbolista Jorge Valdivia en una figura del Joker, trabajo realizado en dos sesiones.",
+    "datos": [
+      {
+        "texto": "La Tercera la identifica como la artista de Andrómeda Ink Studio que cubrió el tatuaje de Jorge Valdivia; explicó que tapar un tatuaje antiguo resulta más fácil porque la tinta se desgasta.",
+        "fuente": "https://www.latercera.com/tendencias/noticia/el-quedo-super-contento-habla-la-artista-que-tapo-el-polemico-tatuaje-de-jorge-valdivia/X623HCRTHRFK7JIEDLVAYKPKAQ/"
+      },
+      {
+        "texto": "Chilevisión informó que el trabajo tomó en total unas 12 horas.",
+        "fuente": "https://www.chilevision.cl/noticias/artista-demoro-12-horas-esta-es-la-razon-por-la-que-jorge-valdivia"
+      }
+    ],
+    "fuentes": [
+      "https://www.latercera.com/tendencias/noticia/el-quedo-super-contento-habla-la-artista-que-tapo-el-polemico-tatuaje-de-jorge-valdivia/X623HCRTHRFK7JIEDLVAYKPKAQ/",
+      "https://www.chilevision.cl/noticias/artista-demoro-12-horas-esta-es-la-razon-por-la-que-jorge-valdivia"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "cristopher-mendez",
+    "nombre": "Cristopher Méndez",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Valencia",
+    "pais": "España",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "neotradicional",
+      "color"
+    ],
+    "instagram": "",
+    "bio": "Artista cuyo recorrido comenzó en Santiago de Chile y lo llevó a Valencia, según Tattoo Life. Formado en dibujo técnico y arquitectónico, trabaja entre la pintura y el tatuaje neotradicional, con color intenso y temas animales. A fines de 2025 publicó el libro 'Pura Vida' con más de 100 de sus pinturas.",
+    "datos": [
+      {
+        "texto": "Aparece en el número de marzo/abril de 2026 de Tattoo Life, que lo describe como artista neotradicional nacido en Santiago de Chile y radicado en Valencia.",
+        "fuente": "https://www.tattoolife.com/tattoo-life-march-april-2026/"
+      },
+      {
+        "texto": "Pinta carteles de acuarela para convenciones de tatuaje y publicó el libro 'Pura Vida' a fines de 2025.",
+        "fuente": "https://www.artistcloseup.com/blog/artist-profile-cristopher-mendez"
+      }
+    ],
+    "fuentes": [
+      "https://www.tattoolife.com/tattoo-life-march-april-2026/",
+      "https://www.artistcloseup.com/blog/artist-profile-cristopher-mendez"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "pablo-lillo",
+    "nombre": "Pablo Lillo",
+    "nombreReal": null,
+    "estudio": "black-rose-tattoo",
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "tradicional",
+      "japones"
+    ],
+    "instagram": "",
+    "bio": "Tatuador español que trabaja en Black Rose Tattoo, en Barcelona. Según Tattoo Life, se centra en los estilos tradicional americano y japonés.",
+    "datos": [
+      {
+        "texto": "En una entrevista con Tattoo Life da su definición de un buen tatuaje y describe Black Rose como un grupo muy unido.",
+        "fuente": "https://www.tattoolife.com/spanish-tattooist-pablo-lillo-tells-his-definition-of-a-good-tattoo/"
+      }
+    ],
+    "fuentes": [
+      "https://www.tattoolife.com/spanish-tattooist-pablo-lillo-tells-his-definition-of-a-good-tattoo/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "el-uf",
+    "nombre": "El Uf",
+    "nombreReal": null,
+    "estudio": "ondo-tattoo",
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "estilos": [],
+    "etiquetas": [
+      "blackwork"
+    ],
+    "instagram": "",
+    "bio": "Tatuador de Barcelona y cofundador de ONDO Tattoo, estudio especializado en trabajo en negro. Empezó como grafitero y aprendió el oficio con un aprendizaje completo, según Tattoo Life.",
+    "datos": [
+      {
+        "texto": "Tattoo Life lo perfila bajo el título 'El Uf Tattoos, black with a twist' y cuenta que empezó como pintor de graffiti.",
+        "fuente": "https://www.tattoolife.com/el-uf-tattoos-black-with-a-twist/"
+      },
+      {
+        "texto": "ONDO fue fundado a mediados de 2014 por Fran y Uf.",
+        "fuente": "https://www.neo2.com/?p=94982"
+      }
+    ],
+    "fuentes": [
+      "https://www.tattoolife.com/el-uf-tattoos-black-with-a-twist/",
+      "https://www.neo2.com/?p=94982"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "adrian-sanchez",
+    "nombre": "Adrián Sánchez (Black Sanchez)",
+    "nombreReal": null,
+    "estudio": "chinatown-tattoo",
+    "ciudad": "Madrid",
+    "pais": "España",
+    "estilos": [
+      "realismo"
+    ],
+    "etiquetas": [
+      "realismo"
+    ],
+    "instagram": "",
+    "bio": "Tatuador madrileño especializado en realismo y dueño de Chinatown Tattoo. Tattoo Life lo llamó 'el mago del realismo de Madrid'; en la entrevista cuenta que no tuvo mentores formales y que aprendió en la escuela de arte.",
+    "datos": [
+      {
+        "texto": "Tattoo Life lo presenta como 'the wizard of realism from Madrid' y propietario de Chinatown Tattoo.",
+        "fuente": "https://www.tattoolife.com/adrian-sanchez-the-wizard-of-realism-from-madrid/"
+      }
+    ],
+    "fuentes": [
+      "https://www.tattoolife.com/adrian-sanchez-the-wizard-of-realism-from-madrid/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "debora-cherrys",
+    "nombre": "Debora Cherrys",
+    "nombreReal": null,
+    "estudio": "la-mujer-barbuda",
+    "ciudad": "Madrid",
+    "pais": "España",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "neotradicional",
+      "color"
+    ],
+    "instagram": "deboracherrys",
+    "bio": "Tatuadora neotradicional de Madrid y copropietaria del estudio La Mujer Barbuda. Su tema predilecto son las mujeres, a menudo figuras místicas como brujas o diosas y motivos mitológicos. Antes de tatuar trabajó como diseñadora de interiores.",
+    "datos": [
+      {
+        "texto": "Tattoo Life le dedicó el artículo 'Neo traditional Girls by Debora Cherrys', centrado en sus retratos femeninos neotradicionales.",
+        "fuente": "https://www.tattoolife.com/neo-traditional-girls-by-debora-cherrys/"
+      },
+      {
+        "texto": "World Famous Ink la presenta como propietaria de La Mujer Barbuda, que dirige con su marido en Madrid.",
+        "fuente": "https://www.worldfamoustattooink.com/pages/debora-cherrys"
+      }
+    ],
+    "fuentes": [
+      "https://www.tattoolife.com/neo-traditional-girls-by-debora-cherrys/",
+      "https://www.worldfamoustattooink.com/pages/debora-cherrys"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "ivan-pelegrin",
+    "nombre": "Iván Pelegrín",
+    "nombreReal": null,
+    "estudio": "gotham-tattoo-madrid",
+    "ciudad": "Madrid",
+    "pais": "España",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "ilustrativo"
+    ],
+    "instagram": "",
+    "bio": "Tatuador madrileño y propietario de Gotham Tattoo Madrid. Según Tattoo Life, se dedica exclusivamente a motivos de anime y manga.",
+    "datos": [
+      {
+        "texto": "Tattoo Life cuenta que solo tatúa temas de anime y que su convención favorita es la de Barcelona.",
+        "fuente": "https://www.tattoolife.com/ivan-pelegrin-tattoos-anime-and-manga/"
+      }
+    ],
+    "fuentes": [
+      "https://www.tattoolife.com/ivan-pelegrin-tattoos-anime-and-manga/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "gakkin",
+    "nombre": "Gakkin",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Ámsterdam",
+    "pais": "Países Bajos",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "japones",
+      "blackwork"
+    ],
+    "instagram": "",
+    "bio": "Tatuador japonés que trabaja a mano alzada (freehand) con un enfoque nuevo de los temas tradicionales japoneses, casi siempre en negro con algún toque de rojo. La prensa lo situó antes en el estudio Harizanmai de Kioto; desde 2016 reside en Ámsterdam.",
+    "datos": [
+      {
+        "texto": "Trabaja a mano alzada, casi por completo en negro con toques de rojo, con motivos de blackwork, ero-guro e irezumi de naturaleza.",
+        "fuente": "https://mymodernmet.com/gakkin-tattoo/"
+      },
+      {
+        "texto": "En 2016 la BBC lo citaba desde su estudio en la ciudad de Kioto.",
+        "fuente": "https://www.newssniffer.co.uk/articles/1155316/versions/4860168"
+      },
+      {
+        "texto": "The Japan Times (2018) lo presenta ya instalado en Ámsterdam.",
+        "fuente": "https://japantimes.co.jp/life/2018/01/06/people/tattoo-artist-gakkin-leaves-mark-amsterdam"
+      }
+    ],
+    "fuentes": [
+      "https://japantimes.co.jp/life/2018/01/06/people/tattoo-artist-gakkin-leaves-mark-amsterdam",
+      "https://mymodernmet.com/gakkin-tattoo/",
+      "https://soranews24.com/2016/05/17/japanese-freehand-tattoo-artists-work-ranges-from-bloody-erotic-to-delicate-beautiful/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "shige",
+    "nombre": "Shige",
+    "nombreReal": "Shigenori Iwasaki",
+    "estudio": "yellow-blaze-tattoo",
+    "ciudad": "Yokohama",
+    "pais": "Japón",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "japones",
+      "color"
+    ],
+    "instagram": "",
+    "bio": "Tatuador autodidacta de Yokohama, fundador de Yellow Blaze Tattoo, que combina el tatuaje tradicional japonés con una estética contemporánea. Su obra formó parte de la exposición itinerante 'Perseverance' del Japanese American National Museum.",
+    "datos": [
+      {
+        "texto": "El Japanese American National Museum lo incluyó entre los artistas de la exposición 'Perseverance: Japanese Tattoo Tradition in a Modern World'.",
+        "fuente": "https://janm.org/exhibits/perseverance/artists"
+      },
+      {
+        "texto": "Diseñó una moto Indian Chief inspirada en el tatuaje, con un demonio oni y flores de cerezo.",
+        "fuente": "https://www.motorcyclepowersportsnews.com/indian-motorcycle-reveals-second-tattoo-inspired-art-bike/"
+      },
+      {
+        "texto": "Antes de tatuar profesionalmente (desde mediados de los noventa) trabajaba como mecánico de motos.",
+        "fuente": "https://www.tattoolife.com/shige-and-no-regrets-tattoo-for-indian-motorcycle/"
+      }
+    ],
+    "fuentes": [
+      "https://janm.org/exhibits/perseverance/artists",
+      "https://www.tattoolife.com/shige-and-no-regrets-tattoo-for-indian-motorcycle/",
+      "https://www.motorcyclepowersportsnews.com/indian-motorcycle-reveals-second-tattoo-inspired-art-bike/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "horiren-1st",
+    "nombre": "Horiren 1st",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Warabi",
+    "pais": "Japón",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "japones"
+    ],
+    "instagram": "",
+    "bio": "Tatuadora japonesa especializada en tebori, la técnica tradicional de tatuaje a mano. The Japan Times la describe como una de las tatuadoras tradicionales más reconocidas de Japón; su estudio está en Warabi, al norte de Tokio.",
+    "datos": [
+      {
+        "texto": "The Japan Times la llamó una de las tatuadoras tradicionales más renombradas de Japón.",
+        "fuente": "https://www.japantimes.co.jp/news/2020/10/27/national/social-issues/japan-tattoo-taboo/"
+      },
+      {
+        "texto": "Huck Magazine la presenta como maestra moderna del tebori, con estudio en Warabi, en el borde de Saitama.",
+        "fuente": "https://huckmag.com/article/taboo-japan-tattoo-artist-horiren-1st"
+      },
+      {
+        "texto": "En 2004 expuso en la muestra 'Horiren Tattoo: It Shares the Same Fate'.",
+        "fuente": "https://www.shift.jp.org/en/archives/2004/05/horiren_tattoo_exhibition.html"
+      }
+    ],
+    "fuentes": [
+      "https://huckmag.com/article/taboo-japan-tattoo-artist-horiren-1st",
+      "https://www.japantimes.co.jp/news/2020/10/27/national/social-issues/japan-tattoo-taboo/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "ichibay",
+    "nombre": "Ichibay",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "",
+    "pais": "Japón",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "japones"
+    ],
+    "instagram": "",
+    "bio": "Tatuador japonés que Tattoo Life presenta como puente entre el tatuaje japonés tradicional y el moderno. La editorial publicó sus libros de dibujos 'Ichibay, Lines and Drawings' y 'Animals by Ichibay', pensados como material de referencia para tatuadores.",
+    "datos": [
+      {
+        "texto": "Su libro 'Lines and Drawings' recoge estudios de flores, guerreros, dragones, geishas, demonios y fantasmas, y forma parte de la serie 'Great Books on the Art of Tattooing' de Tattoo Life.",
+        "fuente": "https://www.tattoolife.com/ichibay-lines-and-drawings-between-traditional-and-modern-japanese-tattooing/"
+      },
+      {
+        "texto": "Tattoo Life también publicó 'Animals by Ichibay', dedicado a animales clásicos del repertorio japonés.",
+        "fuente": "https://www.tattoolife.com/animals-by-ichibay/"
+      }
+    ],
+    "fuentes": [
+      "https://www.tattoolife.com/ichibay-lines-and-drawings-between-traditional-and-modern-japanese-tattooing/",
+      "https://www.tattoolife.com/animals-by-ichibay/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "horimitsu",
+    "nombre": "Horimitsu",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Tokio",
+    "pais": "Japón",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "japones"
+    ],
+    "instagram": "",
+    "bio": "Tatuador de Ikebukuro, Tokio, que aprendió con un maestro del tatuaje tradicional japonés y hace la mayor parte de su trabajo con tebori, la técnica a mano. Solo usa máquina para las líneas más finas.",
+    "datos": [
+      {
+        "texto": "Time Out Tokyo indica que, aunque la mayoría de tatuadores japoneses usa máquina, él trabaja casi todo a mano y recurre a la máquina solo para las líneas más finas.",
+        "fuente": "https://www.timeout.com/tokyo/things-to-do/top-tattoo-parlours-in-tokyo"
+      },
+      {
+        "texto": "Un reportaje reproducido por VietnamNet afirma que lleva unos 30 años tatuando a mano en Ikebukuro y que entre el 60 y el 70 % de su clientela viene del extranjero.",
+        "fuente": "https://vietnamnet.vn/en/tattoos-in-japan-the-eye-watering-art-thousands-cross-the-world-for-575153.html"
+      }
+    ],
+    "fuentes": [
+      "https://www.timeout.com/tokyo/things-to-do/top-tattoo-parlours-in-tokyo",
+      "https://vietnamnet.vn/en/tattoos-in-japan-the-eye-watering-art-thousands-cross-the-world-for-575153.html"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "banul",
+    "nombre": "Banul",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Seúl",
+    "pais": "Corea del Sur",
+    "estilos": [
+      "fine-line",
+      "color"
+    ],
+    "etiquetas": [
+      "fine-line",
+      "color",
+      "ilustrativo"
+    ],
+    "instagram": "tattooist_banul",
+    "bio": "Tatuadora surcoreana conocida por un estilo femenino, onírico y colorido, con lilas, rosas y azules pastel. Ink PPL le dedicó una entrevista sobre su estilo característico.",
+    "datos": [
+      {
+        "texto": "Ink PPL la entrevistó en el reportaje 'The feminine touch: Banul's signature style'.",
+        "fuente": "https://inkppl.com/en/magazine/intervyu/the-feminine-touch-banuls-signature-style"
+      },
+      {
+        "texto": "Las guías la describen con diseños soñadores en lilas, rosas y azules claros.",
+        "fuente": "https://thesmartlocal.com/read/korean-tattoo-artists/"
+      }
+    ],
+    "fuentes": [
+      "https://inkppl.com/en/magazine/intervyu/the-feminine-touch-banuls-signature-style",
+      "https://thesmartlocal.com/read/korean-tattoo-artists/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "sol",
+    "nombre": "Sol",
+    "nombreReal": null,
+    "estudio": "studio-by-sol",
+    "ciudad": "Seúl",
+    "pais": "Corea del Sur",
+    "estilos": [
+      "fine-line",
+      "color"
+    ],
+    "etiquetas": [
+      "fine-line",
+      "color"
+    ],
+    "instagram": "",
+    "bio": "Tatuador surcoreano autodidacta al frente de Studio by Sol, en Seúl, conocido por la línea fina con colores pastel y motivos florales y de acuarela. Neocha destacó que buscó un camino distinto al irezumi y al old school que dominaban en Corea.",
+    "datos": [
+      {
+        "texto": "Un perfil de Neocha (2019) cuenta que la mayoría de tatuadores coreanos trabajaban irezumi y old school, y que Sol quiso algo distinto y aprendió por su cuenta.",
+        "fuente": "https://neocha.com/magazine/studio-by-sol/"
+      },
+      {
+        "texto": "Inked lo incluyó en su lista de 2019 '25 Reasons To Go to Korea for Your Next Tattoo Appointment'.",
+        "fuente": "https://inkedmag.com/?p=9607"
+      },
+      {
+        "texto": "Según 10 Magazine, ofrece información de reservas en inglés y coreano y suele tener agenda llena con meses de antelación.",
+        "fuente": "https://10mag.com/english-speaking-tattoo-artists-seoul/"
+      }
+    ],
+    "fuentes": [
+      "https://neocha.com/magazine/studio-by-sol/",
+      "https://mymodernmet.com/cat-tattoos-by-sol-tattoo/",
+      "https://inkedmag.com/?p=9607"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "nando",
+    "nombre": "Nando",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Seúl",
+    "pais": "Corea del Sur",
+    "estilos": [
+      "fine-line"
+    ],
+    "etiquetas": [
+      "fine-line",
+      "blackwork"
+    ],
+    "instagram": "nandotattooer",
+    "bio": "Tatuador surcoreano de línea fina, conocido por piezas pequeñas que mezclan geometría y flores. Inked lo destacó en 2019 entre los tatuadores florales de Seúl.",
+    "datos": [
+      {
+        "texto": "Inked (2019) describió su blackwork como una mezcla delicada de geometría y flores, y dijo que destaca entre los numerosos tatuadores florales de Seúl.",
+        "fuente": "https://inkedmag.com/?p=9607"
+      },
+      {
+        "texto": "Ink PPL le dedicó la entrevista 'Nando: tattoos that change lives'.",
+        "fuente": "https://inkppl.com/zh/magazine/intervyu/nando-tattoos-that-change-lives"
+      }
+    ],
+    "fuentes": [
+      "https://inkedmag.com/?p=9607",
+      "https://inkppl.com/zh/magazine/intervyu/nando-tattoos-that-change-lives"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "ajarn-noo-kanpai",
+    "nombre": "Ajarn Noo Kanpai",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Pathum Thani",
+    "pais": "Tailandia",
+    "estilos": [],
+    "etiquetas": [
+      "blackwork"
+    ],
+    "instagram": "",
+    "bio": "Maestro (ajarn) de sak yant, el tatuaje sagrado tailandés, que trabaja en Pathum Thani. The Nation Thailand lo presentó en 2025 como el hombre detrás de los tatuajes sagrados de Tailandia. Es conocido internacionalmente porque la prensa lo vincula con los sak yant de Angelina Jolie.",
+    "datos": [
+      {
+        "texto": "The Nation Thailand le dedicó un perfil en 2025 y lo sitúa trabajando en Pathum Thani.",
+        "fuente": "https://www.nationthailand.com/life/art-culture/40045808"
+      },
+      {
+        "texto": "En 2016 su oficina confirmó un viaje a Camboya en enero, pero no confirmó que fuera para tatuar a Angelina Jolie y Brad Pitt, como se rumoreaba.",
+        "fuente": "https://www.khaosodenglish.com/life/2016/02/12/1455255619/"
+      }
+    ],
+    "fuentes": [
+      "https://www.nationthailand.com/life/art-culture/40045808",
+      "https://www.khaosodenglish.com/life/2016/02/12/1455255619/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "derek-lardelli",
+    "nombre": "Tā Derek Lardelli",
+    "nombreReal": "Derek Lardelli",
+    "estudio": "",
+    "ciudad": "",
+    "pais": "Nueva Zelanda",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Artista de tā moko, tallador, compositor y docente de Ngāti Porou, una de las figuras clave del renacer del moko. Preside Te Uhi ā Mataora, el comité nacional de tā moko de Toi Māori Aotearoa. Fue nombrado caballero en 2020 por sus servicios a las artes maoríes y compuso el haka 'Kapa o Pango' de los All Blacks.",
+    "datos": [
+      {
+        "texto": "Recibió el título de caballero (KNZM) en los honores de 2020 por sus servicios a las artes maoríes; en 2008 había sido nombrado oficial de la Orden por sus servicios al tā moko.",
+        "fuente": "https://www.rnz.co.nz/news/te-manu-korihi/417997/artist-derek-lardelli-says-his-knighthood-recognises-all-of-maori-arts"
+      },
+      {
+        "texto": "Preside Te Uhi ā Mataora, el comité nacional de tā moko de Toi Māori.",
+        "fuente": "https://maoriart.org.nz/ta-sir-derek-lardelli/"
+      },
+      {
+        "texto": "Es el autor de la letra y los movimientos del haka 'Kapa o Pango' de los All Blacks.",
+        "fuente": "https://m.scoop.co.nz/stories/PA0604/S00364.htm"
+      },
+      {
+        "texto": "Recibió un doctorado honoris causa del EIT en 2019.",
+        "fuente": "https://www.eit.ac.nz/2019/05/honorary-doctorate-for-top-ta-moko-artist/"
+      }
+    ],
+    "fuentes": [
+      "https://www.rnz.co.nz/news/te-manu-korihi/417997/artist-derek-lardelli-says-his-knighthood-recognises-all-of-maori-arts",
+      "https://maoriart.org.nz/ta-sir-derek-lardelli/",
+      "https://www.eit.ac.nz/2019/05/honorary-doctorate-for-top-ta-moko-artist/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "mark-kopua",
+    "nombre": "Mark Kopua",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "",
+    "pais": "Nueva Zelanda",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tohunga, tallador y artista de tā moko de Ngāti Ira, Te Aitanga a Hauiti y Ngāti Porou. Tras más de dos décadas como tallador tradicional se dedicó al tā moko a tiempo completo, y ha formado a otros practicantes. También ha trabajado en la repatriación de cabezas tatuadas.",
+    "datos": [
+      {
+        "texto": "En el simposio M.O.K.O, Me Ora, Ka Ora de 2024 (cerca de 700 participantes) defendió mantener el tikanga maorí ante las nuevas técnicas.",
+        "fuente": "https://www.teaonews.co.nz/2024/03/26/moko-me-ora-ka-ora-hundreds-take-part-in-maori-tattoo-symposium"
+      },
+      {
+        "texto": "Toi Iho lo presenta como tallador y artista de tā moko de Ngāti Ira, Te Aitanga a Hauiti y Ngāti Porou.",
+        "fuente": "https://www.toiiho.org.nz/artists/mark-kopua"
+      }
+    ],
+    "fuentes": [
+      "https://www.teaonews.co.nz/2024/03/26/moko-me-ora-ka-ora-hundreds-take-part-in-maori-tattoo-symposium",
+      "https://www.toiiho.org.nz/artists/mark-kopua"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "julie-paama-pengelly",
+    "nombre": "Julie Paama-Pengelly",
+    "nombreReal": null,
+    "estudio": "art-and-body",
+    "ciudad": "",
+    "pais": "Nueva Zelanda",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Artista de tā moko que empezó a principios de los años noventa y abrió su estudio Art and Body en 2012. En RNZ habló de los retos de ser mujer en un oficio dominado por hombres y de su postura contraria al kirituhi.",
+    "datos": [
+      {
+        "texto": "En 'Taa Moko Sessions' de RNZ contó que atiende entre 6 y 10 clientes al año que buscan moko kauae o pūhoro.",
+        "fuente": "https://www.rnz.co.nz/national/programmes/teahikaa/audio/2018639327/taa-moko-sessions-julie-paama-pengelly"
+      },
+      {
+        "texto": "Empezó en el tā moko a principios de los noventa y abrió su estudio Art and Body en 2012.",
+        "fuente": "https://www.rnz.co.nz/national/programmes/teahikaa/audio/2018639327/taa-moko-sessions-julie-paama-pengelly"
+      }
+    ],
+    "fuentes": [
+      "https://www.rnz.co.nz/national/programmes/teahikaa/audio/2018639327/taa-moko-sessions-julie-paama-pengelly"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "henk-schiffmacher",
+    "nombre": "Henk Schiffmacher",
+    "nombreReal": null,
+    "estudio": "hanky-panky",
+    "ciudad": "Ámsterdam",
+    "pais": "Países Bajos",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "tradicional"
+    ],
+    "instagram": "",
+    "bio": "Tatuador, escritor y pintor de Ámsterdam conocido como Hanky Panky. Fundó el ya cerrado Amsterdam Tattoo Museum y lleva décadas documentando y coleccionando la historia del tatuaje.",
+    "datos": [
+      {
+        "texto": "Dirigió un estudio de tatuaje temporal en el Museo Casa de Rembrandt de Ámsterdam que reproducía grabados y pinturas de Rembrandt; la primera edición fue en 2023 y hubo otra en 2026.",
+        "fuente": "https://www.euronews.com/2026/10/29/rembrandts-masterpieces-become-tattoos-in-the-netherlands"
+      },
+      {
+        "texto": "El Amsterdam Museum lo registra como figura de la ciudad y fundador del antiguo Amsterdam Tattoo Museum.",
+        "fuente": "https://www.amsterdammuseum.nl/en/person/henk-schiffmacher/247650"
+      }
+    ],
+    "fuentes": [
+      "https://www.amsterdammuseum.nl/en/person/henk-schiffmacher/247650",
+      "https://dutchnews.nl/2023/05/hanky-panky-at-the-museum-rembrandthuis-to-offer-tattoos",
+      "https://www.euronews.com/2026/10/29/rembrandts-masterpieces-become-tattoos-in-the-netherlands"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "tin-tin",
+    "nombre": "Tin-Tin",
+    "nombreReal": null,
+    "estudio": "tin-tin-tatouages",
+    "ciudad": "París",
+    "pais": "Francia",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Figura central del tatuaje francés, con estudio en el número 37 de la rue de Douai (distrito 9 de París). Creó el Mondial du Tatouage en 1999 y preside el Syndicat National des Artistes Tatoueurs (SNAT) desde su fundación en 2003. Defiende públicamente el reconocimiento del tatuaje como arte.",
+    "datos": [
+      {
+        "texto": "Creó el Mondial du Tatouage en 1999.",
+        "fuente": "https://www.pariszigzag.fr/paris-au-quotidien/actualites-paris/mondial-du-tatouage-la-villette/"
+      },
+      {
+        "texto": "Preside el SNAT desde su creación en 2003.",
+        "fuente": "https://www.parisbouge.com/mag/articles/mondial-du-tatouage-rencontre-avec-tin-tin-au-pays-du-dessin-2652"
+      },
+      {
+        "texto": "Difundió una encuesta de Ifop según la cual el 55 % de los franceses considera el tatuaje un arte.",
+        "fuente": "https://www.tendanceouest.com/actualite-216913-le-tatouage-candidat-au-10e-art-s-expose-au-mondial-de-paris"
+      }
+    ],
+    "fuentes": [
+      "https://www.timeout.fr/paris/shopping/tin-tin-tatouages",
+      "https://www.parisbouge.com/mag/articles/mondial-du-tatouage-rencontre-avec-tin-tin-au-pays-du-dessin-2652",
+      "https://www.mondialdutatouage.com/pdf/Dossier_Presse_MdT2026_251215_OD.pdf"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "volker-merschky-simone-pfaff",
+    "nombre": "Volker Merschky y Simone Pfaff",
+    "nombreReal": null,
+    "estudio": "buena-vista-tattoo-club",
+    "ciudad": "Würzburg",
+    "pais": "Alemania",
+    "estilos": [
+      "realismo"
+    ],
+    "etiquetas": [
+      "blackwork",
+      "realismo"
+    ],
+    "instagram": "",
+    "bio": "Dúo alemán que creó el estilo Trash Polka, que combina realismo, collage y trazos gráficos en negro y rojo. En 1998 abrieron el Buena Vista Tattoo Club en Würzburg, donde acuñaron el término. Antes, él estudió interiorismo y ella trabajó como diseñadora gráfica.",
+    "datos": [
+      {
+        "texto": "Acuñaron el término 'Trash Polka' en 1998 en el Buena Vista Tattoo Club de Würzburg, y hoy es una marca registrada a su nombre.",
+        "fuente": "https://en.wikipedia.org/wiki/Trash_polka"
+      },
+      {
+        "texto": "Antes de tatuar, Merschky estudió interiorismo y Pfaff trabajó como diseñadora gráfica.",
+        "fuente": "https://artminuszero.com/?p=44"
+      }
+    ],
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Trash_polka",
+      "https://artminuszero.com/?p=44"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "alex-binnie",
+    "nombre": "Alex Binnie",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Brighton",
+    "pais": "Reino Unido",
+    "estilos": [],
+    "etiquetas": [
+      "blackwork"
+    ],
+    "instagram": "",
+    "bio": "Tatuador y grabador británico que fundó Into You Tattoo en Clerkenwell (Londres) en 1993, un estudio clave en el desarrollo del blackwork. Into You cerró en octubre de 2016. También es autor de retratos en xilografía.",
+    "datos": [
+      {
+        "texto": "Volvió a Londres en 1993 y fundó Into You Tattoo en Clerkenwell; el estudio cerró en octubre de 2016.",
+        "fuente": "https://en.wikipedia.org/wiki/Alex_Binnie_(tattoo_artist)"
+      },
+      {
+        "texto": "Kintaro Publishing editó su libro de xilografías 'The Woodcut Portraits'.",
+        "fuente": "https://kintaro-publishing.com/products/the-woodcut-portraits"
+      },
+      {
+        "texto": "Un retrato suyo en xilografía de 2010 fue aceptado en la Summer Exhibition de la Royal Academy de Londres.",
+        "fuente": "https://en.wikipedia.org/wiki/Alex_Binnie_(tattoo_artist)"
+      }
+    ],
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Alex_Binnie_(tattoo_artist)",
+      "https://kintaro-publishing.com/pages/alex-binnie",
+      "https://download.boekhuis.nl/9781786270757_fragm-docb.pdf"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "mo-coppoletta",
+    "nombre": "Mo Coppoletta",
+    "nombreReal": null,
+    "estudio": "the-family-business",
+    "ciudad": "Londres",
+    "pais": "Reino Unido",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "tradicional",
+      "japones"
+    ],
+    "instagram": "",
+    "bio": "Tatuador nacido en Verona que fundó The Family Business en Exmouth Market, Londres, en 2003, después de trabajar en Evil From The Needle e Into You. Su estilo ornamentado bebe de la imaginería japonesa y del art déco. Hoy también diseña para marcas.",
+    "datos": [
+      {
+        "texto": "El Museum of London recoge que nació en Verona, que abrió The Family Business en 2003 y que hoy tatúa menos porque también diseña para marcas.",
+        "fuente": "https://museumoflondon.org.uk/discover/tattoo-london-under-skin"
+      },
+      {
+        "texto": "Pavilion Books publicó en 2010 'Tattooed by the Family Business'.",
+        "fuente": "https://pavilionbooks.com/?p=5669"
+      }
+    ],
+    "fuentes": [
+      "https://museumoflondon.org.uk/discover/tattoo-london-under-skin",
+      "https://www.mrporter.com/journal/travel/mr-mo-coppolettas-tattoo-temple-471262"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "marco-manzo",
+    "nombre": "Marco Manzo",
+    "nombreReal": null,
+    "estudio": "tribal-tattoo",
+    "ciudad": "Roma",
+    "pais": "Italia",
+    "estilos": [],
+    "etiquetas": [
+      "blackwork"
+    ],
+    "instagram": "",
+    "bio": "Tatuador romano conocido por un estilo ornamental inspirado en el encaje veneciano y la joyería victoriana. Ha llevado el tatuaje a espacios museísticos: presentó 'Tattoo d'Haute Couture' en el MAXXI y comisarió 'Tattoo Forever' en el MACRO de Roma.",
+    "datos": [
+      {
+        "texto": "Presentó a sus clientes tatuados como instalación viva en el MAXXI de Roma.",
+        "fuente": "https://www.vice.com/en/article/marco-manzo-italian-artist-museum-tattoos/?nb=1"
+      },
+      {
+        "texto": "En 2024 expuso en la iglesia de Santa Maria dei Miracoli de Roma, con obras centradas en la violencia contra las mujeres.",
+        "fuente": "https://tg24.sky.it/cronaca/2024/03/21/tatuaggio-scultura-marco-manzo-mostra-roma"
+      },
+      {
+        "texto": "Sus diseños ornamentales se inspiran en el encaje veneciano y la joyería victoriana.",
+        "fuente": "https://mymodernmet.com/lace-tattoo-designs-marco-manzo/"
+      }
+    ],
+    "fuentes": [
+      "https://www.vice.com/en/article/marco-manzo-italian-artist-museum-tattoos/?nb=1",
+      "https://tg24.sky.it/cronaca/2024/03/21/tatuaggio-scultura-marco-manzo-mostra-roma",
+      "https://mymodernmet.com/lace-tattoo-designs-marco-manzo/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "pietro-sedda",
+    "nombre": "Pietro Sedda",
+    "nombreReal": null,
+    "estudio": "the-saint-mariner",
+    "ciudad": "Milán",
+    "pais": "Italia",
+    "estilos": [
+      "color",
+      "realismo"
+    ],
+    "etiquetas": [
+      "ilustrativo",
+      "realismo"
+    ],
+    "instagram": "",
+    "bio": "Tatuador y artista visual sardo, licenciado en la Academia de Bellas Artes de Brera en 1995. Empezó a tatuar en 1999 en Oristano, pasó por Londres y Urbino, y en 2010 abrió The Saint Mariner en Milán. Su obra mezcla retratos e imaginería surrealista y marina.",
+    "datos": [
+      {
+        "texto": "Empezó a tatuar en 1999 en Oristano y abrió The Saint Mariner en Milán en 2010, después de trabajar en Londres (2004) y Urbino (2006).",
+        "fuente": "https://manintown.com/pietro-sedda-the-king-of-tattoo/2018/02/05/?lang=en"
+      },
+      {
+        "texto": "Rolling Stone Italia lo entrevistó en su serie 'Rollink Stone'.",
+        "fuente": "https://www.rollingstone.it/cultura/interviste-cultura/rollink-stone3-pietro-sedda/223078/"
+      },
+      {
+        "texto": "Diseñó una línea de porcelana para Rosenthal inspirada en el mar.",
+        "fuente": "https://www.mynewsdesk.com/uk/rosenthal/pressreleases/tattoo-meets-porcelain-rosenthal-cilla-marea-2897927"
+      }
+    ],
+    "fuentes": [
+      "https://www.ilpost.it/2015/05/25/pietro-sedda/",
+      "https://www.rollingstone.it/cultura/interviste-cultura/rollink-stone3-pietro-sedda/223078/",
+      "https://manintown.com/pietro-sedda-the-king-of-tattoo/2018/02/05/?lang=en"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "piotr-bemben",
+    "nombre": "Piotr Bemben",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Cracovia",
+    "pais": "Polonia",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "blackwork",
+      "ilustrativo"
+    ],
+    "instagram": "",
+    "bio": "Tatuador de Cracovia reconocido por sus cuentos de hadas oscuros y sus mitos eslavos, con negros densos y una atmósfera tensa. Dirige su propio estudio, cuyo nombre no se confirmó.",
+    "datos": [
+      {
+        "texto": "Ink PPL lo describe como un tatuador reconocido de Cracovia, identificable por sus cuentos oscuros y mitos eslavos.",
+        "fuente": "https://inkppl.com/en/magazine/intervyu/piotr-bemben-and-his-inked-dark-fairytales"
+      },
+      {
+        "texto": "Empezó tatuando en casa, estudió pintura brevemente y después entró en su primer estudio.",
+        "fuente": "https://inkppl.com/en/magazine/intervyu/piotr-bemben-and-his-inked-dark-fairytales"
+      }
+    ],
+    "fuentes": [
+      "https://inkppl.com/en/magazine/intervyu/piotr-bemben-and-his-inked-dark-fairytales"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
   }
 ]
