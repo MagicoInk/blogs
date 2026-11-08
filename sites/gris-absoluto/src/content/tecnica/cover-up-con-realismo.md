@@ -81,6 +81,8 @@ Cada vez más artistas de cover-up recomiendan una o varias sesiones de láser *
 - **El láser no siempre aclara todos los colores por igual.** Algunos pigmentos responden mejor que otros.
 - **Ante ampollas persistentes, signos de infección o cambios inesperados**, consulta a un médico.
 
+Si tu caso es un realismo antiguo y dudas entre retocarlo, cubrirlo o aclararlo primero, lo desarrollamos en [Láser, aclarado y retoques](/tecnica/laser-aclarado-y-retoques/).
+
 ## Diseñar un cover-up realista
 
 ### El mapa de la tinta vieja
