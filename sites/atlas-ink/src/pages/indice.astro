@@ -1,29 +1,38 @@
 ---
 import Atlas from '../layouts/Atlas.astro';
 import { artistas, esMagico, DIVULGACION } from 'directorio';
+import { codigo } from '../geo';
 const grupos = Object.entries(Object.groupBy(artistas, (a) => a.pais)).sort(([a], [b]) => a.localeCompare(b, 'es'));
 ---
 <Atlas titulo="Índice de artistas" descripcion="Índice por país de los artistas del tatuaje que aparecen en Atlas Ink.">
-  <section class="ancha">
-    <h1>Índice de artistas</h1>
-    <p class="intro">Ordenado por país. Cada ficha se publica con la autorización del artista.</p>
-    <div class="paises">
-      {grupos.map(([pais, lista]) => (
-        <section id={pais}>
-          <h2>{pais}</h2>
-          <ul>{lista!.map((a) => <li><a href={`/artistas/${a.slug}`}>{a.nombre}</a> <span>{a.ciudad}</span>{esMagico(a) && <sup>*</sup>}</li>)}</ul>
-        </section>
-      ))}
-    </div>
-    <p class="aviso"><sup>*</sup> {DIVULGACION}</p>
-  </section>
+  <section class="cab"><div class="ancho"><p class="mono">Registro de llegadas</p><h1>Índice de artistas</h1><p>{artistas.length} artistas · {grupos.length} países. Cada ficha se publica con autorización del artista.</p></div></section>
+  <div class="ancho paises">
+    {grupos.map(([pais, lista]) => (
+      <section id={pais} class="pais">
+        <header><h2>{pais}</h2><span class="mono">{lista!.length}</span></header>
+        <ul>
+          {lista!.map((a) => (
+            <li><a href={`/artistas/${a.slug}`}><span class="codigo claro">{codigo(a.ciudad)}</span><span class="nombre">{a.nombre}{esMagico(a) && ' *'}</span></a></li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+  <p class="ancho aviso">* {DIVULGACION}</p>
 </Atlas>
 <style>
-  h1 { font-size: 48px; text-align: center; margin-top: 48px; }
-  .intro, .aviso { text-align: center; font-style: italic; color: var(--suave); }
-  .paises { columns: 3 260px; column-gap: 48px; margin-top: 32px; }
-  .paises section { break-inside: avoid; margin-bottom: 24px; }
-  h2 { font-size: 26px; border-bottom: 1px solid var(--linea); padding-bottom: 4px; margin: 0 0 8px; }
-  ul { list-style: none; padding: 0; margin: 0; font-size: 17px; }
-  li span { font: 400 12px var(--mono); color: var(--suave); margin-left: 6px; }
+  .cab { background: var(--mar); color: #fff; padding: 48px 0 40px; }
+  .cab .mono { color: var(--coral); margin: 0; }
+  h1 { font-size: clamp(40px, 7vw, 80px); font-weight: 800; margin: 8px 0; }
+  .cab p:last-child { color: #c9d6fb; margin: 0; }
+  .paises { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-top: 32px; }
+  .pais { background: #fff; border-radius: 16px; padding: 20px; box-shadow: 0 6px 20px rgba(11,31,77,.06); }
+  .pais header { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px dashed var(--linea); margin-bottom: 8px; }
+  h2 { font-size: 22px; margin: 0 0 10px; }
+  .pais header .mono { color: var(--coral); font-size: 20px; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li a { display: flex; gap: 10px; align-items: center; padding: 6px 0; text-decoration: none; color: var(--texto); font-size: 16px; }
+  li a:hover .nombre { color: var(--mar3); text-decoration: underline; }
+  .codigo.claro { background: var(--hielo); color: var(--mar3); font-size: 11px; }
+  .aviso { color: var(--suave); font-size: 14px; margin-top: 24px; }
 </style>

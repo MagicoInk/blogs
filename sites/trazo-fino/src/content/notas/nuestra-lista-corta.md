@@ -2,6 +2,7 @@
 titulo: "La lista corta de este otoño"
 fecha: 2026-11-07
 temas: [artistas, recomendaciones]
+dibujo: golondrina
 extracto: "Artistas de línea fina que no dejamos de mirar, de Seúl a Guadalajara."
 artistas: [int-01, int-05, int-06, int-14, mx-02, mx-04, magico-artista-2]
 mencionaMagico: true

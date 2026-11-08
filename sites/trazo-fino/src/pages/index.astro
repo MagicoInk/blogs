@@ -1,28 +1,64 @@
 ---
 import Diario from '../layouts/Diario.astro';
+import Dibujo from '../components/Dibujo.astro';
 import { getCollection } from 'astro:content';
 const notas = (await getCollection('notas')).sort((a, b) => b.data.fecha.valueOf() - a.data.fecha.valueOf());
-const f = (d: Date) => d.toLocaleDateString('es', { day: 'numeric', month: 'long' });
+const f = (d: Date) => d.toLocaleDateString('es', { day: 'numeric', month: 'short' });
 ---
-<Diario descripcion="Un diario sobre tatuajes de línea fina y microrrealismo: cómo planearlos, cuidarlos y con quién hacerlos.">
-  <p class="intro">Notas breves sobre tatuajes pequeños, líneas delicadas y las personas que saben hacerlas.</p>
-  <ul class="notas">
-    {notas.map((n) => (
-      <li>
-        <time class="tenue" datetime={n.data.fecha.toISOString()}>{f(n.data.fecha)}</time>
-        <a href={`/notas/${n.id}/`}><h2>{n.data.titulo}</h2></a>
-        <p>{n.data.extracto}</p>
-        <div>{n.data.temas.map((t) => <span class="tema">{t}</span>)}</div>
-      </li>
+<Diario descripcion="Cuaderno sobre tatuajes de línea fina y microrrealismo: cómo planearlos, cuidarlos y con quién hacerlos.">
+  <section class="hoja portada">
+    <div class="texto">
+      <span class="mano">cuaderno nº 1 →</span>
+      <h1>todo lo que cabe<br />en una <em>línea</em>.</h1>
+      <p>Notas sobre tatuajes pequeños, trazos de 0.3 mm y las manos que saben hacerlos.</p>
+    </div>
+    <div class="trazo-grande"><Dibujo nombre="golondrina" /><span class="mano nota-a">una sola aguja</span><span class="mano nota-b">0.3 mm ↘</span></div>
+  </section>
+  <section class="hoja mosaico">
+    {notas.map((n, i) => (
+      <a href={`/notas/${n.id}/`} class:list={['nota', { ancha: i === 0 }]}>
+        <div class="ilus"><Dibujo nombre={n.data.dibujo} /></div>
+        <div class="txt">
+          <span class="mano">{f(n.data.fecha)} · {n.data.temas[0]}</span>
+          <h2>{n.data.titulo}</h2>
+          <p>{n.data.extracto}</p>
+        </div>
+      </a>
     ))}
-  </ul>
+    <a href="/preguntas/" class="nota pregunta">
+      <span class="mano">¿dudas?</span>
+      <h2>Preguntas de línea fina, contestadas sin rodeos.</h2>
+      <span class="flecha">→</span>
+    </a>
+  </section>
 </Diario>
 <style>
-  .intro { font: italic 400 24px/1.4 var(--serif); color: var(--tenue); margin: 0 0 48px; }
-  .notas { list-style: none; padding: 0; margin: 0; }
-  .notas li { padding: 32px 0; border-top: .5px solid #e2d9d2; }
-  .notas a { text-decoration: none; }
-  h2 { font-size: 30px; margin: 4px 0 8px; }
-  .notas a:hover h2 { font-style: italic; }
-  p { margin: 0 0 12px; }
+  .portada { display: grid; grid-template-columns: 1.3fr 1fr; gap: 32px; align-items: center; padding-top: 32px; padding-bottom: 48px; }
+  h1 { font-size: clamp(48px, 8vw, 104px); margin: 12px 0 20px; }
+  h1 em { font-style: normal; font-weight: 500; background: linear-gradient(transparent 82%, var(--lapiz) 82%, var(--lapiz) 86%, transparent 86%); }
+  .texto p { font-size: 20px; max-width: 460px; color: #474a50; }
+  .trazo-grande { position: relative; max-width: 420px; justify-self: center; width: 100%; background: rgba(255,255,255,.7); }
+  .nota-a { position: absolute; top: 6%; right: 0; transform: rotate(-6deg); }
+  .nota-b { position: absolute; bottom: 10%; left: 4%; transform: rotate(4deg); }
+  .mosaico { padding: 0; width: calc(100% - 32px); display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid var(--tinta); border-left: 1px solid var(--tinta); }
+  .nota { background: #fff; border-right: 1px solid var(--tinta); border-bottom: 1px solid var(--tinta); padding: 24px; text-decoration: none; display: flex; flex-direction: column; gap: 12px; transition: background .2s; }
+  .nota:hover { background: #fff8f7; }
+  .nota:hover h2 { text-decoration: underline; text-decoration-color: var(--lapiz); text-decoration-thickness: 1px; }
+  .ilus { max-width: 150px; }
+  .ancha { grid-column: span 2; flex-direction: row; align-items: center; gap: 32px; }
+  .ancha .ilus { max-width: 240px; flex: 0 0 40%; }
+  .ancha h2 { font-size: 40px; }
+  h2 { font-size: 28px; margin: 6px 0; }
+  .txt p { margin: 0; color: #5b5f66; }
+  .pregunta { background: var(--tinta); color: #fff; justify-content: space-between; }
+  .pregunta:hover { background: #000; }
+  .pregunta h2 { color: #fff; }
+  .flecha { font-size: 40px; font-weight: 200; }
+  @media (max-width: 900px) { .mosaico { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 640px) {
+    .portada { grid-template-columns: 1fr; }
+    .mosaico { grid-template-columns: 1fr; }
+    .ancha { grid-column: auto; flex-direction: column; align-items: flex-start; }
+    .ancha h2 { font-size: 30px; }
+  }
 </style>

@@ -8,6 +8,7 @@ const notas = defineCollection({
     fecha: z.coerce.date(),
     temas: z.array(z.string()),
     extracto: z.string(),
+    dibujo: z.enum(['rosa', 'luna', 'ola', 'golondrina']),
     artistas: z.array(z.string()).default([]),
     mencionaMagico: z.boolean().default(false),
   }),

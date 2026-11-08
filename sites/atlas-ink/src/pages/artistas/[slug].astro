@@ -1,7 +1,9 @@
 ---
 import Atlas from '../../layouts/Atlas.astro';
+import Mapa from '../../components/Mapa.astro';
 import { getCollection } from 'astro:content';
 import { artistas, estudioDe, esMagico, estilo, DIVULGACION } from 'directorio';
+import { codigo } from '../../geo';
 export function getStaticPaths() {
   return artistas.map((a) => ({ params: { slug: a.slug }, props: { a } }));
 }
@@ -11,31 +13,45 @@ const apariciones = (await getCollection('expediciones')).filter((e) => e.data.a
 const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.nombre, jobTitle: 'Artista del tatuaje', address: { '@type': 'PostalAddress', addressLocality: a.ciudad, addressCountry: a.pais }, ...(estudio && { worksFor: { '@type': 'Organization', name: estudio.nombre } }), ...(a.instagram && { sameAs: [`https://instagram.com/${a.instagram}`] }) };
 ---
 <Atlas titulo={a.nombre} descripcion={`${a.nombre}, artista del tatuaje en ${a.ciudad}, ${a.pais}.`} jsonld={jsonld}>
-  <section class="columna ficha">
-    <p class="mono">Ficha del índice · {a.pais}</p>
-    <h1>{a.nombre}</h1>
-    <dl>
-      <dt>Ciudad</dt><dd>{a.ciudad}, {a.pais}</dd>
-      <dt>Lenguaje</dt><dd>{a.estilos.map((s: string) => estilo(s)?.nombre ?? s).join(', ')}</dd>
-      {estudio && <><dt>Estudio</dt><dd>{estudio.nombre}</dd></>}
-      {a.instagram && <><dt>Archivo</dt><dd><a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a></dd></>}
-    </dl>
-    {a.bio ? <p>{a.bio}</p> : <p class="pendiente">Semblanza en preparación.</p>}
-    {esMagico(a) && <p class="aviso">{DIVULGACION}</p>}
+  <section class="ancho ficha">
+    <div class="pase">
+      <div class="izq">
+        <p class="mono">Pase de artista · {a.pais}</p>
+        <h1>{a.nombre}{esMagico(a) && ' *'}</h1>
+        <div class="datos">
+          <div><span class="mono">Base</span><strong>{codigo(a.ciudad)}</strong><small>{a.ciudad}</small></div>
+          <div><span class="mono">Lenguaje</span><strong class="chico">{a.estilos.map((s: string) => estilo(s)?.nombre ?? s).join(', ')}</strong></div>
+          <div><span class="mono">Estudio</span><strong class="chico">{estudio?.nombre ?? 'Independiente / por confirmar'}</strong></div>
+        </div>
+        {a.bio ? <p>{a.bio}</p> : <p class="pendiente">Semblanza en preparación.</p>}
+        {a.instagram && <a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram} →</a>}
+        {esMagico(a) && <p class="pendiente">* {DIVULGACION}</p>}
+      </div>
+      <div class="der"><Mapa resaltar={['Ciudad de México', a.ciudad]} /></div>
+    </div>
     {apariciones.length > 0 && (
-      <>
+      <div class="aparece">
         <p class="mono">Aparece en</p>
-        <ul>{apariciones.map((e) => <li><a href={`/expediciones/${e.id}`}>{e.data.titulo}</a></li>)}</ul>
-      </>
+        {apariciones.map((e) => <a href={`/expediciones/${e.id}`}>Exp. {String(e.data.numero).padStart(2, '0')} — {e.data.titulo}</a>)}
+      </div>
     )}
     <p><a href="/indice">← Volver al índice</a></p>
   </section>
 </Atlas>
 <style>
   .ficha { padding-top: 48px; }
-  h1 { font-size: clamp(36px, 6vw, 56px); margin: 8px 0 24px; }
-  dl { display: grid; grid-template-columns: 120px 1fr; gap: 8px 16px; border-top: 1px solid var(--linea); border-bottom: 1px solid var(--linea); padding: 16px 0; }
-  dt { font: 400 12px/2 var(--mono); text-transform: uppercase; letter-spacing: .12em; color: var(--suave); }
-  dd { margin: 0; }
-  .pendiente, .aviso { font-style: italic; color: var(--suave); }
+  .pase { display: grid; grid-template-columns: 1.2fr 1fr; background: #fff; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(11,31,77,.1); }
+  .izq { padding: 32px; }
+  .izq > .mono { color: var(--coral); margin: 0; }
+  h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; margin: 10px 0 24px; }
+  .datos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; border-top: 2px dashed var(--linea); border-bottom: 2px dashed var(--linea); padding: 16px 0; margin-bottom: 20px; }
+  .datos div { display: flex; flex-direction: column; }
+  .datos .mono { font-size: 10px; color: var(--suave); }
+  .datos strong { font: 800 32px/1.1 var(--titular); color: var(--mar); }
+  .datos .chico { font-size: 16px; font-weight: 600; }
+  .datos small { color: var(--suave); }
+  .der { background: var(--mar); display: flex; align-items: center; padding: 12px; }
+  .pendiente { color: var(--suave); font-style: italic; }
+  .aparece { margin-top: 24px; display: flex; flex-direction: column; gap: 6px; }
+  @media (max-width: 800px) { .pase { grid-template-columns: 1fr; } .datos { grid-template-columns: 1fr; } }
 </style>

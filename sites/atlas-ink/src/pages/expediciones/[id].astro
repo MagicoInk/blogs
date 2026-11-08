@@ -1,57 +1,88 @@
 ---
 import Atlas from '../../layouts/Atlas.astro';
+import Mapa from '../../components/Mapa.astro';
 import { getCollection, render } from 'astro:content';
 import { artista, esMagico, estudioDe, DIVULGACION } from 'directorio';
+import { codigo, ciudadesGeo } from '../../geo';
 export async function getStaticPaths() {
   return (await getCollection('expediciones')).map((e) => ({ params: { id: e.id }, props: { e } }));
 }
 const { e } = Astro.props;
 const { Content, headings } = await render(e);
-const citados = e.data.artistas.map(artista).filter(Boolean);
+const citados = e.data.artistas.map(artista).filter(Boolean) as NonNullable<ReturnType<typeof artista>>[];
+const destinos = [...new Set(citados.map((a) => a.ciudad))].filter((c) => ciudadesGeo[c]);
 const divulgar = e.data.mencionaMagico || citados.some(esMagico);
+const capitulos = headings.filter((h) => h.depth === 2);
 const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline: e.data.titulo, description: e.data.entradilla, datePublished: e.data.fecha.toISOString(), author: { '@type': 'Organization', name: e.data.firma }, publisher: { '@type': 'Organization', name: 'Atlas Ink', parentOrganization: { '@type': 'Organization', name: 'Magico Ink' } } };
 ---
 <Atlas titulo={e.data.titulo} descripcion={e.data.entradilla} articulo jsonld={jsonld}>
-  <article>
-    <header class="columna cabeza">
-      <p class="mono">Expedición {e.data.numero} · {e.data.lugar}</p>
-      <h1>{e.data.titulo}</h1>
-      <p class="entradilla">{e.data.entradilla}</p>
-      <p class="mono">{e.data.firma} · {e.data.fecha.toLocaleDateString('es', { month: 'long', year: 'numeric' })}</p>
-    </header>
-    <div class="columna">
-      {headings.length > 2 && (
-        <nav class="ruta" aria-label="Ruta de la crónica">
-          <p class="mono">La ruta</p>
-          <ol>{headings.filter((h) => h.depth === 2).map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
-        </nav>
-      )}
-      <div class="cronica"><Content /></div>
-      {citados.length > 0 && (
-        <aside class="citados">
-          <p class="mono">Artistas citados en esta expedición</p>
-          <ul>
-            {citados.map((a) => (
-              <li><a href={`/artistas/${a.slug}`}>{a.nombre}</a> — {a.ciudad}, {a.pais}{estudioDe(a) && `, ${estudioDe(a).nombre}`}{esMagico(a) && <sup>*</sup>}</li>
-            ))}
-          </ul>
-          {divulgar && <p class="aviso"><sup>*</sup> {DIVULGACION}</p>}
-        </aside>
-      )}
+  <header class="cab">
+    <div class="ancho rejilla-cab">
+      <div>
+        <p class="mono">Expedición {String(e.data.numero).padStart(2, '0')} · {e.data.lugar}</p>
+        <h1>{e.data.titulo}</h1>
+        <p class="entradilla">{e.data.entradilla}</p>
+        <p class="mono firma">{e.data.firma} · {e.data.fecha.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+      </div>
+      <div class="mini-mapa"><Mapa resaltar={['Ciudad de México', ...destinos]} /></div>
     </div>
-  </article>
+  </header>
+  <div class="ancho rejilla">
+    <article class="cronica"><Content /></article>
+    <aside class="bitacora">
+      <div class="tarjeta">
+        <p class="mono titulo">Bitácora</p>
+        {destinos.length > 0 && (
+          <>
+            <p class="mono sub">Destinos</p>
+            <div class="codigos">{destinos.map((c) => <span class="codigo claro" title={c}>{codigo(c)}</span>)}</div>
+          </>
+        )}
+        {capitulos.length > 0 && (
+          <>
+            <p class="mono sub">Capítulos</p>
+            <ol>{capitulos.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+          </>
+        )}
+        {citados.length > 0 && (
+          <>
+            <p class="mono sub">Artistas citados</p>
+            <ul class="citados">
+              {citados.map((a) => (
+                <li><a href={`/artistas/${a.slug}`}>{a.nombre}{esMagico(a) && ' *'}</a><span class="mono">{codigo(a.ciudad)} · {estudioDe(a)?.nombre ?? a.pais}</span></li>
+              ))}
+            </ul>
+          </>
+        )}
+        {divulgar && <p class="aviso">* {DIVULGACION}</p>}
+      </div>
+    </aside>
+  </div>
 </Atlas>
 <style>
-  .cabeza { text-align: center; padding-top: 48px; }
-  h1 { font-size: clamp(34px, 6vw, 56px); margin: 12px 0 18px; }
-  .entradilla { font-style: italic; font-size: 22px; color: var(--suave); }
-  .ruta { border: 1px solid var(--linea); padding: 12px 20px; margin: 32px 0; }
-  .ruta ol { margin: 0; padding-left: 20px; font-size: 16px; }
-  .cronica :global(p:first-of-type::first-letter) { float: left; font: 600 76px/0.85 var(--titular); padding: 6px 10px 0 0; color: var(--sepia); }
-  .cronica :global(h2) { font-size: 30px; margin-top: 56px; text-align: center; }
-  .cronica :global(h2)::before { content: '§'; display: block; color: var(--sepia); font-size: 22px; margin-bottom: 8px; }
-  .cronica :global(blockquote) { margin: 36px 0; font: 300 italic 26px/1.4 var(--titular); text-align: center; border: 0; }
-  .citados { margin-top: 56px; border-top: 3px double var(--tinta); padding-top: 16px; font-size: 17px; }
-  .citados ul { padding-left: 18px; }
-  .aviso { font-style: italic; font-size: 15px; color: var(--suave); }
+  .cab { background: var(--mar); color: #fff; padding: 48px 0 40px; }
+  .rejilla-cab { display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: center; }
+  .cab .mono { color: var(--coral); }
+  h1 { font-size: clamp(36px, 5.5vw, 68px); font-weight: 800; margin: 12px 0 16px; }
+  .entradilla { font-size: 21px; color: #c9d6fb; margin: 0 0 16px; }
+  .firma { color: #9fb3e6 !important; }
+  .mini-mapa { background: var(--mar2); border-radius: 16px; padding: 8px; }
+  .rejilla { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 56px; margin-top: 48px; }
+  .cronica { max-width: 700px; }
+  .cronica :global(h2) { font-size: 30px; margin: 48px 0 12px; display: flex; gap: 12px; align-items: baseline; }
+  .cronica :global(h2)::before { content: '◆'; color: var(--coral); font-size: 16px; }
+  .cronica :global(blockquote) { margin: 40px 0; padding: 28px 32px; background: var(--mar); color: #fff; border-radius: 16px; font: 300 24px/1.4 var(--titular); }
+  .cronica :global(blockquote p) { margin: 0; }
+  .bitacora { position: relative; }
+  .tarjeta { position: sticky; top: 88px; background: #fff; border-radius: 16px; padding: 22px; box-shadow: 0 10px 30px rgba(11,31,77,.08); font-size: 15px; }
+  .titulo { color: var(--mar); font-size: 14px; margin: 0 0 4px; }
+  .sub { color: var(--suave); margin: 18px 0 8px; font-size: 11px; }
+  .codigos { display: flex; gap: 6px; flex-wrap: wrap; }
+  .codigo.claro { background: var(--hielo); color: var(--mar3); }
+  ol, .citados { margin: 0; padding-left: 18px; }
+  .citados { list-style: none; padding: 0; }
+  .citados li { padding: 8px 0; border-bottom: 1px solid var(--linea); display: flex; flex-direction: column; }
+  .citados .mono { font-size: 10px; color: var(--suave); }
+  .aviso { font-size: 13px; color: var(--suave); margin: 16px 0 0; }
+  @media (max-width: 900px) { .rejilla-cab, .rejilla { grid-template-columns: 1fr; } .tarjeta { position: static; } }
 </style>

@@ -2,7 +2,9 @@
 import { DIVULGACION } from 'directorio';
 interface Props { titulo?: string; descripcion: string; jsonld?: object }
 const { titulo, descripcion, jsonld } = Astro.props;
-const completo = titulo ? `${titulo} — trazo fino` : 'trazo fino — un diario sobre líneas pequeñas';
+const completo = titulo ? `${titulo} · trazo fino` : 'trazo fino · cuaderno de línea fina y microrrealismo';
+const ruta = Astro.url.pathname;
+const links = [['/', 'cuaderno'], ['/artistas/', 'lista corta'], ['/preguntas/', 'preguntas'], ['/sobre/', 'sobre']];
 ---
 <!doctype html>
 <html lang="es">
@@ -17,38 +19,40 @@ const completo = titulo ? `${titulo} — trazo fino` : 'trazo fino — un diario
   <meta property="og:description" content={descripcion} />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;500&family=Caveat:wght@500&display=swap" rel="stylesheet" />
   {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
 </head>
 <body>
   <header>
-    <a href="/" class="firma">trazo <i>fino</i></a>
-    <nav><a href="/">notas</a><a href="/artistas/">lista corta</a><a href="/preguntas/">preguntas</a><a href="/sobre/">sobre</a></nav>
+    <a href="/" class="firma">trazo<span>/</span>fino</a>
+    <nav>{links.map(([h, t]) => <a href={h} aria-current={ruta === h ? 'page' : undefined}>{t}</a>)}</nav>
   </header>
   <main><slot /></main>
   <footer>
-    <svg viewBox="0 0 200 20" aria-hidden="true"><path d="M0 10 C 40 0, 60 20, 100 10 S 160 0, 200 10" fill="none" stroke="currentColor" stroke-width=".6" /></svg>
+    <span class="mano">— hecho a pulso</span>
     <p>{DIVULGACION}</p>
   </footer>
 </body>
 </html>
 <style is:global>
-  :root { --hueso: #fbf7f4; --rubor: #f6ede8; --salvia: #dfe7df; --grafito: #3b3b3b; --tenue: #8b8580; --serif: 'Cormorant Garamond', Georgia, serif; --sans: 'DM Sans', system-ui, sans-serif; }
+  :root { --papel: #ffffff; --cuadro: #edf0f5; --tinta: #1c1c1e; --tenue: #8a8f98; --lapiz: #e2483d; --sans: 'Outfit', system-ui, sans-serif; --mano: 'Caveat', cursive; }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--hueso); color: var(--grafito); font: 300 17px/1.85 var(--sans); }
-  main { max-width: 600px; margin: 0 auto; padding: 0 16px; }
-  a { color: var(--grafito); text-decoration-thickness: .5px; text-underline-offset: 4px; }
-  h1, h2 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
-  h1 { font-size: clamp(34px, 6vw, 46px); }
-  .tenue { color: var(--tenue); font-size: 14px; letter-spacing: .02em; }
-  .tema { display: inline-block; background: var(--salvia); border-radius: 99px; padding: 1px 10px; font-size: 12px; margin-right: 4px; }
+  body { margin: 0; color: var(--tinta); font: 300 17px/1.75 var(--sans); background-color: var(--papel);
+    background-image: linear-gradient(var(--cuadro) 1px, transparent 1px), linear-gradient(90deg, var(--cuadro) 1px, transparent 1px);
+    background-size: 24px 24px; }
+  a { color: var(--tinta); text-decoration-color: var(--lapiz); text-decoration-thickness: 1px; text-underline-offset: 4px; }
+  h1, h2, h3 { font-weight: 200; letter-spacing: -.02em; line-height: 1.05; }
+  .mano { font-family: var(--mano); color: var(--lapiz); font-size: 22px; line-height: 1; }
+  .hoja { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
 </style>
 <style>
-  header { max-width: 600px; margin: 0 auto; padding: 48px 16px 56px; display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 12px; }
-  .firma { font: 400 28px var(--serif); text-decoration: none; }
-  nav { display: flex; gap: 18px; font-size: 14px; }
-  nav a { text-decoration: none; color: var(--tenue); }
-  nav a:hover { color: var(--grafito); }
-  footer { max-width: 600px; margin: 96px auto 0; padding: 0 16px 56px; text-align: center; color: var(--tenue); font-size: 14px; }
-  footer svg { width: 160px; color: var(--tenue); }
+  header { max-width: 1200px; margin: 0 auto; padding: 28px 16px; display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .firma { font: 200 30px var(--sans); text-decoration: none; letter-spacing: -.02em; }
+  .firma span { color: var(--lapiz); margin: 0 2px; }
+  nav { display: flex; gap: 4px; flex-wrap: wrap; }
+  nav a { text-decoration: none; font-size: 15px; padding: 4px 12px; border: 1px solid transparent; border-radius: 999px; background: rgba(255,255,255,.8); }
+  nav a:hover { border-color: var(--tinta); }
+  nav a[aria-current] { border-color: var(--tinta); background: var(--tinta); color: #fff; }
+  footer { max-width: 1200px; margin: 96px auto 0; padding: 24px 16px 48px; border-top: 1px solid var(--tinta); display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; color: var(--tenue); font-size: 14px; }
+  footer p { margin: 0; max-width: 560px; }
 </style>

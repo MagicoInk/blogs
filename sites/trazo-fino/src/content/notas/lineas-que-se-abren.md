@@ -2,6 +2,7 @@
 titulo: "Por qué algunas líneas finas se abren"
 fecha: 2026-10-27
 temas: [cicatrizado, técnica]
+dibujo: ola
 extracto: "Esa línea que salió borrosa no siempre es culpa de tu piel."
 ---
 

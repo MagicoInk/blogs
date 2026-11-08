@@ -4,21 +4,31 @@ import { porEstilo, estudioDe, esMagico, DIVULGACION } from 'directorio';
 const lista = porEstilo('fine-line');
 ---
 <Diario titulo="lista corta" descripcion="Artistas de línea fina y microrrealismo que seguimos de cerca, en México y el mundo.">
-  <h1>lista corta</h1>
-  <p class="tenue">Artistas de línea fina que seguimos de cerca. Sin orden de importancia.</p>
-  <ul>
-    {lista.map((a) => (
-      <li>
-        <span class="nombre">{a.nombre}{esMagico(a) && <sup>✦</sup>}</span>
-        <span class="tenue">{a.ciudad}, {a.pais}{estudioDe(a) && ` · ${estudioDe(a).nombre}`}</span>
-        {a.instagram && <a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a>}
-      </li>
-    ))}
-  </ul>
-  <p class="tenue">✦ {DIVULGACION}</p>
+  <section class="hoja">
+    <span class="mano">sin orden de importancia</span>
+    <h1>lista corta</h1>
+    <div class="tabla">
+      <div class="fila cab"><span>#</span><span>artista</span><span>ciudad</span><span>estudio</span></div>
+      {lista.map((a, i) => (
+        <div class="fila">
+          <span class="mano">{String(i + 1).padStart(2, '0')}</span>
+          <span class="nombre">{a.nombre}{esMagico(a) && <sup>✦</sup>}{a.instagram && <a href={`https://instagram.com/${a.instagram}`} rel="noopener"> @{a.instagram}</a>}</span>
+          <span>{a.ciudad}, {a.pais}</span>
+          <span class="tenue">{estudioDe(a)?.nombre ?? '—'}</span>
+        </div>
+      ))}
+    </div>
+    <p class="aviso">✦ {DIVULGACION}</p>
+  </section>
 </Diario>
 <style>
-  ul { list-style: none; padding: 0; margin: 32px 0; }
-  li { display: flex; flex-direction: column; padding: 18px 0; border-top: .5px solid #e2d9d2; }
-  .nombre { font: 400 24px var(--serif); }
+  h1 { font-size: clamp(56px, 10vw, 120px); margin: 0 0 32px; }
+  .tabla { background: #fff; border: 1px solid var(--tinta); }
+  .fila { display: grid; grid-template-columns: 60px 1.4fr 1fr 1fr; gap: 16px; padding: 14px 20px; border-bottom: 1px solid var(--cuadro); align-items: baseline; }
+  .fila:last-child { border-bottom: 0; }
+  .cab { font-size: 12px; text-transform: uppercase; letter-spacing: .14em; color: var(--tenue); border-bottom: 1px solid var(--tinta); }
+  .nombre { font-weight: 500; }
+  .tenue { color: var(--tenue); }
+  .aviso { font-size: 14px; color: var(--tenue); }
+  @media (max-width: 700px) { .fila { grid-template-columns: 40px 1fr; } .fila > :nth-child(n+3) { grid-column: 2; } .cab { display: none; } }
 </style>

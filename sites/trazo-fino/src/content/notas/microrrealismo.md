@@ -2,6 +2,7 @@
 titulo: "Microrrealismo: cuándo sí y cuándo no"
 fecha: 2026-10-18
 temas: [microrrealismo, expectativas]
+dibujo: luna
 extracto: "Un retrato del tamaño de una moneda es posible. Que dure como el primer día, no tanto."
 ---
 

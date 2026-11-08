@@ -1,9 +1,24 @@
 ---
 import Diario from '../layouts/Diario.astro';
+import Dibujo from '../components/Dibujo.astro';
 ---
 <Diario titulo="sobre" descripcion="Qué es trazo fino y quién lo escribe.">
-  <h1>sobre este diario</h1>
-  <p>trazo fino nació de una obsesión por los tatuajes pequeños, las líneas que parecen de lápiz y los detalles que solo se ven de cerca.</p>
-  <p>Lo escribe el equipo de <strong>Magico Ink</strong>, un estudio de tatuaje. Cuando alguien de Magico Ink aparece en una nota o en la lista corta, lo marcamos con un ✦.</p>
-  <p>Nadie paga por aparecer, y no publicamos el trabajo de ningún artista sin su permiso.</p>
+  <section class="hoja sobre">
+    <div class="dib"><Dibujo nombre="rosa" /></div>
+    <div class="pagina">
+      <span class="mano">quiénes escriben esto</span>
+      <h1>sobre este cuaderno</h1>
+      <p>trazo fino nació de una obsesión por los tatuajes pequeños, las líneas que parecen de lápiz y los detalles que solo se ven de cerca.</p>
+      <p>Lo escribe el equipo de <strong>Magico Ink</strong>, un estudio de tatuaje. Cuando alguien de Magico Ink aparece en una nota o en la lista corta, lo marcamos con un ✦.</p>
+      <p>Nadie paga por aparecer, y no publicamos el trabajo de ningún artista sin su permiso.</p>
+    </div>
+  </section>
 </Diario>
+<style>
+  .sobre { display: grid; grid-template-columns: 280px 1fr; gap: 48px; align-items: start; }
+  .dib { background: #fff; border: 1px solid var(--tinta); padding: 24px; }
+  .pagina { background: #fff; border: 1px solid var(--tinta); padding: 40px; max-width: 720px; }
+  h1 { font-size: clamp(40px, 6vw, 64px); margin: 4px 0 20px; }
+  strong { font-weight: 500; }
+  @media (max-width: 760px) { .sobre { grid-template-columns: 1fr; } .dib { max-width: 180px; } .pagina { padding: 24px 20px; } }
+</style>

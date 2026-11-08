@@ -1,0 +1,59 @@
+---
+import { ciudadesGeo } from '../geo';
+interface Props { resaltar?: string[] }
+const { resaltar } = Astro.props;
+const origen = ciudadesGeo['Ciudad de México'];
+const xy = (lat: number, lon: number) => [lon + 180, 90 - lat];
+const [ox, oy] = xy(origen.lat, origen.lon);
+const puntos = Object.entries(ciudadesGeo).map(([nombre, g]) => {
+  const [x, y] = xy(g.lat, g.lon);
+  return { nombre, x, y, codigo: g.codigo, activo: !resaltar || resaltar.includes(nombre), etiqueta: false };
+});
+
+// Encuadre: mapa completo, o acercamiento a los destinos resaltados.
+let vb = { x: 0, y: 8, w: 360, h: 150 };
+if (resaltar) {
+  const act = puntos.filter((p) => p.activo);
+  const xs = act.map((p) => p.x), ys = act.map((p) => p.y);
+  let w = Math.max(Math.max(...xs) - Math.min(...xs) + 40, 70);
+  let h = Math.max(Math.max(...ys) - Math.min(...ys) + 30, 30);
+  if (w / h > 2.4) h = w / 2.4; else w = h * 2.4;
+  const cx = (Math.max(...xs) + Math.min(...xs)) / 2, cy = (Math.max(...ys) + Math.min(...ys)) / 2;
+  vb = { x: cx - w / 2, y: cy - h / 2, w, h };
+}
+const k = vb.w / 360 * (resaltar ? 1.8 : 1);
+const cerca = (a: number, b: number) => Math.hypot(a - ox, b - oy) < 1.5;
+const colocadas: [number, number][] = [[ox, oy]];
+for (const p of puntos) {
+  p.etiqueta = p.activo && p.codigo !== 'MEX' && colocadas.every(([cx, cy]) => Math.abs(cx - p.x) > 11 * k || Math.abs(cy - p.y) > 5 * k);
+  if (p.etiqueta) colocadas.push([p.x, p.y]);
+}
+const ruta = (x: number, y: number) => {
+  const mx = (ox + x) / 2, my = (oy + y) / 2 - Math.min(40, Math.hypot(x - ox, y - oy) * 0.35);
+  return `M${ox} ${oy} Q${mx} ${my} ${x} ${y}`;
+};
+---
+<svg class="mapa" viewBox={`${vb.x} ${vb.y} ${vb.w} ${vb.h}`} role="img" aria-label="Mapa de rutas desde Ciudad de México hacia las ciudades del atlas" style={`--k:${k}`}>
+  <defs>
+    <pattern id={`ret-${resaltar ? 'z' : 'g'}`} width={6 * k} height={6 * k} patternUnits="userSpaceOnUse"><circle cx={3 * k} cy={3 * k} r={0.45 * k} fill="currentColor" opacity=".22" /></pattern>
+  </defs>
+  <rect x={vb.x} y={vb.y} width={vb.w} height={vb.h} fill={`url(#ret-${resaltar ? 'z' : 'g'})`} />
+  {puntos.filter((p) => p.activo && !cerca(p.x, p.y)).map((p) => <path d={ruta(p.x, p.y)} class="ruta" pathLength="1" />)}
+  {puntos.map((p) => (
+    <g class:list={['punto', { activo: p.activo, origen: p.codigo === 'MEX' }]}>
+      <circle cx={p.x} cy={p.y} r={(p.codigo === 'MEX' ? 2.4 : 1.5) * k} />
+      {p.etiqueta && <text x={p.x + 2.5 * k} y={p.y - 2 * k}>{p.codigo}</text>}
+      {p.codigo === 'MEX' && <text x={p.x - 3 * k} y={p.y + 7 * k} text-anchor="end">MEX</text>}
+    </g>
+  ))}
+</svg>
+<style>
+  .mapa { width: 100%; height: auto; display: block; color: #9fb3e6; }
+  .ruta { fill: none; stroke: var(--coral); stroke-width: calc(.5px * var(--k)); stroke-dasharray: 1; stroke-dashoffset: 1; animation: trazar 2.4s ease-out forwards; }
+  .punto circle { fill: #4b6299; }
+  .punto.activo circle { fill: #fff; }
+  .punto.origen circle { fill: var(--coral); }
+  text { font: 600 calc(4.2px * var(--k)) var(--mono); fill: #dbe5ff; letter-spacing: .3px; }
+  @keyframes trazar { to { stroke-dashoffset: 0; } }
+  @media (prefers-reduced-motion: reduce) { .ruta { animation: none; stroke-dashoffset: 0; } }
+</style>

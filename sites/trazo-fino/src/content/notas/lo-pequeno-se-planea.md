@@ -2,6 +2,7 @@
 titulo: "Lo pequeño también se planea"
 fecha: 2026-11-05
 temas: [tamaño, diseño]
+dibujo: rosa
 extracto: "Un tatuaje diminuto parece una decisión ligera. Casi nunca lo es."
 ---
 

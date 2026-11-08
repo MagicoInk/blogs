@@ -1,0 +1,44 @@
+---
+interface Props { nombre: 'rosa' | 'luna' | 'ola' | 'golondrina'; clase?: string }
+const { nombre, clase } = Astro.props;
+const trazos: Record<string, string[]> = {
+  rosa: [
+    'M50 34 c-6 -1 -10 4 -8 9 c2 5 10 5 12 0 c2 -4 -2 -7 -5 -6',
+    'M50 28 c11 -3 19 6 17 15 c-2 10 -15 14 -23 9 c-9 -5 -9 -18 0 -23 c4 -2 9 -2 12 1',
+    'M38 40 c-6 4 -6 13 0 18 c6 5 18 5 25 -1 c5 -5 7 -13 3 -19',
+    'M50 60 c-1 12 1 24 5 34',
+    'M51 73 c-8 -7 -19 -6 -24 0 c8 4 17 4 24 0',
+    'M53 82 c6 -7 16 -8 22 -3 c-7 5 -15 6 -22 3',
+  ],
+  luna: [
+    'M62 18 a32 32 0 1 0 22 54 a26 26 0 1 1 -22 -54 z',
+    'M24 22 v10 M19 27 h10',
+    'M80 20 v7 M76.5 23.5 h7',
+    'M86 46 v5 M83.5 48.5 h5',
+    'M30 86 c10 -3 20 -3 30 0',
+  ],
+  ola: [
+    'M10 62 c8 -22 26 -30 38 -18 c-9 -1 -14 8 -8 13 c9 7 24 -1 23 -17 c-1 -14 -15 -23 -28 -18',
+    'M8 72 c14 7 28 -7 42 0 s28 7 42 0',
+    'M8 82 c14 7 28 -7 42 0 s28 7 42 0',
+    'M70 28 c6 -4 12 -4 16 0',
+  ],
+  golondrina: [
+    'M50 28 C 57 33, 57 50, 50 62 C 43 50, 43 33, 50 28 Z',
+    'M46 42 C 35 34, 19 32, 4 40 C 18 43, 32 48, 45 51',
+    'M54 42 C 65 34, 81 32, 96 40 C 82 43, 68 48, 55 51',
+    'M48 60 C 46 70, 42 79, 37 90',
+    'M52 60 C 54 70, 58 79, 63 90',
+    'M48.5 34 h.1 M51.4 34 h.1',
+  ],
+};
+---
+<svg class:list={['dibujo', clase]} viewBox="0 0 100 100" aria-hidden="true">
+  {trazos[nombre].map((d, i) => <path d={d} pathLength="1" style={`animation-delay:${i * 0.35}s`} />)}
+</svg>
+<style>
+  .dibujo { width: 100%; height: auto; display: block; }
+  path { fill: none; stroke: var(--tinta); stroke-width: .7; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: dibujar 1.6s ease-in-out forwards; }
+  @keyframes dibujar { to { stroke-dashoffset: 0; } }
+  @media (prefers-reduced-motion: reduce) { path { animation: none; stroke-dashoffset: 0; } }
+</style>

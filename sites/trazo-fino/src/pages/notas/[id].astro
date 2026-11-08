@@ -1,43 +1,71 @@
 ---
 import Diario from '../../layouts/Diario.astro';
+import Dibujo from '../../components/Dibujo.astro';
 import { getCollection, render } from 'astro:content';
 import { artista, esMagico, estudioDe, DIVULGACION } from 'directorio';
 export async function getStaticPaths() {
-  return (await getCollection('notas')).map((n) => ({ params: { id: n.id }, props: { n } }));
+  const todas = (await getCollection('notas')).sort((a, b) => b.data.fecha.valueOf() - a.data.fecha.valueOf());
+  return todas.map((n, i) => ({ params: { id: n.id }, props: { n, otra: todas[(i + 1) % todas.length] } }));
 }
-const { n } = Astro.props;
+const { n, otra } = Astro.props;
 const { Content } = await render(n);
-const fichas = n.data.artistas.map(artista).filter(Boolean);
+const fichas = n.data.artistas.map(artista).filter(Boolean) as NonNullable<ReturnType<typeof artista>>[];
 const divulgar = n.data.mencionaMagico || fichas.some(esMagico);
 const jsonld = { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: n.data.titulo, description: n.data.extracto, datePublished: n.data.fecha.toISOString(), keywords: n.data.temas.join(', '), publisher: { '@type': 'Organization', name: 'trazo fino', parentOrganization: { '@type': 'Organization', name: 'Magico Ink' } } };
 ---
 <Diario titulo={n.data.titulo} descripcion={n.data.extracto} jsonld={jsonld}>
-  <article>
-    <p class="tenue">{n.data.fecha.toLocaleDateString('es', { dateStyle: 'long' })}</p>
-    <h1>{n.data.titulo}</h1>
-    <div class="cuerpo"><Content /></div>
-    {fichas.length > 0 && (
-      <section class="fichas">
-        {fichas.map((a) => (
-          <div class="ficha">
-            <span class="nombre">{a.nombre}{esMagico(a) && <sup>✦</sup>}</span>
-            <span class="tenue">{a.ciudad}{estudioDe(a) && ` · ${estudioDe(a).nombre}`}</span>
-          </div>
-        ))}
-      </section>
-    )}
-    {divulgar && <p class="tenue aviso">✦ {DIVULGACION}</p>}
-    <p class="temas">{n.data.temas.map((t) => <span class="tema">{t}</span>)}</p>
-    <p><a href="/">← todas las notas</a></p>
+  <article class="hoja pliego">
+    <aside class="margen">
+      <div class="lamina"><Dibujo nombre={n.data.dibujo} /></div>
+      <span class="mano">{n.data.fecha.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+      <ul class="temas">{n.data.temas.map((t) => <li>#{t}</li>)}</ul>
+    </aside>
+    <div class="pagina">
+      <h1>{n.data.titulo}</h1>
+      <p class="extracto">{n.data.extracto}</p>
+      <div class="cuerpo"><Content /></div>
+      {fichas.length > 0 && (
+        <section class="fichas">
+          <span class="mano">las manos de esta nota ↓</span>
+          <ol>
+            {fichas.map((a) => (
+              <li><span class="nombre">{a.nombre}{esMagico(a) && <sup>✦</sup>}</span><span class="lugar">{a.ciudad}{estudioDe(a) ? ` · ${estudioDe(a)!.nombre}` : `, ${a.pais}`}</span></li>
+            ))}
+          </ol>
+        </section>
+      )}
+      {divulgar && <p class="aviso">✦ {DIVULGACION}</p>}
+      <a href={`/notas/${otra.id}/`} class="siguiente"><span class="mano">sigue leyendo</span><strong>{otra.data.titulo} →</strong></a>
+    </div>
   </article>
 </Diario>
 <style>
-  h1 { margin: 4px 0 32px; }
-  .cuerpo :global(h2) { font-size: 26px; margin-top: 40px; }
-  .cuerpo :global(blockquote) { margin: 32px 0; font: italic 400 24px/1.4 var(--serif); color: var(--tenue); border: 0; padding: 0; }
-  .fichas { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin: 40px 0 16px; }
-  .ficha { background: var(--rubor); border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; }
-  .nombre { font: 400 22px var(--serif); }
-  .aviso { font-style: italic; }
-  .temas { margin-top: 32px; }
+  .pliego { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 56px; padding-top: 24px; }
+  .margen { position: sticky; top: 24px; align-self: start; display: flex; flex-direction: column; gap: 12px; }
+  .lamina { background: #fff; border: 1px solid var(--tinta); padding: 20px; }
+  .temas { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; font-size: 14px; color: var(--tenue); }
+  .pagina { background: #fff; border: 1px solid var(--tinta); padding: 40px 48px; max-width: 760px; }
+  h1 { font-size: clamp(40px, 6vw, 68px); margin: 0 0 16px; }
+  .extracto { font-size: 22px; color: #474a50; border-left: 2px solid var(--lapiz); padding-left: 16px; }
+  .cuerpo :global(h2) { font-size: 30px; font-weight: 300; margin: 40px 0 8px; }
+  .cuerpo :global(blockquote) { margin: 32px -16px; padding: 16px; font: 500 30px/1.15 var(--mano); color: var(--lapiz); border: 0; transform: rotate(-1deg); }
+  .cuerpo :global(blockquote p) { margin: 0; }
+  .cuerpo :global(strong) { font-weight: 500; }
+  .fichas { margin-top: 40px; }
+  .fichas ol { list-style: none; counter-reset: f; padding: 0; margin: 8px 0 0; border-top: 1px solid var(--tinta); }
+  .fichas li { counter-increment: f; display: grid; grid-template-columns: 40px 1fr auto; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid var(--cuadro); }
+  .fichas li::before { content: counter(f, decimal-leading-zero); font-family: var(--mano); color: var(--lapiz); font-size: 22px; }
+  .nombre { font-weight: 500; }
+  .lugar { color: var(--tenue); font-size: 14px; text-align: right; }
+  .aviso { font-size: 14px; color: var(--tenue); }
+  .siguiente { display: block; margin-top: 48px; padding-top: 20px; border-top: 1px dashed var(--tenue); text-decoration: none; }
+  .siguiente strong { display: block; font-weight: 300; font-size: 22px; }
+  @media (max-width: 860px) {
+    .pliego { grid-template-columns: 1fr; gap: 24px; }
+    .margen { position: static; flex-direction: row; flex-wrap: wrap; align-items: center; }
+    .lamina { width: 120px; padding: 10px; }
+    .pagina { padding: 24px 20px; }
+    .fichas li { grid-template-columns: 32px 1fr; }
+    .lugar { grid-column: 2; text-align: left; }
+  }
 </style>

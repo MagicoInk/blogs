@@ -1,57 +1,101 @@
 ---
 import Atlas from '../layouts/Atlas.astro';
+import Mapa from '../components/Mapa.astro';
 import { getCollection } from 'astro:content';
-import { internacionales } from 'directorio';
+import { artista, internacionales, artistas } from 'directorio';
+import { codigo, ciudadesGeo } from '../geo';
 const exp = (await getCollection('expediciones')).sort((a, b) => b.data.numero - a.data.numero);
 const [primera, ...resto] = exp;
-const paises = [...new Set(internacionales().map((a) => a.pais))].sort((a, b) => a.localeCompare(b, 'es'));
-const romano = (n: number) => ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'][n] ?? String(n);
+const destinos = (e: typeof exp[number]) => [...new Set(e.data.artistas.map(artista).filter(Boolean).map((a) => a!.ciudad))].filter((c) => ciudadesGeo[c] && c !== 'Ciudad de México');
+const paises = new Set(artistas.map((a) => a.pais)).size;
+const ciudades = Object.keys(ciudadesGeo).length;
 ---
-<Atlas descripcion="Crónicas sobre los artistas, estudios y ciudades que definen el tatuaje contemporáneo en el mundo.">
-  <section class="columna apertura">
-    <p class="mono">Expedición {romano(primera.data.numero)} · {primera.data.lugar}</p>
-    <h1><a href={`/expediciones/${primera.id}`}>{primera.data.titulo}</a></h1>
-    <p class="entradilla">{primera.data.entradilla}</p>
-    <a class="leer" href={`/expediciones/${primera.id}`}>Leer la crónica →</a>
+<Atlas descripcion="El mapa mundial del tatuaje: crónicas, ciudades y artistas que definen el tatuaje contemporáneo, de Seúl a Oaxaca.">
+  <section class="hero">
+    <div class="ancho">
+      <p class="mono etiqueta">Salidas desde MEX · Rutas activas</p>
+      <h1>El mapa mundial<br />del <em>tatuaje</em>.</h1>
+      <p class="lema">Crónicas desde las ciudades donde hoy se decide qué significa tatuar bien.</p>
+      <div class="cifras">
+        <div><strong>{ciudades}</strong><span class="mono">ciudades</span></div>
+        <div><strong>{paises}</strong><span class="mono">países</span></div>
+        <div><strong>{internacionales().length + artistas.filter((a) => a.pais === 'México').length}</strong><span class="mono">artistas</span></div>
+      </div>
+    </div>
+    <div class="mapa-envoltura"><Mapa /></div>
   </section>
-  <hr class="columna" />
-  <section class="ancha sumario">
-    <h2>Sumario</h2>
-    <ol>
+
+  <section class="ancho destacada">
+    <a href={`/expediciones/${primera.id}`} class="boleto grande">
+      <div class="talon">
+        <span class="mono">Expedición</span>
+        <strong class="num">{String(primera.data.numero).padStart(2, '0')}</strong>
+      </div>
+      <div class="cuerpo">
+        <div class="ruta-codigos">
+          <span class="codigo">MEX</span><span class="flecha">→</span>
+          {destinos(primera).map((c) => <span class="codigo claro">{codigo(c)}</span>)}
+        </div>
+        <h2>{primera.data.titulo}</h2>
+        <p>{primera.data.entradilla}</p>
+        <span class="mono leer">Leer la crónica →</span>
+      </div>
+    </a>
+  </section>
+
+  <section class="ancho">
+    <h2 class="titulo-seccion">Todas las expediciones</h2>
+    <div class="boletos">
       {resto.map((e) => (
-        <li>
-          <span class="num">{romano(e.data.numero)}</span>
-          <div>
-            <a href={`/expediciones/${e.id}`}>{e.data.titulo}</a>
-            <p>{e.data.entradilla}</p>
-            <p class="mono">{e.data.lugar}</p>
+        <a href={`/expediciones/${e.id}`} class="boleto">
+          <div class="talon">
+            <span class="mono">Exp.</span>
+            <strong class="num">{String(e.data.numero).padStart(2, '0')}</strong>
           </div>
-        </li>
+          <div class="cuerpo">
+            <div class="ruta-codigos">{destinos(e).slice(0, 4).map((c) => <span class="codigo claro">{codigo(c)}</span>)}</div>
+            <h3>{e.data.titulo}</h3>
+            <p>{e.data.entradilla}</p>
+          </div>
+        </a>
       ))}
-    </ol>
-  </section>
-  <section class="ancha mapa">
-    <h2>El mapa, por ahora</h2>
-    <p class="nota">Países con artistas en nuestro índice. El atlas crece con cada expedición.</p>
-    <ul>{paises.map((p) => <li><a href={`/indice#${p}`}>{p}</a></li>)}</ul>
+    </div>
   </section>
 </Atlas>
 <style>
-  .apertura { text-align: center; padding-top: 56px; padding-bottom: 8px; }
-  hr.columna { margin: 40px auto; max-width: 680px; }
-  h1 { font-size: clamp(36px, 6vw, 60px); margin: 12px 0 20px; }
-  h1 a { color: var(--tinta); text-decoration: none; }
-  .entradilla { font-style: italic; font-size: 22px; color: var(--suave); }
-  .leer { font: 400 13px var(--mono); text-transform: uppercase; letter-spacing: .14em; }
-  .sumario h2, .mapa h2 { font-size: 32px; text-align: center; }
-  .sumario ol { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px 48px; }
-  .sumario li { display: grid; grid-template-columns: 56px 1fr; border-top: 1px solid var(--linea); padding-top: 16px; }
-  .num { font: 300 36px/1 var(--titular); color: var(--sepia); }
-  .sumario a { font: 600 22px/1.25 var(--titular); color: var(--tinta); text-decoration: none; }
-  .sumario p { margin: 6px 0; font-size: 17px; }
-  .sumario p.mono { font-size: 12px; }
-  .mapa { margin-top: 64px; text-align: center; }
-  .nota { font-style: italic; color: var(--suave); }
-  .mapa ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 24px; font: 300 24px var(--titular); }
-  .mapa a { color: var(--tinta); }
+  .hero { background: radial-gradient(ellipse at 70% 0%, var(--mar3) 0%, var(--mar) 60%); color: #fff; padding: 56px 0 0; overflow: hidden; }
+  .etiqueta { color: var(--coral); margin: 0; }
+  h1 { font-size: clamp(44px, 8vw, 104px); font-weight: 800; margin: 12px 0 16px; }
+  h1 em { font-style: normal; color: var(--coral); }
+  .lema { font-size: 21px; color: #c9d6fb; max-width: 560px; margin: 0; }
+  .cifras { display: flex; gap: 40px; margin-top: 28px; flex-wrap: wrap; }
+  .cifras strong { display: block; font: 300 44px/1 var(--titular); }
+  .cifras span { color: #9fb3e6; }
+  .mapa-envoltura { max-width: 1400px; margin: 24px auto 0; padding: 0 8px; }
+  .destacada { margin-top: -40px; position: relative; }
+  .boleto { display: grid; grid-template-columns: 120px 1fr; background: #fff; border-radius: 18px; text-decoration: none; color: var(--texto); box-shadow: 0 10px 30px rgba(11,31,77,.12); overflow: hidden; transition: transform .2s; }
+  .boleto:hover { transform: translateY(-3px); }
+  .talon { background: var(--mar); color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 16px; border-right: 2px dashed rgba(255,255,255,.35); position: relative; }
+  .talon .mono { color: #9fb3e6; }
+  .num { font: 800 48px/1 var(--titular); color: var(--coral); }
+  .cuerpo { padding: 24px 28px; }
+  .grande { grid-template-columns: 180px 1fr; }
+  .grande .num { font-size: 80px; }
+  .grande h2 { font-size: clamp(28px, 4vw, 44px); margin: 14px 0 8px; }
+  .grande p { font-size: 19px; color: var(--suave); }
+  .ruta-codigos { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .codigo.claro { background: var(--hielo); color: var(--mar3); }
+  .flecha { color: var(--coral); font-weight: 600; }
+  .leer { color: var(--coral); }
+  .titulo-seccion { font-size: 32px; margin: 64px 0 20px; }
+  .boletos { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 20px; }
+  .boletos h3 { font-size: 22px; margin: 12px 0 6px; }
+  .boletos p { margin: 0; color: var(--suave); font-size: 16px; }
+  @media (max-width: 640px) {
+    .boletos { grid-template-columns: 1fr; }
+    .boleto, .grande { grid-template-columns: 1fr; }
+    .talon { flex-direction: row; gap: 12px; justify-content: flex-start; border-right: 0; border-bottom: 2px dashed rgba(255,255,255,.35); }
+    .grande .num, .num { font-size: 40px; }
+    .cuerpo { padding: 18px; }
+  }
 </style>
