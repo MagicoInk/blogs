@@ -879,21 +879,6 @@
     "verificacion": "extractos-buscador"
   },
   {
-    "slug": "la-clinica",
-    "nombre": "La Clínica",
-    "ciudad": "Querétaro",
-    "pais": "México",
-    "zona": null,
-    "estilos": [],
-    "descripcion": "",
-    "instagram": "",
-    "web": "",
-    "fuentes": [],
-    "esMagico": false,
-    "confirmado": false,
-    "verificacion": "extractos-buscador"
-  },
-  {
     "slug": "academy-ink",
     "nombre": "Academy Ink",
     "ciudad": "San Luis Potosí",
