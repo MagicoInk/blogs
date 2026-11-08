@@ -5,7 +5,7 @@ import { codigo } from '../geo';
 const grupos = Object.entries(Object.groupBy(artistas, (a) => a.pais)).sort(([a], [b]) => a.localeCompare(b, 'es'));
 ---
 <Atlas titulo="Índice de artistas" descripcion="Índice por país de los artistas del tatuaje que aparecen en Atlas Ink.">
-  <section class="cab"><div class="ancho"><p class="mono">Registro de llegadas</p><h1>Índice de artistas</h1><p>{artistas.length} artistas · {grupos.length} países. Cada ficha se publica con autorización del artista.</p></div></section>
+  <section class="cab"><div class="ancho"><p class="mono">Registro de llegadas</p><h1>Índice de artistas</h1><p>{artistas.length} artistas · {grupos.length} países. Cada ficha cita sus fuentes públicas.</p></div></section>
   <div class="ancho paises">
     {grupos.map(([pais, lista]) => (
       <section id={pais} class="pais">
