@@ -1,5 +1,5 @@
 ---
-import { estudioDe, esMagico, estilo } from 'directorio';
+import { estudioDe, esMagico, estilo, lugar } from 'directorio';
 const { a } = Astro.props;
 const estudio = estudioDe(a);
 const magico = esMagico(a);
@@ -9,7 +9,7 @@ const magico = esMagico(a);
   <div>
     {magico && <span class="etiqueta rosa">Magico Ink · casa</span>}
     <h3>{a.nombre}</h3>
-    <p class="meta">{a.ciudad}{estudio && ` · ${estudio.nombre}`}</p>
+    <p class="meta">{lugar(a)}{estudio && ` · ${estudio.nombre}`}</p>
     <p class="meta">{a.estilos.map((e: string) => estilo(e)?.nombre ?? e).join(', ')}</p>
     {a.instagram && <a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a>}
   </div>
