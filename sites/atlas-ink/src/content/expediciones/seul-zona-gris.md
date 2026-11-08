@@ -112,6 +112,6 @@ Para quien planee tatuarse en Seúl durante esta etapa de transición:
 
 ## Coda: una escalera sin letrero
 
-Quizá dentro de unos años los estudios de Seúl tengan rótulos luminosos en la calle. Quizá no: la discreción también se volvió parte del estilo. Lo cierto es que esta ciudad escribió uno de los capítulos más singulares de la historia contemporánea del tatuaje, el de una escena que alcanzó la excelencia mundial sin permiso para existir, y que logró ese permiso gracias, en parte, a sus propios artistas.
+Quizá dentro de unos años los estudios de Seúl tengan rótulos luminosos en la calle. Quizá no: la discreción también se volvió parte del estilo. Lo cierto es que esta ciudad escribió uno de los capítulos más singulares de la historia contemporánea del tatuaje, el de una escena que alcanzó la excelencia mundial sin permiso para existir, y que logró ese permiso gracias, en parte, a sus propios artistas. La línea a color de la ciudad tiene su propia crónica: [Corea a color](/expediciones/corea-a-color-banul-sol-nando).
 
 La próxima expedición de Atlas cruza el estrecho hacia Japón, a [Yokohama y la tradición del irezumi](/expediciones/japon-irezumi-yokohama), un país con su propia historia de prohibiciones y tribunales, y con un maestro que convirtió el tatuaje de cuerpo completo en arte de museo.

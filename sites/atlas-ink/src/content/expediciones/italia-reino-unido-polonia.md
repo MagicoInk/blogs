@@ -95,6 +95,16 @@ Italia y Polonia, como miembros de la Unión Europea, comparten la restricción 
 
 Encaje, porcelana, art déco, xilografía, cuento oscuro. A primera vista, los cinco artistas de esta crónica no tienen nada en común. Pero todos comparten una idea del tatuaje como parte de una práctica artística más amplia, que se alimenta de otras disciplinas y vuelve a ellas. Manzo expone en museos e iglesias; Sedda diseña porcelana; Coppoletta diseña para marcas; Binnie talla madera; Bemben estudió pintura. Es una diferencia sensible respecto de otras escenas que Atlas ha visitado, donde la excelencia se mide sobre todo por la ejecución técnica.
 
+## Un itinerario posible
+
+Para el lector que quiera convertir esta crónica en viaje, Atlas propone un recorrido que sigue el orden de las páginas, con la advertencia de que cada visita a un estudio debe acordarse de antemano y de que ninguno de estos artistas trabaja "sin cita".
+
+El viaje puede empezar en **Roma**, donde además del estudio de Marco Manzo el viajero encontrará los museos que han acogido sus propuestas, el MAXXI y el MACRO; conviene consultar su programación, porque las exposiciones de tatuaje son temporales. De allí, en tren, a **Florencia**, idealmente coincidiendo con la convención de la Fortezza da Basso si las fechas lo permiten; y después a **Milán**, para The Saint Mariner —tras confirmar su dirección— y, en temporada, la Milano Tattoo Convention.
+
+El salto a **Londres** tiene sentido para quien quiera ver el Clerkenwell del tatuaje: Exmouth Market, donde está The Family Business, y el barrio donde funcionó Into You hasta 2016. **Brighton**, a poca distancia en tren, completa el recorrido británico. Y **Cracovia**, la etapa final, ofrece un contraste completo: otra lengua, otra mitología, otra tradición visual.
+
+Un recorrido así no es una ruta de compras, sino de lectura. Quien lo haga con calma descubrirá que en cada ciudad el tatuaje dialoga con su entorno: el encaje con la Roma barroca, la porcelana con la Milán del diseño, la xilografía con la tradición gráfica inglesa, el cuento oscuro con los bosques de Europa central.
+
 ## Consejos prácticos
 
 - **Confirme las direcciones.** En el caso de The Saint Mariner, las fuentes difieren. Escriba al estudio antes de ir.
