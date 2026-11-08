@@ -1,7 +1,7 @@
 ---
 import Bravo from '../../layouts/Bravo.astro';
 import { getCollection, render } from 'astro:content';
-import { artista, estudioDe, esMagico, DIVULGACION } from 'directorio';
+import { artista, estudioDe, esMagico, lugar, DIVULGACION } from 'directorio';
 export async function getStaticPaths() {
   return (await getCollection('top')).map((t) => ({ params: { id: t.id }, props: { t } }));
 }
@@ -29,7 +29,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'ItemList', name: t.
           <span class="num">{String(i + 1).padStart(2, '0')}</span>
           <div>
             <h2>{p.a ? p.a.nombre : p.titulo}{p.a && esMagico(p.a) && ' ★'}</h2>
-            {p.a && <p class="meta">{p.a.ciudad}, {p.a.pais}{estudioDe(p.a) && ` / ${estudioDe(p.a).nombre}`}</p>}
+            {p.a && <p class="meta">{lugar(p.a)}{estudioDe(p.a) && ` / ${estudioDe(p.a).nombre}`}</p>}
             <p>{p.porque}</p>
             {p.a?.instagram && <a href={`https://instagram.com/${p.a.instagram}`} rel="noopener">@{p.a.instagram} →</a>}
           </div>

@@ -30,3 +30,6 @@ export function avisoPendientes(sitio) {
   const r = porRevisar().length;
   if (r) console.warn(`[${sitio}] ${r} fichas verificadas solo con extractos de buscador: abre sus fuentes antes de publicar.\n`);
 }
+
+/** "Ciudad, País" sin campos vacíos ni marcadores; `sep` permite otro separador. */
+export const lugar = (a, sep = ', ') => [a.ciudad, a.pais].filter((x) => x && !x.startsWith('[')).join(sep) || 'Ubicación por confirmar';

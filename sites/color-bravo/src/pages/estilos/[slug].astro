@@ -15,6 +15,14 @@ const { e } = Astro.props;
     <section class="caja"><h2>ES PARA TI SI…</h2><p>{e.ideal}</p></section>
     <section class="caja ojo"><h2>OJO</h2><p>{e.ojo}</p></section>
   </div>
+  {e.historia && e.historia.length > 0 && (
+    <div class="envoltura">
+      <section class="caja historia">
+        <h2>DE DÓNDE VIENE</h2>
+        {e.historia.map((p) => <p>{p}</p>)}
+      </section>
+    </div>
+  )}
   <div class="envoltura"><a href="/estilos/">← TODOS LOS ESTILOS</a></div>
 </Bravo>
 <style>
@@ -26,4 +34,6 @@ const { e } = Astro.props;
   h2 { font-size: 36px; }
   .ojo { background: var(--amarillo); }
   a { font-weight: 700; }
+  .historia { padding: 24px; margin: 0 0 48px; border-left: 24px solid var(--negro); }
+  .historia p { max-width: 760px; font-size: 19px; }
 </style>
