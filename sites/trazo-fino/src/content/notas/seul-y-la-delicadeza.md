@@ -108,3 +108,5 @@ Algunos consejos prácticos, generales y prudentes:
 ## Una rosa que creció en la sombra
 
 Nos gusta pensar en la línea fina coreana como en una rosa que creció a la sombra. No pidió permiso para florecer; floreció igual, con una delicadeza que quizá solo se aprende cuando hay que trabajar en silencio. Ahora que la ley empieza a abrirle la puerta, veremos cómo crece a la luz.
+
+Si quieres seguir el viaje, en [Seúl, segunda parte](/notas/seul-segunda-parte/) contamos la rama en color pastel: Sol, Nando, Banul y dos estudios de la ciudad.
