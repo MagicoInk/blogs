@@ -1,0 +1,16 @@
+---
+interface Props { urls: string[]; titulo?: string }
+const { urls, titulo = 'Fuentes' } = Astro.props;
+const host = (u: string) => { try { return new URL(u).hostname.replace('www.', ''); } catch { return u; } };
+---
+{urls.length > 0 && (
+  <section class="fuentes">
+    <h2>{titulo}</h2>
+    <ol>{urls.map((u) => <li><a href={u} rel="noopener">{host(u)}</a></li>)}</ol>
+  </section>
+)}
+<style>
+  .fuentes { margin-top: 40px; border-top: 4px solid var(--negro); padding-top: 12px; font-size: 14px; }
+  .fuentes h2 { font-size: 1.2rem; }
+  .fuentes li { margin: 4px 0; word-break: break-word; }
+</style>

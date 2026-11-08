@@ -1,0 +1,38 @@
+---
+import Diario from '../../layouts/Diario.astro';
+import Dibujo from '../../components/Dibujo.astro';
+import { getCollection } from 'astro:content';
+import { slugify } from 'directorio';
+export async function getStaticPaths() {
+  const notas = await getCollection('notas');
+  const temas = [...new Set(notas.flatMap((n) => n.data.temas))];
+  return temas.map((t) => ({ params: { tema: slugify(t) }, props: { t, lista: notas.filter((n) => n.data.temas.includes(t)), todos: temas } }));
+}
+const { t, lista, todos } = Astro.props;
+---
+<Diario titulo={`#${t}`} descripcion={`Notas de trazo fino sobre ${t}.`}>
+  <section class="hoja">
+    <span class="mano">tema</span>
+    <h1>#{t}</h1>
+    <div class="mosaico">
+      {lista.map((n) => (
+        <a href={`/notas/${n.id}/`} class="nota">
+          <div class="ilus"><Dibujo nombre={n.data.dibujo} /></div>
+          <h2>{n.data.titulo}</h2>
+          <p>{n.data.extracto}</p>
+        </a>
+      ))}
+    </div>
+    <p class="otros"><span class="mano">otros temas:</span> {todos.filter((x) => x !== t).map((x) => <a href={`/temas/${slugify(x)}/`}>#{x}</a>)}</p>
+  </section>
+</Diario>
+<style>
+  h1 { font-size: clamp(48px, 9vw, 110px); margin: 0 0 32px; }
+  .mosaico { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); border-top: 1px solid var(--tinta); border-left: 1px solid var(--tinta); }
+  .nota { background: #fff; border-right: 1px solid var(--tinta); border-bottom: 1px solid var(--tinta); padding: 24px; text-decoration: none; }
+  .nota:hover { background: #fff8f7; }
+  .ilus { max-width: 110px; }
+  h2 { font-size: 26px; margin: 12px 0 6px; }
+  .nota p { margin: 0; color: #5b5f66; }
+  .otros { margin-top: 32px; display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline; }
+</style>

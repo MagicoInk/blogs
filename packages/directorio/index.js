@@ -2,8 +2,10 @@ import artistas from './artistas.json' with { type: 'json' };
 import estudios from './estudios.json' with { type: 'json' };
 import estilos from './estilos.json' with { type: 'json' };
 import contextoMexico from './contexto-mexico.json' with { type: 'json' };
+import contextoMundo from './contexto-mundo.json' with { type: 'json' };
+import etiquetas from './etiquetas.json' with { type: 'json' };
 
-export { artistas, estudios, estilos, contextoMexico };
+export { artistas, estudios, estilos, contextoMexico, contextoMundo, etiquetas };
 
 export const estudioDe = (artista) => estudios.find((e) => e.slug === artista.estudio) ?? null;
 export const esMagico = (artista) => Boolean(estudioDe(artista)?.esMagico);
@@ -33,3 +35,16 @@ export function avisoPendientes(sitio) {
 
 /** "Ciudad, País" sin campos vacíos ni marcadores; `sep` permite otro separador. */
 export const lugar = (a, sep = ', ') => [a.ciudad, a.pais].filter((x) => x && !x.startsWith('[')).join(sep) || 'Ubicación por confirmar';
+
+/** Nombre legible de una etiqueta de estilo (por ejemplo "japones" → "Japonés"). */
+export const etiqueta = (e) => etiquetas[e] ?? e;
+/** Etiquetas finas del artista (o sus estilos base si no tiene). */
+export const etiquetasDe = (a) => (a.etiquetas?.length ? a.etiquetas : a.estilos);
+export const porEtiqueta = (e) => artistas.filter((a) => etiquetasDe(a).includes(e));
+export const estudio = (slug) => estudios.find((e) => e.slug === slug);
+export const artistasDeEstudio = (slug) => artistas.filter((a) => a.estudio === slug);
+export const estudiosDe = (pais) => estudios.filter((e) => !e.esMagico && (!pais || e.pais === pais));
+export const paises = () => [...new Set(artistas.map((a) => a.pais).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'es'));
+export const esMarcador = (a) => a.nombre.startsWith('[');
+/** Artistas reales (sin marcadores) de un país o de todos. */
+export const reales = (pais) => artistas.filter((a) => !esMarcador(a) && (!pais || a.pais === pais));

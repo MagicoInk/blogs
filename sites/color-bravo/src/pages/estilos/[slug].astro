@@ -1,10 +1,13 @@
 ---
 import Bravo from '../../layouts/Bravo.astro';
 import { estilos } from '../../estilos';
+import { artistasDeEstilo } from '../../artistasEstilo';
+import { lugar } from 'directorio';
 export function getStaticPaths() {
   return estilos.map((e) => ({ params: { slug: e.slug }, props: { e } }));
 }
 const { e } = Astro.props;
+const quienes = artistasDeEstilo(e.slug);
 ---
 <Bravo titulo={e.nombre} descripcion={`${e.nombre}: ${e.frase} Rasgos, para quién es y qué revisar antes de tatuarte.`}>
   <header class="cab" style={`background:${e.color}`}>
@@ -23,6 +26,12 @@ const { e } = Astro.props;
       </section>
     </div>
   )}
+  {quienes.length > 0 && (
+    <div class="envoltura">
+      <h2 class="tit-art">QUIÉN LO HACE</h2>
+      <div class="quienes">{quienes.map((a) => <a href={`/artistas/${a.slug}/`} class="caja"><strong>{a.nombre}</strong><span>{lugar(a)}</span></a>)}</div>
+    </div>
+  )}
   <div class="envoltura"><a href="/estilos/">← TODOS LOS ESTILOS</a></div>
 </Bravo>
 <style>
@@ -36,4 +45,10 @@ const { e } = Astro.props;
   a { font-weight: 700; }
   .historia { padding: 24px; margin: 0 0 48px; border-left: 24px solid var(--negro); }
   .historia p { max-width: 760px; font-size: 19px; }
+  .tit-art { font-size: 48px; margin-top: 48px; }
+  .quienes { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; margin-bottom: 40px; }
+  .quienes a { padding: 16px; text-decoration: none; display: flex; flex-direction: column; }
+  .quienes strong { font: 400 26px/1 var(--titular); text-transform: uppercase; }
+  .quienes span { font-weight: 700; font-size: 14px; }
+  .quienes a:hover { background: var(--amarillo); }
 </style>

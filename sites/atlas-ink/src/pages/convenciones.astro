@@ -1,0 +1,35 @@
+---
+import Atlas from '../layouts/Atlas.astro';
+import { contextoMundo, contextoMexico } from 'directorio';
+type C = { tema: string; pais?: string | null; ciudad?: string | null; nombre?: string | null; texto: string; fuente: string };
+const conv: C[] = [...(contextoMundo as C[]), ...(contextoMexico as C[]).map((c) => ({ ...c, pais: 'México' }))].filter((c) => c.tema === 'convenciones');
+const porPais = Object.entries(Object.groupBy(conv, (c) => c.pais || 'Internacional')).sort(([a], [b]) => a.localeCompare(b, 'es'));
+---
+<Atlas titulo="Convenciones del mundo" descripcion="Las convenciones de tatuaje del mundo, por país, con fuentes para confirmar fechas y sedes.">
+  <section class="cab"><div class="ancho"><p class="mono">Calendario de salidas</p><h1>Convenciones del mundo</h1><p>{conv.length} fichas de convenciones, por país. Las fechas cambian de un año a otro: confirma siempre con el organizador.</p></div></section>
+  <div class="ancho">
+    {porPais.map(([pais, lista]) => (
+      <section class="pais">
+        <h2>{pais}</h2>
+        <ul>
+          {lista!.map((c) => (
+            <li><span class="codigo claro">{c.nombre || c.ciudad || 'Convención'}</span><p>{c.texto}</p><a href={c.fuente} rel="noopener" class="mono">fuente</a></li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Atlas>
+<style>
+  .cab { background: var(--mar); color: #fff; padding: 48px 0 40px; }
+  .cab .mono { color: var(--coral); margin: 0; }
+  h1 { font-size: clamp(40px, 7vw, 80px); font-weight: 800; margin: 8px 0; }
+  .cab p:last-child { color: #c9d6fb; margin: 0; }
+  .pais { margin-top: 40px; }
+  h2 { font-size: 28px; }
+  ul { list-style: none; padding: 0; display: grid; gap: 12px; }
+  li { background: #fff; border-radius: 14px; padding: 16px 20px; box-shadow: 0 6px 20px rgba(11,31,77,.05); }
+  .codigo.claro { background: var(--hielo); color: var(--mar3); }
+  li p { margin: 8px 0 4px; font-size: 16px; }
+  li .mono { font-size: 10px; }
+</style>

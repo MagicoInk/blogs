@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import { artistas, etiquetasDe, etiqueta, lugar, esMagico, estudioDe, DIVULGACION } from 'directorio';
+const lista = artistas.filter((a) => a.pais === 'México').sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
+const filtros = [...new Set(lista.flatMap(etiquetasDe))];
+---
+<Base titulo="Tatuadores mexicanos: el directorio" descripcion="Directorio de tatuadores mexicanos con estilo, ciudad, estudio y fuentes.">
+  <div class="contenedor cuerpo">
+    <span class="etiqueta">Directorio</span>
+    <h1>Tatuadores mexicanos</h1>
+    <p class="intro">{lista.length} fichas con lo que está documentado públicamente sobre cada artista: estilo, ciudad, estudio y fuentes. Si eres artista y quieres corregir tu ficha, escríbenos.</p>
+    <div class="filtros" role="group" aria-label="Filtrar por estilo">
+      <button class="activo" data-f="">Todos</button>
+      {filtros.map((f) => <button data-f={f}>{etiqueta(f)}</button>)}
+    </div>
+    <ul class="lista">
+      {lista.map((a) => (
+        <li data-e={etiquetasDe(a).join(' ')}>
+          <a href={`/artistas/${a.slug}/`}>
+            <strong>{a.nombre}{esMagico(a) && <span class="casa">casa</span>}</strong>
+            <span>{lugar(a)}{estudioDe(a) && ` · ${estudioDe(a).nombre}`}</span>
+            <em>{etiquetasDe(a).map(etiqueta).join(' / ')}</em>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="aviso">{DIVULGACION}</p>
+  </div>
+  <script>
+    const botones = document.querySelectorAll<HTMLButtonElement>('.filtros button');
+    botones.forEach((b) => b.addEventListener('click', () => {
+      botones.forEach((x) => x.classList.toggle('activo', x === b));
+      document.querySelectorAll<HTMLElement>('.lista li').forEach((li) => { li.hidden = !!b.dataset.f && !li.dataset.e!.split(' ').includes(b.dataset.f!); });
+    }));
+  </script>
+</Base>
+<style>
+  .cuerpo { padding-top: 40px; }
+  h1 { font-size: clamp(2.2rem, 6vw, 4rem); margin-top: 12px; }
+  .intro { max-width: 680px; font-size: 1.15rem; }
+  .filtros { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0; }
+  .filtros button { font: 700 13px var(--cuerpo); text-transform: uppercase; letter-spacing: .05em; padding: 8px 12px; border: 3px solid var(--negro); background: #fff; cursor: pointer; }
+  .filtros button.activo { background: var(--negro); color: var(--amarillo); }
+  .lista { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0; border-top: 3px solid var(--negro); }
+  .lista a { display: flex; flex-direction: column; padding: 16px 4px; border-bottom: 1px solid #ddd; text-decoration: none; }
+  .lista a:hover strong { text-decoration: underline; text-decoration-color: var(--rosa); text-decoration-thickness: 3px; }
+  .lista strong { font: 400 1.3rem var(--display); }
+  .lista span { color: var(--sutil); font-size: 14px; }
+  .lista em { font-style: normal; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+  .casa { background: var(--rosa); color: #fff; font: 700 11px var(--cuerpo); padding: 2px 6px; margin-left: 8px; vertical-align: middle; text-transform: uppercase; }
+  .aviso { margin-top: 24px; font-size: 14px; color: var(--sutil); }
+</style>

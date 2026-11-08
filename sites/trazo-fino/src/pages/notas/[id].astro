@@ -2,7 +2,7 @@
 import Diario from '../../layouts/Diario.astro';
 import Dibujo from '../../components/Dibujo.astro';
 import { getCollection, render } from 'astro:content';
-import { artista, esMagico, estudioDe, lugar, DIVULGACION } from 'directorio';
+import { artista, esMagico, estudioDe, lugar, slugify, DIVULGACION } from 'directorio';
 export async function getStaticPaths() {
   const todas = (await getCollection('notas')).sort((a, b) => b.data.fecha.valueOf() - a.data.fecha.valueOf());
   return todas.map((n, i) => ({ params: { id: n.id }, props: { n, otra: todas[(i + 1) % todas.length] } }));
@@ -18,7 +18,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'BlogPosting', headl
     <aside class="margen">
       <div class="lamina"><Dibujo nombre={n.data.dibujo} /></div>
       <span class="mano">{n.data.fecha.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
-      <ul class="temas">{n.data.temas.map((t) => <li>#{t}</li>)}</ul>
+      <ul class="temas">{n.data.temas.map((t) => <li><a href={`/temas/${slugify(t)}/`}>#{t}</a></li>)}</ul>
     </aside>
     <div class="pagina">
       <h1>{n.data.titulo}</h1>
@@ -29,7 +29,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'BlogPosting', headl
           <span class="mano">las manos de esta nota ↓</span>
           <ol>
             {fichas.map((a) => (
-              <li><span class="nombre">{a.nombre}{esMagico(a) && <sup>✦</sup>}</span><span class="lugar">{lugar(a)}{estudioDe(a) && ` · ${estudioDe(a)!.nombre}`}</span></li>
+              <li><span class="nombre">{a.estilos.includes('fine-line') ? <a href={`/artistas/${a.slug}/`}>{a.nombre}</a> : a.nombre}{esMagico(a) && <sup>✦</sup>}</span><span class="lugar">{lugar(a)}{estudioDe(a) && ` · ${estudioDe(a)!.nombre}`}</span></li>
             ))}
           </ol>
         </section>

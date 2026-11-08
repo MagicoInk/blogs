@@ -1,0 +1,61 @@
+---
+import Diario from '../../layouts/Diario.astro';
+import Dibujo from '../../components/Dibujo.astro';
+import { getCollection } from 'astro:content';
+import { porEstilo, estudioDe, esMagico, lugar, etiquetasDe, etiqueta, DIVULGACION } from 'directorio';
+export function getStaticPaths() {
+  return porEstilo('fine-line').map((a, i) => ({ params: { slug: a.slug }, props: { a, i } }));
+}
+const { a, i } = Astro.props;
+const dibujos = ['rosa', 'luna', 'ola', 'golondrina'] as const;
+const estudio = estudioDe(a);
+const notas = (await getCollection('notas')).filter((n) => n.data.artistas.includes(a.slug));
+const host = (u: string) => { try { return new URL(u).hostname.replace('www.', ''); } catch { return u; } };
+---
+<Diario titulo={a.nombre} descripcion={a.bio || `${a.nombre}, artista de línea fina.`}>
+  <section class="hoja pliego">
+    <aside class="margen">
+      <div class="lamina"><Dibujo nombre={dibujos[i % 4]} /></div>
+      <span class="mano">ficha nº {String(i + 1).padStart(2, '0')}</span>
+      <ul class="temas">{etiquetasDe(a).map((e) => <li>#{etiqueta(e).toLowerCase()}</li>)}</ul>
+    </aside>
+    <div class="pagina">
+      <a href="/artistas/" class="volver">← lista corta</a>
+      <h1>{a.nombre}{esMagico(a) && <sup>✦</sup>}</h1>
+      <p class="lugar">{lugar(a)}{estudio && ` · ${estudio.nombre}`}{a.instagram && <> · <a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a></>}</p>
+      {a.bio ? <p class="bio">{a.bio}</p> : <p class="bio">Ficha en preparación.</p>}
+      {a.datos?.length > 0 && (
+        <>
+          <span class="mano">apuntes ↓</span>
+          <ol class="apuntes">{a.datos.map((d: { texto: string; fuente: string }) => <li>{d.texto} <a href={d.fuente} rel="noopener">fuente</a></li>)}</ol>
+        </>
+      )}
+      {notas.length > 0 && (
+        <>
+          <span class="mano">aparece en</span>
+          <ul class="notas">{notas.map((n) => <li><a href={`/notas/${n.id}/`}>{n.data.titulo}</a></li>)}</ul>
+        </>
+      )}
+      {a.fuentes?.length > 0 && <p class="fuentes">Fuentes: {a.fuentes.map((u: string, j: number) => <>{j > 0 && ' · '}<a href={u} rel="noopener">{host(u)}</a></>)}</p>}
+      {esMagico(a) && <p class="fuentes">✦ {DIVULGACION}</p>}
+    </div>
+  </section>
+</Diario>
+<style>
+  .pliego { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 48px; padding-top: 24px; }
+  .margen { position: sticky; top: 24px; align-self: start; display: flex; flex-direction: column; gap: 12px; }
+  .lamina { background: #fff; border: 1px solid var(--tinta); padding: 20px; }
+  .temas { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; font-size: 14px; color: var(--tenue); }
+  .pagina { background: #fff; border: 1px solid var(--tinta); padding: 40px 48px; max-width: 760px; }
+  .volver { font-size: 14px; color: var(--tenue); text-decoration: none; }
+  h1 { font-size: clamp(40px, 6vw, 72px); margin: 8px 0 8px; }
+  .lugar { color: var(--tenue); margin: 0 0 24px; }
+  .bio { font-size: 21px; border-left: 2px solid var(--lapiz); padding-left: 16px; }
+  .apuntes { padding-left: 20px; margin: 8px 0 28px; }
+  .apuntes li { margin: 8px 0; }
+  .apuntes a { font-size: 12px; color: var(--tenue); }
+  .notas { margin: 8px 0 28px; }
+  .fuentes { font-size: 13px; color: var(--tenue); word-break: break-word; }
+  .fuentes a { color: var(--tenue); }
+  @media (max-width: 860px) { .pliego { grid-template-columns: 1fr; gap: 20px; } .margen { position: static; flex-direction: row; align-items: center; flex-wrap: wrap; } .lamina { width: 110px; padding: 10px; } .pagina { padding: 24px 20px; } }
+</style>

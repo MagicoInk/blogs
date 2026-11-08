@@ -8,7 +8,7 @@ const magico = esMagico(a);
   <div class="foto" aria-hidden="true">{a.nombre.replace(/[\[\]]/g, '').split(' ').map((p: string) => p[0]).slice(0, 2).join('')}</div>
   <div>
     {magico && <span class="etiqueta rosa">Magico Ink · casa</span>}
-    <h3>{a.nombre}</h3>
+    <h3>{a.pais === 'México' ? <a href={`/artistas/${a.slug}/`}>{a.nombre}</a> : a.nombre}</h3>
     <p class="meta">{lugar(a)}{estudio && ` · ${estudio.nombre}`}</p>
     <p class="meta">{a.estilos.map((e: string) => estilo(e)?.nombre ?? e).join(', ')}</p>
     {a.instagram && <a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a>}

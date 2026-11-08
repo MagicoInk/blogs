@@ -30,7 +30,9 @@ const ruta = Astro.url.pathname;
     <a href="/" class="logo"><span class="globo" aria-hidden="true"></span>ATLAS<b>INK</b></a>
     <nav>
       <a href="/" aria-current={ruta === '/' ? 'page' : undefined}>Expediciones</a>
+      <a href="/paises" aria-current={ruta.startsWith('/paises') ? 'page' : undefined}>Países</a>
       <a href="/indice" aria-current={ruta.startsWith('/indice') ? 'page' : undefined}>Índice</a>
+      <a href="/convenciones" aria-current={ruta.startsWith('/convenciones') ? 'page' : undefined}>Convenciones</a>
       <a href="/colofon" aria-current={ruta.startsWith('/colofon') ? 'page' : undefined}>Colofón</a>
     </nav>
   </header>
@@ -62,11 +64,11 @@ const ruta = Astro.url.pathname;
   .logo { display: flex; align-items: center; gap: 10px; font: 800 20px var(--titular); letter-spacing: .08em; color: #fff; text-decoration: none; }
   .logo b { color: var(--coral); font-weight: 800; }
   .globo { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--coral); background: radial-gradient(circle at 35% 35%, #3a5bb0, var(--mar) 70%); }
-  nav { display: flex; gap: 6px; }
+  nav { display: flex; gap: 6px; flex-wrap: wrap; }
   nav a { color: #c9d6fb; text-decoration: none; font: 500 13px var(--mono); text-transform: uppercase; letter-spacing: .12em; padding: 8px 12px; border-radius: 999px; }
   nav a:hover, nav a[aria-current] { background: var(--mar3); color: #fff; }
   footer { background: var(--mar); color: #c9d6fb; margin-top: 96px; padding: 48px 0; }
   .pie p { max-width: 560px; }
   .pie a:not(.logo) { color: var(--coral); }
-  @media (max-width: 600px) { .barra { padding: 12px 16px; } nav a { padding: 6px 8px; } }
+  @media (max-width: 600px) { .barra { padding: 12px 16px; } nav { gap: 2px; } nav a { padding: 5px 7px; font-size: 11px; letter-spacing: .06em; } }
 </style>

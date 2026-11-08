@@ -1,0 +1,29 @@
+---
+import Atlas from '../../layouts/Atlas.astro';
+import { paises, artistas, estudiosDe, slugify } from 'directorio';
+const lista = paises().map((p) => ({ p, n: artistas.filter((a) => a.pais === p).length, e: estudiosDe(p).length }));
+---
+<Atlas titulo="Países" descripcion="El atlas por países: artistas, estudios y crónicas del tatuaje en cada país.">
+  <section class="cab"><div class="ancho"><p class="mono">Destinos</p><h1>Países del atlas</h1><p>{lista.length} países con artistas documentados. Cada destino reúne fichas, estudios y crónicas.</p></div></section>
+  <div class="ancho rejilla">
+    {lista.map(({ p, n, e }) => (
+      <a href={`/paises/${slugify(p)}`} class="destino">
+        <span class="mono">{n} artistas · {e} estudios</span>
+        <strong>{p}</strong>
+        <span class="flecha">→</span>
+      </a>
+    ))}
+  </div>
+</Atlas>
+<style>
+  .cab { background: var(--mar); color: #fff; padding: 48px 0 40px; }
+  .cab .mono { color: var(--coral); margin: 0; }
+  h1 { font-size: clamp(40px, 7vw, 80px); font-weight: 800; margin: 8px 0; }
+  .cab p:last-child { color: #c9d6fb; margin: 0; }
+  .rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; margin-top: 32px; }
+  .destino { background: #fff; border-radius: 16px; padding: 22px; text-decoration: none; color: var(--texto); box-shadow: 0 6px 20px rgba(11,31,77,.06); display: flex; flex-direction: column; gap: 6px; position: relative; }
+  .destino:hover { background: var(--mar); color: #fff; }
+  .destino .mono { color: var(--coral); font-size: 11px; }
+  strong { font: 800 28px var(--titular); }
+  .flecha { position: absolute; right: 22px; bottom: 18px; font-size: 24px; color: var(--coral); }
+</style>

@@ -1,0 +1,74 @@
+---
+import Base from '../../layouts/Base.astro';
+import Fuentes from '../../components/Fuentes.astro';
+import { getCollection } from 'astro:content';
+import { artistas, etiquetasDe, etiqueta, lugar, esMagico, estudioDe, DIVULGACION } from 'directorio';
+export function getStaticPaths() {
+  return artistas.filter((a) => a.pais === 'México').map((a) => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props;
+const estudio = estudioDe(a);
+const notas = (await getCollection('guias')).filter((n) => n.data.artistas.includes(a.slug));
+const vecinos = artistas.filter((x) => x.pais === 'México' && x.slug !== a.slug && x.ciudad && x.ciudad === a.ciudad).slice(0, 6);
+const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.nombre, jobTitle: 'Tatuador', address: { '@type': 'PostalAddress', addressLocality: a.ciudad || undefined, addressCountry: 'MX' }, ...(estudio && { worksFor: { '@type': 'Organization', name: estudio.nombre } }), ...(a.fuentes?.length && { sameAs: a.fuentes }) };
+---
+<Base titulo={`${a.nombre}, tatuador${a.ciudad ? ` en ${a.ciudad}` : ''}`} descripcion={a.bio || `${a.nombre}: estilo, estudio y fuentes.`} tipo="article" jsonld={jsonld}>
+  <header class="cab">
+    <div class="contenedor">
+      <a href="/artistas/" class="volver">← Directorio</a>
+      <h1>{a.nombre}</h1>
+      <div class="chips">{etiquetasDe(a).map((e) => <span class="etiqueta">{etiqueta(e)}</span>)}{esMagico(a) && <span class="etiqueta rosa">Magico Ink · casa</span>}</div>
+    </div>
+  </header>
+  <div class="contenedor rejilla">
+    <article class="prosa">
+      {a.bio ? <p class="bio">{a.bio}</p> : <p class="bio">Ficha en preparación.</p>}
+      {a.datos?.length > 0 && (
+        <>
+          <h2>Lo que está documentado</h2>
+          <ul class="datos">{a.datos.map((d: { texto: string; fuente: string }) => <li>{d.texto} <a href={d.fuente} rel="noopener">[fuente]</a></li>)}</ul>
+        </>
+      )}
+      {notas.length > 0 && (
+        <>
+          <h2>Aparece en</h2>
+          <ul>{notas.map((n) => <li><a href={`/guias/${n.id}/`}>{n.data.titulo}</a></li>)}</ul>
+        </>
+      )}
+      {esMagico(a) && <p class="aviso">{DIVULGACION}</p>}
+      <Fuentes urls={a.fuentes ?? []} />
+    </article>
+    <aside class="ficha">
+      <dl>
+        <dt>Ciudad</dt><dd>{lugar(a)}</dd>
+        <dt>Estudio</dt><dd>{estudio ? <a href={`/estudios/${estudio.slug}/`}>{estudio.nombre}</a> : 'Por confirmar'}</dd>
+        {a.instagram && <><dt>Instagram</dt><dd><a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a></dd></>}
+        {a.nombreReal && <><dt>Nombre</dt><dd>{a.nombreReal}</dd></>}
+      </dl>
+      {vecinos.length > 0 && (
+        <div class="vecinos">
+          <p class="etiqueta">También en {a.ciudad}</p>
+          <ul>{vecinos.map((v) => <li><a href={`/artistas/${v.slug}/`}>{v.nombre}</a></li>)}</ul>
+        </div>
+      )}
+    </aside>
+  </div>
+</Base>
+<style>
+  .cab { background: var(--amarillo); border-bottom: 4px solid var(--negro); padding: 32px 0 28px; }
+  .volver { font-weight: 700; text-decoration: none; }
+  h1 { font-size: clamp(2.4rem, 7vw, 4.6rem); margin: 12px 0; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .rejilla { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 48px; padding-top: 32px; }
+  .bio { font-size: 1.25rem; }
+  .datos li { margin: 8px 0; }
+  .datos a { font-size: 12px; font-weight: 700; }
+  .ficha { border: 3px solid var(--negro); padding: 20px; align-self: start; box-shadow: 6px 6px 0 var(--negro); }
+  dl { margin: 0; }
+  dt { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--sutil); margin-top: 12px; }
+  dd { margin: 2px 0 0; font-weight: 600; }
+  .vecinos { margin-top: 20px; }
+  .vecinos ul { padding-left: 18px; }
+  .aviso { background: var(--negro); color: #fff; padding: 10px 14px; font-size: 14px; }
+  @media (max-width: 800px) { .rejilla { grid-template-columns: 1fr; } }
+</style>

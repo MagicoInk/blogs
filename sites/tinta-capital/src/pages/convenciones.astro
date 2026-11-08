@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import { contextoMexico } from 'directorio';
+const conv = contextoMexico.filter((c: { tema: string }) => c.tema === 'convenciones');
+---
+<Base titulo="Convenciones de tatuaje en México: fichas y fuentes" descripcion="Convenciones y expos de tatuaje en México, con fuentes para confirmar fechas y sedes.">
+  <div class="contenedor cuerpo">
+    <span class="etiqueta">Agenda</span>
+    <h1>Convenciones en México</h1>
+    <p class="intro">Lo que está documentado de cada expo. Las fechas cambian año con año: confirma siempre en el sitio o las redes oficiales del evento. La versión larga, con contexto y consejos, está en <a href="/guias/convenciones-tatuaje-mexico/">nuestro calendario</a>.</p>
+    <ol class="agenda">
+      {conv.map((c: { ciudad: string | null; texto: string; fuente: string }) => (
+        <li><span class="ciudad">{c.ciudad ?? 'México'}</span><p>{c.texto}</p><a href={c.fuente} rel="noopener">Fuente</a></li>
+      ))}
+    </ol>
+  </div>
+</Base>
+<style>
+  .cuerpo { padding-top: 40px; }
+  h1 { font-size: clamp(2.2rem, 6vw, 4rem); margin-top: 12px; }
+  .intro { max-width: 700px; font-size: 1.15rem; }
+  .agenda { list-style: none; padding: 0; display: grid; gap: 16px; margin-top: 24px; }
+  .agenda li { border: 3px solid var(--negro); padding: 18px 20px; display: grid; grid-template-columns: 180px 1fr auto; gap: 16px; align-items: start; background: #fff; }
+  .ciudad { font: 400 1.2rem var(--display); background: var(--amarillo); padding: 4px 8px; justify-self: start; }
+  .agenda p { margin: 0; }
+  .agenda a { font-weight: 700; font-size: 14px; }
+  @media (max-width: 700px) { .agenda li { grid-template-columns: 1fr; } }
+</style>

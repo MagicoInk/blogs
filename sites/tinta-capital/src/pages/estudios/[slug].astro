@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import Fuentes from '../../components/Fuentes.astro';
+import { estudiosDe, artistasDeEstudio, etiqueta } from 'directorio';
+export function getStaticPaths() {
+  return estudiosDe('México').map((e) => ({ params: { slug: e.slug }, props: { e } }));
+}
+const { e } = Astro.props;
+const equipo = artistasDeEstudio(e.slug);
+const jsonld = { '@context': 'https://schema.org', '@type': 'TattooParlor', name: e.nombre, address: { '@type': 'PostalAddress', addressLocality: e.ciudad || undefined, addressCountry: 'MX' }, ...(e.web && { url: e.web }) };
+---
+<Base titulo={`${e.nombre}${e.ciudad ? `, ${e.ciudad}` : ''}`} descripcion={e.descripcion || `${e.nombre}: estudio de tatuaje en México.`} jsonld={jsonld}>
+  <header class="cab"><div class="contenedor">
+    <a href="/estudios/" class="volver">← Estudios</a>
+    <h1>{e.nombre}</h1>
+    <p>{[e.zona, e.ciudad].filter(Boolean).join(', ') || 'Ubicación por confirmar'}</p>
+  </div></header>
+  <div class="contenedor prosa cuerpo">
+    {e.descripcion && <p class="desc">{e.descripcion}</p>}
+    {e.estilos?.length > 0 && <p><strong>Estilos:</strong> {e.estilos.map(etiqueta).join(', ')}</p>}
+    {e.web && <p><a href={e.web} rel="noopener">Sitio oficial →</a></p>}
+    {equipo.length > 0 && (
+      <>
+        <h2>Artistas en el directorio</h2>
+        <ul>{equipo.map((a) => <li><a href={`/artistas/${a.slug}/`}>{a.nombre}</a></li>)}</ul>
+      </>
+    )}
+    <h2>Antes de ir</h2>
+    <p>Pide ver su aviso de funcionamiento y la tarjeta de control sanitario, confirma que el material se abre frente a ti y revisa portafolio cicatrizado reciente. Te lo explicamos a detalle en <a href="/guias/como-elegir-tatuador/">cómo elegir tatuador</a>.</p>
+    <Fuentes urls={e.fuentes ?? []} />
+  </div>
+</Base>
+<style>
+  .cab { background: var(--negro); color: #fff; padding: 32px 0; }
+  .volver { color: var(--amarillo); font-weight: 700; text-decoration: none; }
+  h1 { font-size: clamp(2.2rem, 6vw, 4rem); color: var(--amarillo); margin: 12px 0 4px; }
+  .cuerpo { padding-top: 32px; }
+  .desc { font-size: 1.25rem; }
+</style>

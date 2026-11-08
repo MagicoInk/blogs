@@ -1,0 +1,89 @@
+---
+import Atlas from '../../layouts/Atlas.astro';
+import Mapa from '../../components/Mapa.astro';
+import { getCollection } from 'astro:content';
+import { paises, artistas, estudiosDe, slugify, etiquetasDe, etiqueta, esMagico, contextoMundo, DIVULGACION } from 'directorio';
+import { codigo } from '../../geo';
+export function getStaticPaths() {
+  return paises().map((p) => ({ params: { pais: slugify(p) }, props: { pais: p } }));
+}
+const { pais } = Astro.props;
+const lista = artistas.filter((a) => a.pais === pais);
+const estudios = estudiosDe(pais);
+const slugs = new Set(lista.map((a) => a.slug));
+const cronicas = (await getCollection('expediciones')).filter((e) => e.data.artistas.some((s) => slugs.has(s))).sort((a, b) => a.data.numero - b.data.numero);
+const contexto = contextoMundo.filter((c: { pais: string | null }) => c.pais === pais);
+const ciudades = [...new Set(lista.map((a) => a.ciudad).filter(Boolean))];
+const estilos = Object.entries(lista.flatMap(etiquetasDe).reduce((m: Record<string, number>, e) => ((m[e] = (m[e] ?? 0) + 1), m), {})).sort((a, b) => b[1] - a[1]);
+---
+<Atlas titulo={`Tatuaje en ${pais}`} descripcion={`Artistas, estudios y crónicas del tatuaje en ${pais}.`}>
+  <header class="cab">
+    <div class="ancho rejilla-cab">
+      <div>
+        <p class="mono"><a href="/paises">Países</a> / {pais}</p>
+        <h1>{pais}</h1>
+        <div class="cifras"><div><strong>{lista.length}</strong><span class="mono">artistas</span></div><div><strong>{ciudades.length}</strong><span class="mono">ciudades</span></div><div><strong>{cronicas.length}</strong><span class="mono">crónicas</span></div></div>
+      </div>
+      <div class="mini"><Mapa resaltar={['Ciudad de México', ...ciudades]} /></div>
+    </div>
+  </header>
+  <div class="ancho cuerpo">
+    {estilos.length > 0 && <p class="estilos">{estilos.map(([e, n]) => <span class="codigo claro">{etiqueta(e)} · {n}</span>)}</p>}
+    <h2>Artistas</h2>
+    <div class="tarjetas">
+      {lista.map((a) => (
+        <a href={`/artistas/${a.slug}`} class="tarjeta">
+          <span class="codigo">{codigo(a.ciudad)}</span>
+          <strong>{a.nombre}{esMagico(a) && ' *'}</strong>
+          <span class="sub">{a.ciudad || 'Ciudad por confirmar'}</span>
+          {a.bio && <p>{a.bio.length > 160 ? a.bio.slice(0, 157) + '…' : a.bio}</p>}
+        </a>
+      ))}
+    </div>
+    {estudios.length > 0 && (
+      <>
+        <h2>Estudios</h2>
+        <ul class="estudios">{estudios.map((e) => <li><strong>{e.nombre}</strong><span class="mono">{e.ciudad || '—'}</span>{e.descripcion && <p>{e.descripcion}</p>}</li>)}</ul>
+      </>
+    )}
+    {contexto.length > 0 && (
+      <>
+        <h2>Contexto</h2>
+        <ul class="contexto">{contexto.map((c: { texto: string; fuente: string }) => <li>{c.texto} <a href={c.fuente} rel="noopener" class="mono">fuente</a></li>)}</ul>
+      </>
+    )}
+    {cronicas.length > 0 && (
+      <>
+        <h2>Crónicas que pasan por aquí</h2>
+        <ul class="cronicas">{cronicas.map((e) => <li><a href={`/expediciones/${e.id}`}>Exp. {String(e.data.numero).padStart(2, '0')} — {e.data.titulo}</a></li>)}</ul>
+      </>
+    )}
+    {lista.some(esMagico) && <p class="aviso">* {DIVULGACION}</p>}
+  </div>
+</Atlas>
+<style>
+  .cab { background: var(--mar); color: #fff; padding: 40px 0; }
+  .cab .mono, .cab .mono a { color: var(--coral); }
+  .rejilla-cab { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+  h1 { font-size: clamp(44px, 8vw, 96px); font-weight: 800; margin: 8px 0 16px; }
+  .cifras { display: flex; gap: 32px; }
+  .cifras strong { display: block; font: 300 40px/1 var(--titular); }
+  .cifras .mono { color: #9fb3e6 !important; }
+  .mini { background: var(--mar2); border-radius: 16px; padding: 8px; }
+  .cuerpo { padding-top: 32px; }
+  .estilos { display: flex; flex-wrap: wrap; gap: 6px; }
+  .codigo.claro { background: #fff; color: var(--mar3); }
+  h2 { font-size: 30px; margin: 40px 0 16px; }
+  .tarjetas { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .tarjeta { background: #fff; border-radius: 16px; padding: 20px; text-decoration: none; color: var(--texto); box-shadow: 0 6px 20px rgba(11,31,77,.06); display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
+  .tarjeta strong { font: 600 20px var(--titular); margin-top: 6px; }
+  .tarjeta .sub { color: var(--suave); font-size: 14px; }
+  .tarjeta p { font-size: 15px; margin: 8px 0 0; color: var(--suave); }
+  .estudios, .contexto, .cronicas { list-style: none; padding: 0; display: grid; gap: 10px; }
+  .estudios li, .contexto li { background: #fff; border-radius: 12px; padding: 14px 18px; font-size: 16px; }
+  .estudios .mono { margin-left: 8px; color: var(--suave); font-size: 11px; }
+  .estudios p { margin: 4px 0 0; font-size: 15px; }
+  .contexto .mono { font-size: 10px; }
+  .aviso { color: var(--suave); font-size: 14px; margin-top: 24px; }
+  @media (max-width: 800px) { .rejilla-cab { grid-template-columns: 1fr; } }
+</style>

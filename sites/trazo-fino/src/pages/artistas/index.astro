@@ -1,5 +1,5 @@
 ---
-import Diario from '../layouts/Diario.astro';
+import Diario from '../../layouts/Diario.astro';
 import { porEstilo, estudioDe, esMagico, lugar, DIVULGACION } from 'directorio';
 const lista = porEstilo('fine-line');
 ---
@@ -12,7 +12,7 @@ const lista = porEstilo('fine-line');
       {lista.map((a, i) => (
         <div class="fila">
           <span class="mano">{String(i + 1).padStart(2, '0')}</span>
-          <span class="nombre">{a.nombre}{esMagico(a) && <sup>✦</sup>}{a.instagram && <a href={`https://instagram.com/${a.instagram}`} rel="noopener"> @{a.instagram}</a>}</span>
+          <span class="nombre"><a href={`/artistas/${a.slug}/`}>{a.nombre}</a>{esMagico(a) && <sup>✦</sup>}{a.instagram && <a href={`https://instagram.com/${a.instagram}`} rel="noopener"> @{a.instagram}</a>}</span>
           <span>{lugar(a)}</span>
           <span class="tenue">{estudioDe(a)?.nombre ?? '—'}</span>
         </div>

@@ -28,7 +28,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'ItemList', name: t.
         <li class="caja" style={`--c:${fondo}`}>
           <span class="num">{String(i + 1).padStart(2, '0')}</span>
           <div>
-            <h2>{p.a ? p.a.nombre : p.titulo}{p.a && esMagico(p.a) && ' ★'}</h2>
+            <h2>{p.a ? (p.a.estilos.includes('color') ? <a href={`/artistas/${p.a.slug}/`}>{p.a.nombre}</a> : p.a.nombre) : p.titulo}{p.a && esMagico(p.a) && ' ★'}</h2>
             {p.a && <p class="meta">{lugar(p.a)}{estudioDe(p.a) && ` / ${estudioDe(p.a).nombre}`}</p>}
             <p>{p.porque}</p>
             {p.a?.instagram && <a href={`https://instagram.com/${p.a.instagram}`} rel="noopener">@{p.a.instagram} →</a>}

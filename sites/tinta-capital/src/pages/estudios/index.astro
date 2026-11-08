@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import { estudiosDe, artistasDeEstudio } from 'directorio';
+const lista = estudiosDe('México').sort((a, b) => (a.ciudad || '').localeCompare(b.ciudad || '', 'es') || a.nombre.localeCompare(b.nombre, 'es'));
+const grupos = Object.entries(Object.groupBy(lista, (e) => e.ciudad || 'Ciudad por confirmar'));
+---
+<Base titulo="Estudios de tatuaje en México" descripcion="Estudios de tatuaje en México, por ciudad, con lo que está documentado de cada uno.">
+  <div class="contenedor cuerpo">
+    <span class="etiqueta">Directorio</span>
+    <h1>Estudios de tatuaje en México</h1>
+    <p class="intro">Estudios con información pública verificable. Antes de agendar, revisa su aviso de funcionamiento y la tarjeta de control sanitario (te explicamos cómo en <a href="/guias/cofepris-ley-tatuajes/">nuestra guía sobre la ley</a>).</p>
+    {grupos.map(([ciudad, es]) => (
+      <section>
+        <h2>{ciudad}</h2>
+        <div class="rejilla">
+          {es!.map((e) => (
+            <a href={`/estudios/${e.slug}/`} class="tarjeta">
+              <strong>{e.nombre}</strong>
+              {e.zona && <span>{e.zona}</span>}
+              <span>{artistasDeEstudio(e.slug).length} artista(s) en el directorio</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>
+<style>
+  .cuerpo { padding-top: 40px; }
+  h1 { font-size: clamp(2.2rem, 6vw, 4rem); margin-top: 12px; }
+  .intro { max-width: 680px; font-size: 1.15rem; }
+  h2 { font-size: 1.8rem; margin-top: 40px; border-bottom: 4px solid var(--negro); padding-bottom: 6px; }
+  .rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+  .tarjeta { border: 3px solid var(--negro); padding: 18px; text-decoration: none; display: flex; flex-direction: column; gap: 4px; background: #fff; box-shadow: 5px 5px 0 var(--negro); }
+  .tarjeta:hover { background: var(--amarillo); }
+  strong { font: 400 1.3rem var(--display); }
+  .tarjeta span { color: var(--sutil); font-size: 14px; }
+</style>

@@ -1,6 +1,6 @@
 ---
 import Atlas from '../layouts/Atlas.astro';
-import { artistas, esMagico, DIVULGACION } from 'directorio';
+import { artistas, esMagico, slugify, DIVULGACION } from 'directorio';
 import { codigo } from '../geo';
 const grupos = Object.entries(Object.groupBy(artistas, (a) => a.pais || 'País por confirmar')).sort(([a], [b]) => a.localeCompare(b, 'es'));
 ---
@@ -9,7 +9,7 @@ const grupos = Object.entries(Object.groupBy(artistas, (a) => a.pais || 'País p
   <div class="ancho paises">
     {grupos.map(([pais, lista]) => (
       <section id={pais} class="pais">
-        <header><h2>{pais}</h2><span class="mono">{lista!.length}</span></header>
+        <header><h2>{pais === "País por confirmar" ? pais : <a href={`/paises/${slugify(pais)}`}>{pais}</a>}</h2><span class="mono">{lista!.length}</span></header>
         <ul>
           {lista!.map((a) => (
             <li><a href={`/artistas/${a.slug}`}><span class="codigo claro">{codigo(a.ciudad)}</span><span class="nombre">{a.nombre}{esMagico(a) && ' *'}</span></a></li>
