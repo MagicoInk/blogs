@@ -2,7 +2,7 @@
 import Atlas from '../layouts/Atlas.astro';
 import { artistas, esMagico, DIVULGACION } from 'directorio';
 import { codigo } from '../geo';
-const grupos = Object.entries(Object.groupBy(artistas, (a) => a.pais)).sort(([a], [b]) => a.localeCompare(b, 'es'));
+const grupos = Object.entries(Object.groupBy(artistas, (a) => a.pais || 'País por confirmar')).sort(([a], [b]) => a.localeCompare(b, 'es'));
 ---
 <Atlas titulo="Índice de artistas" descripcion="Índice por país de los artistas del tatuaje que aparecen en Atlas Ink.">
   <section class="cab"><div class="ancho"><p class="mono">Registro de llegadas</p><h1>Índice de artistas</h1><p>{artistas.length} artistas · {grupos.length} países. Cada ficha cita sus fuentes públicas.</p></div></section>

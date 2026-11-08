@@ -2,7 +2,7 @@
 import Atlas from '../../layouts/Atlas.astro';
 import Mapa from '../../components/Mapa.astro';
 import { getCollection } from 'astro:content';
-import { artistas, estudioDe, esMagico, estilo, DIVULGACION } from 'directorio';
+import { artistas, estudioDe, esMagico, estilo, lugar, DIVULGACION } from 'directorio';
 import { codigo } from '../../geo';
 export function getStaticPaths() {
   return artistas.map((a) => ({ params: { slug: a.slug }, props: { a } }));
@@ -12,14 +12,14 @@ const estudio = estudioDe(a);
 const apariciones = (await getCollection('expediciones')).filter((e) => e.data.artistas.includes(a.slug));
 const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.nombre, jobTitle: 'Artista del tatuaje', address: { '@type': 'PostalAddress', addressLocality: a.ciudad, addressCountry: a.pais }, ...(estudio && { worksFor: { '@type': 'Organization', name: estudio.nombre } }), ...(a.instagram && { sameAs: [`https://instagram.com/${a.instagram}`] }) };
 ---
-<Atlas titulo={a.nombre} descripcion={`${a.nombre}, artista del tatuaje en ${a.ciudad}, ${a.pais}.`} jsonld={jsonld}>
+<Atlas titulo={a.nombre} descripcion={`${a.nombre}, artista del tatuaje (${lugar(a)}).`} jsonld={jsonld}>
   <section class="ancho ficha">
     <div class="pase">
       <div class="izq">
-        <p class="mono">Pase de artista · {a.pais}</p>
+        <p class="mono">Pase de artista · {a.pais || 'País por confirmar'}</p>
         <h1>{a.nombre}{esMagico(a) && ' *'}</h1>
         <div class="datos">
-          <div><span class="mono">Base</span><strong>{codigo(a.ciudad)}</strong><small>{a.ciudad}</small></div>
+          <div><span class="mono">Base</span><strong>{codigo(a.ciudad)}</strong><small>{lugar(a)}</small></div>
           <div><span class="mono">Lenguaje</span><strong class="chico">{a.estilos.map((s: string) => estilo(s)?.nombre ?? s).join(', ')}</strong></div>
           <div><span class="mono">Estudio</span><strong class="chico">{estudio?.nombre ?? 'Independiente / por confirmar'}</strong></div>
         </div>

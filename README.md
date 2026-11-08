@@ -18,12 +18,14 @@ Cinco sitios editoriales sobre tatuaje, cada uno con su marca, diseño, estructu
 - `estudios.json`: estudios (Magico Ink tiene `esMagico: true`, lo que activa el aviso de divulgación automáticamente).
 - `estilos.json`: estilos usados para filtrar.
 
-Las fichas actuales son **marcadores** (`[Artista internacional 01]`, etc.). Al compilar, cada sitio avisa cuántas fichas siguen sin confirmar.
+Hay 44 artistas reales con `bio`, `datos` y `fuentes`, más 3 marcadores de Magico Ink (`magico-artista-*`). `contexto-mexico.json` reúne datos sobre convenciones, regulación, historia y cifras de la escena mexicana.
+
+**Verificación:** los datos se comprobaron con extractos de buscador, porque la red del entorno de redacción no permitía abrir las páginas. Cada ficha lleva `verificacion: "extractos-buscador"`. Al compilar, cada sitio avisa cuántas fichas faltan por revisar. Abre las URLs de `fuentes`, corrige lo que haga falta y luego quita ese campo.
 
 ### Antes de publicar
 
-1. Reemplaza los marcadores por artistas reales **con su permiso** y marca `confirmado` y `permisoImagenes` en `true`.
-2. Reescribe los textos que describen a cada artista (por ejemplo, los `porque` de `sites/color-bravo/src/content/top/*.md` y las menciones en notas y crónicas) con datos verificados de esa persona.
+1. Revisa las fuentes de cada ficha y de cada artículo (campo `fuentes` del frontmatter), sobre todo las fechas de convenciones de 2026 y las cifras.
+2. Avisa a los artistas incluidos o pide su autorización. Marca `confirmado` y, si te dan fotos, `permisoImagenes` en `true`.
 3. Completa los datos de Magico Ink (ciudad, Instagram) y de sus artistas.
 4. Define el dominio de cada sitio con la variable `SITE_URL` (o en su `astro.config.mjs`).
 
