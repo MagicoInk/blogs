@@ -26,11 +26,9 @@ Esta semana, en casi cualquier mercado de México, hay montañas de flores anara
 
 Nos llegan muchas preguntas sobre flores en línea fina, y casi siempre giran alrededor de la rosa, la peonía, la lavanda: flores que vienen, sobre todo, de una tradición europea de jardín y de ilustración. Ya escribimos sobre [las rosas de Redouté](/notas/rosas-de-redoute/) y sobre por qué las láminas botánicas antiguas son tan buena referencia. Esta nota se queda más cerca. Habla de cuatro flores que nacieron aquí: la dalia, el cempasúchil, la nochebuena y la flor de cactus. De dónde vienen, qué sabemos de ellas con fuentes y cómo se traducen a una piel sin perder lo que las hace distintas.
 
-## Antes de empezar: botánica, no folclore de catálogo
+## Antes de empezar: mirar la planta
 
-Un aviso que nos hacemos a nosotros mismos. Las flores mexicanas se han convertido en un recurso visual muy explotado, en tazas, playeras y decoraciones que las reducen a una mancha de color "típica". Un tatuaje puede caer en lo mismo: una calavera con cempasúchil genérico, una dalia que podría ser cualquier flor redonda.
-
-Lo que proponemos es lo contrario: mirar la planta. Cuántos pétalos tiene, cómo se pegan las hojas al tallo, qué parte es la flor y qué parte no lo es (la nochebuena guarda una sorpresa). Cuando el dibujo nace de la observación, la flor deja de ser decoración y se vuelve un retrato. Y un retrato, en línea fina, envejece mejor que un adorno.
+Las flores mexicanas se han vuelto un recurso visual muy explotado, reducido a menudo a una mancha de color "típica". Lo que proponemos es lo contrario: mirar la planta. Cuántos pétalos tiene, cómo se pegan las hojas al tallo, qué parte es la flor y qué parte no lo es (la nochebuena guarda una sorpresa). Cuando el dibujo nace de la observación, la flor deja de ser adorno y se vuelve retrato. Y un retrato, en línea fina, envejece mejor.
 
 ## La dalia: la flor nacional que pocos tatúan
 
@@ -124,7 +122,7 @@ Las espinas son lo que identifica a un cactus y, al mismo tiempo, el detalle má
 
 Si te interesa una referencia histórica para flores mexicanas, hay una que vale la pena conocer. El *Libellus de medicinalibus indorum herbis*, conocido como Códice De la Cruz Badiano, fue redactado en 1552 por el médico nahua Martín de la Cruz y traducido al latín por Juan Badiano, ambos vinculados al Colegio de Santa Cruz de Tlatelolco, según [UNAM Global](https://unamglobal.unam.mx/global_revista/codice-cruz-badiano-textil-jardin-botanico-unam/). Es un herbario con plantas pintadas, sus nombres en náhuatl y sus usos medicinales. La [Biblioteca Nacional de Antropología e Historia del INAH](https://bnah.inah.gob.mx/publico/de_la_cruz_badiano) tiene una página dedicada a él.
 
-No te proponemos copiar sus imágenes, que tienen su propio contexto y su propio lenguaje. Te proponemos mirarlas como una lección: ahí las plantas se pintan con raíz, tallo y flor, de cuerpo entero, con una síntesis gráfica que no se parece a la lámina europea. Es otra manera de observar, nacida aquí, y conocerla ayuda a salir del cliché.
+No te proponemos copiar sus imágenes, que tienen su propio contexto. Te proponemos mirarlas como lección: plantas de cuerpo entero, con raíz, tallo y flor, y una síntesis gráfica distinta de la lámina europea.
 
 ## Cuatro reglas para que una flor mexicana envejezca bien
 
@@ -148,6 +146,4 @@ Si quieres más nombres en el país, en [fine line hecho en México, ciudad por 
 
 ## Una nota final, para la temporada
 
-Estas cuatro flores tienen algo en común: todas viajaron. La dalia llenó jardines europeos, el cempasúchil se cultiva hoy en medio mundo, la nochebuena se volvió el símbolo de una Navidad que se celebra lejos de aquí, y los cactus mexicanos se venden en macetitas en cualquier ciudad del planeta. Llevarlas en la piel puede ser una manera de devolverles su origen: de decir, con una línea muy fina, *esta flor es de aquí, y yo también*.
-
-Que tu flor sea un retrato, no un recuerdo de tienda. Que alguien la haya mirado de verdad antes de dibujarla. Ese alguien puedes ser tú, en un mercado, esta misma semana.
+Estas cuatro flores tienen algo en común: todas viajaron, y en muchos lugares se olvidó de dónde venían. Llevarlas en la piel puede ser una manera de devolverles su origen: de decir, con una línea muy fina, *esta flor es de aquí*. Que alguien la haya mirado de verdad antes de dibujarla. Ese alguien puedes ser tú, en un mercado, esta misma semana.

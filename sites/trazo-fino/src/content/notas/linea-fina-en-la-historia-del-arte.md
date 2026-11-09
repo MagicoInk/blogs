@@ -1,6 +1,6 @@
 ---
 titulo: "La línea fina en la historia del arte: grabado, punta seca e ilustración científica"
-fecha: 2026-09-28
+fecha: 2026-11-04
 temas: [historia, técnica, ilustrativo]
 dibujo: golondrina
 extracto: "Mucho antes de la aguja única, hubo gente que construía mundos enteros con líneas finísimas sobre una plancha de cobre. Un paseo por el grabado, la punta seca y la ilustración científica, con fuentes de museos, para entender de dónde viene lo que hoy vemos en la piel."
@@ -64,7 +64,7 @@ Lo que nos enseña esa historia es algo muy de este cuaderno: **las líneas fina
 
 ### Rembrandt en la piel, literalmente
 
-Hay un episodio reciente que une las dos historias. En 2023, el Museo Casa de Rembrandt, en Ámsterdam, abrió un estudio de tatuaje temporal dentro de la casa donde vivió el pintor, según contaron [DutchNews](https://dutchnews.nl/2023/05/hanky-panky-at-the-museum-rembrandthuis-to-offer-tattoos) y [Smithsonian Magazine](https://www.smithsonianmag.com/smart-news/rembrandt-tattoo-amsterdam-180982208/). Lo encabezaba **[Henk Schiffmacher](/artistas/henk-schiffmacher/)**, el tatuador, escritor y coleccionista conocido como Hanky Panky, y los visitantes podían tatuarse motivos tomados de los grabados y las pinturas de Rembrandt. Según [Euronews](https://www.euronews.com/2026/10/29/rembrandts-masterpieces-become-tattoos-in-the-netherlands), el proyecto volvió a celebrarse este otoño de 2026.
+Hay un episodio reciente que une las dos historias. En 2023, el Museo Casa de Rembrandt, en Ámsterdam, abrió un estudio de tatuaje temporal dentro de la casa donde vivió el pintor, según contaron [DutchNews](https://dutchnews.nl/2023/05/hanky-panky-at-the-museum-rembrandthuis-to-offer-tattoos) y [Smithsonian Magazine](https://www.smithsonianmag.com/smart-news/rembrandt-tattoo-amsterdam-180982208/). Lo encabezaba **Henk Schiffmacher**, el tatuador, escritor y coleccionista conocido como Hanky Panky, y los visitantes podían tatuarse motivos tomados de los grabados y las pinturas de Rembrandt. Según [Euronews](https://www.euronews.com/2026/10/29/rembrandts-masterpieces-become-tattoos-in-the-netherlands), el proyecto volvió a celebrarse este otoño de 2026.
 
 Schiffmacher no es un artista de línea fina, y su ficha en nuestro directorio lo registra con otro estilo. Lo traemos aquí porque su proyecto hace explícito algo que esta nota intenta mostrar: los grabados antiguos son una fuente viva de imágenes para la piel.
 
