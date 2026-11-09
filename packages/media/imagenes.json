@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "slug": "kuniyoshi-suikoden-kaosho-rochishin",
+    "archivo": "img/kuniyoshi-suikoden-kaosho-rochishin.jpg",
+    "tituloCommons": "Kaosho Rochishin 花和尚魯智深魯達 (Lu Zhishen) (BM 2008,3037.10036).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Kaosho_Rochishin_%E8%8A%B1%E5%92%8C%E5%B0%9A%E9%AD%AF%E6%99%BA%E6%B7%B1%E9%AD%AF%E9%81%94_%28Lu_Zhishen%29_%28BM_2008%2C3037.10036%29.jpg",
+    "temas": [
+      "irezumi",
+      "japon",
+      "historia"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  },
+  {
+    "slug": "kuniyoshi-suikoden-kyumonryu-shishin",
+    "archivo": "img/kuniyoshi-suikoden-kyumonryu-shishin.jpg",
+    "tituloCommons": "Kyumonryu Shishin 九紋龍史進 (Shi Jin) (BM 2008,3037.10039).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Kyumonryu_Shishin_%E4%B9%9D%E7%B4%8B%E9%BE%8D%E5%8F%B2%E9%80%B2_%28Shi_Jin%29_%28BM_2008%2C3037.10039%29.jpg",
+    "temas": [
+      "irezumi",
+      "japon",
+      "historia"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  },
+  {
+    "slug": "kuniyoshi-suikoden-shishin-chintatsu",
+    "archivo": "img/kuniyoshi-suikoden-shishin-chintatsu.jpg",
+    "tituloCommons": "Kyumonryu Shishin, Chokanko Chintatsu 九紋龍史進, 跳澗虎陳達 (Shi Jin and Chen Da) (BM 2008,3037.10038).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Kyumonryu_Shishin%2C_Chokanko_Chintatsu_%E4%B9%9D%E7%B4%8B%E9%BE%8D%E5%8F%B2%E9%80%B2%2C_%E8%B7%B3%E6%BE%97%E8%99%8E%E9%99%B3%E9%81%94_%28Shi_Jin_and_Chen_Da%29_%28BM_2008%2C3037.10038%29.jpg",
+    "temas": [
+      "irezumi",
+      "japon",
+      "historia"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  }
+]
