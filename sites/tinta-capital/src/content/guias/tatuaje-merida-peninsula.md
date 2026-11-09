@@ -126,7 +126,7 @@ Si andas por allá este mes: la **Expo Tatuaje Cozumel 2026** está programada p
 - **Pide ver la tarjeta de control sanitario.** Aplica igual en Cancún que en la capital. Te explicamos cómo en [lo que dice la ley](/guias/cofepris-ley-tatuajes/).
 - **Tatuajes de henna negra: no.** Ojo con los puestos que ofrecen "henna negra" temporal: no es henna natural y puede causar reacciones en la piel. Si tienes dudas sobre una reacción, ve al médico.
 
-Más en [cuidados día a día](/guias/cuidados/).
+Más en [cuidados día a día](/guias/cuidados/) y en nuestra guía completa para [tatuarte de vacaciones en Cancún y Playa del Carmen](/guias/tatuarte-en-cancun-playa-del-carmen/).
 
 ## Lo que nos llevamos de la península
 

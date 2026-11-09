@@ -53,6 +53,8 @@ En Baja California la autoridad sanitaria estatal es la **COEPRIS**. Según Zeta
 
 A un ratito de Tijuana, en **Playas de Rosarito**, se celebra **Tinta Sangre Tattoo Expo**. Según InkPPL, su cuarta edición fue el 5 y 6 de julio de 2025 en el **Baja California Center**, con alrededor de 150 tatuadores anunciados. No encontramos fecha confirmada para 2026; revisa sus redes.
 
+Seguimos la historia, con más nombres y contexto, en [Tijuana, segunda parte](/guias/tatuaje-tijuana-frontera/).
+
 ## Oaxaca: el taller de un pionero
 
 Oaxaca tiene una tradición gráfica enorme, y en ella aparece un nombre clave del tatuaje mexicano: **Dr. Lakra**.
