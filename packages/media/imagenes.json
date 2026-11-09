@@ -160,5 +160,23 @@
     "ancho": null,
     "alto": null,
     "pendienteVerificar": true
+  },
+  {
+    "slug": "kuniyoshi-suikoden-gyojia-busho",
+    "archivo": "img/kuniyoshi-suikoden-gyojia-busho.jpg",
+    "tituloCommons": "Gyojia Busho 清河縣之産武松 (Wu Song) (BM 2008,3037.10006).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Gyojia_Busho_%E6%B8%85%E6%B2%B3%E7%B8%A3%E4%B9%8B%E7%94%A3%E6%AD%A6%E6%9D%BE_%28Wu_Song%29_%28BM_2008%2C3037.10006%29.jpg",
+    "temas": [
+      "irezumi",
+      "japon",
+      "historia"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
   }
 ]
