@@ -743,5 +743,22 @@
     "ancho": null,
     "alto": null,
     "pendienteVerificar": true
+  },
+  {
+    "slug": "ancla-tridente-ornamento",
+    "archivo": "img/ancla-tridente-ornamento.jpg",
+    "tituloCommons": "Anker, drietand en mercuriusstaf in ornamentrand, RP-P-1905-3043.jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Anker%2C_drietand_en_mercuriusstaf_in_ornamentrand%2C_RP-P-1905-3043.jpg",
+    "temas": [
+      "ilustracion",
+      "marinos"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
   }
 ]
