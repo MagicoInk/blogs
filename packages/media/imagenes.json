@@ -374,5 +374,23 @@
     "ancho": null,
     "alto": null,
     "pendienteVerificar": true
+  },
+  {
+    "slug": "tatuaje-a-bordo-uss-olympia",
+    "archivo": "img/tatuaje-a-bordo-uss-olympia.jpg",
+    "tituloCommons": "Tattooing on USS Olympia.jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Tattooing_on_USS_Olympia.jpg",
+    "temas": [
+      "historia",
+      "occidente",
+      "marinos"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
   }
 ]
