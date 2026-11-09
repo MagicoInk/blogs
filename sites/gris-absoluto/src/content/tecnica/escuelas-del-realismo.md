@@ -146,7 +146,7 @@ Qué observar: el negro y gris "clásico" europeo, con atmósferas, arquitectura
 
 ### Rasgos compartidos en Europa
 
-Con todas las reservas de una generalización, en los artistas europeos de esta lista se repiten dos rasgos: **escenas completas** (no solo retratos aislados) y una gran **versatilidad entre color y negro y gris**. Los premios de convención y la cobertura de revistas especializadas han sido, además, un canal importante de reconocimiento.
+Ampliamos esta sección con datos nuevos en [El realismo en Alemania, Italia y Polonia (segunda parte)](/tecnica/realismo-alemania-italia-polonia/). Con todas las reservas de una generalización, en los artistas europeos de esta lista se repiten dos rasgos: **escenas completas** (no solo retratos aislados) y una gran **versatilidad entre color y negro y gris**. Los premios de convención y la cobertura de revistas especializadas han sido, además, un canal importante de reconocimiento.
 
 ## México: herencia chicana, escenas locales y especialización
 

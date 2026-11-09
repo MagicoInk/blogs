@@ -24,6 +24,8 @@ El negro y gris moderno tiene raíces documentadas. Según un reportaje de NPR, 
 
 El mismo reportaje cuenta que el estilo despegó cuando, a mediados de los setenta, abrió en el este de Los Ángeles un estudio llamado Good Time Charlie's Tattooland, cuyos clientes pedían ese trabajo de estilo carcelario, y que el estudio adaptó sus máquinas profesionales para trabajar con aguja sencilla. Las fuentes difieren en fechas y en detalles sobre quién era dueño del local en cada momento, así que nos quedamos con lo que coincide: ahí se profesionalizó un lenguaje que hoy es la base del realismo en negro y gris.
 
+Contamos esa historia con más detalle, junto a la de la fotografía que educó la mirada realista, en [Los orígenes del negro y gris](/tecnica/origenes-del-negro-y-gris/).
+
 ¿Por qué importa esa historia para la técnica? Porque explica la lógica del estilo: **un solo pigmento, muchas densidades**. Todo lo que sigue es una sofisticación de esa idea.
 
 ## Variable 1. Las diluciones

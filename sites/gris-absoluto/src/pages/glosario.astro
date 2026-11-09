@@ -51,6 +51,16 @@ const terminos: [string, string][] = [
   ['Queloide', 'Cicatriz que crece más allá de los límites de la herida original. Ante antecedentes, se consulta a un dermatólogo antes de tatuar.'],
   ['Cicatriz hipertrófica', 'Cicatriz engrosada que se mantiene dentro de los límites de la herida original.'],
   ['Escala de Fitzpatrick', 'Clasificación dermatológica de fototipos según la reacción de la piel al sol. En el estudio se usa de forma informal para hablar de tonos de piel.'],
+  ['Estilo carcelario (joint style)', 'Nombre con que se conoció en sus inicios el negro y gris chicano, desarrollado en prisiones de California con máquinas caseras de una sola aguja y tinta negra rebajada.'],
+  ['Copia a la albúmina', 'Técnica fotográfica del siglo XIX que produce imágenes monocromas de tono cálido. Muchas fotografías antiguas de cuerpos tatuados son copias a la albúmina coloreadas a mano.'],
+  ['Coloreado a mano', 'Color añadido con pincel sobre una fotografía monocroma. La forma y el volumen ya estaban en los grises; el color solo los decoraba.'],
+  ['Reflejo especular', 'Mancha de brillo que produce una luz directa sobre piel brillante o recién tatuada. En una foto, se confunde con zonas sin tinta.'],
+  ['Luz difusa', 'Luz amplia y suave, como la de una ventana sin sol directo. Es la más fiel para fotografiar un tatuaje en negro y gris.'],
+  ['Balance de blancos', 'Ajuste de la cámara que corrige la temperatura de color de la luz. Si falla, el tono de la piel sale falso en la foto.'],
+  ['Fresco', 'Tatuaje recién terminado, todavía inflamado y brillante. Sus fotos no representan el resultado final y deberían etiquetarse como tales.'],
+  ['Síncope vasovagal', 'Desmayo reflejo desencadenado por dolor, miedo, ayuno o la vista de sangre. Suele avisar con mareo, sudor frío y palidez: hay que decirlo de inmediato.'],
+  ['Sesión dividida', 'Reparto de una pieza grande en varias citas, por zonas o por fases (mapeo, valores, detalle), dejando sanar la piel entre una y otra.'],
+  ['Reconstrucción de areola en 3D', 'Tatuaje que simula el volumen de la areola y el pezón tras una cirugía de mama. Usa la lógica de luz y sombra del realismo y se coordina con el equipo médico.'],
 ];
 const jsonld = { '@context': 'https://schema.org', '@type': 'DefinedTermSet', name: 'Glosario de realismo en negro y gris', hasDefinedTerm: terminos.map(([name, description]) => ({ '@type': 'DefinedTerm', name, description })) };
 ---

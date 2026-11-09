@@ -197,9 +197,7 @@ Una foto de tatuaje no necesita mostrar la cara del cliente, salvo que la pieza 
 
 Si eres artista, pregunta siempre antes de publicar una foto de un tatuaje en tu portafolio o en redes. Algunos clientes prefieren que su pieza no se vea, sobre todo si es un memorial o un retrato de un familiar. Y si la pieza es un retrato de una persona identificable, ten en cuenta también sus derechos, como explicamos en [Elegir la referencia fotográfica](/tecnica/referencia-fotografica/).
 
-### Cuidado con los metadatos
-
-Las fotos de teléfono pueden guardar la ubicación donde se tomaron. Si vas a compartir imágenes públicamente, revisa la configuración de tu cámara o elimina esos datos antes de publicarlas.
+Un último detalle: las fotos de teléfono pueden guardar la ubicación donde se tomaron. Revísalo antes de publicarlas.
 
 ## Lista de verificación
 
