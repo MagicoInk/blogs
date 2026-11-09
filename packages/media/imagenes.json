@@ -52,5 +52,23 @@
     "ancho": null,
     "alto": null,
     "pendienteVerificar": true
+  },
+  {
+    "slug": "kuniyoshi-suikoden-konkoryu-rishun",
+    "archivo": "img/kuniyoshi-suikoden-konkoryu-rishun.jpg",
+    "tituloCommons": "Konkoryu Rishun 混江龍李俊 (Li Jun) (BM 2008,3037.10031).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Konkoryu_Rishun_%E6%B7%B7%E6%B1%9F%E9%BE%8D%E6%9D%8E%E4%BF%8A_%28Li_Jun%29_%28BM_2008%2C3037.10031%29.jpg",
+    "temas": [
+      "irezumi",
+      "japon",
+      "historia"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
   }
 ]
