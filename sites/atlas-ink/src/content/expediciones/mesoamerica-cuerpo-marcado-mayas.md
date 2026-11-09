@@ -15,7 +15,7 @@ fuentes:
   - { titulo: "Wikipedia — Relación de las cosas de Yucatán", url: "https://en.wikipedia.org/wiki/Relaci%C3%B3n_de_las_cosas_de_Yucat%C3%A1n" }
   - { titulo: "Real Academia de la Historia — Diccionario Biográfico: Gonzalo Guerrero", url: "https://dbe.rah.es/biografias/85636/gonzalo-guerrero" }
   - { titulo: "American Historical Association — Díaz del Castillo describes how the Spaniards found Gerónimo de Aguilar", url: "https://www.historians.org/resource/diaz-del-castillo-describes-how-the-spaniards-found-geronimo-de-aguilar/" }
-  - { titulo: "Noticonquista (UNAM) — Federico Navarrete y otros: Quetzalcóatl negro", url: "https://www.noticonquista.unam.mx/sites/default/files/2019-06/nava_-_quetzalcoatl_negro_-_final.pdf" }
+  - { titulo: "Noticonquista (UNAM) — Quetzalcóatl negro", url: "https://www.noticonquista.unam.mx/sites/default/files/2019-06/nava_-_quetzalcoatl_negro_-_final.pdf" }
   - { titulo: "tDAR — Tiesler y otros, In the Wake of Collapse: Eastern Mesoamerican Body Modifications (2023)", url: "https://core.tdar.org/document/473818/in-the-wake-of-collapse-eastern-mesoamerican-body-modifications-and-identities-during-the-ninth-and-tenth-centuries-ce" }
   - { titulo: "The Past — Ancient Maya Teeth (Vera Tiesler)", url: "https://the-past.com/world-archaeology/131/books/ancient-maya-teeth-dental-modification-cosmology-and-social-identity-in-mesoamerica/" }
   - { titulo: "Carolina Romero Patiño — El tatuaje prehispánico mexicano (2019)", url: "https://cdsa.aacademica.org/000-030/557.pdf" }
