@@ -103,6 +103,14 @@ La investigadora Carolina Romero Patiño lo formuló en 2019 al analizar el llam
 
 La Sala Maya del Museo Nacional de Antropología, en la Ciudad de México, reúne figurillas de Jaina y piezas de la costa campechana; los museos regionales de Campeche y Mérida completan el recorrido. Al mirarlas, Atlas sugiere un ejercicio sencillo: fijarse en los rostros, buscar las líneas y los puntos en relieve, y preguntarse, con la ficha de sala delante, qué se puede afirmar y qué no. Es exactamente la pregunta que se hacen los arqueólogos.
 
+## Preguntas frecuentes
+
+**¿Los mayas se tatuaban?** Las figurillas, la investigación del INAH y la crónica de Landa apuntan a que sí practicaban el tatuaje y la escarificación, aunque los especialistas subrayan que el estudio está en una etapa incipiente.
+
+**¿Con qué se tatuaban?** Según los experimentos de Benjamín Guarneros Brito, la espina de raya y la espina de pescado funcionan bien para introducir pigmento, y una caracola partida por la mitad sirve para tatuar y escarificar.
+
+**¿Existen diseños de tatuajes mayas documentados?** No como catálogo. Los motivos que hoy se tatúan proceden sobre todo de la escultura, los códices y la cerámica.
+
 ## Coda: una piel que no se conserva
 
 El tatuaje es, de todas las artes, la más frágil ante el tiempo. Una vasija sobrevive mil años enterrada; una piel, casi nunca. En lugares de clima frío o extremadamente seco, como los que Atlas recorrió en [la expedición a la piel antigua](/expediciones/piel-antigua-otzi-gebelein-ukok), los cuerpos han conservado sus tatuajes. En las selvas húmedas de Mesoamérica, la piel ha desaparecido y solo quedan sus imágenes en barro y piedra.

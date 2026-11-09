@@ -86,6 +86,24 @@ Sin cifras exactas, que no existen para la época, se puede describir el efecto 
 
 Esa transformación tuvo un precio. La técnica manual que dominaba Maud Wagner, como Atlas contó en [la crónica sobre las damas tatuadas](/expediciones/circo-y-damas-tatuadas), quedó relegada en los talleres urbanos. Y la velocidad no venía acompañada todavía de normas de higiene; la esterilización sistemática tardaría décadas en imponerse.
 
+## Cómo leer una patente antigua
+
+Buena parte de esta historia descansa en documentos que cualquier lector puede consultar desde casa, y vale la pena hacerlo. Atlas propone un método sencillo para quien quiera comprobar por sí mismo lo que cuentan los libros y los sitios de divulgación:
+
+1. **Buscar el número, no el nombre.** En Google Patents, la búsqueda por número (por ejemplo, US464801) lleva directamente a la ficha. Los nombres de los inventores aparecen a menudo mal transcritos en los textos digitalizados.
+2. **Distinguir las dos fechas.** Toda patente estadounidense de la época tiene una fecha de solicitud y una de concesión. En el caso de O'Reilly, julio y diciembre de 1891. Muchas confusiones de la divulgación nacen de mezclarlas.
+3. **Mirar los dibujos.** Las láminas que acompañan a la patente suelen ser más claras que el texto, sobre todo cuando la transcripción automática es incompleta, como ocurre con esta.
+4. **Desconfiar de las patentes "perdidas".** Cuando una fuente afirma que alguien patentó un invento pero no da el número, conviene preguntarse por qué. El caso de Tom Riley, cuya supuesta patente británica nadie ha encontrado, es un buen ejemplo.
+5. **Recordar que patentar no es fabricar.** Como advierte el Tattoo Archive a propósito de la máquina de Charlie Wagner de 1904, una patente puede describir un aparato del que no sobrevive ningún ejemplar.
+
+## Chatham Square hacia 1900: el taller como escaparate
+
+Conviene imaginar el escenario en que circuló la nueva máquina. El portal turístico oficial de Nueva York sitúa en el Bowery y sus alrededores el centro del tatuaje neoyorquino del cambio de siglo: una calle de teatros populares, salones, pensiones baratas y museos de diez centavos, por la que pasaban marineros, soldados, inmigrantes recién llegados y curiosos. Los tatuadores trabajaban a menudo en la trastienda de barberías o en pequeños locales con los diseños colgados en la pared.
+
+En ese mundo, la máquina eléctrica era también un argumento de venta. Un taller que podía terminar un diseño en menos tiempo atendía a más clientes en una noche de permiso. Y el propio aparato, zumbando a la vista de los que esperaban, formaba parte del espectáculo. No es casual que el mismo barrio fuera escenario de las damas tatuadas que se exhibían en los museos populares: el tatuaje del Bowery era, a la vez, oficio y función.
+
+Las fotografías de estudio de la época, como las que el sitio Tattoo Antiques atribuye al fotógrafo del Bowery William Ettlin, muestran a hombres y mujeres que posaban para enseñar trabajos hechos en esos talleres. Son, junto con las patentes, la mejor prueba de lo que la nueva herramienta permitía hacer.
+
 ## Coda: el regreso del motor
 
 Hay una ironía final en esta historia. Durante buena parte del siglo XX, la máquina de bobina dominó tanto que la máquina rotativa, la heredera más directa del motor de la pluma de Edison según la lectura de Wikipedia, pareció una curiosidad del pasado. En las últimas décadas, las máquinas rotativas y de tipo "pluma" han vuelto a muchos estudios, por su ligereza y su menor ruido. Quien entre hoy en uno de los estudios de línea fina que Atlas visitó en [Nueva York](/expediciones/nueva-york-microtatuaje) o en [Los Ángeles](/expediciones/los-angeles-aguja-unica) verá a menudo un aparato con forma de bolígrafo grueso, silencioso, conectado a una pequeña fuente de alimentación.

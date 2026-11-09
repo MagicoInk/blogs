@@ -95,6 +95,16 @@ Para el lector que quiera seguir esta ruta, Atlas propone tres paradas:
 
 Y una advertencia: muchas de las cifras que circulan sobre estas artistas (número exacto de tatuajes, salarios, récords) proceden de material promocional de la época o de blogs que se copian entre sí. Atlas las ha dejado fuera.
 
+## Preguntas frecuentes
+
+**¿Quién fue la primera dama tatuada?** No hay una respuesta única. Nora Hildebrandt e Irene Woodward se disputan el título; los anuncios de Woodward en la prensa neoyorquina de marzo de 1882 son el registro más firme, pero el folleto de Hildebrandt reclama una fecha anterior.
+
+**¿Eran ciertas sus historias de secuestro?** Las fuentes consultadas las consideran ficciones promocionales, propias del género del relato de cautiverio.
+
+**¿Es la mujer del cartel del Jardin de Paris Irene Woodward?** Es posible, por el nombre artístico, pero Atlas no ha encontrado un catálogo que lo confirme.
+
+**¿Quién fue la primera tatuadora de Estados Unidos?** La mayoría de las fuentes otorgan ese lugar a Maud Wagner, que tatuaba a mano.
+
 ## Coda: la autora detrás del personaje
 
 Durante medio siglo, la dama tatuada fue un personaje escrito por otros: por empresarios que inventaban secuestros, por periodistas que las describían como rarezas, por fotógrafos que las retrataban de pie junto a una columna de cartón piedra. Las investigaciones recientes, de Osterud a la *Graduate History Review*, intentan devolverles otra cosa: la condición de trabajadoras que eligieron un oficio difícil, negociaron contratos, viajaron por continentes y, en el caso de Maud Wagner, acabaron empuñando ellas mismas la aguja.

@@ -674,5 +674,74 @@
     "ancho": null,
     "alto": null,
     "pendienteVerificar": true
+  },
+  {
+    "slug": "golondrina-abejaruco-teyler",
+    "archivo": "img/golondrina-abejaruco-teyler.jpg",
+    "tituloCommons": "Bijeneter op een boomstronk en zwaluw op een tak.jpeg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Bijeneter_op_een_boomstronk_en_zwaluw_op_een_tak.jpeg",
+    "temas": [
+      "ilustracion"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  },
+  {
+    "slug": "oreilly-patente-pagina-10",
+    "archivo": "img/oreilly-patente-pagina-10.jpg",
+    "tituloCommons": "Patent Case File No. 464,801, Tattooing-Machine, Inventor- Samuel F. O'Reilly - NARA - 70664403 (page 10).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Patent_Case_File_No._464%2C801%2C_Tattooing-Machine%2C_Inventor-_Samuel_F._O%27Reilly_-_NARA_-_70664403_%28page_10%29.jpg",
+    "temas": [
+      "maquinas",
+      "historia",
+      "occidente"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  },
+  {
+    "slug": "oreilly-patente-pagina-2",
+    "archivo": "img/oreilly-patente-pagina-2.jpg",
+    "tituloCommons": "Patent Case File No. 464,801, Tattooing-Machine, Inventor- Samuel F. O'Reilly - NARA - 70664403 (page 2).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Patent_Case_File_No._464%2C801%2C_Tattooing-Machine%2C_Inventor-_Samuel_F._O%27Reilly_-_NARA_-_70664403_%28page_2%29.jpg",
+    "temas": [
+      "maquinas",
+      "historia",
+      "occidente"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  },
+  {
+    "slug": "jaina-guerrero-escarificacion-de-young",
+    "archivo": "img/jaina-guerrero-escarificacion-de-young.jpg",
+    "tituloCommons": "Kneeling warrior with facial scarification and shield, Mexico, Campeche, Jaina Island, 600-800 AD, earthenware and pigment - De Young Museum - DSC00676.JPG",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Kneeling_warrior_with_facial_scarification_and_shield%2C_Mexico%2C_Campeche%2C_Jaina_Island%2C_600-800_AD%2C_earthenware_and_pigment_-_De_Young_Museum_-_DSC00676.JPG",
+    "temas": [
+      "mexico",
+      "historia"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
   }
 ]
