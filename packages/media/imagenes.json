@@ -322,5 +322,22 @@
     "ancho": null,
     "alto": null,
     "pendienteVerificar": true
+  },
+  {
+    "slug": "lillian-marco-dama-tatuada",
+    "archivo": "img/lillian-marco-dama-tatuada.jpg",
+    "tituloCommons": "Lillian Marco, tattooed lady.jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Lillian_Marco%2C_tattooed_lady.jpg",
+    "temas": [
+      "historia",
+      "occidente"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
   }
 ]
