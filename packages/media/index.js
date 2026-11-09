@@ -1,8 +1,7 @@
-import { readFileSync, existsSync } from 'node:fs';
+import imagenes from './imagenes.json' with { type: 'json' };
 
-const ruta = new URL('./imagenes.json', import.meta.url);
 /** Imágenes de dominio público o CC0, con su crédito (ver scripts/descargar-imagenes.py). */
-export const imagenes = existsSync(ruta) ? JSON.parse(readFileSync(ruta, 'utf8')) : [];
+export { imagenes };
 
 /** URL pública de la imagen dentro de cada sitio (se copia a public/media/ al compilar). */
 export const src = (img) => `/media/${img.archivo.replace(/^img\//, '')}`;

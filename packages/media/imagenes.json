@@ -88,5 +88,77 @@
     "ancho": null,
     "alto": null,
     "pendienteVerificar": true
+  },
+  {
+    "slug": "kuniyoshi-suikoden-tanmeijiro-genshogo",
+    "archivo": "img/kuniyoshi-suikoden-tanmeijiro-genshogo.jpg",
+    "tituloCommons": "Tanmeijiro Gen Shogo 短冥治郎阮小五 (Ruan Xiaowu) (BM 2008,3037.10063).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Tanmeijiro_Gen_Shogo_%E7%9F%AD%E5%86%A5%E6%B2%BB%E9%83%8E%E9%98%AE%E5%B0%8F%E4%BA%94_%28Ruan_Xiaowu%29_%28BM_2008%2C3037.10063%29.jpg",
+    "temas": [
+      "irezumi",
+      "japon",
+      "historia"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  },
+  {
+    "slug": "kuniyoshi-suikoden-ricchitaisai-genshoji",
+    "archivo": "img/kuniyoshi-suikoden-ricchitaisai-genshoji.jpg",
+    "tituloCommons": "Ricchitaisai Genshoji 立地太歲阮小二 (Ruan Xiao'er) (BM 2008,3037.10046).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Ricchitaisai_Genshoji_%E7%AB%8B%E5%9C%B0%E5%A4%AA%E6%AD%B2%E9%98%AE%E5%B0%8F%E4%BA%8C_%28Ruan_Xiao%27er%29_%28BM_2008%2C3037.10046%29.jpg",
+    "temas": [
+      "irezumi",
+      "japon",
+      "historia"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  },
+  {
+    "slug": "kuniyoshi-suikoden-riou-bokuko",
+    "archivo": "img/kuniyoshi-suikoden-riou-bokuko.jpg",
+    "tituloCommons": "Triptych print (BM 2008,3037.10002).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Triptych_print_%28BM_2008%2C3037.10002%29.jpg",
+    "temas": [
+      "irezumi",
+      "japon",
+      "historia"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  },
+  {
+    "slug": "kuniyoshi-suikoden-rorihakucho-chojun",
+    "archivo": "img/kuniyoshi-suikoden-rorihakucho-chojun.jpg",
+    "tituloCommons": "Utagawa Kuniyoshi - One Hundred and Eight Heroes from the Chinese Tale, The Water Margin- Zhang Shun, alias White Stripe... - Google Art Project.jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Utagawa_Kuniyoshi_-_One_Hundred_and_Eight_Heroes_from_the_Chinese_Tale%2C_The_Water_Margin-_Zhang_Shun%2C_alias_White_Stripe..._-_Google_Art_Project.jpg",
+    "temas": [
+      "irezumi",
+      "japon",
+      "historia"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
   }
 ]
