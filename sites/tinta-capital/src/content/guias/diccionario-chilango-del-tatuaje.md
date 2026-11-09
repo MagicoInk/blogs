@@ -94,7 +94,7 @@ Un aviso: el oficio usa muchos anglicismos (flash, linework, blowout) porque bue
 
 **32. Neotradicional.** Hijo del tradicional, con más detalle, más colores y más ilustración.
 
-**33. Negro y gris (black and grey).** Trabajo sin color, con degradados de negro diluido. Tiene raíces muy fuertes en la tradición chicana del sur de California. El MoMA describe a [Mark Mahoney](/artistas/mark-mahoney/), dueño del Shamrock Social Club en Los Ángeles, como uno de los padres fundadores de este estilo.
+**33. Negro y gris (black and grey).** Trabajo sin color, con degradados de negro diluido. Tiene raíces muy fuertes en la tradición chicana del sur de California. El MoMA describe a Mark Mahoney, dueño del Shamrock Social Club en Los Ángeles, como uno de los padres fundadores de este estilo.
 
 **34. Realismo.** Que parezca foto. De lo más exigente que hay, sobre todo en retratos. Si te interesa, lee [nuestra guía de retratos de mascotas](/guias/retratos-de-mascotas-tatuaje/): sirve igual para retratos de humanos.
 

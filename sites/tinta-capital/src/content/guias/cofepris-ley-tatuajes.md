@@ -31,13 +31,13 @@ Algunos ejemplos documentados de que las autoridades locales sí se ocupan del t
 - En **Baja California**, Zeta Tijuana informó que en enero de 2023 la COEPRIS organizó en Ensenada un taller para tatuadores y técnicos de microblading.
 - En la **CDMX**, el aviso de funcionamiento de primera vez ante la Agencia de Protección Sanitaria requiere e.firma y registrarse como usuario en su plataforma.
 
-## Regla número uno: nada de menores de edad
+## Regla número uno: menores de edad, solo con papá, mamá o tutor
 
-Esta es la más clara de todas y no tiene letras chiquitas. El **artículo 268 Bis-1 de la Ley General de Salud** prohíbe tatuar, micropigmentar y perforar a **menores de 18 años**, y también a personas que no estén en pleno goce de sus facultades mentales. Se añadió a la ley por un decreto publicado en el Diario Oficial de la Federación el 24 de abril de 2006.
+El **artículo 268 Bis-1 de la Ley General de Salud** prohíbe tatuar, micropigmentar y perforar a **menores de 18 años**, y también a personas que no estén en pleno goce de sus facultades mentales. Pero tiene una excepción: un menor sí puede tatuarse si va **acompañado de su padre, madre o tutor, que acredite serlo, o si lleva su autorización por escrito**. Se añadió a la ley por un decreto publicado en el Diario Oficial de la Federación el 24 de abril de 2006.
 
 Traducción chilanga:
 
-- **No hay permiso de papás que valga.** La ley no hace excepción por autorización de los padres o tutores. Si un estudio te dice "con que tu mamá firme, va", te está diciendo que está dispuesto a brincarse la ley. ¿Qué más se brinca?
+- **El permiso tiene que ser de verdad.** La excepción exige que el papá, la mamá o el tutor acredite que lo es (identificación y documento que pruebe el parentesco o la tutela) o una autorización por escrito. Un estudio serio la pide completa y la guarda; si a uno le basta con "dice tu mamá que sí", te está diciendo cómo trata lo demás. Además, muchos estudios deciden no tatuar a menores aunque la ley lo permita. Los detalles, en [tatuajes y menores de edad](/guias/tatuajes-menores-de-edad/).
 - **Te van a pedir identificación.** Y está bien. Un estudio que no te la pide no te está haciendo un favor.
 - **Llegar briago tampoco.** La ley habla de facultades mentales; el sentido común (y cualquier artista decente) agrega que no se tatúa a alguien en estado de ebriedad o bajo el influjo de sustancias. Además de que es mala idea para tu piel, no estás en condiciones de decidir algo permanente.
 
@@ -129,7 +129,7 @@ Si estás del otro lado de la máquina, la recomendación es simple: **lee la gu
 
 ## En resumen
 
-- **Menores de 18: no.** Lo dice el artículo 268 Bis-1 de la Ley General de Salud desde 2006, sin excepción por permiso de los papás.
+- **Menores de 18: solo acompañados de su padre, madre o tutor acreditado, o con su autorización por escrito.** Lo dice el artículo 268 Bis-1 de la Ley General de Salud desde 2006.
 - **El tatuador necesita tarjeta de control sanitario** de COFEPRIS, con vigencia de dos años según El Financiero.
 - **Debe haber registro de usuarios**, cuestionario y consentimiento.
 - **El local también tiene trámites** ante la autoridad sanitaria de su estado.

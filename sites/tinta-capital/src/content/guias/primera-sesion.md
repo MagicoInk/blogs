@@ -37,7 +37,7 @@ Anticoagulantes, diabetes, problemas de coagulación, enfermedades de la piel, e
 
 ### 6. Ten tu identificación a la mano
 
-En México está prohibido tatuar a menores de 18 años: lo dice el artículo 268 Bis-1 de la Ley General de Salud. Te van a pedir INE o pasaporte. Si tienes cara de 17, no te ofendas: es buena señal. Más sobre esto en [lo que dice la ley](/guias/cofepris-ley-tatuajes/).
+En México no se puede tatuar a menores de 18 años salvo que vayan con su padre, madre o tutor, que acredite serlo, o con su autorización por escrito: lo dice el artículo 268 Bis-1 de la Ley General de Salud. Te van a pedir INE o pasaporte. Si tienes cara de 17, no te ofendas: es buena señal. Más sobre esto en [lo que dice la ley](/guias/cofepris-ley-tatuajes/).
 
 ### 7. Organiza tus días posteriores
 

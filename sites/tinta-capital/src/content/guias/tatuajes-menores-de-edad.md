@@ -28,7 +28,7 @@ Esta nota es para resolver eso con la ley en la mano. Y empezamos con algo de au
 
 ## Nota de la redacción: lo que antes simplificamos
 
-En varias notas de Tinta Capital escribimos que en México "no hay permiso de papás que valga" para tatuar a un menor. Al revisar de nuevo el texto del artículo 268 Bis-1 de la Ley General de Salud para esta guía, encontramos que **la ley sí contempla una excepción con autorización de los padres o tutores**. Nuestro resumen anterior se quedó corto, y aquí lo explicamos completo. Lo que no cambia es el consejo de fondo: que la ley permita algo con condiciones no quiere decir que sea buena idea ni que cualquier estudio tenga que aceptarlo.
+En varias notas de Tinta Capital escribimos que en México "no hay permiso de papás que valga" para tatuar a un menor. Al revisar de nuevo el texto del artículo 268 Bis-1 de la Ley General de Salud para esta guía, encontramos que **la ley sí contempla una excepción con autorización de los padres o tutores**. Nuestro resumen anterior se quedó corto: ya corregimos esas notas, y aquí lo explicamos completo. Lo que no cambia es el consejo de fondo: que la ley permita algo con condiciones no quiere decir que sea buena idea ni que cualquier estudio tenga que aceptarlo.
 
 ## Qué dice exactamente el artículo 268 Bis-1
 

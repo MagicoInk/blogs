@@ -339,5 +339,40 @@
     "ancho": null,
     "alto": null,
     "pendienteVerificar": true
+  },
+  {
+    "slug": "cartel-la-belle-irene-jardin-de-paris",
+    "archivo": "img/cartel-la-belle-irene-jardin-de-paris.jpg",
+    "tituloCommons": "Jardin de Paris la belle IRENE, AFF64(1).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Jardin_de_Paris_la_belle_IRENE%2C_AFF64%281%29.jpg",
+    "temas": [
+      "historia",
+      "occidente",
+      "ilustracion"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  },
+  {
+    "slug": "trabajador-tatuado-visby",
+    "archivo": "img/trabajador-tatuado-visby.jpg",
+    "tituloCommons": "Portrait of a tattooed worker, Lagergren's photo studio, Skeppargatan 28, Visby, Gotland, Sweden c.1900. (50075109991).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_tattooed_worker%2C_Lagergren%27s_photo_studio%2C_Skeppargatan_28%2C_Visby%2C_Gotland%2C_Sweden_c.1900._%2850075109991%29.jpg",
+    "temas": [
+      "historia",
+      "occidente"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
   }
 ]

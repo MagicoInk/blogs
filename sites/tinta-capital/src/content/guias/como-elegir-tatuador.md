@@ -70,7 +70,7 @@ El fine line está de moda y se ve precioso en foto, pero es de los estilos más
 
 En México tatuar no es un oficio sin reglas. Aquí lo básico (lo desarrollamos a fondo en [nuestra guía sobre COFEPRIS y la ley](/guias/cofepris-ley-tatuajes/)):
 
-- **La edad.** El artículo 268 Bis-1 de la Ley General de Salud prohíbe tatuar a menores de 18 años, aunque vengan con permiso de sus papás. Si un estudio te tatúa a los 16 "porque tu mamá firmó", no es un estudio flexible: es un estudio que se brinca la ley, y eso dice mucho de cómo trata lo demás.
+- **La edad.** El artículo 268 Bis-1 de la Ley General de Salud prohíbe tatuar a menores de 18 años, salvo que vayan con su padre, madre o tutor, que acredite serlo, o lleven su autorización por escrito. Un estudio serio pide identificación y, si eres menor, revisa ese permiso con lupa; muchos prefieren no tatuar menores aunque la ley lo permita. Si a uno le da igual, eso dice mucho de cómo trata lo demás.
 - **La tarjeta de control sanitario.** COFEPRIS tiene un trámite específico para tatuadores, micropigmentadores y perforadores, con su propia guía oficial. Pregunta si el artista la tiene. Un profesional no se ofende; al contrario.
 - **El registro.** Según Excélsior, los lineamientos de COFEPRIS piden a los tatuadores llevar un libro de registro de usuarios encuadernado y foliado. Si te piden tus datos y te preguntan por tu salud antes de empezar, no es burocracia gratuita: es buena señal.
 - **El aviso de funcionamiento del local.** En la mayoría de las entidades el estudio debe dar aviso ante la autoridad sanitaria. Publimetro, en sus recomendaciones para primerizos, sugiere verificar que el establecimiento tenga la tarjeta de control sanitario.
@@ -127,7 +127,7 @@ Ninguno es mejor por sí mismo. Lo que importa es el artista y que el espacio cu
 
 Levántate y vete si:
 
-- Te tatúan siendo menor de edad.
+- Te tatúan siendo menor de edad sin que vayas con tu papá, mamá o tutor, ni con su autorización por escrito.
 - No ves que abran agujas nuevas.
 - El lugar está sucio o el área de trabajo comparte espacio con comida, mascotas o la sala de la casa.
 - Te presionan para decidir hoy "porque hay promo".
@@ -148,7 +148,7 @@ Antes de dejar el anticipo, palomea:
 - [ ] Sé qué estilo quiero y el artista se especializa en él.
 - [ ] Vi al menos varias piezas cicatrizadas de su trabajo.
 - [ ] Su portafolio es consistente, no tiene una pieza buena entre diez regulares.
-- [ ] Tengo 18 años o más y me pidieron identificación.
+- [ ] Me pidieron identificación (y, si soy menor, voy con mi papá, mamá o tutor o con su autorización por escrito).
 - [ ] Pregunté por su tarjeta de control sanitario.
 - [ ] Visité el estudio (o vi fotos reales del espacio) y se ve limpio y ordenado.
 - [ ] Me explicaron el proceso, las sesiones y los cuidados.

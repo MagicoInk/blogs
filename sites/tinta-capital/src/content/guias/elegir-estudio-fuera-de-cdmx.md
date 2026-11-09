@@ -65,7 +65,7 @@ Como no puedes pasar al estudio, el portafolio en línea es tu principal herrami
 
 Esta es la buena noticia: lo básico de la regulación es **federal**, así que aplica igual en Tijuana que en Mérida.
 
-- **Menores de edad.** El artículo **268 Bis-1 de la Ley General de Salud** prohíbe tatuar, micropigmentar y perforar a **menores de 18 años** y a personas que no estén en pleno goce de sus facultades mentales. Se añadió por decreto en el DOF el 24 de abril de 2006. Si un estudio te ofrece tatuar a tu hijo de 16 "con permiso de los papás", está fuera de la ley federal.
+- **Menores de edad.** El artículo **268 Bis-1 de la Ley General de Salud** prohíbe tatuar, micropigmentar y perforar a **menores de 18 años** y a personas que no estén en pleno goce de sus facultades mentales. Se añadió por decreto en el DOF el 24 de abril de 2006. La única excepción es que el menor vaya acompañado de su padre, madre o tutor, que acredite serlo, o lleve su autorización por escrito. Si un estudio te ofrece tatuar a un menor sin nada de eso, está fuera de la ley federal.
 - **Tarjeta de control sanitario.** La **COFEPRIS** publicó una guía para que tatuadores, micropigmentadores y perforadores obtengan esta tarjeta. Según *El Financiero* (abril de 2024), tiene **vigencia de dos años**. Tienes todo el derecho a pedir verla.
 - **Libro de registro.** Según *Excélsior*, los lineamientos de COFEPRIS exigen a los tatuadores llevar un **libro de registro de usuarios encuadernado y foliado**, además de un manual de técnicas. Si te piden tus datos para anotarlos, no es burocracia: es parte de la norma.
 
@@ -77,7 +77,7 @@ Además de lo federal, cada estado tiene su autoridad sanitaria, y algunas hacen
 - **Baja California:** la **COEPRIS** organizó en **Ensenada**, en enero de 2023, un **taller para tatuadores y técnicos de microblading**, según Zeta Tijuana.
 - **Nuevo León:** en **abril de 2016**, un grupo legislativo del Congreso estatal **solicitó que los tatuadores cuenten con autorización sanitaria**. No pudimos confirmar en qué terminó esa propuesta.
 
-Lo práctico: no necesitas saberte la norma de cada estado. Con la checklist federal (tarjeta, aviso de funcionamiento del local, material desechable, nada de menores) ya cubres lo esencial. El detalle completo está en [lo que dice la ley](/guias/cofepris-ley-tatuajes/).
+Lo práctico: no necesitas saberte la norma de cada estado. Con la checklist federal (tarjeta, aviso de funcionamiento del local, material desechable, menores solo con papá, mamá o tutor) ya cubres lo esencial. El detalle completo está en [lo que dice la ley](/guias/cofepris-ley-tatuajes/).
 
 ### Escuela no es tarjeta
 
@@ -129,6 +129,6 @@ Transparencia total: Tinta Capital es un proyecto editorial de **Magico Ink**. T
 - [ ] Acordaste cómo será el retoque.
 - [ ] Vas a pedir ver la tarjeta de control sanitario y el aviso de funcionamiento.
 - [ ] Planeaste el viaje para no exponer el tatuaje fresco a sol, agua ni roce.
-- [ ] Eres mayor de edad (o esperas a serlo).
+- [ ] Eres mayor de edad, o vas con tu papá, mamá o tutor (o su autorización por escrito).
 
 Y si es tu primera vez, antes de cualquier viaje lee [tu primera sesión: 30 cosas que nadie te dice](/guias/primera-sesion/). Todas las ciudades que tenemos documentadas están en [Dónde tatuarte](/ciudades/).

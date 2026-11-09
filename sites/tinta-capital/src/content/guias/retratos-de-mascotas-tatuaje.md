@@ -106,10 +106,10 @@ Estos son artistas del [directorio de Tinta Capital](/artistas/) cuyas fichas do
 
 ### Fuera de México, para inspirarte
 
-- **[Dmitriy Samohin](/artistas/dmitriy-samohin/) (Odesa).** Univision le dedicó una galería a sus **tatuajes realistas de animales**. Útil para ver hasta dónde llega el hiperrealismo.
-- **[Marckos Ruiz](/artistas/marckos-ruiz/) (Colombia).** Según su ficha, se describe con especial afinidad por la acuarela y el **realismo animal**, y combina color con escala de grises.
-- **[Sasha Unisex](/artistas/sasha-unisex/).** Colossal la presentó en 2020 por sus **retratos de animales en acuarela**. Un buen ejemplo de que un retrato no tiene que ser fotográfico para ser fiel.
-- **[Eva Karabudak](/artistas/eva-karabudak/) (Nueva York).** Colossal destacó sus **microtatuajes de retratos de animales**, hechos con líneas y puntos. Referencia del formato pequeño.
+- **Dmitriy Samohin (Odesa).** Univision le dedicó una galería a sus **tatuajes realistas de animales**. Útil para ver hasta dónde llega el hiperrealismo.
+- **Marckos Ruiz (Colombia).** Según su ficha, se describe con especial afinidad por la acuarela y el **realismo animal**, y combina color con escala de grises.
+- **Sasha Unisex.** Colossal la presentó en 2020 por sus **retratos de animales en acuarela**. Un buen ejemplo de que un retrato no tiene que ser fotográfico para ser fiel.
+- **Eva Karabudak (Nueva York).** Colossal destacó sus **microtatuajes de retratos de animales**, hechos con líneas y puntos. Referencia del formato pequeño.
 
 ## Paso 5: qué esperar en la cita
 

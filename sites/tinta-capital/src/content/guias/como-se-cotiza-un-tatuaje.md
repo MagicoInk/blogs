@@ -82,7 +82,7 @@ Cuantas más vueltas le des al diseño ("mejor que la rosa vea para el otro lado
 
 No hay manera elegante de decirlo: **un artista con agenda llena cobra más**. Es oferta y demanda, y además refleja años de práctica, formación y prestigio.
 
-Para darte una idea de hasta dónde llega esto a nivel internacional: *Business Insider* reportó en 2023 que [Eva Karabudak](/artistas/eva-karabudak/), tatuadora de Nueva York conocida por sus microtatuajes inspirados en la historia del arte, cobraba **un mínimo de 600 dólares por hora**. No es una cifra mexicana ni pretende serlo: es un recordatorio de que el precio del tiempo de un artista varía muchísimo según quién sea y dónde trabaje.
+Para darte una idea de hasta dónde llega esto a nivel internacional: *Business Insider* reportó en 2023 que Eva Karabudak, tatuadora de Nueva York conocida por sus microtatuajes inspirados en la historia del arte, cobraba **un mínimo de 600 dólares por hora**. No es una cifra mexicana ni pretende serlo: es un recordatorio de que el precio del tiempo de un artista varía muchísimo según quién sea y dónde trabaje.
 
 ## Factor 7: la ciudad y el estudio
 
