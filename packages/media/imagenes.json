@@ -178,5 +178,23 @@
     "ancho": null,
     "alto": null,
     "pendienteVerificar": true
+  },
+  {
+    "slug": "kuniyoshi-suikoden-kyumonryo-shishin-chuban",
+    "archivo": "img/kuniyoshi-suikoden-kyumonryo-shishin-chuban.jpg",
+    "tituloCommons": "Kyumonryo Shishin 九紋龍史進 (Nine Tattooed Dragons Shi Jin) (BM 2008,3037.10215).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Kyumonryo_Shishin_%E4%B9%9D%E7%B4%8B%E9%BE%8D%E5%8F%B2%E9%80%B2_%28Nine_Tattooed_Dragons_Shi_Jin%29_%28BM_2008%2C3037.10215%29.jpg",
+    "temas": [
+      "irezumi",
+      "japon",
+      "historia"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
   }
 ]
