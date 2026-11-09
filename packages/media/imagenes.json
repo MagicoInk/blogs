@@ -607,5 +607,72 @@
     "ancho": null,
     "alto": null,
     "pendienteVerificar": true
+  },
+  {
+    "slug": "redoute-rosa-provenza",
+    "archivo": "img/redoute-rosa-provenza.jpg",
+    "tituloCommons": "Henry Joseph Redouté - Provence or French Rose - 1943.139 - Cleveland Museum of Art.jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Henry_Joseph_Redout%C3%A9_-_Provence_or_French_Rose_-_1943.139_-_Cleveland_Museum_of_Art.jpg",
+    "temas": [
+      "botanica",
+      "ilustracion"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  },
+  {
+    "slug": "redoute-rosa-indica",
+    "archivo": "img/redoute-rosa-indica.jpg",
+    "tituloCommons": "Henry Joseph Redouté - Les Roses- Rosa indica - 1955.473 - Cleveland Museum of Art.jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Henry_Joseph_Redout%C3%A9_-_Les_Roses-_Rosa_indica_-_1955.473_-_Cleveland_Museum_of_Art.jpg",
+    "temas": [
+      "botanica",
+      "ilustracion"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  },
+  {
+    "slug": "redoute-rosa-cinnamomea",
+    "archivo": "img/redoute-rosa-cinnamomea.jpg",
+    "tituloCommons": "Henry Joseph Redouté - Les Roses- Rosa cinnamomea - 1955.472 - Cleveland Museum of Art.jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Henry_Joseph_Redout%C3%A9_-_Les_Roses-_Rosa_cinnamomea_-_1955.472_-_Cleveland_Museum_of_Art.jpg",
+    "temas": [
+      "botanica",
+      "ilustracion"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
+  },
+  {
+    "slug": "golondrina-familiar-wild-birds",
+    "archivo": "img/golondrina-familiar-wild-birds.jpg",
+    "tituloCommons": "Familiar wild birds (Plate 2) (8141379179).jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Familiar_wild_birds_%28Plate_2%29_%288141379179%29.jpg",
+    "temas": [
+      "ilustracion"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
   }
 ]
