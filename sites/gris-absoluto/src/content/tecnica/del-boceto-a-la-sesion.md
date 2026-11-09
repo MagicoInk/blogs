@@ -50,7 +50,7 @@ Antes del primer mensaje, ten claro:
 
 ### Requisito legal básico en México
 
-El [artículo 268 Bis-1 de la Ley General de Salud](https://mley.mx/LGS/articulo/268-bis-1/) prohíbe tatuar a menores de 18 años y a personas que no estén en pleno uso de sus facultades mentales. El reglamento sanitario prevé excepciones específicas que conviene consultar; un estudio serio te pedirá identificación.
+El [artículo 268 Bis-1 de la Ley General de Salud](https://mley.mx/LGS/articulo/268-bis-1/) prohíbe tatuar a menores de 18 años y a personas que no estén en pleno uso de sus facultades mentales. La propia ley prevé una excepción: un menor puede tatuarse si va acompañado de su padre, madre o tutor, que acredite serlo, o si lleva su autorización por escrito. Aun así, muchos estudios deciden no tatuar menores, y un estudio serio siempre te pedirá identificación.
 
 ## Fase 1. La consulta
 
