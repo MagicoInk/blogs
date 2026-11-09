@@ -45,7 +45,7 @@ El método es el mismo que en la crónica de Aotearoa. Atlas cita a las fuentes,
 
 ### Gisborne y la escuela de Toihoukura
 
-La ruta empieza en la costa este de la Isla Norte, en Gisborne, Tūranga en la toponimia maorí. Allí está Toihoukura, la escuela de artes maoríes del EIT, donde enseña **[Tā Derek Lardelli](/artistas/derek-lardelli)**, artista de tā moko, tallador, compositor y docente de Ngāti Porou.
+La ruta empieza en la costa este de la Isla Norte, en Gisborne. Allí está Toihoukura, la escuela de artes maoríes del EIT, donde enseña **[Tā Derek Lardelli](/artistas/derek-lardelli)**, artista de tā moko, tallador, compositor y docente de Ngāti Porou.
 
 Según el Gisborne Herald, en marzo de 2023 Lardelli participó con Te Uhi ā Mataora —el comité nacional de tā moko de Toi Māori Aotearoa, que él preside— en un *wānanga* de moko celebrado en Toihoukura. Un wānanga es un encuentro de aprendizaje y transmisión de conocimiento, y el titular del periódico resume el espíritu con el que se presentó aquella reunión: el tā moko como un *taonga*, un tesoro, que sabe sobrevivir.
 
@@ -93,7 +93,7 @@ Del otro lado del mar de Tasmania, la crónica cambia de registro. Lo que sigue 
 
 El dato más llamativo de la escena australiana es legal. En Nueva Gales del Sur, el estado de Sídney, la ley Tattoo Parlours Act 2012 exige licencias para los operadores de estudios de tatuaje y para los propios tatuadores, expedidas por NSW Fair Trading, según la información de la policía del estado. La versión consolidada de la legislación indica que una persona no puede realizar tatuajes con fines comerciales sin una licencia de tatuador. Un reglamento de 2013 añadió requisitos para las solicitudes, y una reforma posterior cambió el nombre de la norma, que hoy figura como Tattoo Industry Act 2012.
 
-Para el lector latinoamericano o europeo, acostumbrado a que la regulación del tatuaje sea sobre todo sanitaria —higiene del local, formación del personal, composición de las tintas—, el modelo de Nueva Gales del Sur resulta distinto: la licencia la tramita un organismo de comercio y la ley se presentó con un enfoque de control de la actividad. Atlas no ha verificado los requisitos exactos de la licencia ni cómo regulan el oficio los demás estados australianos, y recomienda al viajero preguntar en el estudio si cuenta con ella.
+Para el lector latinoamericano o europeo, acostumbrado a que la regulación del tatuaje sea sobre todo sanitaria —higiene del local, formación del personal, composición de las tintas—, el modelo de Nueva Gales del Sur resulta distinto: la licencia la expide un organismo de comercio y consumo, NSW Fair Trading, más allá de las normas de higiene que puedan aplicarse por otras vías. Atlas no ha verificado los requisitos exactos de la licencia ni cómo regulan el oficio los demás estados australianos, y recomienda al viajero preguntar en el estudio si cuenta con ella.
 
 ### La Australian Tattoo Expo
 
