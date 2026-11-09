@@ -304,5 +304,23 @@
     "ancho": null,
     "alto": null,
     "pendienteVerificar": true
+  },
+  {
+    "slug": "cartero-tatuado-japon",
+    "archivo": "img/cartero-tatuado-japon.jpg",
+    "tituloCommons": "Portret van een getatoeëerde postbode, RP-F-2001-7-1557F-7.jpg",
+    "descripcion": "",
+    "autor": "",
+    "fecha": "",
+    "licencia": "Dominio público o CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Portret_van_een_getatoe%C3%ABerde_postbode%2C_RP-F-2001-7-1557F-7.jpg",
+    "temas": [
+      "irezumi",
+      "japon",
+      "historia"
+    ],
+    "ancho": null,
+    "alto": null,
+    "pendienteVerificar": true
   }
 ]

@@ -60,6 +60,18 @@ const terminos: [string, string][] = [
   ['Fresco', 'Tatuaje recién terminado, todavía inflamado y brillante. Sus fotos no representan el resultado final y deberían etiquetarse como tales.'],
   ['Síncope vasovagal', 'Desmayo reflejo desencadenado por dolor, miedo, ayuno o la vista de sangre. Suele avisar con mareo, sudor frío y palidez: hay que decirlo de inmediato.'],
   ['Sesión dividida', 'Reparto de una pieza grande en varias citas, por zonas o por fases (mapeo, valores, detalle), dejando sanar la piel entre una y otra.'],
+  ['Brillo del ojo (catchlight)', 'Reflejo de la fuente de luz en la córnea. Debe estar en el mismo lugar relativo en ambos ojos; si no coincide, el retrato parece mirar hacia dos lados. Conviene reservarlo en piel desde el esténcil.'],
+  ['Esclerótica', 'El blanco del ojo. En un retrato casi nunca es blanco puro: recibe la sombra del párpado y la curva del globo ocular.'],
+  ['Anillo limbal', 'Borde más oscuro que rodea el iris en muchas personas. Ayuda a separar el iris del blanco del ojo cuando la referencia lo muestra.'],
+  ['Contraste local', 'Diferencia entre el valor más claro y el más oscuro dentro de una zona pequeña. Alto en el metal y el agua, bajo en la piel: es una de las claves para simular materiales.'],
+  ['Manga', 'Tatuaje que cubre el brazo, del hombro a la muñeca (completa), hasta el codo (media manga) o solo el hombro y la parte alta (cuarto de manga). Se diseña como una sola imagen alrededor de un cilindro.'],
+  ['Transición (en una manga)', 'Zona donde un elemento termina y empieza otro: humo, sombra compartida, superposición o un elemento puente. Decide si la pieza se lee como una imagen o como un collage.'],
+  ['Cicatriz atrófica', 'Cicatriz hundida por debajo del nivel de la piel, como las de acné o varicela. Su relieve no desaparece al tatuarla; a veces conviene integrarlo como sombra.'],
+  ['Estría', 'Cicatriz que aparece cuando la piel se estira con rapidez. Las recientes son rojizas o violáceas; las antiguas, pálidas y algo hundidas. No se tatúa sobre estrías recientes.'],
+  ['Miniatura (limning)', 'Retrato pintado de pequeño formato, con acuarela opaca sobre vitela, que se llevaba en un medallón o estuche. Fue el retrato portátil por excelencia antes de la fotografía.'],
+  ['Ojo de amante (lover\'s eye)', 'Miniatura de finales del siglo XVIII que mostraba solo un ojo de la persona amada, montada en un broche o colgante. Más tarde se usó también como recuerdo de difuntos.'],
+  ['Daguerrotipo', 'Primer procedimiento fotográfico difundido públicamente, en 1839: una imagen única sobre una placa de metal plateado, guardada en un estuche. Su tema más frecuente fue el retrato.'],
+  ['Carte de visite', 'Retrato fotográfico pequeño sobre cartón, patentado por Disdéri en 1854, que abarató y multiplicó los retratos y dio origen a los álbumes familiares.'],
   ['Reconstrucción de areola en 3D', 'Tatuaje que simula el volumen de la areola y el pezón tras una cirugía de mama. Usa la lógica de luz y sombra del realismo y se coordina con el equipo médico.'],
 ];
 const jsonld = { '@context': 'https://schema.org', '@type': 'DefinedTermSet', name: 'Glosario de realismo en negro y gris', hasDefinedTerm: terminos.map(([name, description]) => ({ '@type': 'DefinedTerm', name, description })) };
