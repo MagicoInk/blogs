@@ -26,7 +26,7 @@ Esta cuarta expedición de Atlas es, por naturaleza, una de las más delicadas. 
 
 ## Un arte de estampa y de piel
 
-Durante el periodo Edo, el tatuaje decorativo japonés vivió un florecimiento estrechamente ligado a la cultura de la estampa *ukiyo-e*. Los grabadores representaban héroes de novelas populares con el cuerpo cubierto de dragones, olas y flores, y esas imágenes alimentaron, a su vez, el repertorio de los tatuadores. Es una historia ampliamente contada por los especialistas, aunque las fechas y los detalles concretos varían según el autor, y esta revista prefiere no fijar cifras que no puede verificar.
+Durante el periodo Edo, el tatuaje decorativo japonés vivió un florecimiento estrechamente ligado a la cultura de la estampa *ukiyo-e*. Los grabadores representaban héroes de novelas populares con el cuerpo cubierto de dragones, olas y flores, y esas imágenes alimentaron, a su vez, el repertorio de los tatuadores. Quiénes llevaban esos tatuajes en la calle —bomberos, andamieros, mensajeros, mozos de cuadra— es el tema de [la expedición sobre los bomberos de Edo](/expediciones/edo-bomberos-hikeshi-irezumi). Es una historia ampliamente contada por los especialistas, aunque las fechas y los detalles concretos varían según el autor, y esta revista prefiere no fijar cifras que no puede verificar.
 
 Lo importante para el viajero es entender la lógica estética que nació de ese diálogo. El irezumi tradicional no es una colección de dibujos sueltos, sino una composición unitaria que se organiza sobre el cuerpo entero: un motivo principal en la espalda, mangas que bajan por los brazos, fondos de viento, agua o nubes que unen las partes. La piel se trata como un pergamino o un biombo, una superficie continua con su propio ritmo.
 
