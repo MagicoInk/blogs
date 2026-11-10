@@ -64,7 +64,7 @@ Las fotos de familia en papel son, a menudo, las únicas referencias de personas
 - **Entrega el original escaneado sin filtros.** Las apps de "mejora" con inteligencia artificial inventan rasgos: suavizan la piel, cambian la forma de los ojos y generan dientes perfectos. El resultado puede parecer más nítido, pero se parece menos a la persona. Si quieres usar una versión restaurada, lleva también la original para que el artista compare.
 - **Busca más de una foto de la misma persona**, aunque sean malas. Ayudan a confirmar rasgos.
 
-Hablamos con más detalle de estos casos, y de su lado emocional, en [Retratos de mascotas y de personas fallecidas](/tecnica/retratos-mascotas-y-memoriales/).
+Hablamos con más detalle de estos casos, y de su lado emocional, en [Retratos de mascotas y de personas fallecidas](/tecnica/retratos-mascotas-y-memoriales/). Para daguerrotipos, fotos de archivo y restauración, consulta [Fotografía histórica como referencia](/tecnica/fotografia-historica-como-referencia/).
 
 ## Ángulo, lente y distorsión
 

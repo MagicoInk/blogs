@@ -105,7 +105,7 @@ Si una persona está fotografiada desde abajo y otra desde arriba, juntarlas pro
 
 ### Edades y épocas
 
-Muchas piezas reúnen a personas en edades distintas a las de la foto: el abuelo joven, de una foto de los años sesenta, junto al nieto actual. Es una decisión emocional legítima, pero tiene efectos visuales. Las fotos antiguas suelen tener otro grano, otro contraste y menos resolución. El artista tendrá que "traducirlas" a la misma calidad que las modernas, y algunos detalles serán interpretación. Hablamos de esto en [Retratos de mascotas y de personas fallecidas](/tecnica/retratos-mascotas-y-memoriales/).
+Muchas piezas reúnen a personas en edades distintas a las de la foto: el abuelo joven, de una foto de los años sesenta, junto al nieto actual. Es una decisión emocional legítima, pero tiene efectos visuales. Las fotos antiguas suelen tener otro grano, otro contraste y menos resolución. El artista tendrá que "traducirlas" a la misma calidad que las modernas, y algunos detalles serán interpretación. Hablamos de esto en [Retratos de mascotas y de personas fallecidas](/tecnica/retratos-mascotas-y-memoriales/). Si incluyes a un bebé o a un niño pequeño, ten en cuenta lo que explicamos en [Retratos de bebés y niños](/tecnica/retratos-de-bebes-y-ninos/).
 
 ### Retoque digital y montaje
 
