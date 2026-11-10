@@ -86,6 +86,8 @@ La superficie ya cerró en la mayoría de los casos, aunque las capas más profu
 
 ## Señales de alerta: cuándo ir al médico
 
+Si ya estás en ese punto, aquí está la guía paso a paso, con cómo quejarte ante COFEPRIS o Profeco: [¿se te infectó el tatuaje?](/guias/tatuaje-infectado-que-hacer/).
+
 Aquí no hay medias tintas (perdón por el chiste). Un tatuaje fresco está rojo e inflamado los primeros días, pero **lo normal es que mejore día con día**. Si va al revés, algo pasa.
 
 **Ve al médico si notas:**

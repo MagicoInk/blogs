@@ -108,6 +108,8 @@ Muchos estudios incluyen **un retoque** dentro de un plazo después de la cicatr
 
 ## Cómo pedir una cotización que sirva
 
+Para plantillas completas y la etiqueta del chat, revisa [cómo escribirle a un tatuador por DM o WhatsApp](/guias/como-escribirle-a-un-tatuador/).
+
 El mensaje de "¿cuánto por una rosa?" casi siempre va a recibir de respuesta otra pregunta. Ahórrale vueltas al artista (y a ti) mandando desde el principio:
 
 1. **Qué quieres.** Describe la idea y manda dos o tres imágenes de referencia, aclarando qué te gusta de cada una.

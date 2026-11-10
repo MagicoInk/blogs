@@ -109,6 +109,8 @@ A nivel federal también ha habido iniciativas para reformar el 268 Bis-1. En el
 
 ## Para mamás, papás y tutores
 
+Si quieres la versión extendida, con cómo platicarlo y cómo elegir estudio, lee [nuestra guía para mamás y papás](/guias/hijo-quiere-tatuarse-guia-papas/).
+
 Si tu hijo o hija quiere tatuarse, algunas ideas que no implican ni gritos ni portazos:
 
 - **Pregúntale por qué y qué quiere.** A veces el diseño ya está muy pensado; otras, es una idea de la semana.

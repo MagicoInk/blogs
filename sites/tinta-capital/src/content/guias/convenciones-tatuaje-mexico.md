@@ -146,6 +146,8 @@ Las convenciones son vitrina, competencia y red de contactos. Revisa con cada or
 
 ## Nuestra lista de deseos
 
+¿Y de dónde salieron todas estas expos? Lo reconstruimos, con todo y discrepancias, en [la historia de las expos de tatuaje en México](/guias/historia-expos-tatuaje-mexico/).
+
 Nos encantaría que más convenciones publicaran con anticipación y en un solo lugar sus fechas, sede, precios y lista de artistas. Mientras eso pasa, guarda esta nota y revísala antes de cada temporada: la iremos actualizando conforme se confirmen las ediciones de 2027.
 
 Y si vas a una convención a buscar artista, llévate en el celular [nuestra guía para elegir tatuador](/guias/como-elegir-tatuador/). Entre tanta máquina zumbando, es fácil que te gane la emoción.
