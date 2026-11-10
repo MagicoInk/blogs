@@ -94,7 +94,7 @@ Un recordatorio que nunca sobra: los consejos de cuidado son generales. Durante 
 
 **¿Cuántos años dura un tatuaje a color?** Un tatuaje es permanente, pero su intensidad cambia. No hay una cifra fiable de cuántos años se ve "como nuevo": depende del pigmento, la ejecución, la zona, el sol y tus cuidados.
 
-**¿El amarillo se borra en dos años?** No hay evidencia de eso como regla. Es un tono claro y, por consenso del oficio, de los que antes pierden fuerza, sobre todo con sol. Bien hecho y bien cuidado, dura mucho más que eso.
+**¿El amarillo se borra en dos años?** No hay evidencia de eso como regla. Es un tono claro y, por consenso del oficio, de los que antes pierden fuerza, sobre todo con sol. Bien hecho y bien cuidado, dura mucho más que eso. La historia de sus pigmentos, y la del rojo y el azul, la contamos en [Rojo, amarillo y azul: los primarios en la piel](/top/rojo-amarillo-y-azul-primarios-en-la-piel/).
 
 **¿Puedo ponerle protector solar a un tatuaje recién hecho?** La recomendación general es esperar a que sane y, mientras tanto, cubrirlo con ropa. Sigue las indicaciones de tu artista.
 

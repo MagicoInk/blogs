@@ -6,7 +6,7 @@ fecha: 2026-10-31
 artistas: ["chris-arroyo", "magico-artista-3"]
 mencionaMagico: true
 fuentes:
-  - { titulo: "UNESCO — Las fiestas indígenas dedicadas a los muertos (Patrimonio Cultural Inmaterial)", url: "https://ich.unesco.org/es/RL/las-fiestas-indigenas-dedicadas-a-los-muertos-00054" }
+  - { titulo: "UNESCO — Indigenous festivity dedicated to the dead (Patrimonio Cultural Inmaterial, 2008)", url: "https://ich.unesco.org/en/RL/the-indigenous-festivity-dedicated-to-the-dead-00054" }
   - { titulo: "CNDH — Efeméride del 2 de noviembre, Día de Muertos (2024)", url: "https://www.cndh.org.mx/sites/default/files/documentos/2024-10/FRN_NOV_02-1.pdf" }
   - { titulo: "UNAM Global — Flor de cempasúchil, ícono del Día de Muertos", url: "https://unamglobal.unam.mx/global_revista/flor-de-cempasuchil-icono-del-dia-de-muertos/" }
   - { titulo: "UAEH Gaceta — Flor de cempasúchil: símbolo de tradiciones y conocimiento ancestral", url: "https://uaeh.edu.mx/gaceta/3/numero33/noviembre/flor-de-cempasuchil.html" }

@@ -83,7 +83,7 @@ Un tatuaje diminuto en la mano tiene poca superficie de herida, sí. Pero esa he
 Algunas cosas generales que suelen recomendarse, siempre sujetas a lo que diga tu artista:
 
 - **Planea la sesión con calma.** Si vas a tener días de trabajo manual intenso, jardinería, cocina profesional, gimnasio con barras o mudanza, quizá no sea el mejor momento.
-- **Ojo con los anillos.** Durante el cicatrizado, los anillos en el dedo tatuado o junto a él pueden rozar y acumular humedad. Lo prudente es quitarlos hasta que la piel cierre.
+- **Ojo con los anillos.** Durante el cicatrizado, los anillos en el dedo tatuado o junto a él pueden rozar y acumular humedad. Lo prudente es quitarlos hasta que la piel cierre. Si lo que quieres es que el tatuaje sea el anillo, lo contamos aparte en [anillos tatuados y tatuajes de boda](/notas/anillos-tatuados/).
 - **El lavado de manos sigue siendo obligatorio.** No puedes dejar de lavarte las manos; lo que sí puedes es hacerlo con jabón suave, secar con toques y no frotar la zona.
 - **Guantes, con cuidado.** Hay quien usa guantes para lavar trastes durante el cicatrizado. Si lo haces, que no estén apretados sobre la zona ni la mantengan húmeda mucho tiempo.
 

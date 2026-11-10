@@ -84,7 +84,7 @@ Tatuar la letra de una madre, un abuelo, un hijo, es una de las piezas más emot
 
 ### 7. Fechas y números
 
-Los números tienen sus propias trampas: el 6, el 8, el 9 y el 0 tienen huecos que se cierran. Los números romanos, muy populares, se vuelven largos rápidamente. Revisa dos veces que la fecha sea la correcta y el formato el que quieres (día y mes, o mes y día).
+Los números tienen sus propias trampas: el 6, el 8, el 9 y el 0 tienen huecos que se cierran. Los números romanos, muy populares, se vuelven largos rápidamente. Revisa dos veces que la fecha sea la correcta y el formato el que quieres (día y mes, o mes y día). Tienes la guía completa en [números, fechas y numerales romanos](/notas/numeros-fechas-y-romanos/).
 
 ### 8. Cuidado con los dedos
 

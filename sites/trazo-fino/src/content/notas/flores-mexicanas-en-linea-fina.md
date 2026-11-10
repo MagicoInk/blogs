@@ -116,7 +116,7 @@ Lo que más define un tatuaje de flor de cactus no es la flor, sino la planta qu
 
 ### Las espinas, el gran dilema
 
-Las espinas son lo que identifica a un cactus y, al mismo tiempo, el detalle más difícil de sostener en piel. Son líneas cortísimas y finísimas. Nuestra recomendación general es sugerirlas: unas cuantas en el contorno, como si la luz las tocara, y ninguna en el interior. Una planta con cada espina dibujada puede verse espectacular el día de la sesión y borrosa a los pocos años.
+Las espinas son lo que identifica a un cactus y, al mismo tiempo, el detalle más difícil de sostener en piel. Son líneas cortísimas y finísimas. Nuestra recomendación general es sugerirlas: unas cuantas en el contorno, como si la luz las tocara, y ninguna en el interior. Una planta con cada espina dibujada puede verse espectacular el día de la sesión y borrosa a los pocos años. Si te interesa la planta entera más que la flor, el sahuaro, los agaves o el ocotillo, lo desarrollamos en [cactus, agave y flora del desierto](/notas/flora-del-desierto/).
 
 ## Mirar como se miraba: el Códice De la Cruz Badiano
 
