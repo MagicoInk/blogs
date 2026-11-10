@@ -76,7 +76,7 @@ En cuanto a la regulación, la Ciudad de Buenos Aires cuenta con la **Ley 1897**
 
 ### Tattoo Lucky y Led's
 
-La historia del tatuaje profesional brasileño tiene, según la revista Viva, un comienzo preciso: el danés Knud Harald Lykke Gregersen, conocido como **Tattoo Lucky**, considerado el primer tatuador profesional del país, llegó al puerto de Santos en 1959 con una máquina eléctrica de tatuar. Que la historia empiece en un puerto no sorprende: en casi todo el mundo, el tatuaje moderno llegó por mar.
+La historia del tatuaje profesional brasileño tiene, según la revista Viva, un comienzo preciso: el danés Knud Harald Lykke Gregersen, conocido como **Tattoo Lucky**, considerado el primer tatuador profesional del país, llegó al puerto de Santos en 1959 con una máquina eléctrica de tatuar. Que la historia empiece en un puerto no sorprende: en casi todo el mundo, el tatuaje moderno llegó por mar. Atlas volvió a Santos, y a las leyes brasileñas sobre el tatuaje, en [una expedición dedicada a Brasil](/expediciones/brasil-de-santos-a-la-ley).
 
 La misma fuente recuerda a otro pionero. **Led's Tattoo**, fundado en 1982 por Sérgio Maciel, "Leds", fue precursor en Brasil de la remoción de tatuajes y del tatuaje reconstructivo sobre cicatrices. Hoy ocupa una casa de más de 800 metros cuadrados en Moema, São Paulo, y suele describirse como el estudio de tatuaje más grande del país; São Paulo Secreto lo recoge así, y Atlas mantiene la atribución.
 

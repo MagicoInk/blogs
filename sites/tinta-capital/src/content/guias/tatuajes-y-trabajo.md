@@ -105,7 +105,7 @@ Aquí no te vamos a decir qué hacer con tu cuerpo. Sí te damos algunas ideas p
 - **Piensa en tu trayectoria, no solo en tu chamba actual.** Si te interesa un sector más conservador, quizá prefieras empezar por zonas que puedas cubrir y decidir después.
 - **El tamaño y la zona importan.** Manos, cuello y cara son las zonas más visibles y, también, de las que más se notan con los años. Muchos artistas serios preguntan dos veces antes de tatuarlas, sobre todo si es tu primer tatuaje. Eso no es censura: es oficio.
 - **No decidas por miedo.** La ley, sobre todo en la CDMX, está de tu lado. El objetivo es que la discriminación desaparezca, no que tú te escondas.
-- **Habla con tu artista.** Un buen tatuador te ayuda a pensar colocación, tamaño y cómo se verá con ropa. Lo explicamos en [nuestra guía para elegir tatuador](/guias/como-elegir-tatuador/).
+- **Habla con tu artista.** Un buen tatuador te ayuda a pensar colocación, tamaño y cómo se verá con ropa. Lo explicamos en [nuestra guía para elegir tatuador](/guias/como-elegir-tatuador/). Y si estás pensando en entrar al Ejército, la Marina, la Guardia Nacional o una policía, revisa antes [lo que dicen sus convocatorias sobre tatuajes](/guias/tatuajes-ejercito-guardia-nacional-marina-policia/).
 
 ## El cambio que sí se nota
 

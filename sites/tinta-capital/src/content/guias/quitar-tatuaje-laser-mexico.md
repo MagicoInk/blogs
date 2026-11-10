@@ -125,7 +125,7 @@ Si lo que quieres es **otro tatuaje encima**, a veces bastan unas cuantas sesion
 
 ### Cover-up directo
 
-Un artista con experiencia en cubrir puede transformar un tatuaje viejo en algo nuevo, generalmente más grande y más oscuro. No todos los tatuajes se pueden tapar, pero muchos sí. Pide ver cover-ups cicatrizados de su portafolio.
+Un artista con experiencia en cubrir puede transformar un tatuaje viejo en algo nuevo, generalmente más grande y más oscuro. No todos los tatuajes se pueden tapar, pero muchos sí. Pide ver cover-ups cicatrizados de su portafolio. Lo explicamos a fondo en [nuestra guía de cover-up](/guias/cover-up-tatuaje-mexico/).
 
 ### Retrabajo
 

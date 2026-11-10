@@ -103,6 +103,6 @@ Esta expedición no termina en un estudio, pero sí puede terminar en un museo. 
 
 ## Coda: la tinta más larga
 
-Hay algo vertiginoso en mirar los tatuajes de Ötzi y pensar que alguien, hace más de cinco milenios, se sentó a pinchar la piel de otro con un punzón, con paciencia, línea a línea. Esa escena —dos personas, una herramienta, un pigmento, un cuerpo— es la misma que Atlas ha encontrado en Los Ángeles, Seúl, Yokohama, Ciudad de México, París o Buenos Aires. Cambian las máquinas, los estilos y las leyes. El gesto permanece.
+Hay algo vertiginoso en mirar los tatuajes de Ötzi y pensar que alguien, hace más de cinco milenios, se sentó a pinchar la piel de otro con un punzón, con paciencia, línea a línea. Esa escena —dos personas, una herramienta, un pigmento, un cuerpo— es la misma que Atlas ha encontrado en Los Ángeles, Seúl, Yokohama, Ciudad de México, París o Buenos Aires. Cambian las máquinas, los estilos y las leyes. El gesto permanece. Y donde la piel no se conservó, como en la Escandinavia vikinga o entre los [pictos de Britania](/expediciones/britania-antigua-pictos-mito-y-fuente), quedan solo los textos, y conviene leerlos con cautela.
 
 Con esta crónica se cierra la segunda temporada de expediciones de Atlas. El mapa sigue abierto: el índice reúne todas las rutas, y [el calendario de convenciones](/convenciones) espera a quien quiera salir de viaje.
