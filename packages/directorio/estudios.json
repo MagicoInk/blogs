@@ -1564,5 +1564,347 @@
     "esMagico": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "dagga-tattoo-studio",
+    "nombre": "Dagga Tattoo Studio",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": "Roma",
+    "estilos": [],
+    "descripcion": "Estudio de tatuajes de la colonia Roma reseñado por Time Out México con 4 de 5 estrellas. Time Out lo incluye en su guía de lugares para hacerse un tatuaje en la CDMX.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/dagga-tattoo-studio",
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/que-hacer/lugares-para-hacerte-un-tatuaje-en-la-cdmx"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "ink-inc",
+    "nombre": "Ink Inc",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": "Condesa",
+    "estilos": [
+      "realismo",
+      "japones",
+      "blackwork",
+      "tradicional"
+    ],
+    "descripcion": "Estudio de la Condesa (Agustín Melgar) cofundado por el productor y DJ Meketrefe, según Time Out México, que lo reseñó con 3 de 5 estrellas y nombró como residentes a Mr. Cráneo (hiperrealismo y japonés) y Baby Face Killa. Food and Pleasure lo describe como uno de los estudios más populares de la ciudad, con trabajo en blackwork, tradicional, dotwork y realismo.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/compras-estilo/ink-inc",
+      "https://foodandpleasure.com/5-de-los-estudios-de-tatuajes-mas-cool-de-la-cdmx/",
+      "https://cdmxsecreta.com/en/five-places-to-get-a-tattoo-in-cdmx"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "abraxas-tattoo-piercing",
+    "nombre": "Abraxas Tattoo & Piercing",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": "San Rafael",
+    "estilos": [
+      "color"
+    ],
+    "descripcion": "Estudio de tatuaje y perforación en Serapio Rendón 3, San Rafael, dirigido por el tatuador Kristhian, según Time Out México, que lo calificó con 3 de 5 estrellas. Time Out lo presenta como una opción fuera del circuito Roma-Condesa-Centro y describe a Kristhian como experto en tatuaje a color.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/abraxas-tattoo-piercing",
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/que-hacer/lugares-para-hacerte-un-tatuaje-en-la-cdmx"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "inmortal-tattoo-studio",
+    "nombre": "Inmortal Tattoo Studio",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": "San Rafael",
+    "estilos": [
+      "realismo",
+      "japones"
+    ],
+    "descripcion": "Estudio privado de tatuajes en Manuel María Contreras 61B, San Rafael, cerca del Metro Revolución, reseñado por Time Out México con 4 de 5 estrellas. Según Time Out, ofrece realismo, neojaponés, kawaii y acuarela, y entre sus artistas lista a Sergei Raven, Mau Uno, Conny Ink, Zef357, Tony Trejo y Melva Rosique.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/inmortal-tattoo-studio",
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/que-hacer/lugares-para-hacerte-un-tatuaje-en-la-cdmx"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "ganesh-studio",
+    "nombre": "Ganesh Studio",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": "Juárez",
+    "estilos": [
+      "tradicional",
+      "realismo"
+    ],
+    "descripcion": "Estudio en Florencia 70-1, colonia Juárez, cerca del Metro Insurgentes, según Time Out México. Ahí tatúan Ganesh Fraktal, Issac y Rich, con trabajos que van del tatuaje tradicional al realismo.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/compras-estilo/ganesh-studio"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "alacrania",
+    "nombre": "Alacrania",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": "Roma Sur",
+    "estilos": [],
+    "descripcion": "Estudio de tatuajes y uñas conformado por artistas LGBTTTQI+ y fundado por Amondi Blunt y Eva Blunt, según Chilango (2021), que lo ubica en la Roma Sur y lo describe como un espacio seguro para la comunidad y para mujeres. Time Out México lo reseña como un estudio de estética queer en la colonia Roma, donde colabora el tatuador Adrián Palapa.",
+    "instagram": "alacraniamx",
+    "web": "",
+    "fuentes": [
+      "https://www.chilango.com/ocio/alacrania-spot-secreto-tatuajes-drag-cdmx/",
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/gay-y-lesbico/alacrania-tatuajes-unyas-y-fantasia-queer"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "zutsu-studio",
+    "nombre": "Zutsu Studio",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": "Roma",
+    "estilos": [
+      "fine-line"
+    ],
+    "descripcion": "Estudio del tatuador Nev en la colonia Roma, presentado por CDMX Secreta como un hub de intercambio cultural y artístico que recibe tatuadores invitados de otros países. Según la nota, Nev trabaja línea fina y lo que más le piden son retratos de mascotas.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://cdmxsecreta.com/zutsu-studio-hub-tatuaje-secreto/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "vanilla-ink",
+    "nombre": "Vanilla Ink",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": "Roma Norte",
+    "estilos": [],
+    "descripcion": "Estudio en Insurgentes Sur 223, Roma Norte, incluido por CDMX Secreta en su lista de lugares para tatuarse en la ciudad. La nota lo recomienda para diseños personalizados.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://cdmxsecreta.com/en/five-places-to-get-a-tattoo-in-cdmx"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "nomad-studio",
+    "nombre": "The Nomad Studio",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": "Roma Norte",
+    "estilos": [
+      "realismo"
+    ],
+    "descripcion": "Estudio de la Roma Norte incluido por CDMX Secreta en su lista de lugares para tatuarse. Según la nota, sus estilos insignia son trazo libre, geométrico, realista y blanco y negro, con unos 10 artistas de estilos distintos.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://cdmxsecreta.com/en/five-places-to-get-a-tattoo-in-cdmx"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "3x3-tatuajes",
+    "nombre": "3x3 Tatuajes",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": null,
+    "estilos": [
+      "tradicional"
+    ],
+    "descripcion": "Estudio fundado por el tatuador chilango Moe Saavedra, especializado en tradicional americano, según su guía de la ciudad publicada por Trippin.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://trippin.world/guide/moe-saavedra-3x3-guide-to-cdmx"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "black-blood-tattoo",
+    "nombre": "Black Blood Tattoo",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": "Polanco",
+    "estilos": [],
+    "descripcion": "Estudio de Max Calavera en Avenida Ejército Nacional 468, Polanco V Sección, especializado en cover ups y en transformar cicatrices por quemaduras, operaciones o accidentes. La Crónica lo describe como un estudio con enfoque reconstructivo y una barbería boutique.",
+    "instagram": "blackbloodtatto.mx",
+    "web": "",
+    "fuentes": [
+      "https://culturacolectiva.com/estilo-de-vida/black-blood-tattoo-estudio-tatuajes-cicatrices-arte/",
+      "https://www.cronica.com.mx/destino-c/2025/07/04/tatuajes-que-sanan-heridas-black-blood-de-max-calavera-abre-estudio-con-enfoque-reconstructivo/",
+      "https://www.eluniversal.com.mx/nacion/los-tatuajes-son-una-manera-de-sanar/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "burial-art-gallery",
+    "nombre": "Burial Art Gallery",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": null,
+    "estilos": [
+      "fine-line",
+      "microrrealismo"
+    ],
+    "descripcion": "Estudio incluido por Guía Universitaria (marzo de 2024) en su lista de 10 estudios de la CDMX. Según la nota, reúne a 16 tatuadores especializados en trazo fino, contemporáneo y microrrealismo, y también vende equipo y suministros para tatuadores.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://guiauniversitaria.mx/?p=5797"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "lovetta-studio",
+    "nombre": "Lovetta Studio",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": null,
+    "estilos": [
+      "realismo"
+    ],
+    "descripcion": "Estudio incluido por Guía Universitaria (marzo de 2024) en su lista de 10 estudios de la CDMX, que lo recomienda para tatuajes realistas e hiperrealistas.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://guiauniversitaria.mx/?p=5797"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "mexa-tattoo-shop",
+    "nombre": "Mexa Tattoo Shop",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "Estudio visitado por Chilango para una nota sobre su dinámica de tatuar a la persona hasta que ya no aguante.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://www.chilango.com/ocio/mexa-tattoo-shop-tatuajes-ya-no-aguantes/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "gracias-universe",
+    "nombre": "Gracias Universe",
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "Estudio en Manuel M. Diéguez 21, Guadalajara, que participó en 2023 en la residencia artística del Museo de las Artes (MUSA) de la Universidad de Guadalajara. El MUSA organizó una visita pública al estudio dentro de la actividad \"Cartografiar la piel\".",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://comsoc.udg.mx/print/81249",
+      "https://comsoc.udg.mx/print/81792"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "soko-tattoo-studio",
+    "nombre": "Soko Tattoo Studio",
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "Estudio tapatío cuyos artistas participaron en 2023 en la residencia \"Artista en residencia\" del MUSA de la Universidad de Guadalajara, junto con Diàfano y Gracias Universe. El trabajo resultante se exhibió en \"Cartografiar la piel. Historia, prácticas y simbolismos del tatuaje\".",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://comsoc.udg.mx/print/81246",
+      "https://comsoc.udg.mx/print/81792",
+      "https://comsoc.udg.mx/print/81729"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "imparatus-femme-tattoo",
+    "nombre": "Imparatus Femme Tattoo",
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "zona": null,
+    "estilos": [],
+    "descripcion": "Estudio de la tatuadora Mayra Valdez, quien según Players of Life lo concibió con una estética blanca y limpia, distinta a la de muchos estudios locales. La revista señala que también atiende a clientes extranjeros.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://playersoflife.com/guadalajara/vive-la-experiencia-imparatus-femme-tattoo/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "mosquito-costume",
+    "nombre": "Mosquito Costume",
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "zona": "Zapopan",
+    "estilos": [],
+    "descripcion": "Estudio privado de Kelly Rico en un departamento de Zapopan, donde trabaja con otro artista, Mars, según una entrevista en Tattoolife. Cultura Colectiva entrevistó a su dueña, quien dijo no usar publicidad para atraer clientes.",
+    "instagram": "",
+    "web": "",
+    "fuentes": [
+      "https://tattoolife.com/kelly-rico-special-tattoos-made-of-organized-chaos",
+      "https://culturacolectiva.com/arte/diseno/consejos-de-un-tatuador-experto-para-tu-primer-tatuaje/"
+    ],
+    "esMagico": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
   }
 ]

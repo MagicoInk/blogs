@@ -4618,5 +4618,351 @@
     "permisoImagenes": false,
     "confirmado": false,
     "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "adrian-palapa",
+    "nombre": "Adrián Palapa",
+    "nombreReal": null,
+    "estudio": "alacrania",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [
+      "blackwork"
+    ],
+    "instagram": "palapatattoo",
+    "bio": "Tatuador trans y queer de la CDMX que colabora en Alacrania, en la colonia Roma, según Time Out México. Su trabajo se centra en la línea y la tinta negra, con temas de visibilidad de cuerpos trans, y ha empezado a explorar el color sobre pieles morenas.",
+    "datos": [
+      {
+        "texto": "Ilustra cuerpos y vivencias de hombres trans en el proyecto de activismo visual Transmasculinos.",
+        "fuente": "https://www.timeoutmexico.mx/ciudad-de-mexico/gay-y-lesbico/transmasculinos-un-proyecto-visual-que-cuestiona-la-masculinidad"
+      }
+    ],
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/gay-y-lesbico/adrian-palapa-tatuador-queer-de-la-cdmx",
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/gay-y-lesbico/transmasculinos-un-proyecto-visual-que-cuestiona-la-masculinidad"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "sergei-raven",
+    "nombre": "Sergei Raven",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "realismo"
+    ],
+    "etiquetas": [
+      "realismo"
+    ],
+    "instagram": "",
+    "bio": "Tatuador profesional que, según Expansión (2024), dejó un trabajo burocrático y hoy tatúa en un estudio propio en la colonia Roma. Su trabajo se distingue por el realismo en tonos grises, con color ocasional según el proyecto.",
+    "datos": [
+      {
+        "texto": "Expansión reporta 18 años como tatuador profesional.",
+        "fuente": "https://expansion.mx/carrera/2024/12/04/esto-es-todo-lo-que-quiero-hacer-como-un-burocrata-paso-a-ser-tatuador"
+      },
+      {
+        "texto": "Time Out México lo lista entre los artistas de Inmortal Tattoo Studio.",
+        "fuente": "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/inmortal-tattoo-studio"
+      }
+    ],
+    "fuentes": [
+      "https://expansion.mx/carrera/2024/12/04/esto-es-todo-lo-que-quiero-hacer-como-un-burocrata-paso-a-ser-tatuador",
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/inmortal-tattoo-studio"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "kristhian-abraxas",
+    "nombre": "Kristhian",
+    "nombreReal": null,
+    "estudio": "abraxas-tattoo-piercing",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "color"
+    ],
+    "instagram": "",
+    "bio": "Tatuador al frente de Abraxas Tattoo & Piercing, en la colonia San Rafael. Time Out México lo describe como experto en tatuaje a color.",
+    "datos": [
+      {
+        "texto": "Time Out le atribuye 15 años de experiencia.",
+        "fuente": "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/abraxas-tattoo-piercing"
+      }
+    ],
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/abraxas-tattoo-piercing"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "mr-craneo",
+    "nombre": "Mr. Cráneo",
+    "nombreReal": null,
+    "estudio": "ink-inc",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "realismo",
+      "color"
+    ],
+    "etiquetas": [
+      "realismo",
+      "japones"
+    ],
+    "instagram": "",
+    "bio": "Tatuador residente de Ink Inc, en la Condesa, que Time Out México describe como especialista en hiperrealismo y estilo japonés.",
+    "datos": [],
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/compras-estilo/ink-inc"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "baby-face-killa",
+    "nombre": "Baby Face Killa",
+    "nombreReal": null,
+    "estudio": "ink-inc",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuador residente de Ink Inc, en la Condesa, a quien Time Out México asocia con tatuajes de estética gangsta.",
+    "datos": [],
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/compras-estilo/ink-inc"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "max-calavera",
+    "nombre": "Max Calavera",
+    "nombreReal": null,
+    "estudio": "black-blood-tattoo",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuador al frente de Black Blood Tattoo, en Polanco, dedicado a cover ups y a tatuajes sobre cicatrices de quemaduras, cirugías o accidentes. La Crónica lo describe como uno de los pioneros del tatuaje reconstructivo en México.",
+    "datos": [
+      {
+        "texto": "La Crónica le atribuye más de 11 años de experiencia.",
+        "fuente": "https://www.cronica.com.mx/destino-c/2025/07/04/tatuajes-que-sanan-heridas-black-blood-de-max-calavera-abre-estudio-con-enfoque-reconstructivo/"
+      },
+      {
+        "texto": "Según El Universal, ha reconstruido pezones y areolas de sobrevivientes de cáncer de mama.",
+        "fuente": "https://www.eluniversal.com.mx/nacion/los-tatuajes-son-una-manera-de-sanar/"
+      }
+    ],
+    "fuentes": [
+      "https://www.chilango.com/cultura/cicatrices-tatuajes-max-calavera/",
+      "https://www.cronica.com.mx/destino-c/2025/07/04/tatuajes-que-sanan-heridas-black-blood-de-max-calavera-abre-estudio-con-enfoque-reconstructivo/",
+      "https://www.eluniversal.com.mx/nacion/los-tatuajes-son-una-manera-de-sanar/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "nev-zutsu",
+    "nombre": "Nev",
+    "nombreReal": null,
+    "estudio": "zutsu-studio",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "fine-line"
+    ],
+    "etiquetas": [
+      "fine-line"
+    ],
+    "instagram": "",
+    "bio": "Tatuador fundador de Zutsu Studio, en la colonia Roma. CDMX Secreta lo asocia con la línea fina y señala que lo que más le piden son retratos de mascotas.",
+    "datos": [],
+    "fuentes": [
+      "https://cdmxsecreta.com/zutsu-studio-hub-tatuaje-secreto/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "moe-saavedra",
+    "nombre": "Moe Saavedra",
+    "nombreReal": null,
+    "estudio": "3x3-tatuajes",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "tradicional"
+    ],
+    "instagram": "",
+    "bio": "Tatuador nacido y criado en la CDMX que abrió su estudio 3x3 Tatuajes, especializado en tradicional americano, según Trippin. Su barrio favorito de la ciudad es el Centro Histórico.",
+    "datos": [],
+    "fuentes": [
+      "https://trippin.world/guide/moe-saavedra-3x3-guide-to-cdmx",
+      "https://trippin.world/community/moe-saavedra"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "lilian-raya",
+    "nombre": "Lilian Raya",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "color",
+      "neotradicional"
+    ],
+    "instagram": "",
+    "bio": "Tatuadora de la Ciudad de México incluida por Milenio entre diez tatuadores mexicanos que hay que conocer, con un estilo descrito como súper colorido. En entrevista con Inkppl habla de su formación autodidacta y de su trabajo neotradicional con identidad mexicana.",
+    "datos": [
+      {
+        "texto": "Milenio señala que fue invitada a tatuar en un estudio de Tokio.",
+        "fuente": "https://amp.milenio.com/estilo/diez-tatuadores-mexicanos-que-debes-conocer"
+      }
+    ],
+    "fuentes": [
+      "https://amp.milenio.com/estilo/diez-tatuadores-mexicanos-que-debes-conocer",
+      "https://inkppl.com/es/magazine/intervyu/lilian-raya-el-lenguaje-del-color-y-la-identidad-mexicana-en-el-tatuaje"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "laura-anunnaki",
+    "nombre": "Laura Anunnaki",
+    "nombreReal": null,
+    "estudio": "",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [
+      "color"
+    ],
+    "etiquetas": [
+      "color"
+    ],
+    "instagram": "",
+    "bio": "Tatuadora de la CDMX conocida por un estilo kawaii inspirado en el anime y las magical girls, según Chilango. Forbes México la incluyó en 2019 en una nota sobre la industria del tatuaje, como exponente del new school con brillos.",
+    "datos": [
+      {
+        "texto": "Forbes México reporta que su trabajo la ha llevado a España, Francia, Portugal, Finlandia, Taiwán, China y Japón.",
+        "fuente": "https://www.forbes.com.mx/lidera-mexico-la-industria-del-tatuaje-en-latam/"
+      }
+    ],
+    "fuentes": [
+      "https://www.chilango.com/ciudad/conoce-las-nuevas-tendencias-en-tatuajes/",
+      "https://www.forbes.com.mx/lidera-mexico-la-industria-del-tatuaje-en-latam/",
+      "https://inkedmag.com/original-news/laura-anunnaki"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "kelly-rico",
+    "nombre": "Kelly Rico",
+    "nombreReal": null,
+    "estudio": "mosquito-costume",
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuadora dueña de Mosquito Costume, un estudio privado en Zapopan cuyo nombre fue antes su firma artística, según una entrevista en Tattoolife. Cultura Colectiva también la entrevistó sobre su visión del tatuaje como forma de comunicación.",
+    "datos": [],
+    "fuentes": [
+      "https://tattoolife.com/kelly-rico-special-tattoos-made-of-organized-chaos",
+      "https://culturacolectiva.com/arte/diseno/consejos-de-un-tatuador-experto-para-tu-primer-tatuaje/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "mayra-valdez",
+    "nombre": "Mayra Valdez",
+    "nombreReal": null,
+    "estudio": "imparatus-femme-tattoo",
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuadora tapatía al frente de Imparatus Femme Tattoo. Según Players of Life, es bióloga y ejerció esa profesión 19 años antes de formarse como tatuadora a partir de 2012.",
+    "datos": [],
+    "fuentes": [
+      "https://playersoflife.com/guadalajara/vive-la-experiencia-imparatus-femme-tattoo/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
+  },
+  {
+    "slug": "tony-el-chacal-serrano",
+    "nombre": "Tony \"el Chacal\"",
+    "nombreReal": "Antonio Serrano",
+    "estudio": "",
+    "ciudad": "Ciudad de México",
+    "pais": "México",
+    "estilos": [],
+    "etiquetas": [],
+    "instagram": "",
+    "bio": "Tatuador fundador del Museo del Tatuaje, en Insurgentes Sur 221, colonia Roma, abierto en 2014 en el mismo predio donde su estudio funcionó durante unos 30 años, según Time Out México. El museo surgió por impulso de Henk \"Hanky Panky\" Schiffmacher, quien vio su colección durante una visita a la ciudad.",
+    "datos": [
+      {
+        "texto": "Chilango reportó la reapertura del museo tras unos seis meses cerrado.",
+        "fuente": "https://www.chilango.com/ocio/museo-del-tatuaje-en-la-cdmx/"
+      }
+    ],
+    "fuentes": [
+      "https://www.timeoutmexico.mx/ciudad-de-mexico/arte/museo-del-tatuaje",
+      "https://www.chilango.com/ocio/museo-del-tatuaje-en-la-cdmx/"
+    ],
+    "imagenes": [],
+    "permisoImagenes": false,
+    "confirmado": false,
+    "verificacion": "extractos-buscador"
   }
 ]
