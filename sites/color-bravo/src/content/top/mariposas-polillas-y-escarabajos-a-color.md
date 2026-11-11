@@ -11,7 +11,7 @@ fuentes:
   - { titulo: "NRDC — Protecting the monarch butterfly requires international action", url: "https://www.nrdc.org/bio/carolina-herrera/protecting-monarch-butterfly-requires-international-action" }
   - { titulo: "The Wildlife Trusts — Death's-head hawk-moth", url: "https://www.wildlifetrusts.org/node/5935248" }
   - { titulo: "Wildlife Watch — Death's-head hawk-moth", url: "https://www.wildlifewatch.org.uk/cy/wildlife-explorer/deaths-head-hawk-moth" }
-  - { titulo: "Wikipedia — Acherontia atropos", url: "https://Www.Wikipedia.org/wiki/Acherontia_atropos" }
+  - { titulo: "Wikipedia — Acherontia atropos", url: "https://en.wikipedia.org/wiki/Acherontia_atropos" }
   - { titulo: "The Met — Scarab Inscribed with the Symbols of Neit, Khepri and Re", url: "https://www.metmuseum.org/art/collection/search/558714" }
   - { titulo: "The Met — Escarabajo (ficha 688614)", url: "https://www.metmuseum.org/art/collection/search/688614" }
   - { titulo: "The Met — Escarabajo alado (ficha 553736)", url: "https://www.metmuseum.org/art/collection/search/553736" }
