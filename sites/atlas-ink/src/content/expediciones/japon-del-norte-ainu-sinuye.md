@@ -66,7 +66,7 @@ La frase merece una pausa. Para una mujer ainu del siglo XIX, obedecer la prohib
 
 ## Okinawa, en el otro extremo
 
-En el extremo sur del archipiélago ocurrió algo parecido. Las mujeres de Okinawa y de las islas Ryukyu llevaban tatuajes en las manos, conocidos como *hajichi*, y la prohibición Meiji también los alcanzó, según *Nippon.com*. Atlas no se detiene aquí en esa historia, que merece su propia crónica, pero la menciona porque completa el cuadro: el Estado japonés moderno se construyó, entre otras cosas, borrando los tatuajes de las mujeres de sus dos fronteras, la del norte y la del sur.
+En el extremo sur del archipiélago ocurrió algo parecido. Las mujeres de Okinawa y de las islas Ryukyu llevaban tatuajes en las manos, conocidos como *hajichi*, y la prohibición Meiji también los alcanzó, según *Nippon.com*. Atlas no se detiene aquí en esa historia, que ya tiene [su propia crónica](/expediciones/okinawa-hajichi-manos-ryukyu), pero la menciona porque completa el cuadro: el Estado japonés moderno se construyó, entre otras cosas, borrando los tatuajes de las mujeres de sus dos fronteras, la del norte y la del sur.
 
 ## Mayunkiki: preguntar a las mayores
 

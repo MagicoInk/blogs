@@ -78,7 +78,7 @@ Lo que sí es indiscutible es su influencia en el lenguaje visual que hoy llamam
 
 Con el tiempo, el tradicional fue destilando la pin-up hasta quedarse con lo esencial: el rostro. La *lady head* (cabeza de mujer) es hoy uno de los motivos más pedidos del tradicional y del [neotradicional](/estilos/neotradicional/). Una mujer de perfil o de frente, enmarcada por cabello, flores, joyas, un sombrero o un tocado. Puede ser gitana, enfermera, vaquera, bruja, sirena o diosa.
 
-El neotradicional, que nació mirando al tradicional americano y se enamoró del cartel art nouveau, llevó esa figura a otro nivel: más detalle, más degradados, más ornamento. Lo contamos en [Neotradicional: de dónde viene](/top/neotradicional-de-donde-viene/). Y muchas de las artistas que mejor trabajan el rostro femenino son mujeres; varias aparecen en [Mujeres a todo color](/top/mujeres-a-todo-color/).
+El neotradicional, que nació mirando al tradicional americano y se enamoró del cartel art nouveau, llevó esa figura a otro nivel: más detalle, más degradados, más ornamento. Lo contamos en [Neotradicional: de dónde viene](/top/neotradicional-de-donde-viene/). Y muchas de las artistas que mejor trabajan el rostro femenino son mujeres; varias aparecen en [Mujeres a todo color](/top/mujeres-a-todo-color/). Si quieres saber de dónde salen la gitana, el tocado de plumas o la musa art nouveau, lo contamos en [Lady heads: de dónde viene el rostro](/top/lady-heads-de-donde-viene-el-rostro/).
 
 ## La relectura crítica
 

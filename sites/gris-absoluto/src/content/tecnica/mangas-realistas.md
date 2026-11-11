@@ -104,7 +104,7 @@ Son los puntos difíciles. El codo tiene piel que se pliega y una punta ósea; l
 
 ## Parte 3. Los fondos
 
-El fondo es lo que convierte varios tatuajes en una manga. Bien resuelto, da unidad, crea profundidad y protege los elementos principales. Mal resuelto, ensucia la pieza y se convierte en el primer problema con los años.
+El fondo es lo que convierte varios tatuajes en una manga. Bien resuelto, da unidad, crea profundidad y protege los elementos principales. Mal resuelto, ensucia la pieza y se convierte en el primer problema con los años. Para fondos que unen piezas sueltas fuera del brazo (espalda, pecho, pierna), ver [Fondos en negro y gris](/tecnica/fondos-humo-nubes-y-sombras/).
 
 ### Tipos de fondo habituales en el negro y gris
 

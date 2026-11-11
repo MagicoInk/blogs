@@ -117,7 +117,7 @@ La calavera es sobre todo **sombra**: órbitas, nariz, sienes, el hueco bajo el 
 | Reloj de bolsillo | El tiempo medido | Metal, cristal y números legibles |
 | Monedas y joyas | Riqueza efímera | Brillos metálicos muy controlados |
 
-Para relojes, libros y objetos con perspectiva, ver [Arquitectura, relojes y objetos](/tecnica/arquitectura-relojes-y-objetos/). Para las rosas, el realismo botánico se apoya en los mismos principios de pétalos con borde de luz que explicamos en el apartado de texturas.
+Para relojes, libros y objetos con perspectiva, ver [Arquitectura, relojes y objetos](/tecnica/arquitectura-relojes-y-objetos/). Para las rosas, el realismo botánico se apoya en los mismos principios de pétalos con borde de luz que explicamos en el apartado de texturas, y que desarrollamos en [Flores en negro y gris](/tecnica/flores-y-botanica-en-negro-y-gris/).
 
 ### La composición
 

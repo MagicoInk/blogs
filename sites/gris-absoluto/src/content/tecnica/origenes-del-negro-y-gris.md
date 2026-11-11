@@ -173,7 +173,7 @@ Por honestidad, una lista de lo que dejamos sin afirmar:
 
 - **Quién "inventó" la aguja única profesional.** Las crónicas atribuyen méritos a Charlie Cartwright, a Jack Rudy y a la escena de Good Time Charlie's, con versiones distintas sobre el mecanismo y las fechas.
 - **Las fechas exactas de propiedad del estudio** y su evolución posterior. Las fuentes no coinciden.
-- **La relación directa entre fotografía decimonónica y tatuaje chicano.** No existe documentación que la pruebe; lo que proponemos es una lectura cultural, no un vínculo de influencia.
+- **La relación directa entre fotografía decimonónica y tatuaje chicano.** No existe documentación que la pruebe; lo que proponemos es una lectura cultural, no un vínculo de influencia. Con la misma cautela proponemos un parentesco de oficio con el grabado en [Del grabado al tatuaje](/tecnica/del-grabado-al-tatuaje/).
 - **La autoría de algunas fotografías japonesas de tatuajes.** Varias copias se atribuyen alternativamente a Kimbei o a Stillfried.
 
 Si encuentras una fuente que aclare cualquiera de estos puntos, este artículo se actualizará. La historia del negro y gris todavía se está escribiendo, y buena parte de ella vive en la memoria de quienes la hicieron.

@@ -121,7 +121,7 @@ Un ala bien tatuada se lee primero como forma (la silueta y su curva) y después
 
 ### Manos: la anatomía no perdona
 
-Las manos en oración parecen sencillas, pero un error de proporción se nota de inmediato. Hay que cuidar la longitud relativa de los dedos, los nudillos, las uñas vistas en escorzo y, sobre todo, **el espacio entre las palmas**, que define si las manos se tocan con suavidad o se aprietan. Si se combinan con un rosario, las cuentas deben tener cada una su punto de brillo y su sombra, y la cadena debe pasar por delante y por detrás de los dedos de forma coherente.
+Las manos en oración parecen sencillas, pero un error de proporción se nota de inmediato. Hay que cuidar la longitud relativa de los dedos, los nudillos, las uñas vistas en escorzo y, sobre todo, **el espacio entre las palmas**, que define si las manos se tocan con suavidad o se aprietan. Si se combinan con un rosario, las cuentas deben tener cada una su punto de brillo y su sombra, y la cadena debe pasar por delante y por detrás de los dedos de forma coherente. La anatomía de la mano y otros gestos están en [Manos en realismo](/tecnica/manos-en-realismo/).
 
 ### Fondos: nubes, humo y arquitectura
 

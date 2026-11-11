@@ -105,7 +105,7 @@ Para el lector que viaje a Marruecos, Argelia o Túnez, algunas ideas que se des
 
 ## Lo que esta crónica deja fuera
 
-Atlas no describe ni interpreta motivos concretos, porque las fuentes no coinciden y muchas portadoras los consideran decorativos. No reproduce imágenes de mujeres tatuadas. No da fechas de "desaparición" de la práctica en uno u otro país, porque las fuentes son imprecisas. Y no incluye en esta crónica otras tradiciones de tatuaje facial femenino de la región, como las de las mujeres beduinas o kurdas, que *Middle East Eye* ha reunido en un mismo reportaje y que merecerían su propia expedición.
+Atlas no describe ni interpreta motivos concretos, porque las fuentes no coinciden y muchas portadoras los consideran decorativos. No reproduce imágenes de mujeres tatuadas. No da fechas de "desaparición" de la práctica en uno u otro país, porque las fuentes son imprecisas. Y no incluye en esta crónica otras tradiciones de tatuaje facial femenino de la región, como las de las mujeres beduinas o kurdas, que *Middle East Eye* ha reunido en un mismo reportaje y que Atlas recorre en [su expedición por el deq y el daqq de Oriente Medio](/expediciones/oriente-medio-deq-daqq-rostros-de-mujeres).
 
 ## Coda: el final de un ciclo
 
