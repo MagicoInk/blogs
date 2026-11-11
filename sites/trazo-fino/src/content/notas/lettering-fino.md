@@ -118,6 +118,8 @@ No todo artista de línea fina es un buen letrista, y no todo letrista trabaja e
 
 Si te interesa conocer más artistas de línea fina, en [nuestra lista corta](/notas/nuestra-lista-corta/) hay nombres de varias ciudades, y en [la genealogía de la aguja única](/notas/aguja-unica-genealogia/) contamos de dónde viene la tradición de las letras finas en el negro y gris.
 
+Si la frase que quieres viene de un libro, en [literatura en la piel](/notas/literatura-en-la-piel/) explicamos cómo verificar la cita y qué significa, en general, que una obra esté en dominio público.
+
 ## Una carta que no se manda
 
 Nos gusta pensar en el lettering fino como en una carta que se escribe una sola vez y no se envía: se queda con quien la lleva. Por eso merece la misma atención que pondríamos en una carta importante. Elegir las palabras justas, escribirlas con buena letra, revisar que no haya errores, dejarle márgenes al papel.

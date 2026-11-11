@@ -68,7 +68,7 @@ También es técnicamente delicado. Algunas recomendaciones:
 
 Tarjetas, cartas, recetas, una lista del súper, la dedicatoria de un libro. Si tienes varias muestras, mejor: el artista puede elegir la versión más clara de cada letra. Escanéalas en alta resolución, sin aplastar el papel ni dañarlo; si es frágil, una foto con buena luz natural también sirve.
 
-Nunca entregues el original al estudio si no quieres. Una copia es suficiente.
+Nunca entregues el original al estudio si no quieres. Una copia es suficiente. Si quieres el detalle técnico (resolución, limpieza del trazo, tamaño), lo contamos en [la letra de alguien más](/notas/caligrafia-de-alguien-mas/), y para dedos, patas y manos de bebé, en [huellas en línea fina](/notas/huellas-en-linea-fina/).
 
 ### Decide cuánto se adapta
 
