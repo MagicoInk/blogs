@@ -30,7 +30,7 @@ Un aviso: el oficio usa muchos anglicismos (flash, linework, blowout) porque bue
 
 **4. Agenda abierta / agenda cerrada.** Cuando un artista "abre agenda", es que está recibiendo citas para un periodo. Hay artistas con tanta demanda que abren agenda pocas veces al año y se llena en horas. Si te tocó, felicidades; si no, a esperar la próxima.
 
-**5. Flash.** Diseños ya dibujados por el artista, listos para tatuarse. Viene de las hojas de diseños que colgaban en las paredes de los estudios antiguos. Suelen tener precio fijo y a veces son de "uno solo": si alguien ya se lo hizo, no se repite.
+**5. Flash.** Diseños ya dibujados por el artista, listos para tatuarse. Viene de las hojas de diseños que colgaban en las paredes de los estudios antiguos. Suelen tener precio fijo y a veces son de "uno solo": si alguien ya se lo hizo, no se repite. Su historia, y la del viernes 13, en [flash day y viernes 13](/guias/flash-day-viernes-13-tatuajes/).
 
 **6. Diseño personalizado (custom).** Un diseño hecho solo para ti a partir de tu idea. Lleva horas de dibujo antes de la cita; por eso algunos artistas lo cobran o lo descuentan del anticipo.
 

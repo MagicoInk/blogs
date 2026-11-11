@@ -89,7 +89,7 @@ Fichas: [/artistas/israel-vampiro-pacheco/](/artistas/israel-vampiro-pacheco/) y
 
 La otra historia potosina es la de **Manuel Garza**, tatuador **originario de Ciudad Valles**, en la Huasteca, con más de una década en el oficio. Garza fundó **Academy Ink**, que *El Sol de San Luis* presentó como **la primera escuela formal de tatuadores del estado**, con **16 alumnos** en un programa de **diez meses**.
 
-Esto es interesante porque rompe con la forma tradicional de aprender el oficio, que es el aprendizaje en estudio: años de barrer, preparar material, dibujar y observar antes de tocar piel. Una escuela con programa estructurado es otra vía. Ninguna es mejor por definición; ambas dependen de la calidad de quien enseña.
+Esto es interesante porque rompe con la forma tradicional de aprender el oficio, que es el aprendizaje en estudio: años de barrer, preparar material, dibujar y observar antes de tocar piel. Una escuela con programa estructurado es otra vía. Ninguna es mejor por definición; ambas dependen de la calidad de quien enseña (las comparamos en [cómo aprender a tatuar en México](/guias/como-aprender-a-tatuar-mexico/)).
 
 Dos aclaraciones importantes:
 

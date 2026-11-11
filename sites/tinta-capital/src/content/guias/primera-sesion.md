@@ -55,7 +55,7 @@ Una noche de desvelo antes de una sesión larga es mala combinación. El cuerpo 
 
 ### 10. Nada de alcohol
 
-Ni "una chelita para los nervios". El alcohol puede hacer que sangres más, lo que complica el trabajo del artista, y además deshidrata. Y llegar crudo es todavía peor: vas a estar sensible, con malestar y de malas. Si llegas tomado, un buen artista no te va a tatuar.
+Ni "una chelita para los nervios". El alcohol puede hacer que sangres más, lo que complica el trabajo del artista, y además deshidrata. Y llegar crudo es todavía peor: vas a estar sensible, con malestar y de malas. Si llegas tomado, un buen artista no te va a tatuar. Lo que dicen las fuentes médicas sobre alcohol, medicamentos y café está en [esta guía](/guias/alcohol-medicamentos-cafe-desvelo-antes-de-tatuarte/).
 
 ### 11. Hidrátate
 
