@@ -15,6 +15,7 @@ fuentes:
   - { titulo: "Mongabay Latam — Jaguares en México: aumento de población y claves (2025)", url: "https://es.mongabay.com/2025/09/jaguares-mexico-aumento-poblacion-claves/" }
   - { titulo: "La Crónica de Hoy — Aumenta la población del jaguar en México, pero sigue en peligro de extinción (2025)", url: "https://www.cronica.com.mx/academia/2025/09/29/aumenta-la-poblacion-del-jaguar-en-mexico-pero-sigue-en-peligro-de-extincion/" }
   - { titulo: "Greenpeace México — La deforestación pone en peligro la vida del jaguar en México", url: "https://www.greenpeace.org/mexico/blog/4144/la-deforestacion-pone-en-peligro-la-vida-del-jaguar-en-mexico/" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 puestos:
   - titulo: "La pantera trepadora"
     porque: >-
@@ -40,9 +41,9 @@ puestos:
   - artista: sharky-hernandez
     porque: >-
       El old school con acento del norte. Sharky Hernández, autodidacta nacido en Hermosillo, es miembro fundador de Tia Juana Tattoo, en Tijuana; se define como neotradicional y prefiere el old school americano, según nuestro directorio. SanDiegoRed recoge que fue invitado en Roses & Panthers, en Hermosillo, y en Black Flag, en la Ciudad de México. No te atribuimos panteras concretas porque no tenemos fuente para eso; está aquí porque su lenguaje, entre el tradicional y el neotradicional, es justo el terreno donde viven estos felinos. Revisa su portafolio cicatrizado.
-  - artista: magico-artista-3
+  - artista: magico-eka
     porque: >-
-      Transparencia primero: Magico Ink es la casa editora de Color Bravo y este artista trabaja ahí, por eso lleva estrella. Su ficha lo registra en el estilo de color, y no hay todavía portafolio verificado, trayectoria ni panteras que podamos enseñarte, así que no los inventamos. Lo incluimos con el mismo criterio que a los demás, y te pedimos que lo juzgues igual: que la silueta del felino se lea a tres metros, que el negro sea sólido y parejo, que los ojos y la boca tengan contraste y que haya piezas cicatrizadas que lo prueben. Si no pasa esa prueba, la lista tiene otras opciones.
+      Transparencia primero: Magico Ink es la casa editora de Color Bravo y Eka trabaja ahí, en la sede Reforma, por eso lleva estrella. Según el sitio del estudio, Eka fusiona el estilo tradicional con técnicas modernas en piezas coloridas, y el estudio le declara nueve años de experiencia. Es el único dato que podemos darte: no tenemos fuente sobre panteras o tigres concretos, así que no los inventamos. Lo incluimos porque el tradicional es justo el terreno de estos felinos, y te pedimos que lo juzgues igual que a los demás: que la silueta del felino se lea a tres metros, que el negro sea sólido y parejo, que los ojos y la boca tengan contraste y que haya piezas cicatrizadas que lo prueben. Si no pasa esa prueba, la lista tiene otras opciones.
 ---
 
 En la pared de cualquier estudio de [tradicional americano](/estilos/tradicional/) hay, casi seguro, un gato grande. Una pantera que trepa, un tigre que ruge, un león con melena de fuego. Los felinos son, junto con las golondrinas, las rosas y las dagas, parte del vocabulario básico del flash. Ya los mencionamos de pasada en [Animales a color](/top/animales-a-color/) y en [Flash: de las láminas de feria al Instagram](/top/flash-de-la-feria-al-instagram/). Aquí les damos un top entero.

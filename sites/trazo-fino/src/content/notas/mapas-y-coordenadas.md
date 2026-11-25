@@ -4,7 +4,7 @@ fecha: 2026-09-07
 temas: [diseño, tamaño, cartografía, memoria]
 dibujo: ola
 extracto: "Una costa, el trazo de un río, las calles de un barrio o un par de números con grados y decimales. Cómo se dibuja un lugar con precisión, qué deforma cada mapa, de dónde sacar uno libre y qué dice su licencia."
-artistas: [chaim-machlev-dotstolines, balazs-bercsenyi, magico-artista-2]
+artistas: [chaim-machlev-dotstolines, balazs-bercsenyi, magico-trazo]
 mencionaMagico: true
 fuentes:
   - { titulo: "USGS — How are different map projections used?", url: "https://usgs.gov/faqs/how-are-different-map-projections-used" }
@@ -16,6 +16,7 @@ fuentes:
   - { titulo: "NACIS — About the Map Data (Natural Earth)", url: "https://nacis.org/?p=1157" }
   - { titulo: "SNIEG / INEGI — Conjunto de datos topográficos escala 1:50 000", url: "https://www.snieg.mx/Documentos/Geografico/sesiones/doc_12023/3_conjunto_topo_1_50dif.pdf" }
   - { titulo: "Bustle — Chaim Machlev, geometric tattoos in Berlin", url: "https://www.bustle.com/articles/64806-this-tattoo-artist-in-berlin-is-creating-insanely-beautiful-geometric-tattoos-photos" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Hay lugares que uno lleva puestos aunque no se vean: la costa donde aprendiste a nadar, la curva del río del pueblo de tus abuelos, la esquina donde estaba la casa que ya no existe. Por eso los mapas se han vuelto un pedido frecuente en la línea fina. Un contorno de isla en el antebrazo, el plano de un barrio dentro de un círculo, unas coordenadas escritas en una línea delgada bajo la clavícula.
@@ -132,7 +133,7 @@ No tenemos documentado con fuente a ningún artista del directorio especializado
 
 - **[DotsToLines](/artistas/chaim-machlev-dotstolines/)**, el nombre de trabajo de Chaim Machlev, trabaja exclusivamente con líneas y puntos negros en composiciones geométricas que siguen la anatomía. [Bustle](https://www.bustle.com/articles/64806-this-tattoo-artist-in-berlin-is-creating-insanely-beautiful-geometric-tattoos-photos) contó cómo empezó en Berlín. Su manera de hacer que una red de líneas fluya con el cuerpo es muy útil para imaginar un recorrido o una cuadrícula urbana a gran escala.
 - **[Balazs Bercsenyi](/artistas/balazs-bercsenyi/)**, en Bang Bang (Nueva York), está especializado en microtatuajes de línea fina con influencias de la geometría: una buena referencia para ver cómo se resuelve la precisión en pequeño.
-- **[Artista Magico Ink 2](/artistas/magico-artista-2/)**, del equipo de Magico Ink, que trabaja línea fina. Todavía no publicamos datos de su trayectoria, así que no le atribuimos especialidad en mapas; si te interesa, el criterio que aplicaríamos con cualquier artista es el mismo: pide ver líneas paralelas cicatrizadas en su portafolio, que es donde un mapa se juega la vida.
+- **[Trazo](/artistas/magico-trazo/)**, del equipo de Magico Ink. Según el sitio del estudio, se especializa en microrrealismo, fine line y composiciones, con tres años de experiencia. No tenemos fuente sobre mapas de su mano, así que no le atribuimos esa especialidad; si te interesa, el criterio que aplicaríamos con cualquier artista es el mismo: pide ver líneas paralelas cicatrizadas en su portafolio, que es donde un mapa se juega la vida.
 
 ## Preguntas frecuentes
 

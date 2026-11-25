@@ -4,7 +4,7 @@ entradilla: "De las figurillas mayas a Sigue Sigue Sputnik, de Madrid a Berlín 
 lugar: "Ciudad de México · Oaxaca · Tijuana · Puebla"
 numero: 8
 fecha: 2026-10-29
-artistas: [dr-lakra, el-chanok, pedro-alvarez, alan-gutierrez, yatzil-elizalde, chris-arroyo, xochitl-herrera, pablo-diaz, scrappy-one, adolfo-guerra, jose-arce, daniela-marquez, fernanda-alvarez, aura-espinosa, molly-cynthia-cuevas, magico-artista-1, magico-artista-2]
+artistas: [dr-lakra, el-chanok, pedro-alvarez, alan-gutierrez, yatzil-elizalde, chris-arroyo, xochitl-herrera, pablo-diaz, scrappy-one, adolfo-guerra, jose-arce, daniela-marquez, fernanda-alvarez, aura-espinosa, molly-cynthia-cuevas, magico-nahual, magico-alison]
 mencionaMagico: true
 fuentes:
   - { titulo: "INAH — Boletín 71 (2025): tatuaje y escarificación entre los mayas del Clásico Tardío", url: "https://inah.gob.mx/images/boletines/2025/71/Boletin%2071.pdf" }
@@ -41,6 +41,7 @@ fuentes:
   - { titulo: "El Financiero — Así puedes tramitar la tarjeta de control sanitario de COFEPRIS (2024)", url: "https://www.elfinanciero.com.mx/nacional/2024/04/25/tatuas-o-haces-perfos-asi-puedes-tramitar-la-tarjeta-de-control-sanitario-de-cofepris-guia/" }
   - { titulo: "Frontiers in Public Health (2022) — Estudio con adultos tatuados de Tijuana", url: "https://www.frontiersin.org/articles/10.3389/fpubh.2022.894486/full" }
   - { titulo: "Chilango — México Tattoo Convention 2024", url: "https://www.chilango.com/que-hacer/ferias/cdmx-mexico-tattoo-convention-2024/" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Durante mucho tiempo, los tatuadores mexicanos aprendieron mirando hacia fuera. Las revistas llegaban de Estados Unidos y Europa, las máquinas se conseguían como se podía, las referencias eran californianas, japonesas o marineras. Esta octava expedición de Atlas cuenta el momento en que esa dirección empezó a invertirse: cuando artistas formados en la Ciudad de México, Oaxaca o Tijuana salieron a trabajar a Madrid, Berlín, París o Los Ángeles, y cuando el mundo empezó a venir a buscarlos aquí.
@@ -112,11 +113,11 @@ La COFEPRIS publica una guía para obtener la tarjeta de control sanitario de ta
 
 Sobre la magnitud del fenómeno, las cifras son escasas y dispares. Un artículo publicado en *Frontiers in Public Health* en 2022 menciona una estimación de 12 millones de personas tatuadas en México. Otras cifras que circulan en medios no detallan su metodología, por lo que preferimos no repetirlas.
 
-## Magico Ink: una ficha todavía en blanco
+## Magico Ink: lo que declara el estudio
 
-Esta revista es un proyecto editorial de Magico Ink, y la transparencia obliga a explicar cómo aparece en esta crónica. Entre los artistas citados figuran dos fichas del estudio, marcadas con un asterisco en la bitácora: un perfil orientado al realismo y otro a la línea fina. Por ahora son marcadores sin trayectoria pública documentada, y esta revista no les atribuirá premios, clientes ni hitos que no puedan verificarse.
+Esta revista es un proyecto editorial de Magico Ink, y la transparencia obliga a explicar cómo aparece en esta crónica. Magico Ink es un estudio con dos sedes en la Ciudad de México, Revolución y Reforma, que según su sitio trabaja desde 2018. Entre los artistas citados figuran dos de sus residentes, marcados con un asterisco en la bitácora: [Nahual](/artistas/magico-nahual), a quien el estudio presenta como especialista en full color y realismo, con 14 años de experiencia y enfocado en cover-ups y en transformar tatuajes antiguos, y [Alison](/artistas/magico-alison), especialista en fine line y microrrealismo con seis años de experiencia, según la misma fuente. Todo eso es lo que declara el propio estudio; esta revista no les atribuirá premios, clientes ni hitos que no puedan verificarse por otras fuentes.
 
-¿Por qué incluirlos, entonces? Porque el propósito de esta expedición es dibujar el mapa de una escena en movimiento, y un mapa honesto también registra lo que está empezando. Los criterios para valorarlos son los mismos que proponemos para cualquier otro artista de esta lista: portafolio con trabajos cicatrizados, especialización clara, condiciones sanitarias verificables —incluida la tarjeta de control sanitario—, transparencia en el presupuesto y en los cuidados posteriores. Cuando existan datos públicos, Atlas los contará con fuentes, como hace con el resto.
+¿Por qué incluirlos, entonces? Porque el propósito de esta expedición es dibujar el mapa de una escena en movimiento, y el realismo y la línea fina, sus especialidades declaradas, son dos de los lenguajes que hoy definen a la Ciudad de México. Los criterios para valorarlos son los mismos que proponemos para cualquier otro artista de esta lista: portafolio con trabajos cicatrizados, especialización clara, condiciones sanitarias verificables —incluida la tarjeta de control sanitario—, transparencia en el presupuesto y en los cuidados posteriores. Cuando existan datos públicos de terceros, Atlas los contará con fuentes, como hace con el resto.
 
 ## Consejos para tatuarse en México
 

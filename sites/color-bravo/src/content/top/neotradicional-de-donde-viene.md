@@ -78,7 +78,7 @@ España, por su parte, tiene una escena neotradicional muy fuerte, de la que hab
 
 Incluimos a los artistas de nuestro directorio que tienen la etiqueta neotradicional, más Emily Rose Murray, que en su ficha aparece con la etiqueta de color pero a quien Inked e Ink PPL describen expresamente como tatuadora neotradicional. Solo usamos datos con fuente: medios del sector, perfiles de marcas que los patrocinan (lo indicamos cuando es así) y páginas de sus estudios. El orden no es un ranking: va de las referencias internacionales del rostro femenino a las distintas ramas del estilo, de lo épico a lo delicado.
 
-Dejamos fuera a artistas de color muy buenos cuyo trabajo no está documentado como neotradicional. Ponerles la etiqueta sería inventar. Y no incluimos a ningún artista de Magico Ink porque su ficha no documenta este estilo.
+Dejamos fuera a artistas de color muy buenos cuyo trabajo no está documentado como neotradicional. Ponerles la etiqueta sería inventar. Y no incluimos a ningún artista de Magico Ink porque ninguna de sus fichas documenta este estilo.
 
 ## Antes de pedir un neotradicional
 

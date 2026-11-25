@@ -14,6 +14,7 @@ fuentes:
   - { titulo: "VICE — Tattoo Age: Valerie Vargas", url: "https://www.vice.com/en/article/valerie-vargas-part-1" }
   - { titulo: "Tattoo Life — Neo traditional Girls by Debora Cherrys", url: "https://www.tattoolife.com/neo-traditional-girls-by-debora-cherrys/" }
   - { titulo: "Red Bull México — 8 tatuadoras mexicanas que te volarán la cabeza", url: "https://www.redbull.com/mx-es/8-tatuadoras-mexicanas-que-te-volarán-la-cabeza" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 puestos:
   - titulo: "La lady head clásica"
     porque: >-
@@ -39,9 +40,9 @@ puestos:
   - artista: molly-cynthia-cuevas
     porque: >-
       El art nouveau con pasaporte mexicano. Red Bull México la incluyó entre «8 tatuadoras mexicanas que te volarán la cabeza» y describe su estilo como muy art nouveau, lleno de curvas y de detalles que mezclan realidad y fantasía. No te atribuimos rostros concretos porque nuestra fuente no los detalla; está en esta lista porque el art nouveau es justo la raíz de la musa neotradicional. Si la idea de una lady head al estilo de los carteles de principios del siglo XX te llama, su portafolio es un buen lugar para empezar a mirar en México. Pide cicatrizados.
-  - artista: magico-artista-3
+  - artista: magico-daniel
     porque: >-
-      Transparencia primero: Magico Ink es la casa editora de Color Bravo y este artista trabaja ahí, por eso lleva estrella. Su ficha lo registra en el estilo de color, y no hay todavía portafolio verificado, trayectoria ni rostros que podamos enseñarte, así que no los inventamos. Lo incluimos con el mismo criterio que a los demás, y una lady head es una prueba exigente: pide ver caras cicatrizadas, comprueba que los dos ojos miren al mismo sitio, que la nariz y la boca estén en su lugar y que el tocado no se coma el rostro. Si no pasa esa prueba, la lista tiene otras opciones.
+      Transparencia primero: Magico Ink es la casa editora de Color Bravo y Daniel trabaja ahí, en la sede Reforma, por eso lleva estrella. Según el sitio del estudio, es especialista en fine line y full color, con diseños vibrantes y detalle preciso, y tiene siete años de experiencia. No tenemos fuente sobre rostros o lady heads concretos de su mano, así que no los inventamos. Lo incluimos porque una lady head pide justo esa combinación de línea limpia y color, y porque una lady head es una prueba exigente: pide ver caras cicatrizadas, comprueba que los dos ojos miren al mismo sitio, que la nariz y la boca estén en su lugar y que el tocado no se coma el rostro. Si no pasa esa prueba, la lista tiene otras opciones.
 ---
 
 De todos los motivos del tatuaje a color, el rostro femenino es el que más castiga los errores. Una rosa un poco torcida sigue siendo una rosa. Una cara con un ojo desviado es otra persona. Y aun así, la *lady head* (cabeza de dama, en la jerga del oficio) es uno de los motivos más pedidos del tradicional y del neotradicional. Está en el flash de los estudios clásicos, en los portafolios de las grandes artistas del neotradicional y en miles de antebrazos.

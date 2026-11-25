@@ -13,7 +13,11 @@ const tonos = ['#1c1c1f', '#2a2a2e', '#38383d', '#46464c', '#24242a'];
   <div class="muro">
     {obras.map((a, i) => (
       <figure style={`--tono:${tonos[i % tonos.length]}`} class={i % 3 === 0 ? 'alta' : ''}>
-        <div class="obra" role="img" aria-label={`Obra de ${a.nombre} (pendiente de imagen)`}></div>
+        {a.imagenes?.length && a.permisoImagenes ? (
+          (() => { const t = a.imagenes.filter((f: string) => !f.endsWith('/perfil.webp')); const f = t[0] ?? a.imagenes[0]; return <img class="obra foto" src={f} alt={t.length ? `Tatuaje de ${a.nombre}, trabajo 1` : `${a.nombre}, retrato`} width="720" height="900" loading="lazy" decoding="async" />; })()
+        ) : (
+          <div class="obra" role="img" aria-label={`Obra de ${a.nombre} (pendiente de imagen)`}></div>
+        )}
         <figcaption>
           <strong><a href={`/sala/${a.slug}/`}>{a.nombre}{esMagico(a) && ' *'}</a></strong>
           <span class="mono">{lugar(a, ' · ')}{estudioDe(a) && ` · ${estudioDe(a).nombre}`}</span>
@@ -31,6 +35,9 @@ const tonos = ['#1c1c1f', '#2a2a2e', '#38383d', '#46464c', '#24242a'];
   figure { margin: 0; background: var(--negro); display: flex; flex-direction: column; }
   .alta { grid-row: span 2; }
   .obra { flex: 1; min-height: 240px; background: radial-gradient(circle at 40% 35%, #8a8a90 0%, var(--tono) 45%, var(--negro) 100%); filter: grayscale(1); }
+  .obra.foto { width: 100%; height: auto; object-fit: cover; aspect-ratio: 4 / 5; background: var(--carbon); }
+  .alta .obra.foto { aspect-ratio: auto; height: 100%; }
+  figure:hover .obra.foto { filter: none; }
   figcaption { padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; }
   figcaption strong { color: var(--blanco); font-weight: 500; }
   figcaption strong a { text-decoration: none; }

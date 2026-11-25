@@ -8,6 +8,13 @@ export function getStaticPaths() {
 const { a, ant, sig } = Astro.props;
 const estudio = estudioDe(a);
 const host = (u: string) => { try { return new URL(u).hostname.replace('www.', ''); } catch { return u; } };
+const fuentes: string[] = (a.fuentes ?? []).map((f: string | { url: string }) => (typeof f === 'string' ? f : f.url));
+const fotos: string[] = a.imagenes?.length && a.permisoImagenes ? a.imagenes : [];
+const perfil = fotos.find((f) => f.endsWith('/perfil.webp'));
+const trabajos = fotos.filter((f) => f !== perfil);
+const portada = perfil ?? trabajos[0];
+const enSala = trabajos.filter((f) => f !== portada);
+const num = (f: string) => trabajos.indexOf(f) + 1;
 const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.nombre, jobTitle: 'Artista del tatuaje realista', ...(a.ciudad && { address: { '@type': 'PostalAddress', addressLocality: a.ciudad, addressCountry: a.pais } }) };
 ---
 <Sala titulo={`${a.nombre} · Sala de realismo`} descripcion={a.bio || `${a.nombre}, artista de realismo.`} jsonld={jsonld}>
@@ -15,11 +22,18 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
     <header class="cab">
       <p class="mono"><a href="/sala/">Sala</a> / ficha</p>
       <h1>{a.nombre}{esMagico(a) && ' *'}</h1>
-      <p class="mono">{lugar(a, ' · ')}{estudio && ` · ${estudio.nombre}`}</p>
+      <p class="mono">{lugar(a, ' · ')}{estudio && ` · ${estudio.nombre}`}{a.sede && ` · Sede: ${a.sede}`}</p>
       <ul class="claves">{etiquetasDe(a).map((e) => <li>{etiqueta(e)}</li>)}</ul>
     </header>
     <div class="rejilla">
-      <div class="obra" role="img" aria-label={`Espacio reservado para obra de ${a.nombre}`}><span class="mono">Imagen pendiente de autorización</span></div>
+      {portada ? (
+        <figure class="obra con-imagen">
+          <img src={portada} alt={perfil ? `${a.nombre}, retrato` : `Tatuaje de ${a.nombre}, trabajo 1`} width="600" height="800" loading="lazy" decoding="async" />
+          <figcaption class="mono">{perfil ? 'Retrato del artista' : 'Obra 01'}</figcaption>
+        </figure>
+      ) : (
+        <div class="obra" role="img" aria-label={`Espacio reservado para obra de ${a.nombre}`}><span class="mono">Imagen pendiente de autorización</span></div>
+      )}
       <div class="texto">
         {a.bio ? <p class="bio">{a.bio}</p> : <p class="bio">Ficha en preparación.</p>}
         {a.instagram && <a class="ig" href={`https://instagram.com/${a.instagram}`} rel="noopener">Ver su trabajo en Instagram · @{a.instagram} ↗</a>}
@@ -29,15 +43,30 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
             <ol class="registro">{a.datos.map((d: { texto: string; fuente: string }) => <li>{d.texto} <a href={d.fuente} rel="noopener" class="mono">fuente ↗</a></li>)}</ol>
           </>
         )}
-        {a.fuentes?.length > 0 && (
+        {fuentes.length > 0 && (
           <>
             <h2>Fuentes</h2>
-            <ul class="fuentes">{a.fuentes.map((u: string) => <li><a href={u} rel="noopener">{host(u)}</a></li>)}</ul>
+            <ul class="fuentes">{fuentes.map((u) => <li><a href={u} rel="noopener">{host(u)}</a></li>)}</ul>
           </>
         )}
         {esMagico(a) && <p class="nota">* {DIVULGACION}</p>}
       </div>
     </div>
+    {enSala.length > 0 && (
+      <section class="muro-obras" aria-label={`Obras de ${a.nombre}`}>
+        <h2 class="mono">Obras en sala</h2>
+        <div class="obras">
+          {enSala.map((f) => (
+            <figure>
+              <img src={f} alt={`Tatuaje de ${a.nombre}, trabajo ${num(f)}`} width="720" height="900" loading="lazy" decoding="async" />
+              <figcaption class="mono">Obra {String(num(f)).padStart(2, '0')}</figcaption>
+            </figure>
+          ))}
+        </div>
+        {a.creditoImagenes && <p class="credito mono">{a.creditoImagenes}</p>}
+      </section>
+    )}
+    {enSala.length === 0 && portada && a.creditoImagenes && <p class="credito mono suelto">{a.creditoImagenes}</p>}
     <nav class="pasillo" aria-label="Recorrer la sala">
       <a href={`/sala/${ant.slug}/`}><span class="mono">← Anterior</span>{ant.nombre}</a>
       <a href={`/sala/${sig.slug}/`} class="der"><span class="mono">Siguiente →</span>{sig.nombre}</a>
@@ -52,6 +81,17 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
   .claves li { font: 400 11px var(--mono); border: 1px solid #444; padding: 3px 8px; text-transform: uppercase; }
   .rejilla { display: grid; grid-template-columns: 1fr 1.2fr; border-bottom: 1px solid var(--grafito); }
   .obra { min-height: 420px; background: radial-gradient(circle at 40% 35%, #6d6d73 0%, #2a2a2e 45%, var(--negro) 100%); display: flex; align-items: flex-end; padding: 16px; border-right: 1px solid var(--grafito); }
+  .con-imagen { position: relative; margin: 0; padding: 0; display: block; background: var(--carbon); }
+  .con-imagen img { width: 100%; height: 100%; min-height: 420px; max-height: 760px; object-fit: cover; display: block; }
+  .con-imagen figcaption { position: absolute; left: 16px; bottom: 16px; font-size: 11px; color: var(--blanco); background: rgba(11,11,12,.7); padding: 4px 8px; letter-spacing: .08em; text-transform: uppercase; }
+  .muro-obras { border-bottom: 1px solid var(--grafito); padding: 32px 40px 24px; }
+  .muro-obras h2 { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: #77777d; margin: 0 0 16px; }
+  .obras { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 2px; background: var(--grafito); border: 1px solid var(--grafito); }
+  .obras figure { margin: 0; background: var(--negro); }
+  .obras img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; display: block; }
+  .obras figcaption { font-size: 11px; color: #77777d; padding: 8px 12px; text-transform: uppercase; letter-spacing: .08em; }
+  .credito { font-size: 12px; color: #77777d; margin: 12px 0 0; }
+  .credito.suelto { padding: 12px 40px; margin: 0; border-bottom: 1px solid var(--grafito); }
   .texto { padding: 32px 40px; }
   .bio { font-size: 21px; color: var(--blanco); }
   h2 { font-size: 26px; margin-top: 32px; }
@@ -67,6 +107,9 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
     .cab, .texto { padding-left: 16px; padding-right: 16px; }
     .rejilla { grid-template-columns: 1fr; }
     .obra { min-height: 220px; border-right: 0; }
+    .con-imagen img { min-height: 0; max-height: 70vh; aspect-ratio: 3 / 4; height: auto; }
+    .muro-obras { padding: 24px 16px; }
+    .credito.suelto { padding: 12px 16px; }
     .pasillo a { padding: 18px 16px; font-size: 17px; }
   }
   .ig { display: inline-block; margin: 8px 0 8px; padding: 10px 16px; border: 1px solid var(--blanco); color: var(--blanco); text-decoration: none; font: 400 13px var(--mono); text-transform: uppercase; letter-spacing: .08em; }

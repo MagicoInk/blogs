@@ -4,7 +4,7 @@ fecha: 2026-10-26
 temas: [diseño, tamaño, microrrealismo, memoria, animales]
 dibujo: golondrina
 extracto: "El gato que duerme en tu cama, el perro que ya no está, el pájaro que canta en la ventana. Cómo elegir la foto de referencia, qué rasgos hacen reconocible a un animal, por qué el tamaño manda más que en casi cualquier otro motivo y qué estilos de línea fina funcionan mejor."
-artistas: [hongdam, eva-karabudak, nando, sasha-unisex, ichibay, magico-artista-2]
+artistas: [hongdam, eva-karabudak, nando, sasha-unisex, ichibay, magico-ween]
 mencionaMagico: true
 fuentes:
   - { titulo: "Colossal — Eva Karabudak's microtattoos (2021)", url: "https://www.thisiscolossal.com/2021/05/eva-krbdk-tattoos/" }
@@ -13,6 +13,7 @@ fuentes:
   - { titulo: "Neocha — In the studio with Hongdam", url: "https://neocha.com/magazine/in-the-studio-with-hongdam/" }
   - { titulo: "Tattoo Filter — Nando's journey in micro-realistic tattooing", url: "https://au.tattoofilter.com/blog/p/nando-s-journey-in-micro-realistic-tattooing" }
   - { titulo: "Tattoo Life — Animals by Ichibay", url: "https://www.tattoolife.com/animals-by-ichibay/" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Si hiciéramos una estadística de los mensajes que llegan a este cuaderno, los animales estarían muy arriba. Casi siempre con una foto adjunta: un gato atigrado al sol, un perro con la oreja doblada, un perico que vivió veinte años con la familia, el colibrí que aparece cada mañana en el jardín. Y casi siempre con la misma pregunta: «¿se puede hacer chiquito?».
@@ -123,7 +124,7 @@ Busca a alguien que dibuje animales con frecuencia y, sobre todo, que los dibuje
 - Retratos de mascotas con fotos de la referencia original al lado, para juzgar el parecido.
 - Su opinión sincera sobre el tamaño mínimo y el estilo que recomendaría para tu foto.
 
-**[Magico Ink](/artistas/magico-artista-2/)**, el proyecto que edita este cuaderno, tiene una ficha de línea fina en el directorio; todavía no tenemos un portafolio de animales documentado que podamos citar, así que te pedimos que le apliques los mismos criterios que a los demás. Más nombres en [nuestra lista corta](/notas/nuestra-lista-corta/).
+En Magico Ink, el proyecto que edita este cuaderno, está **[Ween](/artistas/magico-ween/)**, en la sede Revolución de la Ciudad de México. Según el sitio del estudio, se especializa en microrrealismo de mascotas y tiene cinco años de experiencia. Son datos que declara el propio estudio, así que te pedimos que le apliques los mismos criterios que a los demás. Más nombres en [nuestra lista corta](/notas/nuestra-lista-corta/).
 
 ## Lista de verificación
 

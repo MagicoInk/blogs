@@ -25,6 +25,7 @@ fuentes:
   - { titulo: "Frontiers in Public Health — Estudio con adultos tatuados de Tijuana (2022)", url: "https://www.frontiersin.org/articles/10.3389/fpubh.2022.894486/full" }
   - { titulo: "Time Out México — Museo del Tatuaje", url: "https://www.timeoutmexico.mx/ciudad-de-mexico/arte/museo-del-tatuaje" }
   - { titulo: "Carolina Romero Patiño — El tatuaje prehispánico mexicano (2019)", url: "https://cdsa.aacademica.org/000-030/557.pdf" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 puestos:
   - artista: pedro-alvarez
     porque: >-
@@ -53,9 +54,9 @@ puestos:
   - artista: jose-arce
     porque: >-
       La frontera también tatúa. José Arce empezó de forma casera en el sur de California y, tras ser deportado de Estados Unidos, se estableció en Tijuana, donde trabaja en su estudio No Mercy. World Tattoo Events lo entrevistó en 2018 durante una convención en México. En 2024, El Imparcial contó que encontró en Tijuana una sensación de libertad, que da empleo a otras personas y que usa sus redes para apoyar a otras personas deportadas. Nuestro directorio no detalla su estilo concreto, así que revisa su portafolio y juzga por ti.
-  - artista: magico-artista-3
+  - artista: magico-eka
     porque: >-
-      Aviso claro: Magico Ink es la casa editora de Color Bravo y este artista trabaja ahí, por eso lleva estrella. Su ficha lo registra en México y en el estilo de color. No hay todavía trayectoria pública verificada que podamos contarte, ni premios, ni anécdotas, y no las vamos a inventar. Lo incluimos porque forma parte del color que se hace hoy en México y porque nos parece justo ponerlo bajo la misma lupa que a los demás: pide cicatrizados, revisa contraste, pregunta cómo planea la pieza. Que hable el portafolio.
+      Aviso claro: Magico Ink es la casa editora de Color Bravo y Eka trabaja ahí, en la sede Reforma de la Ciudad de México, por eso lleva estrella. Según el sitio del estudio, fusiona el estilo tradicional con técnicas modernas en piezas coloridas y tiene nueve años de experiencia. Más allá de eso no tenemos trayectoria pública de terceros que podamos contarte, ni premios, ni anécdotas, y no los vamos a inventar. Lo incluimos porque forma parte del color que se hace hoy en México y porque nos parece justo ponerlo bajo la misma lupa que a los demás: pide cicatrizados, revisa contraste, pregunta cómo planea la pieza. Que hable el portafolio.
 ---
 
 El tatuaje a color en México tiene algo que no se consigue en ningún otro lado: una tradición visual que ya era intensa mucho antes de que existiera la máquina de tatuar. El rosa mexicano, los textiles de Hidalgo y Chiapas, la gráfica popular, los murales, las calaveras de azúcar. Cuando esa memoria se cruza con el oficio del tatuaje, sale algo que no se parece a nada más.
@@ -94,7 +95,7 @@ Y luego está la frontera. José Arce, en Tijuana, representa otra historia: la 
 
 ## Sobre Magico Ink
 
-Este medio es un proyecto editorial de Magico Ink. En esta lista hay un artista de Magico Ink y lo marcamos con estrella. No tenemos datos públicos verificados de su trayectoria todavía, así que su puesto dice exactamente eso. Lo colocamos al final, con la misma invitación que a los demás: juzga por el portafolio.
+Este medio es un proyecto editorial de Magico Ink. En esta lista hay un artista de Magico Ink, Eka, y lo marcamos con estrella. Lo que contamos de él sale del sitio del estudio (especialidad, sede y años de experiencia), y su puesto lo dice así; no tenemos fuentes independientes sobre su trayectoria. Lo colocamos al final, con la misma invitación que a los demás: juzga por el portafolio.
 
 ## Cómo usar este top
 

@@ -4,7 +4,7 @@ fecha: 2026-10-22
 temas: [diseño, botánica, historia, ilustrativo]
 dibujo: rosa
 extracto: "Una espiga violeta, una rama de hojas plateadas, una flor roja de cuatro pétalos. Tres plantas de los campos de Europa, lo que dice la botánica de cada una, las historias culturales que cargan y cómo dibujarlas para que sigan leyéndose dentro de diez años."
-artistas: [zina-samoletova, nando, jacqueline-olivera, magico-artista-2]
+artistas: [zina-samoletova, nando, jacqueline-olivera, magico-graphic]
 mencionaMagico: true
 fuentes:
   - { titulo: "Royal Botanic Gardens, Kew — Plants of the World Online: Lavandula angustifolia", url: "https://powo.science.kew.org/taxon/449008-1" }
@@ -21,6 +21,7 @@ fuentes:
   - { titulo: "Time Out Buenos Aires — Los mejores tatuadores de Buenos Aires", url: "https://www.timeout.com/es/buenos-aires/notas/mejores-tatuadores-en-buenos-aires-080124" }
   - { titulo: "Inked — 25 Reasons To Go to Korea for Your Next Tattoo Appointment (2019)", url: "https://inkedmag.com/?p=9607" }
   - { titulo: "Diario de Xalapa — Jacqueline Olivera, tatuadora de tinta negra", url: "https://oem.com.mx/diariodexalapa/cultura/jacqueline-olivera-tatuadora-de-tinta-negra-realiza-obras-de-arte-en-la-piel-con-puntillismo-y-linea-fina-15340676" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 En [flores mexicanas en línea fina](/notas/flores-mexicanas-en-linea-fina/) recorrimos la dalia, el cempasúchil y la nochebuena. En [rosas en línea fina](/notas/rosas-de-redoute/) volvimos a las láminas de Redouté. Esta vez cruzamos el océano hacia los campos secos del sur de Europa y las orillas de los caminos: tres plantas que no son de jardín ni de florería, sino de ladera, de huerto y de trigal. La lavanda, el olivo y la amapola.
@@ -110,7 +111,7 @@ Ningún artista del directorio tiene documentado con fuente un trabajo concreto 
 - **[Zina Samoletova](/artistas/zina-samoletova/)**, en Buenos Aires. [Time Out Buenos Aires](https://www.timeout.com/es/buenos-aires/notas/mejores-tatuadores-en-buenos-aires-080124) señala que se especializa en tatuajes botánicos, inspirada por su gusto por la botánica y la tradición rusa de regalar flores.
 - **[Nando](/artistas/nando/)**, en Seúl. [Inked](https://inkedmag.com/?p=9607) describió su trabajo como una mezcla delicada de geometría y flores.
 - **[Jacqueline Olivera](/artistas/jacqueline-olivera/)**, en Xalapa, trabaja exclusivamente con tinta negra, con puntillismo y línea fina, según el [Diario de Xalapa](https://oem.com.mx/diariodexalapa/cultura/jacqueline-olivera-tatuadora-de-tinta-negra-realiza-obras-de-arte-en-la-piel-con-puntillismo-y-linea-fina-15340676). El puntillismo es una herramienta natural para el envés plateado del olivo o la espiga de la lavanda.
-- **[Artista Magico Ink 2](/artistas/magico-artista-2/)**, del equipo de Magico Ink, trabaja línea fina. Aún no publicamos datos de su trayectoria; el criterio que le aplicaríamos es el de cualquier artista botánico: ver hojas y pétalos cicatrizados, no solo recién hechos.
+- **[Graphic](/artistas/magico-graphic/)**, del equipo de Magico Ink, en la sede Reforma de la Ciudad de México. Según el sitio del estudio, trabaja fine line, con diseños de *blackwork* inspirados en la naturaleza, y tiene cinco años de experiencia. Es lo que declara el propio estudio; el criterio que le aplicaríamos es el de cualquier artista botánico: ver hojas y pétalos cicatrizados, no solo recién hechos.
 
 ## Preguntas frecuentes
 

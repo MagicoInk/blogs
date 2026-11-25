@@ -19,6 +19,7 @@ fuentes:
   - { titulo: "El Sol de Hidalgo — Espaldas de México: tatuadores transforman la piel en arte", url: "https://oem.com.mx/elsoldehidalgo/local/espaldas-de-mexico-tatuadores-transforman-la-piel-en-arte-26406437" }
   - { titulo: "Milenio — ErikaTrina: difícil tatuar en un mundo de hombres", url: "https://www.milenio.com/politica/comunidad/tatuaje-erikatrina-dificil-tatuar-mundo-hombres" }
   - { titulo: "American Academy of Dermatology — Caring for tattooed skin", url: "https://www.aad.org/public/everyday-care/skin-care-basics/tattoos/caring-for-tattooed-skin" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 puestos:
   - titulo: "Nació para jugar, no para adivinar"
     porque: >-
@@ -50,9 +51,9 @@ puestos:
   - artista: erikatrina
     porque: >-
       Para un tarot onírico. El Sol de Hidalgo destaca su estilo surrealista con símbolos oníricos y color vibrante, y menciona entre sus galardones un primer lugar en New School en una convención de Guatemala; Milenio la describe como una de las primeras mujeres del tatuaje en Puebla. Muchas cartas del tarot, como La Luna o El Colgado, tienen algo de sueño, y un lenguaje surrealista a color puede llevarlas lejos de la reproducción literal hacia una versión propia.
-  - artista: magico-artista-3
+  - artista: magico-aurelio
     porque: >-
-      Transparencia primero: Magico Ink es la casa editora de Color Bravo y este artista trabaja ahí; por eso lleva estrella. Su ficha lo registra en México y en el estilo de color, y no hay todavía portafolio verificado, trayectoria ni trabajos de tarot que podamos contarte, así que no los inventamos. Lo incluimos con el mismo criterio que a los demás, y te pedimos que lo juzgues igual: que te muestre piezas cicatrizadas, que el nombre y el número de la carta se lean con claridad, que el marco no se coma la figura y que la paleta tenga contraste de valor. Si no pasa esa prueba, busca en el resto de la lista.
+      Transparencia primero: Magico Ink es la casa editora de Color Bravo y Aurelio trabaja ahí, en la sede Reforma; por eso lleva estrella. Según el sitio del estudio, crea tatuajes que combinan la ilustración, el negro y el color, con especialidad declarada en ilustración, anime y color y cinco años de experiencia. No tenemos fuente sobre cartas de tarot concretas de su mano, así que no las inventamos. Lo incluimos porque una carta de tarot es, ante todo, una ilustración, y te pedimos que lo juzgues igual que a los demás: que te muestre piezas cicatrizadas, que el nombre y el número de la carta se lean con claridad, que el marco no se coma la figura y que la paleta tenga contraste de valor. Si no pasa esa prueba, busca en el resto de la lista.
 ---
 
 Un rectángulo, un marco, una figura, un número romano arriba y un nombre abajo. Si lo piensas, una carta de tarot es casi una lámina de flash: un diseño cerrado, pensado para leerse de un vistazo y lleno de símbolos. No es raro que se haya vuelto uno de los temas favoritos del tatuaje a color, sobre todo en el neotradicional.

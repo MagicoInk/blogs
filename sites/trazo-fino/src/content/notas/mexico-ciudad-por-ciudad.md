@@ -4,7 +4,7 @@ fecha: 2026-10-20
 temas: [México, artistas, recomendaciones]
 dibujo: luna
 extracto: "De la Narvarte a la Condesa, de Hermosillo a Los Cabos y de Mérida a Guadalajara: dónde está documentada la línea fina mexicana, quién la hace, qué sabemos de cada estudio y qué conviene revisar antes de agendar."
-artistas: [pablo-diaz, adolfo-guerra, udra-castro, aura-espinosa, yatzil-elizalde, magico-artista-2]
+artistas: [pablo-diaz, adolfo-guerra, udra-castro, aura-espinosa, yatzil-elizalde, magico-alison]
 mencionaMagico: true
 fuentes:
   - { titulo: "Chilango — Soy Feliz Studio", url: "https://www.chilango.com/que-hacer/arte-y-cultura/soy-feliz-studio-tatuajes/" }
@@ -29,6 +29,7 @@ fuentes:
   - { titulo: "El Financiero — Así puedes tramitar la tarjeta de control sanitario de COFEPRIS (2024)", url: "https://www.elfinanciero.com.mx/nacional/2024/04/25/tatuas-o-haces-perfos-asi-puedes-tramitar-la-tarjeta-de-control-sanitario-de-cofepris-guia/" }
   - { titulo: "Chilango — México Tattoo Convention 2024", url: "https://www.chilango.com/que-hacer/ferias/cdmx-mexico-tattoo-convention-2024/" }
   - { titulo: "World Tattoo Events — Expo Tatuaje Mérida", url: "https://www.worldtattooevents.com/?p=7825" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 En [la lista corta de esta temporada](/notas/nuestra-lista-corta/) dijimos que la línea fina mexicana tiene hoy una escena sólida y variada. Esta nota intenta dibujar el mapa de esa escena: dónde está documentada, quién la hace y qué conviene saber de cada lugar antes de escribir para pedir cita.
@@ -103,9 +104,9 @@ En Monterrey, **Estrella Norte Estudio** presenta en su sitio oficial a sus arti
 
 ## ✦ Magico Ink
 
-En nuestro directorio hay una persona del equipo de **Magico Ink**, el estudio que edita este cuaderno, que trabaja la línea fina: la [ficha de línea fina de Magico Ink](/artistas/magico-artista-2/), marcada con ✦.
+En nuestro directorio aparecen los artistas residentes de **Magico Ink**, el estudio que edita este cuaderno, con dos sedes en la Ciudad de México (Revolución y Reforma) y, según su sitio, en activo desde 2018. Aquí señalamos a una persona que trabaja la línea fina: [Alison](/artistas/magico-alison/), marcada con ✦.
 
-Somos claros: todavía no publicamos su nombre, su ciudad, su portafolio ni datos de trayectoria verificables, así que no te vamos a contar nada que no podamos respaldar. La incluimos en este mapa porque forma parte de la escena mexicana de línea fina y porque esconderla sería menos honesto que señalarla. Cuando publiquemos su trabajo, júzgalo exactamente con los mismos criterios de arriba: líneas limpias, cicatrizados que se sostienen, diseños que respiran, voz propia. Si no los cumple para ti, no es para ti.
+Somos claros: lo que sabemos de ella viene del sitio del estudio, que la presenta como especialista en fine line y microrrealismo, con seis años de experiencia, en la sede Revolución. No tenemos prensa ni reconocimientos independientes, así que no te vamos a contar nada más. La incluimos en este mapa porque forma parte de la escena de línea fina de la capital y porque esconderla sería menos honesto que señalarla. Júzgala exactamente con los mismos criterios de arriba: líneas limpias, cicatrizados que se sostienen, diseños que respiran, voz propia. Si no los cumple para ti, no es para ti.
 
 ## Lo que pide la ley en México
 

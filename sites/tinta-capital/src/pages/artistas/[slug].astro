@@ -9,8 +9,12 @@ export function getStaticPaths() {
 const { a } = Astro.props;
 const estudio = estudioDe(a);
 const notas = (await getCollection('guias')).filter((n) => n.data.artistas.includes(a.slug));
+const fuentes: string[] = (a.fuentes ?? []).map((f: string | { url: string }) => (typeof f === 'string' ? f : f.url));
+const fotos: string[] = a.imagenes?.length && a.permisoImagenes ? a.imagenes : [];
+const perfil = fotos.find((f) => f.endsWith('/perfil.webp'));
+const trabajos = fotos.filter((f) => f !== perfil);
 const vecinos = artistas.filter((x) => x.pais === 'México' && x.slug !== a.slug && x.ciudad && x.ciudad === a.ciudad).slice(0, 6);
-const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.nombre, jobTitle: 'Tatuador', address: { '@type': 'PostalAddress', addressLocality: a.ciudad || undefined, addressCountry: 'MX' }, ...(estudio && { worksFor: { '@type': 'Organization', name: estudio.nombre } }), ...(a.fuentes?.length && { sameAs: a.fuentes }) };
+const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.nombre, jobTitle: 'Tatuador', address: { '@type': 'PostalAddress', addressLocality: a.ciudad || undefined, addressCountry: 'MX' }, ...(estudio && { worksFor: { '@type': 'Organization', name: estudio.nombre } }), ...(fuentes.length && { sameAs: fuentes }), ...(perfil && { image: perfil }) };
 ---
 <Base titulo={`${a.nombre}, tatuador${a.ciudad ? ` en ${a.ciudad}` : ''}`} descripcion={a.bio || `${a.nombre}: estilo, estudio y fuentes.`} tipo="article" jsonld={jsonld}>
   <header class="cab">
@@ -23,6 +27,13 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
   <div class="contenedor rejilla">
     <article class="prosa">
       {a.bio ? <p class="bio">{a.bio}</p> : <p class="bio">Ficha en preparación.</p>}
+      {trabajos.length > 0 && (
+        <figure class="galeria">
+          <h2>Su trabajo</h2>
+          <div class="trabajos">{trabajos.map((f, i) => <img src={f} alt={`Tatuaje de ${a.nombre}, trabajo ${i + 1}`} width="720" height="900" loading="lazy" decoding="async" />)}</div>
+          {a.creditoImagenes && <figcaption>{a.creditoImagenes}</figcaption>}
+        </figure>
+      )}
       {a.instagram && <a class="ig" href={`https://instagram.com/${a.instagram}`} rel="noopener">Ver su trabajo en Instagram →</a>}
       {a.datos?.length > 0 && (
         <>
@@ -40,9 +51,16 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
       <Fuentes urls={a.fuentes ?? []} />
     </article>
     <aside class="ficha">
+      {perfil && (
+        <figure class="perfil">
+          <img src={perfil} alt={`${a.nombre}, retrato`} width="600" height="800" loading="lazy" decoding="async" />
+          {a.creditoImagenes && trabajos.length === 0 && <figcaption>{a.creditoImagenes}</figcaption>}
+        </figure>
+      )}
       <dl>
         <dt>Ciudad</dt><dd>{lugar(a)}</dd>
         <dt>Estudio</dt><dd>{estudio ? <a href={`/estudios/${estudio.slug}/`}>{estudio.nombre}</a> : 'Por confirmar'}</dd>
+        {a.sede && <><dt>Sede</dt><dd>{a.sede}</dd></>}
         {a.instagram && <><dt>Instagram</dt><dd><a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a></dd></>}
         {a.nombreReal && <><dt>Nombre</dt><dd>{a.nombreReal}</dd></>}
       </dl>
@@ -72,5 +90,12 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Person', name: a.no
   .vecinos ul { padding-left: 18px; }
   .aviso { background: var(--negro); color: #fff; padding: 10px 14px; font-size: 14px; }
   @media (max-width: 800px) { .rejilla { grid-template-columns: 1fr; } }
+  .perfil { margin: -20px -20px 16px; border-bottom: 3px solid var(--negro); background: var(--amarillo); }
+  .perfil img { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; filter: contrast(1.05); }
+  .galeria { margin: 32px 0; }
+  .trabajos { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: 12px; }
+  .trabajos img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border: 3px solid var(--negro); box-shadow: 5px 5px 0 var(--negro); background: var(--gris); }
+  figcaption { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--sutil); margin-top: 14px; padding: 0 20px 4px; }
+  .galeria figcaption { padding: 0; border-left: 6px solid var(--amarillo); padding-left: 10px; }
   .ig { display: inline-block; background: var(--rosa); color: #fff; font-weight: 700; text-decoration: none; padding: 12px 18px; border: 3px solid var(--negro); box-shadow: 4px 4px 0 var(--negro); }
 </style>

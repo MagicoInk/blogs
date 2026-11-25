@@ -3,7 +3,7 @@ titulo: "Cómo elegir estudio fuera de la capital: guía para tatuarte en una ci
 bajada: "Prensa contra autodescripción, papeles sanitarios que aplican en todo el país, retoques a distancia y el clima como factor. Lo que aprendimos documentando escenas de Guadalajara a Mérida."
 seccion: Guías
 fecha: 2026-11-07
-artistas: [israel-vampiro-pacheco, manuel-garza, gooty-balam, adolfo-rubio, javi-wolf, magico-artista-1]
+artistas: [israel-vampiro-pacheco, manuel-garza, gooty-balam, adolfo-rubio, javi-wolf, magico-nahual]
 mencionaMagico: true
 fuentes:
   - { titulo: "Cámara de Diputados — Decreto que adiciona el artículo 268 Bis-1 a la Ley General de Salud (DOF 24/04/2006)", url: "https://www.diputados.gob.mx/LeyesBiblio/ref/lgs/LGS_ref25_24abr06.pdf" }
@@ -19,6 +19,7 @@ fuentes:
   - { titulo: "Rubio Tattoo — Sitio oficial de Adolfo Rubio", url: "https://www.rubiotattoo.com/en" }
   - { titulo: "Estrella Norte Estudio — Sitio oficial", url: "https://www.estrellanorteestudio.com/" }
   - { titulo: "Time Out México — Artistas emergentes del tatuaje en el DF", url: "https://www.timeoutmexico.mx/ciudad-de-mexico/compras-estilo/artistas-emergentes-del-tatuaje-df" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Elegir tatuador en tu propia ciudad ya es una tarea. Hacerlo en una ciudad que no conoces, donde no tienes amigos que te recomienden, donde no puedes pasar a ver el estudio un martes cualquiera y donde quizá no vuelvas en meses, es otro nivel.
@@ -117,7 +118,7 @@ Las convenciones regionales (la de Guadalajara, la de Monterrey, la de Mérida, 
 
 ## 8. ¿Y Magico Ink?
 
-Transparencia total: Tinta Capital es un proyecto editorial de **Magico Ink**. Todavía no tenemos datos documentados sobre su trayectoria, ubicación definitiva ni estilos más allá de lo que dicen sus fichas en preparación, así que no te vamos a vender nada que no podamos respaldar. Lo que sí te decimos es que **la checklist de esta guía aplica igual para Magico Ink que para cualquier otro estudio**: pide portafolio cicatrizado, tarjeta de control sanitario y condiciones de retoque. Si un estudio, el que sea, no pasa esa prueba, no es para ti.
+Transparencia total: Tinta Capital es un proyecto editorial de **[Magico Ink](/estudios/magico-ink/)**, un estudio que, según su sitio, trabaja desde 2018 y tiene dos sedes, ambas en la Ciudad de México: Revolución y Reforma. Es decir, no es un estudio fuera de la capital, y no te lo vendemos como tal. Sus artistas residentes aparecen en el directorio con lo que declara el propio estudio; por ejemplo, [Nahual](/artistas/magico-nahual/), a quien el sitio presenta como especialista en full color y realismo, con 14 años de experiencia y enfocado en cover-ups. Son datos autodeclarados, no reseñas independientes. Lo que sí te decimos es que **la checklist de esta guía aplica igual para Magico Ink que para cualquier otro estudio**: pide portafolio cicatrizado, tarjeta de control sanitario y condiciones de retoque. Si un estudio, el que sea, no pasa esa prueba, no es para ti.
 
 ## Checklist final para tatuarte fuera de casa
 

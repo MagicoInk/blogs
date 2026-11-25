@@ -4,7 +4,7 @@ fecha: 2026-11-08
 temas: [recomendaciones, cuidados, tamaño, legislación]
 dibujo: ola
 extracto: "Una guía completa para quien va a tatuarse por primera vez algo pequeño y fino: qué mirar en un portafolio, qué preguntar al estudio, qué señales piden prudencia, cómo prepararte para la sesión y cómo cuidar el tatuaje después."
-artistas: [udra-castro, pablo-diaz, jacqueline-olivera, ramon-baez, magico-artista-2]
+artistas: [udra-castro, pablo-diaz, jacqueline-olivera, ramon-baez, magico-alison]
 mencionaMagico: true
 fuentes:
   - { titulo: "Cámara de Diputados — Decreto de reforma a la Ley General de Salud (art. 268 Bis-1), DOF 24 de abril de 2006", url: "https://www.diputados.gob.mx/LeyesBiblio/ref/lgs/LGS_ref25_24abr06.pdf" }
@@ -15,6 +15,7 @@ fuentes:
   - { titulo: "Chilango — Soy Feliz Studio", url: "https://www.chilango.com/que-hacer/arte-y-cultura/soy-feliz-studio-tatuajes/" }
   - { titulo: "Diario de Xalapa — Jacqueline Olivera, tatuadora de tinta negra", url: "https://oem.com.mx/diariodexalapa/cultura/jacqueline-olivera-tatuadora-de-tinta-negra-realiza-obras-de-arte-en-la-piel-con-puntillismo-y-linea-fina-15340676" }
   - { titulo: "Proyecto Puente — Ramón Báez, tatuador en Hermosillo (2021)", url: "https://proyectopuente.com.mx/2021/03/23/hace-8-anos-ramon-inicio-como-tatuador-y-emprendedor-en-hermosillo-no-contaba-con-apoyo-de-familia-pero-logro-abrir-su-estudio-profesional/" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 El primer tatuaje casi nunca es grande. Suele ser una palabra, una flor, una línea, un símbolo del tamaño de una moneda. Y casi siempre llega cargado de nervios: ¿me va a doler?, ¿me voy a arrepentir?, ¿cómo sé si el estudio es bueno? Esta nota es para ese momento. No para convencerte de tatuarte, sino para que, si decides hacerlo, llegues con criterio.
@@ -122,7 +123,7 @@ Estos son nombres del directorio con fuentes públicas que describen su trabajo 
 - **[Pablo Díaz](/artistas/pablo-diaz/)**, creador de Soy Feliz Studio en la Ciudad de México. [Chilango](https://www.chilango.com/que-hacer/arte-y-cultura/soy-feliz-studio-tatuajes/) dice que tatúa desde 2010; su trabajo se centra en líneas finas, geometría y color.
 - **[Jacqueline Olivera](/artistas/jacqueline-olivera/)**, en Xalapa, egresada de Artes Visuales de la Universidad Veracruzana. En entrevista con [Diario de Xalapa](https://oem.com.mx/diariodexalapa/cultura/jacqueline-olivera-tatuadora-de-tinta-negra-realiza-obras-de-arte-en-la-piel-con-puntillismo-y-linea-fina-15340676) subrayó que tatuar exige práctica, disciplina y empatía con los clientes, tres cosas que vale la pena buscar en cualquier primera cita.
 - **[Ramón Báez](/artistas/ramon-baez/)**, en Hermosillo. Según [Proyecto Puente](https://proyectopuente.com.mx/2021/03/23/hace-8-anos-ramon-inicio-como-tatuador-y-emprendedor-en-hermosillo-no-contaba-con-apoyo-de-familia-pero-logro-abrir-su-estudio-profesional/), es autodidacta y abrió su estudio profesional en 2020; trabaja varios estilos y se especializa en minitatuajes de líneas muy finas con colores saturados.
-- **✦ [Artista de línea fina de Magico Ink](/artistas/magico-artista-2/).** Magico Ink es el estudio que edita este cuaderno, y lo señalamos para que lo sepas. Todavía no tenemos datos públicos verificados sobre esta ficha, así que no vamos a describir su trabajo ni a decir que es mejor que nadie. Lo que sí te pedimos es que apliques con su portafolio exactamente los mismos criterios que con los demás: fotos cicatrizadas, líneas constantes, diseños con aire, respuestas claras sobre higiene.
+- **✦ [Alison](/artistas/magico-alison/) (Magico Ink, CDMX).** Magico Ink es el estudio que edita este cuaderno, y lo señalamos para que lo sepas. Según el sitio del estudio, Alison trabaja fine line y microrrealismo, con piezas pequeñas de mucho detalle, tiene seis años de experiencia y está en la sede Revolución. Es lo que declara el propio estudio, así que no vamos a decir que es mejor que nadie. Lo que sí te pedimos es que apliques con su portafolio exactamente los mismos criterios que con los demás: fotos cicatrizadas, líneas constantes, diseños con aire, respuestas claras sobre higiene.
 
 Si no vives en ninguna de estas ciudades, la misma lista de criterios sirve en cualquier lugar. Un buen artista de línea fina en tu ciudad es mejor opción que uno famoso al que solo puedes ver una vez y al que no podrás volver para un retoque.
 

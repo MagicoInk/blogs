@@ -6,6 +6,7 @@ orden: 14
 fecha: 2026-11-07
 claves: [México, regiones, estudios, Monterrey]
 fuentes:
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
   - titulo: "Telediario — Daniela Márquez, tatuadora poblana que rompe estereotipos"
     url: "https://www.telediario.mx/comunidad/daniela-marquez-tatuadora-poblana-que-rompe-estereotipos"
   - titulo: "Milenio — Tatuadores"
@@ -48,7 +49,7 @@ Este artículo mira hacia fuera de la capital con el método de siempre: contar 
 
 ## Un mapa con pocos puntos
 
-Conviene empezar por la honestidad. En nuestro directorio hay siete fichas de artistas mexicanos con realismo documentado. De ellas, cuatro trabajan en la Ciudad de México ([Xochitl Herrera](/sala/xochitl-herrera/), [Scrappy One](/sala/scrappy-one/), [Adolfo Guerra](/sala/adolfo-guerra/) y [Gallonegro](/sala/gallonegro/)), una es una ficha reservada para un artista de Magico Ink sin datos todavía, y solo dos están documentadas fuera de la capital: Daniela Márquez, en Puebla, y Yatzil Elizalde, a quien la prensa ubicaba en Hermosillo hacia 2020.
+Conviene empezar por la honestidad. La mayoría de las fichas de artistas mexicanos con realismo documentado en nuestro directorio están en la Ciudad de México ([Xochitl Herrera](/sala/xochitl-herrera/), [Scrappy One](/sala/scrappy-one/), [Adolfo Guerra](/sala/adolfo-guerra/) y [Gallonegro](/sala/gallonegro/), además de tres artistas residentes de Magico Ink: [Trazo](/sala/magico-trazo/), [Ween](/sala/magico-ween/) y [Nahual](/sala/magico-nahual/)), y pocas están documentadas fuera de la capital, como Daniela Márquez, en Puebla, y Yatzil Elizalde, a quien la prensa ubicaba en Hermosillo hacia 2020.
 
 Entre los estudios, solo uno fuera de la capital declara el realismo de forma explícita entre sus especialidades: Estrella Norte Estudio, en Monterrey.
 
@@ -106,7 +107,7 @@ En León, el tatuador conocido como Trenes abrió en febrero de 2023 su propio e
 
 ## Magico Ink
 
-Este medio es un proyecto editorial de Magico Ink, y su ficha de estudio declara realismo entre sus especialidades. Por transparencia lo mencionamos aquí con el mismo criterio que a los demás: a día de hoy no tiene ciudad confirmada ni trayectoria publicada en nuestro directorio, así que no le atribuimos nada más. Cuando haya datos verificables, se aplicarán los mismos criterios de evaluación que a cualquier otro estudio.
+Este medio es un proyecto editorial de Magico Ink, y su ficha de estudio declara realismo entre sus especialidades. Por transparencia lo mencionamos aquí con el mismo criterio que a los demás. Según su sitio, el estudio trabaja desde 2018 y tiene dos sedes, ambas en la Ciudad de México (Revolución y Reforma), así que no suma puntos al mapa fuera de la capital. Tres de sus artistas residentes tienen realismo en su ficha, según lo que declara el estudio: [Nahual](/sala/magico-nahual/), especialista en full color y realismo con 14 años de experiencia y enfocado en cover-ups; [Trazo](/sala/magico-trazo/), en microrrealismo, fine line y composiciones, con tres años, y [Ween](/sala/magico-ween/), en microrrealismo de mascotas, con cinco. Son datos del propio estudio, no verificaciones independientes, y les aplicamos los mismos criterios de evaluación que a cualquier otro artista.
 
 ## Las normas valen en todo el país
 

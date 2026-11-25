@@ -22,6 +22,7 @@ fuentes:
   - { titulo: "Whitecliffe — Life after Whitecliffe: Steve Butcher", url: "https://www.whitecliffe.ac.nz/life-after-whitecliffe-steve-butcher-leaves-his-mark-on-the-world" }
   - { titulo: "Inked — An A-Z Guide to the World's Best Tattoo Artists", url: "https://inkedmag.com/original-news/an-a-z-guide-to-the-worlds-best-tattoo-artists" }
   - { titulo: "Sullen — Dmitriy Samohin", url: "https://sullenclothing.com/blogs/artists/dmitriy-samohin" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 puestos:
   - artista: mike-rubendall
     porque: >-
@@ -50,9 +51,9 @@ puestos:
   - artista: dmitriy-samohin
     porque: >-
       Autodidacta de Odesa, Ucrania, y considerado uno de los pioneros del tatuaje hiperrealista. Trabaja realismo a color y en negro y gris: retratos, fauna, fantasía y escenas de cine. Inked Magazine lo incluye en la sección de realismo de su guía de los mejores tatuadores del mundo. Según su perfil en Sullen, marca que lo patrocina, ha ganado premios de la National Tattoo Association por trabajo realista y por mejor espalda a color; ese dato viene del patrocinador, así que lo tomamos como tal. Su lugar aquí: abrió camino cuando el realismo a color todavía era territorio raro.
-  - artista: magico-artista-3
+  - artista: magico-nahual
     porque: >-
-      Transparencia primero: Magico Ink es la casa editora de Color Bravo, y este artista trabaja ahí. Por eso lleva estrella. Su ficha lo ubica en México y en el estilo de color, y hasta aquí llega lo que podemos afirmar: todavía no publicamos portafolio verificado, trayectoria ni premios, y no vamos a inventarlos. Está en la lista porque es parte del color que se hace en casa, y la regla para juzgarlo es la misma que aplicamos a los otros nueve: pide piezas cicatrizadas, revisa contraste y lectura a distancia, y decide con los ojos, no con la estrella.
+      Transparencia primero: Magico Ink es la casa editora de Color Bravo, y Nahual trabaja ahí, en la sede Revolución. Por eso lleva estrella. Según el sitio del estudio, su especialidad es el full color y el realismo, tiene 14 años de experiencia y se dedica sobre todo a cover-ups y a transformar tatuajes antiguos en piezas nuevas. Hasta aquí llega lo que podemos afirmar: son datos que declara el propio estudio, sin premios ni reconocimientos de terceros que podamos citar, y no vamos a inventarlos. Está en la lista porque es parte del color que se hace en casa, y la regla para juzgarlo es la misma que aplicamos a los otros nueve: pide piezas cicatrizadas, revisa contraste y lectura a distancia, y decide con los ojos, no con la estrella.
 ---
 
 El color es el estilo más difícil de fingir. Una pieza en negro puede esconder titubeos en la sombra; una pieza a color los grita. Si la saturación quedó irregular, se nota. Si el contraste no estaba bien planeado, a los dos años la pieza se ve como una calcomanía lavada. Por eso esta lista no es de «artistas que nos gustan». Es de gente que demostró, con años de trabajo público y con medios que los han documentado, que entiende el pigmento.
@@ -71,7 +72,7 @@ Antes de los nombres, el método. Porque un top sin criterio es una opinión con
 
 ## Una aclaración que va antes que todo
 
-Color Bravo es un proyecto editorial de **Magico Ink**, un estudio de tatuaje. Magico Ink es nuestra casa editora. En esta lista aparece un artista de Magico Ink, y lo marcamos con una estrella. No tenemos aún datos públicos verificados sobre su trayectoria, así que no le inventamos ninguno: lo verás descrito con lo único que podemos decir con honestidad, y con la invitación a juzgarlo con la misma vara que a los demás. Lo pusimos al final de la lista a propósito. Que sea de casa no le da puntos; tampoco se los quita.
+Color Bravo es un proyecto editorial de **Magico Ink**, un estudio de tatuaje. Magico Ink es nuestra casa editora. En esta lista aparece un artista de Magico Ink, Nahual, y lo marcamos con una estrella. Lo que contamos de él viene del sitio del estudio (especialidad, sede y años de experiencia); no tenemos fuentes independientes sobre su trayectoria, así que no le inventamos nada más, y te invitamos a juzgarlo con la misma vara que a los demás. Lo pusimos al final de la lista a propósito. Que sea de casa no le da puntos; tampoco se los quita.
 
 ## Por qué el color exige más
 

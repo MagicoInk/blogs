@@ -32,7 +32,7 @@ Esta guía recorre el proceso completo desde el punto de vista del cliente, en c
 
 En el realismo la diferencia entre artistas es enorme, incluso dentro del mismo estudio. Antes de escribir, dedica tiempo a revisar portafolios con criterio. En [Cómo evaluar un portafolio de realismo](/tecnica/evaluar-un-portafolio/) tienes una lista completa; lo mínimo es buscar cicatrizados, trabajos parecidos al tuyo y coherencia de nivel.
 
-Nuestra [sala](/sala/) reúne fichas de artistas de realismo con datos y fuentes públicas, incluida la de Magico Ink, el proyecto del que forma parte este medio. Ninguna ficha es una recomendación automática: los criterios de esta guía valen igual para todos.
+Nuestra [sala](/sala/) reúne fichas de artistas de realismo con datos y fuentes públicas, incluidas las de artistas residentes de Magico Ink, el proyecto del que forma parte este medio, como [Nahual](/sala/magico-nahual/) o [Trazo](/sala/magico-trazo/), cuyas fichas recogen lo que declara el sitio del estudio. Ninguna ficha es una recomendación automática: los criterios de esta guía valen igual para todos.
 
 ### Conoce la agenda del artista
 

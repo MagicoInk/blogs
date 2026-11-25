@@ -1,12 +1,14 @@
 ---
-interface Props { urls: string[]; titulo?: string }
-const { urls, titulo = 'Fuentes' } = Astro.props;
+type Fuente = string | { titulo?: string; url: string };
+interface Props { urls: Fuente[]; titulo?: string }
+const { urls: crudas, titulo = 'Fuentes' } = Astro.props;
 const host = (u: string) => { try { return new URL(u).hostname.replace('www.', ''); } catch { return u; } };
+const urls = crudas.map((f) => (typeof f === 'string' ? { url: f, texto: host(f) } : { url: f.url, texto: f.titulo || host(f.url) }));
 ---
 {urls.length > 0 && (
   <section class="fuentes">
     <h2>{titulo}</h2>
-    <ol>{urls.map((u) => <li><a href={u} rel="noopener">{host(u)}</a></li>)}</ol>
+    <ol>{urls.map((u) => <li><a href={u.url} rel="noopener">{u.texto}</a></li>)}</ol>
   </section>
 )}
 <style>

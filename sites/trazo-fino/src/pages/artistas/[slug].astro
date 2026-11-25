@@ -10,20 +10,46 @@ const { a, i } = Astro.props;
 const dibujos = ['rosa', 'luna', 'ola', 'golondrina'] as const;
 const estudio = estudioDe(a);
 const notas = (await getCollection('notas')).filter((n) => n.data.artistas.includes(a.slug));
+const fuentes: string[] = (a.fuentes ?? []).map((f: string | { url: string }) => (typeof f === 'string' ? f : f.url));
+const fotos: string[] = a.imagenes?.length && a.permisoImagenes ? a.imagenes : [];
+const perfil = fotos.find((f) => f.endsWith('/perfil.webp'));
+const trabajos = fotos.filter((f) => f !== perfil);
 const host = (u: string) => { try { return new URL(u).hostname.replace('www.', ''); } catch { return u; } };
 ---
 <Diario titulo={a.nombre} descripcion={a.bio || `${a.nombre}, artista de línea fina.`}>
   <section class="hoja pliego">
     <aside class="margen">
-      <div class="lamina"><Dibujo nombre={dibujos[i % 4]} /></div>
+      {perfil ? (
+        <figure class="retrato">
+          <img src={perfil} alt={`${a.nombre}, retrato`} width="600" height="800" loading="lazy" decoding="async" />
+          <figcaption class="mano">{a.nombre.toLowerCase()}</figcaption>
+        </figure>
+      ) : (
+        <div class="lamina"><Dibujo nombre={dibujos[i % 4]} /></div>
+      )}
       <span class="mano">ficha nº {String(i + 1).padStart(2, '0')}</span>
       <ul class="temas">{etiquetasDe(a).map((e) => <li>#{etiqueta(e).toLowerCase()}</li>)}</ul>
     </aside>
     <div class="pagina">
       <a href="/artistas/" class="volver">← lista corta</a>
       <h1>{a.nombre}{esMagico(a) && <sup>✦</sup>}</h1>
-      <p class="lugar">{lugar(a)}{estudio && ` · ${estudio.nombre}`}{a.instagram && <> · <a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a></>}</p>
+      <p class="lugar">{lugar(a)}{estudio && ` · ${estudio.nombre}`}{a.sede && ` · sede: ${a.sede}`}{a.instagram && <> · <a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a></>}</p>
       {a.bio ? <p class="bio">{a.bio}</p> : <p class="bio">Ficha en preparación.</p>}
+      {trabajos.length > 0 && (
+        <figure class="trabajos">
+          <span class="mano">trabajos ↓</span>
+          <div class="piezas">
+            {trabajos.map((f, j) => (
+              <div class="pieza">
+                <img src={f} alt={`Tatuaje de ${a.nombre}, trabajo ${j + 1}`} width="720" height="900" loading="lazy" decoding="async" />
+                <span class="mano">nº {j + 1}</span>
+              </div>
+            ))}
+          </div>
+          {a.creditoImagenes && <figcaption class="fuentes">{a.creditoImagenes}</figcaption>}
+        </figure>
+      )}
+      {trabajos.length === 0 && perfil && a.creditoImagenes && <p class="fuentes">{a.creditoImagenes}</p>}
       {a.datos?.length > 0 && (
         <>
           <span class="mano">apuntes ↓</span>
@@ -36,7 +62,7 @@ const host = (u: string) => { try { return new URL(u).hostname.replace('www.', '
           <ul class="notas">{notas.map((n) => <li><a href={`/notas/${n.id}/`}>{n.data.titulo}</a></li>)}</ul>
         </>
       )}
-      {a.fuentes?.length > 0 && <p class="fuentes">Fuentes: {a.fuentes.map((u: string, j: number) => <>{j > 0 && ' · '}<a href={u} rel="noopener">{host(u)}</a></>)}</p>}
+      {fuentes.length > 0 && <p class="fuentes">Fuentes: {fuentes.map((u, j) => <>{j > 0 && ' · '}<a href={u} rel="noopener">{host(u)}</a></>)}</p>}
       {esMagico(a) && <p class="fuentes">✦ {DIVULGACION}</p>}
     </div>
   </section>
@@ -57,5 +83,13 @@ const host = (u: string) => { try { return new URL(u).hostname.replace('www.', '
   .notas { margin: 8px 0 28px; }
   .fuentes { font-size: 13px; color: var(--tenue); word-break: break-word; }
   .fuentes a { color: var(--tenue); }
-  @media (max-width: 860px) { .pliego { grid-template-columns: 1fr; gap: 20px; } .margen { position: static; flex-direction: row; align-items: center; flex-wrap: wrap; } .lamina { width: 110px; padding: 10px; } .pagina { padding: 24px 20px; } }
+  .retrato { margin: 0; background: #fff; border: 1px solid var(--tinta); padding: 10px 10px 4px; transform: rotate(-1.5deg); }
+  .retrato img { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; display: block; border: 1px solid var(--cuadro); }
+  .retrato figcaption { text-align: center; font-size: 22px; color: var(--tinta); }
+  .trabajos { margin: 8px 0 28px; }
+  .piezas { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr)); gap: 16px; margin: 8px 0 10px; }
+  .pieza { display: flex; flex-direction: column; gap: 2px; }
+  .pieza img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; display: block; border: 1px solid var(--tinta); padding: 4px; background: #fff; }
+  .pieza .mano { font-size: 18px; color: var(--lapiz); }
+  @media (max-width: 860px) { .pliego { grid-template-columns: 1fr; gap: 20px; } .margen { position: static; flex-direction: row; align-items: center; flex-wrap: wrap; } .lamina { width: 110px; padding: 10px; } .retrato { width: 140px; } .pagina { padding: 24px 20px; } }
 </style>

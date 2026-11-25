@@ -4,7 +4,7 @@ fecha: 2026-10-13
 temas: [lettering, técnica, tamaño, memoria]
 dibujo: golondrina
 extracto: "Una receta de la abuela, la firma de un padre, una nota en la puerta del refrigerador. Tatuar la letra de otra persona es llevar su gesto. Esta es la parte técnica: cómo digitalizar el papel sin dañarlo, qué se corrige y qué no, y por qué la escritura a mano necesita más espacio que una tipografía."
-artistas: [certified-letter-boy, pablo-diaz, magico-artista-2]
+artistas: [certified-letter-boy, pablo-diaz, magico-robles]
 mencionaMagico: true
 fuentes:
   - { titulo: "Library of Congress (Personal Archiving) — Scanning your collections", url: "https://www.digitalpreservation.gov/personalarchiving/documents/scanning_collections.pdf" }
@@ -13,6 +13,7 @@ fuentes:
   - { titulo: "Family Tree Magazine — Resolution rules of thumb for scanning old family photos and documents", url: "https://familytreemagazine.com/photos/resolution-rules-of-thumb-for-scanning-old-family-photos-and-documents/" }
   - { titulo: "HELLO! — Entrevista con Certified Letter Boy", url: "https://hellomagazine.com/healthandbeauty/499897/certified-letter-boy-fine-line-tattoo-artist-interview" }
   - { titulo: "Chilango — Soy Feliz Studio", url: "https://www.chilango.com/que-hacer/arte-y-cultura/soy-feliz-studio-tatuajes/" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Hay papeles que uno guarda sin saber muy bien para qué. Una lista del súper con la letra apretada de mamá. Una tarjeta de cumpleaños firmada por el abuelo. Una receta manchada de aceite. Un día, alguien decide que quiere llevar uno de esos trazos en la piel, y entonces el papel deja de ser un recuerdo para convertirse en una referencia técnica.
@@ -112,7 +113,7 @@ Tatuar la escritura de alguien es, en el fondo, trabajo de letrista. Algunas ref
 
 - **[Certified Letter Boy](/artistas/certified-letter-boy/)**, en Londres, a quien [HELLO!](https://hellomagazine.com/healthandbeauty/499897/certified-letter-boy-fine-line-tattoo-artist-interview) describe como uno de los artistas de fine line más populares de la ciudad, conocido por su caligrafía personalizada. Es una buena referencia de lo que significa dibujar letras para una piel concreta.
 - **[Pablo Díaz](/artistas/pablo-diaz/)**, fundador de Soy Feliz Studio en la Ciudad de México, que según [Chilango](https://www.chilango.com/que-hacer/arte-y-cultura/soy-feliz-studio-tatuajes/) trabaja líneas finas y meticulosas. Su ficha puede servir para empezar a mirar trabajo de precisión cerca de casa.
-- **[La ficha de línea fina de Magico Ink](/artistas/magico-artista-2/)**, el proyecto detrás de este cuaderno, todavía está en preparación. Si la consideras, aplica exactamente el mismo criterio que con cualquier otro nombre: pide ver escrituras a mano cicatrizadas antes de decidir.
+- **[Robles](/artistas/magico-robles/)**, de Magico Ink, el proyecto detrás de este cuaderno. Según el sitio del estudio, trabaja fineline, microrrealismo y *blackwork*, con *lettering* entre sus especialidades, y tiene cinco años de experiencia. Si lo consideras, aplica exactamente el mismo criterio que con cualquier otro nombre: pide ver escrituras a mano cicatrizadas antes de decidir.
 
 El criterio, sea quien sea, es el mismo: busca en el portafolio **letras manuscritas cicatrizadas**, no solo tipografías limpias recién hechas.
 

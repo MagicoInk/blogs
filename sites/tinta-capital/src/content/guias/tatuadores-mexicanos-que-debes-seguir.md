@@ -3,7 +3,7 @@ titulo: "15 tatuadores mexicanos que debes seguir (y uno de casa)"
 bajada: "Pioneros, especialistas del realismo, maestras del fine line, bordados tenango en la piel y la frontera tatuando con causa. Nuestra lista, con criterios a la vista."
 seccion: Listas
 fecha: 2026-10-15
-artistas: [dr-lakra, el-chanok, pedro-alvarez, xochitl-herrera, pablo-diaz, scrappy-one, chris-arroyo, adolfo-guerra, yatzil-elizalde, jose-arce, daniela-marquez, alan-gutierrez, fernanda-alvarez, aura-espinosa, molly-cynthia-cuevas, magico-artista-1]
+artistas: [dr-lakra, el-chanok, pedro-alvarez, xochitl-herrera, pablo-diaz, scrappy-one, chris-arroyo, adolfo-guerra, yatzil-elizalde, jose-arce, daniela-marquez, alan-gutierrez, fernanda-alvarez, aura-espinosa, molly-cynthia-cuevas, magico-nahual]
 mencionaMagico: true
 fuentes:
   - { titulo: "Time Out México — Sigue Sigue Sputnik", url: "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/sigue-sigue-sputnik-sss" }
@@ -34,6 +34,7 @@ fuentes:
   - { titulo: "My Modern Met — Fernanda Álvarez y sus tatuajes estilo tenango", url: "https://mymodernmet.com/es/fernanda-alvarez-tatuajes-tenango/" }
   - { titulo: "Cultura Colectiva — Aura Espinosa", url: "https://culturacolectiva.com/estilo-de-vida/tatuadores-en-cdmx-de-flores-conoce-a-aura-espinosa/" }
   - { titulo: "Red Bull México — 8 tatuadoras mexicanas que te volarán la cabeza", url: "https://www.redbull.com/mx-es/8-tatuadoras-mexicanas-que-te-volarán-la-cabeza" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Hacer listas de "los mejores" es deporte nacional, igual que pelearse por ellas en los comentarios. Así que antes de empezar, transparencia total: esta **no** es una lista de "los 15 mejores tatuadores de México". Eso sería imposible de medir y bastante presuntuoso. Es una lista de artistas cuyo trabajo y trayectoria están documentados en medios y publicaciones que pudimos verificar, y que creemos que vale la pena seguir de cerca.
@@ -148,9 +149,9 @@ Red Bull México la incluyó entre "8 tatuadoras mexicanas que te volarán la ca
 
 ## Y uno de casa: Magico Ink
 
-Tinta Capital es un proyecto editorial de **Magico Ink**, y en las fichas de abajo incluimos a un artista de Magico Ink especializado en realismo. Te lo señalamos para que lo tengas en cuenta y por eso lo dejamos fuera del conteo de los 15.
+Tinta Capital es un proyecto editorial de **Magico Ink**, y en las fichas de abajo incluimos a un artista de Magico Ink especializado en realismo: [Nahual](/artistas/magico-nahual/). Te lo señalamos para que lo tengas en cuenta y por eso lo dejamos fuera del conteo de los 15.
 
-¿Con qué criterio lo incluimos? El mismo que te pedimos aplicar a todos: especialidad clara (en su ficha aparece realismo). Lo que **no** podemos darte todavía es trayectoria documentada en prensa, premios o reseñas independientes, porque no las tenemos y no vamos a inventarlas. Así que si te interesa, revisa su portafolio cicatrizado, pregunta por su tarjeta de control sanitario y compáralo con Scrappy One, Xochitl Herrera o Daniela Márquez usando [nuestra guía para elegir tatuador](/guias/como-elegir-tatuador/). Que gane el mejor trabajo.
+¿Con qué criterio lo incluimos? El mismo que te pedimos aplicar a todos: especialidad clara. Según el sitio del estudio, Nahual trabaja full color y realismo, tiene 14 años de experiencia y se especializa en cover-ups, es decir, en transformar tatuajes antiguos en piezas nuevas; trabaja en la sede Revolución de la Ciudad de México. Lo que **no** podemos darte es trayectoria documentada en prensa, premios o reseñas independientes, porque no las tenemos y no vamos a inventarlas. Así que si te interesa, revisa su portafolio cicatrizado, pregunta por su tarjeta de control sanitario y compáralo con Scrappy One, Xochitl Herrera o Daniela Márquez usando [nuestra guía para elegir tatuador](/guias/como-elegir-tatuador/). Que gane el mejor trabajo.
 
 ## Cómo seguirles la pista sin ser *ese* cliente
 

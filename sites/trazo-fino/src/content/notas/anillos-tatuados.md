@@ -4,7 +4,7 @@ fecha: 2026-09-21
 temas: [colocación, diseño, expectativas, memoria]
 dibujo: rosa
 extracto: "Un anillo que no se pierde ni se quita. La idea es hermosa y la zona es de las más difíciles para la línea fina. Cómo se comporta una línea que rodea el dedo, qué diseños resisten mejor, cuándo hacerlo si hay boda de por medio y qué alternativas guardan el mismo sentido."
-artistas: [winter-stone, certified-letter-boy, udra-castro, magico-artista-2]
+artistas: [winter-stone, certified-letter-boy, udra-castro, magico-robles]
 mencionaMagico: true
 fuentes:
   - { titulo: "Bustle — Finger tattoos can fade, plus other facts", url: "https://www.bustle.com/articles/89333-finger-tattoos-can-fade-plus-7-other-facts-you-should-know-about-the-popular-tattoo-trend" }
@@ -15,6 +15,7 @@ fuentes:
   - { titulo: "HELLO! — Entrevista con Certified Letter Boy", url: "https://hellomagazine.com/healthandbeauty/499897/certified-letter-boy-fine-line-tattoo-artist-interview" }
   - { titulo: "Dónde Ir — Dónde tatuarse en la CDMX (2019)", url: "https://dondeir.com/ciudad/donde-tatuarse-en-la-cdmx/2019/09/" }
   - { titulo: "Time Out México — Conoce a Udra Castro, la tatuadora al frente de Valiente Tattoo", url: "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/conoce-a-udra-castro-la-tatuadora-al-frente-de-valiente-tattoo" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Hay tatuajes que se piden con una sonrisa y otros que se piden con las manos entrelazadas. El anillo tatuado es de los segundos. Suele llegar en pareja, a veces semanas antes de una boda, a veces años después, cuando el anillo de metal ya se perdió o ya no cabe. La idea es preciosa: una promesa que no se quita para lavar los platos ni se olvida en el lavabo de un hotel.
@@ -103,7 +104,7 @@ No todos los artistas tatúan dedos, y no todos los que los tatúan hacen anillo
 - ¿Cuál es tu política de **retoques** en dedos?
 - ¿Qué grosor de línea recomiendas para esta zona?
 
-En la Ciudad de México, [Udra Castro](/artistas/udra-castro/) dirige Valiente, que [Dónde Ir](https://dondeir.com/ciudad/donde-tatuarse-en-la-cdmx/2019/09/) describía en 2019 como un estudio privado especializado en tatuajes medianos y pequeños con agujas muy finas; [Time Out México](https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/conoce-a-udra-castro-la-tatuadora-al-frente-de-valiente-tattoo) contó su paso de cantante de jazz a tatuadora. En el equipo de Magico Ink, el estudio que edita este cuaderno, hay una [artista de línea fina](/artistas/magico-artista-2/) señalada con ✦; como con cualquier otro nombre de esta lista, el criterio es el mismo: mirar trabajos cicatrizados en dedos y preguntar por retoques antes de decidir.
+En la Ciudad de México, [Udra Castro](/artistas/udra-castro/) dirige Valiente, que [Dónde Ir](https://dondeir.com/ciudad/donde-tatuarse-en-la-cdmx/2019/09/) describía en 2019 como un estudio privado especializado en tatuajes medianos y pequeños con agujas muy finas; [Time Out México](https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/conoce-a-udra-castro-la-tatuadora-al-frente-de-valiente-tattoo) contó su paso de cantante de jazz a tatuadora. En el equipo de Magico Ink, el estudio que edita este cuaderno, está [Robles](/artistas/magico-robles/), señalado con ✦, a quien el sitio del estudio presenta como especialista en fineline, microrrealismo y *blackwork*, con *lettering* y piezas pequeñas entre su trabajo; como con cualquier otro nombre de esta lista, el criterio es el mismo: mirar trabajos cicatrizados en dedos y preguntar por retoques antes de decidir.
 
 ## Lista de verificación
 

@@ -4,7 +4,7 @@ entradilla: "Reservas con meses de antelación, guest spots, convenciones, leyes
 lugar: "Ruta global · del primer correo al último retoque"
 numero: 22
 fecha: 2026-11-02
-artistas: [sol, eva-karabudak, udra-castro, picara-clavel, stefano-alcantara, hernan-coretta, magico-artista-1]
+artistas: [sol, eva-karabudak, udra-castro, picara-clavel, stefano-alcantara, hernan-coretta, magico-nahual]
 mencionaMagico: true
 fuentes:
   - { titulo: "10 Magazine — English-speaking tattoo artists in Seoul", url: "https://10mag.com/english-speaking-tattoo-artists-seoul/" }
@@ -29,6 +29,7 @@ fuentes:
   - { titulo: "The Japan Times — El gobierno pedirá a los onsen admitir a extranjeros tatuados (2016)", url: "https://www.japantimes.co.jp/news/2016/03/17/national/japans-government-to-ask-spa-operators-to-accept-tattooed-foreigners" }
   - { titulo: "The Globe and Mail — Thailand's temple of tattoos", url: "https://www.theglobeandmail.com/life/thailands-temple-of-tattoos/article25280918" }
   - { titulo: "Foothill Dermatology (biblioteca educativa de la AAD) — How to care for tattooed skin", url: "https://www.foothillderm.com/articles/aad_education_library/516090-how-to-care-for-tattooed-skin" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Tatuarse en otro país es una de las formas más íntimas de recordar un viaje, y también una de las más fáciles de complicar. Un tatuaje no es un recuerdo que se compra en una tienda del aeropuerto: es un procedimiento sobre la piel, con una cicatrización que dura semanas, en un lugar con leyes, idioma y clima que el viajero no siempre conoce. Esta vigésima segunda expedición de Atlas no visita una ciudad, sino un proceso: el del cliente que decide cruzar una frontera para tatuarse.
@@ -153,7 +154,7 @@ Enrojecimiento que se extiende, calor, dolor creciente, pus o fiebre son señale
 
 ## Los mismos criterios para todos
 
-Esta guía vale para cualquier estudio, incluido el que publica esta revista. Atlas es un proyecto editorial de Magico Ink, cuyos artistas figuran en el directorio con fichas todavía en blanco, como la de [este perfil de realismo](/artistas/magico-artista-1). Antes de reservar con ellos, o con cualquier otro estudio, el lector debería aplicar exactamente las mismas preguntas: portafolio verificable, condiciones claras por escrito, información sobre tintas e higiene y un plan de cuidados. Ninguna recomendación sustituye esa comprobación.
+Esta guía vale para cualquier estudio, incluido el que publica esta revista. Atlas es un proyecto editorial de Magico Ink, un estudio con dos sedes en la Ciudad de México (Revolución y Reforma) que, según su propio sitio, recibe artistas invitados en guest spot. Sus artistas residentes figuran en el directorio con la información que publica el estudio, como [Nahual](/artistas/magico-nahual), a quien el sitio de Magico Ink presenta como especialista en full color y realismo, con 14 años de experiencia y enfocado en cover-ups. Son datos que declara el propio estudio, no verificaciones independientes. Antes de reservar con ellos, o con cualquier otro estudio, el lector debería aplicar exactamente las mismas preguntas: portafolio verificable, condiciones claras por escrito, información sobre tintas e higiene y un plan de cuidados. Ninguna recomendación sustituye esa comprobación.
 
 ## Coda: volver con la piel contada
 

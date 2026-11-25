@@ -9,14 +9,22 @@ const { a, i } = Astro.props;
 const color = ['var(--rojo)', 'var(--azul)', 'var(--verde)', 'var(--naranja)'][i % 4];
 const estudio = estudioDe(a);
 const tops = (await getCollection('top')).filter((t) => t.data.puestos.some((p) => p.artista === a.slug));
+const fuentes: string[] = (a.fuentes ?? []).map((f: string | { url: string }) => (typeof f === 'string' ? f : f.url));
+const fotos: string[] = a.imagenes?.length && a.permisoImagenes ? a.imagenes : [];
+const perfil = fotos.find((f) => f.endsWith('/perfil.webp'));
+const trabajos = fotos.filter((f) => f !== perfil);
+const tonos = ['var(--rojo)', 'var(--azul)', 'var(--verde)', 'var(--naranja)', 'var(--amarillo)'];
 const host = (u: string) => { try { return new URL(u).hostname.replace('www.', ''); } catch { return u; } };
 ---
 <Bravo titulo={a.nombre} descripcion={a.bio || `${a.nombre}, artista a color.`}>
   <header class="cab" style={`background:${color}`}>
-    <div class="envoltura">
-      <a href="/artistas/" class="volver">← ARTISTAS</a>
-      <h1>{a.nombre}{esMagico(a) && ' ★'}</h1>
-      <p class="tags">{etiquetasDe(a).map((e) => <span>{etiqueta(e)}</span>)}</p>
+    <div class={`envoltura${perfil ? ' con-perfil' : ''}`}>
+      <div>
+        <a href="/artistas/" class="volver">← ARTISTAS</a>
+        <h1>{a.nombre}{esMagico(a) && ' ★'}</h1>
+        <p class="tags">{etiquetasDe(a).map((e) => <span>{etiqueta(e)}</span>)}</p>
+      </div>
+      {perfil && <img class="perfil caja" src={perfil} alt={`${a.nombre}, retrato`} width="600" height="800" loading="lazy" decoding="async" />}
     </div>
   </header>
   <div class="envoltura rejilla">
@@ -30,11 +38,27 @@ const host = (u: string) => { try { return new URL(u).hostname.replace('www.', '
       <dl>
         <dt>DÓNDE</dt><dd>{lugar(a)}</dd>
         <dt>ESTUDIO</dt><dd>{estudio?.nombre ?? 'Por confirmar'}</dd>
+        {a.sede && <><dt>SEDE</dt><dd>{a.sede}</dd></>}
         {a.instagram && <><dt>INSTAGRAM</dt><dd><a href={`https://instagram.com/${a.instagram}`} rel="noopener">@{a.instagram}</a></dd></>}
       </dl>
     </section>
   </div>
   <div class="envoltura">
+    {trabajos.length > 0 && (
+      <figure class="galeria">
+        <h2>SU TRABAJO</h2>
+        <div class="piezas">
+          {trabajos.map((f, j) => (
+            <div class="pieza caja" style={`--c:${tonos[(i + j + 1) % tonos.length]}`}>
+              <img src={f} alt={`Tatuaje de ${a.nombre}, trabajo ${j + 1}`} width="720" height="900" loading="lazy" decoding="async" />
+              <span class="num">{String(j + 1).padStart(2, '0')}</span>
+            </div>
+          ))}
+        </div>
+        {a.creditoImagenes && <figcaption>FOTOS: {a.creditoImagenes}</figcaption>}
+      </figure>
+    )}
+    {trabajos.length === 0 && perfil && a.creditoImagenes && <p class="fuentes">FOTOS: {a.creditoImagenes}</p>}
     {a.datos?.length > 0 && (
       <section class="caja hechos">
         <h2>LO QUE ESTÁ DOCUMENTADO</h2>
@@ -47,7 +71,7 @@ const host = (u: string) => { try { return new URL(u).hostname.replace('www.', '
         <div>{tops.map((t) => <a href={`/top/${t.id}/`} class="caja">{t.data.titulo} →</a>)}</div>
       </section>
     )}
-    {a.fuentes?.length > 0 && <p class="fuentes">FUENTES: {a.fuentes.map((u: string, j: number) => <>{j > 0 && ' / '}<a href={u} rel="noopener">{host(u)}</a></>)}</p>}
+    {fuentes.length > 0 && <p class="fuentes">FUENTES: {fuentes.map((u, j) => <>{j > 0 && ' / '}<a href={u} rel="noopener">{host(u)}</a></>)}</p>}
     {esMagico(a) && <p class="aviso caja">★ {DIVULGACION}</p>}
   </div>
 </Bravo>
@@ -70,6 +94,14 @@ const host = (u: string) => { try { return new URL(u).hostname.replace('www.', '
   .en-tops a { padding: 14px 18px; font-weight: 700; text-decoration: none; background: var(--amarillo); }
   .fuentes { font-size: 13px; font-weight: 700; word-break: break-word; }
   .aviso { padding: 14px; font-weight: 700; background: var(--amarillo); }
-  @media (max-width: 700px) { .rejilla { grid-template-columns: 1fr; } }
+  .con-perfil { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 28px; align-items: end; }
+  .perfil { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; display: block; background: var(--amarillo); transform: rotate(2deg); }
+  .galeria { margin: 0 0 40px; }
+  .piezas { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); gap: 24px; }
+  .pieza { position: relative; padding: 10px; background: var(--c); }
+  .pieza img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; display: block; border: 3px solid var(--negro); background: var(--crema); }
+  .pieza .num { position: absolute; top: -14px; left: -10px; font: 400 32px/1 var(--titular); background: var(--amarillo); border: 3px solid var(--negro); padding: 4px 8px; }
+  .galeria figcaption { margin-top: 16px; font-size: 13px; font-weight: 700; }
+  @media (max-width: 700px) { .rejilla { grid-template-columns: 1fr; } .con-perfil { grid-template-columns: 1fr; } .perfil { max-width: 220px; } h1 { -webkit-text-stroke-width: 1px; overflow-wrap: anywhere; } }
   .ig { display: inline-block; padding: 12px 16px; background: var(--amarillo); font-weight: 700; text-decoration: none; margin-top: 8px; }
 </style>

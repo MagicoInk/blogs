@@ -3,7 +3,7 @@ titulo: "Día de Muertos en la piel: catrinas, calaveritas de azúcar y cempasú
 bajada: "La Catrina no nació catrina, el cempasúchil tiene nombre náhuatl y las calaveras de azúcar llegaron por una técnica de dulce con raíz árabe. Antes de tatuarte el Día de Muertos, conoce la historia (con sus versiones encontradas) y cómo llevarla con respeto."
 seccion: Cultura
 fecha: 2026-10-31
-artistas: ["chris-arroyo", "magico-artista-3"]
+artistas: ["chris-arroyo", "magico-aurelio"]
 mencionaMagico: true
 fuentes:
   - { titulo: "UNESCO — Indigenous festivity dedicated to the dead (Patrimonio Cultural Inmaterial, 2008)", url: "https://ich.unesco.org/en/RL/the-indigenous-festivity-dedicated-to-the-dead-00054" }
@@ -20,6 +20,7 @@ fuentes:
   - { titulo: "Revista Identidad (UAEMéx) — Artículo sobre la Feria del Alfeñique", url: "https://revistaidentidad.uaemex.mx/article/download/23163/17307/" }
   - { titulo: "Posta Edomex — Alfeñique se convierte en Patrimonio Cultural Inmaterial del Estado de México", url: "https://www.posta.com.mx/edomex/alfenique-se-convierte-en-patrimonio-cultural-inmaterial-y-orgullo-del-estado-de-mexico/vl2111232" }
   - { titulo: "Tattoo Life — The epic neo-traditional of the Mexican Chris Arroyo", url: "https://tattoolife.com/the-epic-neo-traditional-of-the-mexican-chris-arroyo" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Cada otoño pasa lo mismo: en los estudios de la ciudad empiezan a llegar mensajes con fotos de catrinas, calaveritas con ojos de flor y ramos de cempasúchil. El Día de Muertos es, probablemente, la fiesta mexicana que más se ha llevado a la piel, aquí y del otro lado de la frontera.
@@ -102,7 +103,7 @@ Para quienes combinan el Día de Muertos con imaginería religiosa (vírgenes, s
 
 ## Una nota sobre las fichas de esta guía
 
-Abajo verás las fichas de dos artistas. **Chris Arroyo** aparece porque las fuentes describen su neotradicional con calaveras y flores, uno de los estilos más usados para estos temas. También incluimos una ficha de **Magico Ink**, la casa editorial de Tinta Capital, porque su ficha está marcada en estilo de **color**, que es el que más se pide para cempasúchil y catrinas a color. Te lo decimos claro: **todavía no tenemos datos públicos verificados de su trayectoria**, así que no le inventamos ninguna. El criterio para cualquier artista, de casa o de fuera, es el mismo: **portafolio cicatrizado de piezas parecidas a la que quieres**. Revisa [cómo elegir tatuador](/guias/como-elegir-tatuador/).
+Abajo verás las fichas de dos artistas. **Chris Arroyo** aparece porque las fuentes describen su neotradicional con calaveras y flores, uno de los estilos más usados para estos temas. También incluimos a **[Aurelio](/artistas/magico-aurelio/)**, artista residente de **Magico Ink**, la casa editorial de Tinta Capital. Según el sitio del estudio, su especialidad es la ilustración, el anime y el **color**, combina la ilustración con el negro y el color, tiene cinco años de experiencia y trabaja en la sede Reforma de la Ciudad de México; el color y la ilustración son justo lo que más se pide para cempasúchil y catrinas. Te lo decimos claro: **son datos que declara el propio estudio**, no tenemos fuentes independientes sobre catrinas o calaveras de su mano, así que no le inventamos ninguna. El criterio para cualquier artista, de casa o de fuera, es el mismo: **portafolio cicatrizado de piezas parecidas a la que quieres**. Revisa [cómo elegir tatuador](/guias/como-elegir-tatuador/).
 
 ## Antes de agendar
 

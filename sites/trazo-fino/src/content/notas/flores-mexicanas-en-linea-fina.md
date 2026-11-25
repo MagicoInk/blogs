@@ -4,7 +4,7 @@ fecha: 2026-10-30
 temas: [diseño, México, historia, ilustrativo, botánica]
 dibujo: rosa
 extracto: "Cuatro flores que nacieron en esta tierra antes de llegar a los jardines del mundo. Lo que dicen de ellas la botánica y las fuentes culturales, y cómo llevarlas a la piel sin convertirlas en un adorno genérico."
-artistas: [aura-espinosa, zina-samoletova, jacqueline-olivera, magico-artista-2]
+artistas: [aura-espinosa, zina-samoletova, jacqueline-olivera, magico-alex-nox]
 mencionaMagico: true
 fuentes:
   - { titulo: "El Imparcial — Día Nacional de la Dalia: por qué es la flor nacional de México (2026)", url: "https://www.elimparcial.com/locurioso/2026/08/05/dia-nacional-de-la-dalia-por-que-es-la-flor-nacional-de-mexico/" }
@@ -20,6 +20,7 @@ fuentes:
   - { titulo: "Cultura Colectiva — Tatuadores en CDMX de flores: conoce a Aura Espinosa", url: "https://culturacolectiva.com/estilo-de-vida/tatuadores-en-cdmx-de-flores-conoce-a-aura-espinosa/" }
   - { titulo: "Time Out Buenos Aires — Los mejores tatuadores de Buenos Aires", url: "https://www.timeout.com/es/buenos-aires/notas/mejores-tatuadores-en-buenos-aires-080124" }
   - { titulo: "Diario de Xalapa — Jacqueline Olivera, tatuadora de tinta negra", url: "https://oem.com.mx/diariodexalapa/cultura/jacqueline-olivera-tatuadora-de-tinta-negra-realiza-obras-de-arte-en-la-piel-con-puntillismo-y-linea-fina-15340676" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Esta semana, en casi cualquier mercado de México, hay montañas de flores anaranjadas. El olor del cempasúchil se queda en la ropa, en el coche, en las escaleras de la casa. Unas semanas después llegarán las nochebuenas a las banquetas, rojas, en macetas envueltas en papel metálico. Y si uno sale a la carretera hacia el norte, en primavera, los cactus que pasan el año entero callados se abren de golpe en flores que parecen de papel de china.
@@ -140,7 +141,7 @@ No hay un listado de "especialistas en flores mexicanas" con fuentes, y no vamos
 - **[Aura Espinosa](/artistas/aura-espinosa/)**. [Cultura Colectiva](https://culturacolectiva.com/estilo-de-vida/tatuadores-en-cdmx-de-flores-conoce-a-aura-espinosa/) la incluyó en una nota dedicada a tatuadoras de flores en la Ciudad de México y describe su línea fina como de inspiración oriental. Interesante para ver cómo una flor se ordena con un lenguaje gráfico ajeno a la lámina europea.
 - **[Zina Samoletova](/artistas/zina-samoletova/)**, en Buenos Aires. Según [Time Out Buenos Aires](https://www.timeout.com/es/buenos-aires/notas/mejores-tatuadores-en-buenos-aires-080124), se especializa en tatuajes botánicos, inspirada por su gusto por la botánica. No es mexicana ni trabaja con flora mexicana en lo que tenemos documentado, pero su enfoque botánico es una buena escuela de observación.
 - **[Jacqueline Olivera](/artistas/jacqueline-olivera/)**, en Xalapa. [Diario de Xalapa](https://oem.com.mx/diariodexalapa/cultura/jacqueline-olivera-tatuadora-de-tinta-negra-realiza-obras-de-arte-en-la-piel-con-puntillismo-y-linea-fina-15340676) cuenta que trabaja solo con tinta negra, con puntillismo y línea fina. Para quien quiera un cempasúchil o una dalia en negro, construida con puntos, es una referencia útil.
-- **[Magico Ink](/artistas/magico-artista-2/)**, el proyecto que edita este cuaderno, tiene una ficha de línea fina en el directorio. Todavía no tenemos un portafolio documentado que podamos citar aquí, así que aplica el mismo criterio que con cualquiera: pide fotos de flores cicatrizadas, pregunta por tamaños mínimos y fíjate en cómo resuelve las espinas y los centros.
+- **[Alex Nox](/artistas/magico-alex-nox/)**, de Magico Ink, el proyecto que edita este cuaderno, en la sede Revolución de la Ciudad de México. Según el sitio del estudio, crea piezas que combinan *blackwork* y líneas finas en ilustraciones inspiradas en la naturaleza, el arte y la fantasía, con seis años de experiencia. No tenemos fuentes independientes sobre flores concretas de su mano, así que aplica el mismo criterio que con cualquiera: pide fotos de flores cicatrizadas, pregunta por tamaños mínimos y fíjate en cómo resuelve las espinas y los centros.
 
 Si quieres más nombres en el país, en [fine line hecho en México, ciudad por ciudad](/notas/mexico-ciudad-por-ciudad/) hay un mapa más amplio.
 

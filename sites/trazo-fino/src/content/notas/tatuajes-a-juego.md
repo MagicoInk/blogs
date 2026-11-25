@@ -4,7 +4,7 @@ fecha: 2026-11-01
 temas: [diseño, tamaño, colocación, memoria, recomendaciones]
 dibujo: luna
 extracto: "Un tatuaje compartido es una forma de decir «esto es nuestro». Cómo pensar uno que funcione completo en cada piel, que hable de la relación sin depender de ella y que pueda envejecer con dos personas distintas. Con ideas, una lista de verificación y preguntas frecuentes."
-artistas: [certified-letter-boy, girl-knew-york, udra-castro, jacqueline-olivera, magico-artista-2]
+artistas: [certified-letter-boy, girl-knew-york, udra-castro, jacqueline-olivera, magico-abril]
 mencionaMagico: true
 fuentes:
   - { titulo: "The News (Portsmouth) — These are the tattoos people most regret in later life (2018)", url: "https://www.portsmouth.co.uk/education/these-are-tattoos-people-most-regret-later-lifea-1003555" }
@@ -14,6 +14,7 @@ fuentes:
   - { titulo: "Diario de Xalapa — Jacqueline Olivera, tatuadora de tinta negra, con puntillismo y línea fina", url: "https://oem.com.mx/diariodexalapa/cultura/jacqueline-olivera-tatuadora-de-tinta-negra-realiza-obras-de-arte-en-la-piel-con-puntillismo-y-linea-fina-15340676" }
   - { titulo: "NPR — Tattoo design tips from Girl Knew York (2022)", url: "https://www.npr.org/2022/08/02/1115199700/tattoo-design-tips-girl-knew-york" }
   - { titulo: "Dónde Ir — Dónde tatuarse en la CDMX (2019)", url: "https://dondeir.com/ciudad/donde-tatuarse-en-la-cdmx/2019/09/" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Hay pocas escenas tan tiernas en un estudio como la de dos personas que entran juntas a tatuarse lo mismo. Hermanas que se dibujan la misma flor que había en el jardín de su abuela. Dos amigos de la secundaria que, veinte años después, se hacen el pequeño cohete que dibujaban en los cuadernos. Una pareja que lleva una línea que, solo cuando se toman de la mano, se completa. Un padre y una hija con la misma fecha. Todos estos tatuajes dicen algo muy simple y muy grande: **esto es nuestro.**
@@ -90,7 +91,7 @@ Las mismas reglas que para cualquier línea fina (fotos cicatrizadas, líneas co
 - **Que tenga fotos cicatrizadas de piezas parecidas en personas distintas.** Ver cómo un mismo diseño quedó en pieles diferentes es muy revelador.
 - **Que te diga que no** si una idea depende demasiado de estar juntos para entenderse, o si un tamaño no va a envejecer bien.
 
-Algunos nombres de nuestro directorio con piezas pequeñas y finas, siempre con fuentes: en la Ciudad de México, [Udra Castro](/artistas/udra-castro/) dirige Valiente, que [Dónde Ir](https://dondeir.com/ciudad/donde-tatuarse-en-la-cdmx/2019/09/) describe como especializado en tatuajes pequeños y medianos con agujas muy finas; en Xalapa, [Jacqueline Olivera](/artistas/jacqueline-olivera/) trabaja exclusivamente con tinta negra, con línea fina y puntillismo, como recogió el [Diario de Xalapa](https://oem.com.mx/diariodexalapa/cultura/jacqueline-olivera-tatuadora-de-tinta-negra-realiza-obras-de-arte-en-la-piel-con-puntillismo-y-linea-fina-15340676). Y **[Magico Ink](/artistas/magico-artista-2/)**, el proyecto que edita este cuaderno, tiene una ficha de línea fina en el directorio de la que todavía no hay un portafolio documentado que podamos citar; te pedimos que apliques exactamente los mismos criterios que con cualquier otro estudio. Más nombres en [nuestra lista corta](/notas/nuestra-lista-corta/).
+Algunos nombres de nuestro directorio con piezas pequeñas y finas, siempre con fuentes: en la Ciudad de México, [Udra Castro](/artistas/udra-castro/) dirige Valiente, que [Dónde Ir](https://dondeir.com/ciudad/donde-tatuarse-en-la-cdmx/2019/09/) describe como especializado en tatuajes pequeños y medianos con agujas muy finas; en Xalapa, [Jacqueline Olivera](/artistas/jacqueline-olivera/) trabaja exclusivamente con tinta negra, con línea fina y puntillismo, como recogió el [Diario de Xalapa](https://oem.com.mx/diariodexalapa/cultura/jacqueline-olivera-tatuadora-de-tinta-negra-realiza-obras-de-arte-en-la-piel-con-puntillismo-y-linea-fina-15340676). Y en Magico Ink, el proyecto que edita este cuaderno, está **[Abril](/artistas/magico-abril/)**, a quien el sitio del estudio presenta como ilustradora que transforma bocetos y dibujos en tatuajes, con especialidad en microrrealismo y cinco años de experiencia, en la sede Reforma. Son datos que declara el propio estudio; te pedimos que apliques exactamente los mismos criterios que con cualquier otro. Más nombres en [nuestra lista corta](/notas/nuestra-lista-corta/).
 
 ## Y si un día la relación cambia
 

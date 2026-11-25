@@ -4,7 +4,7 @@ bajada: "Portafolio cicatrizado, especialidad, papeles en regla, cotización y q
 seccion: Guías
 fecha: 2026-11-05
 destacada: true
-artistas: [scrappy-one, pablo-diaz, xochitl-herrera, adolfo-guerra, chris-arroyo, fernanda-alvarez, magico-artista-1]
+artistas: [scrappy-one, pablo-diaz, xochitl-herrera, adolfo-guerra, chris-arroyo, fernanda-alvarez, magico-trazo]
 mencionaMagico: true
 fuentes:
   - { titulo: "Time Out México — Ink Dealers", url: "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/ink-dealers" }
@@ -18,6 +18,7 @@ fuentes:
   - { titulo: "COFEPRIS — Guía para la obtención de la tarjeta de control sanitario de tatuadores", url: "https://www.gob.mx/cms/uploads/attachment/file/910517/Guia_obtencion_de_tarjeta_control_sanitario_tatuadores.pdf" }
   - { titulo: "Excélsior — Emite Cofepris nuevas normas para tatuadores", url: "https://www.excelsior.com.mx/nacional/emite-cofepris-nuevas-normas-tatuadores-detalles/1648571" }
   - { titulo: "Publimetro — Cinco reglas imprescindibles antes de hacerte tu primer tatuaje", url: "https://www.publimetro.com.mx/plus/2023/10/07/cinco-reglas-imprescindibles-antes-de-hacerte-tu-primer-tatuaje/" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Tatuarse es facilísimo. Lo difícil es elegir con quién. Entre el primo que "ya tiene su máquina", el estudio que te salió diecisiete veces en reels, el que te recomendó tu ex y el que cobra la mitad que todos, la decisión se complica más que encontrar lugar en la Roma un sábado en la noche.
@@ -139,7 +140,7 @@ Levántate y vete si:
 
 ## Sobre "nuestra casa"
 
-Tinta Capital es un proyecto editorial de Magico Ink, y en esta guía incluimos entre las fichas a un artista de Magico Ink. Te lo decimos claro para que lo tomes en cuenta. Por ahora no tenemos datos públicos de su trayectoria que podamos documentarte, más allá de que el estudio se presenta con realismo, fine line y color, así que la regla es la misma que para cualquier otro: revisa su portafolio cicatrizado, pregunta por su tarjeta de control sanitario, mide la primera plática y compáralo con los demás con exactamente los mismos criterios de esta guía. Si no pasa el filtro, no pasa.
+Tinta Capital es un proyecto editorial de [Magico Ink](/estudios/magico-ink/), y en esta guía incluimos entre las fichas a un artista de Magico Ink: [Trazo](/artistas/magico-trazo/). Te lo decimos claro para que lo tomes en cuenta. Lo que sabemos de él viene del sitio del estudio: especialista en microrrealismo, fine line y composiciones, con tres años de experiencia, en las sedes Revolución y Reforma de la Ciudad de México. No tenemos reseñas ni prensa independiente sobre su trabajo, así que la regla es la misma que para cualquier otro: revisa su portafolio cicatrizado, pregunta por su tarjeta de control sanitario, mide la primera plática y compáralo con los demás con exactamente los mismos criterios de esta guía. Si no pasa el filtro, no pasa.
 
 ## Checklist para guardar en tu celular
 

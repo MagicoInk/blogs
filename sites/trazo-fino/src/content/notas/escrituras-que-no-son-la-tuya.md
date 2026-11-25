@@ -4,7 +4,7 @@ fecha: 2026-10-03
 temas: [lettering, diseño, historia, expectativas]
 dibujo: golondrina
 extracto: "Un carácter mal elegido, unas letras árabes sueltas, un hebreo escrito al revés. Los errores documentados, por qué ocurren, cómo verificar una traducción y por qué la última palabra la tiene alguien que lee esa lengua desde niño."
-artistas: [certified-letter-boy, magico-artista-2]
+artistas: [certified-letter-boy, magico-robles]
 mencionaMagico: true
 fuentes:
   - { titulo: "CBS News — Ariana Grande's tattoo says 'BBQ grill' in Japanese instead of '7 rings'", url: "https://www.cbsnews.com/amp/news/ariana-grande-hand-tattoo-ariana-grande-fans-say-her-tattoo-says-bbq-grill-in-japanese-instead-of-7-rings" }
@@ -21,6 +21,7 @@ fuentes:
   - { titulo: "Koimoi — Rihanna once had a misspelt tattoo in Sanskrit", url: "https://www.koimoi.com/hollywood-news/when-rihanna-misspelt-her-hip-tattoo-which-was-inspired-by-the-holy-text-of-bhagavad-gita/" }
   - { titulo: "UCLA International Institute — artículo sobre tatuajes y lenguas", url: "https://international.ucla.edu/institute/article/103978" }
   - { titulo: "HELLO! — Entrevista con Certified Letter Boy", url: "https://hellomagazine.com/healthandbeauty/499897/certified-letter-boy-fine-line-tattoo-artist-interview" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Hay una escena que se repite en muchos estudios. Alguien llega con una palabra en una escritura que no sabe leer: unos caracteres japoneses, una línea en árabe, una frase en hebreo, un mantra en devanagari. Lo trae en una captura del teléfono, impreso, a veces copiado de un tatuaje ajeno. Quiere que diga "fuerza", "amor", "libertad" o el nombre de alguien. Y ni la persona ni, muchas veces, el artista pueden comprobar si de verdad lo dice.
@@ -137,7 +138,7 @@ Porque una lengua no es solo un código. Quien la habla desde niño sabe si una 
 
 Los artistas de lettering, como [Certified Letter Boy](/artistas/certified-letter-boy/), conocido según [HELLO!](https://hellomagazine.com/healthandbeauty/499897/certified-letter-boy-fine-line-tattoo-artist-interview) por su caligrafía personalizada en línea fina, muestran que la letra es un oficio en sí mismo. No sabemos, ni afirmamos, que trabaje escrituras no latinas; lo citamos porque su enfoque (letras dibujadas para cada palabra, no pegadas de una fuente) es el que conviene exigir también aquí.
 
-Lo mismo vale para cualquier estudio, incluido el equipo de [Magico Ink](/artistas/magico-artista-2/): lo honesto es que el artista diga si conoce la escritura o no, y que trabaje sobre un original verificado por hablantes. Desconfía de quien te asegure que "así se escribe" sin poder leerlo.
+Lo mismo vale para cualquier estudio, incluido el equipo de Magico Ink, donde, según el sitio del estudio, [Robles](/artistas/magico-robles/) trabaja *lettering* en fine line: lo honesto es que el artista diga si conoce la escritura o no, y que trabaje sobre un original verificado por hablantes. Desconfía de quien te asegure que "así se escribe" sin poder leerlo.
 
 ## Preguntas frecuentes
 

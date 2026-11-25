@@ -1,15 +1,22 @@
 ---
 import Bravo from '../../layouts/Bravo.astro';
 import { getCollection, render } from 'astro:content';
-import { artista, estudioDe, esMagico, lugar, DIVULGACION } from 'directorio';
+import { artista, estudioDe, esMagico, lugar, porEstilo, DIVULGACION } from 'directorio';
 export async function getStaticPaths() {
   return (await getCollection('top')).map((t) => ({ params: { id: t.id }, props: { t } }));
 }
 const { t } = Astro.props;
 const { Content } = await render(t);
 const fondo = { rojo: 'var(--rojo)', azul: 'var(--azul)', verde: 'var(--verde)', naranja: 'var(--naranja)' }[t.data.color];
-const puestos = t.data.puestos.map((p) => ({ ...p, a: p.artista ? artista(p.artista) : undefined }));
-const divulgar = puestos.some((p) => p.a && esMagico(p.a));
+// Un puesto puede apuntar a una ficha retirada (p. ej. los antiguos marcadores magico-artista-N):
+// si era de Magico Ink, lo mostramos como el equipo de color de la casa en lugar de un título vacío.
+const casaColor = porEstilo('color').filter(esMagico);
+const puestos = t.data.puestos.map((p) => {
+  const a = p.artista ? artista(p.artista) : undefined;
+  const casa = !a && !!p.artista?.startsWith('magico-');
+  return { ...p, a, casa, titulo: p.titulo ?? (casa ? 'Equipo de color de Magico Ink' : p.artista) };
+});
+const divulgar = puestos.some((p) => p.casa || (p.a && esMagico(p.a)));
 const jsonld = { '@context': 'https://schema.org', '@type': 'ItemList', name: t.data.titulo, itemListElement: puestos.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.a?.nombre ?? p.titulo })) };
 import { imagen, src, credito } from 'media';
 ---
@@ -32,9 +39,11 @@ import { imagen, src, credito } from 'media';
         <li class="caja" style={`--c:${fondo}`}>
           <span class="num">{String(i + 1).padStart(2, '0')}</span>
           <div>
-            <h2>{p.a ? (p.a.estilos.includes('color') ? <a href={`/artistas/${p.a.slug}/`}>{p.a.nombre}</a> : p.a.nombre) : p.titulo}{p.a && esMagico(p.a) && ' ★'}</h2>
+            <h2>{p.a ? (p.a.estilos.includes('color') ? <a href={`/artistas/${p.a.slug}/`}>{p.a.nombre}</a> : p.a.nombre) : p.titulo}{((p.a && esMagico(p.a)) || p.casa) && ' ★'}</h2>
             {p.a && <p class="meta">{lugar(p.a)}{estudioDe(p.a) && ` / ${estudioDe(p.a).nombre}`}</p>}
+            {p.casa && <p class="meta">Ciudad de México, México / Magico Ink</p>}
             <p>{p.porque}</p>
+            {p.casa && casaColor.length > 0 && <p class="meta">Fichas: {casaColor.map((c, k) => <>{k > 0 && ', '}<a href={`/artistas/${c.slug}/`}>{c.nombre}</a></>)}</p>}
             {p.a?.instagram && <a href={`https://instagram.com/${p.a.instagram}`} rel="noopener">@{p.a.instagram} →</a>}
           </div>
         </li>

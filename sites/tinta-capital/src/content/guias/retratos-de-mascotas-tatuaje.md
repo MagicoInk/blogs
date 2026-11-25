@@ -3,7 +3,7 @@ titulo: "Retratos de mascotas en la piel: cómo elegir artista, qué foto llevar
 bajada: "Tatuarte a tu perro, a tu gata o al perico que te despertaba a gritos es de los encargos más emotivos y más difíciles del oficio. Te decimos qué buscar en un portafolio, cómo tomar o escoger la foto, qué estilos funcionan y a quién revisar."
 seccion: Guías
 fecha: 2026-09-02
-artistas: [scrappy-one, gallonegro, xochitl-herrera, daniela-marquez, adolfo-rubio, nancy-saucedo, adolfo-guerra, dmitriy-samohin, marckos-ruiz, sasha-unisex, eva-karabudak, magico-artista-1]
+artistas: [scrappy-one, gallonegro, xochitl-herrera, daniela-marquez, adolfo-rubio, nancy-saucedo, adolfo-guerra, dmitriy-samohin, marckos-ruiz, sasha-unisex, eva-karabudak, magico-ween]
 mencionaMagico: true
 fuentes:
   - { titulo: "Time Out México — Ink Dealers (Prado Coapa)", url: "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/ink-dealers" }
@@ -20,6 +20,7 @@ fuentes:
   - { titulo: "FDA — Piense antes de tatuarse: la seguridad de los tatuajes", url: "https://www.fda.gov/consumers/articulos-para-el-consumidor-en-espanol/piense-antes-de-tatuarse-la-seguridad-de-los-tatuajes" }
   - { titulo: "La Razón — Nuevo León prohíbe mutilaciones estéticas y tatuajes en animales de compañía", url: "https://www.razon.com.mx/estados/nuevo-leon-prohibe-mutilaciones-esteticas-y-tatuajes-en-animales-de-compania-477691/" }
   - { titulo: "UnoTV — Nuevo León prohíbe mutilaciones estéticas y tatuajes en animales de compañía", url: "https://www.unotv.com/estados/nuevo-leon/nuevo-leon-congreso-aprobo-sancionar-mutilaciones-esteticas-en-perros-y-gatos/" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Hay tatuajes que se hacen por estética, otros por rebeldía y otros porque alguien se murió y no sabemos qué más hacer con el amor que sobró. Los retratos de mascotas caben muchas veces en esta última categoría. El Firulais que te acompañó en la prepa, la gata que se subía al teclado en pleno *home office*, el perico que te despertaba a gritos: llevarlos en la piel es una forma de seguir cargándolos.
@@ -102,7 +103,7 @@ Estos son artistas del [directorio de Tinta Capital](/artistas/) cuyas fichas do
 
 ### De casa
 
-- **[Artista de Magico Ink](/artistas/magico-artista-1/).** Su ficha lo registra en **realismo**. Como todavía no publicamos datos verificados de su trayectoria, aplícale el mismo filtro que a todos: pide retratos de animales cicatrizados y fotos de la referencia junto al resultado antes de decidir.
+- **[Ween](/artistas/magico-ween/) (CDMX).** Artista residente de Magico Ink, nuestra casa editora, en la sede Revolución. Según el sitio del estudio, se especializa en **microrrealismo de mascotas** y tiene cinco años de experiencia; el estudio también anuncia los retratos de mascotas entre sus servicios. Es información que declara el propio estudio, así que aplícale el mismo filtro que a todos: pide retratos de animales cicatrizados y fotos de la referencia junto al resultado antes de decidir.
 
 ### Fuera de México, para inspirarte
 

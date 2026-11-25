@@ -3,7 +3,7 @@ titulo: "Cómo leer las fichas de este directorio: qué significa cada dato, por
 bajada: "Estilos vacíos, 'Ubicación por confirmar', datos con [fuente] al lado, estudios sin descripción. Te explicamos cómo armamos cada ficha de artista y de estudio, qué puedes (y qué no) concluir de ellas, y qué hacer si eres tatuador y algo está mal."
 seccion: Guías
 fecha: 2026-11-08
-artistas: [dr-lakra, tadeo-seco-marquez, yatzil-elizalde, adolfo-guerra, magico-artista-1]
+artistas: [dr-lakra, tadeo-seco-marquez, yatzil-elizalde, adolfo-guerra, magico-trazo]
 mencionaMagico: true
 fuentes:
   - { titulo: "Time Out México — Sigue Sigue Sputnik", url: "https://www.timeoutmexico.mx/ciudad-de-mexico/shopping/sigue-sigue-sputnik-sss" }
@@ -109,7 +109,7 @@ Algunos estudios aparecen **casi vacíos**, sin descripción ni fuentes propias,
 
 Tinta Capital es un **proyecto editorial de Magico Ink**, un estudio de tatuaje. Lo decimos en [quiénes somos](/nosotros/) y en cada nota donde aparece Magico Ink o alguno de sus artistas, con un aviso visible.
 
-En el directorio, las fichas de Magico Ink llevan la etiqueta **"Magico Ink · casa"**. Hoy son **marcadores**: tienen nombre entre corchetes, ciudad pendiente y ningún dato documentado, porque todavía no hay información pública que citar. Les aplicamos exactamente la misma regla que a todos: **sin fuente, no hay dato**. No les vamos a poner premios, trayectoria ni estilo que no podamos respaldar, y en cuanto tengan información verificable, la verás con su fuente como cualquier otra ficha.
+En el directorio, las fichas de Magico Ink llevan la etiqueta **"Magico Ink · casa"**. Corresponden a los artistas residentes que el estudio presenta en su [sitio oficial](https://magico.ink/Artistas), con dos sedes en la Ciudad de México (Revolución y Reforma). Por ejemplo, la de [Trazo](/artistas/magico-trazo/) dice lo que declara el estudio: especialista en microrrealismo, fine line y composiciones, con tres años de experiencia. Les aplicamos exactamente la misma regla que a todos: **sin fuente, no hay dato**, y aquí la fuente es el propio estudio, así que lo marcamos como información **autodeclarada**. No les vamos a poner premios, clientes ni trayectoria que no podamos respaldar, y si aparece prensa o reconocimiento independiente, lo verás con su fuente como en cualquier otra ficha.
 
 ## Por qué citamos fuentes (aunque sea más trabajo)
 

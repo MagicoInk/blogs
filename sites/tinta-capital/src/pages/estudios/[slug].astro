@@ -1,13 +1,19 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Fuentes from '../../components/Fuentes.astro';
-import { estudiosDe, artistasDeEstudio, etiqueta } from 'directorio';
+import { estudiosDe, estudio as estudioPorSlug, artistasDeEstudio, etiqueta, DIVULGACION } from 'directorio';
 export function getStaticPaths() {
-  return estudiosDe('México').map((e) => ({ params: { slug: e.slug }, props: { e } }));
+  // Magico Ink no aparece en el índice de estudios (es la casa editora), pero sus artistas enlazan a su ficha.
+  const casa = estudioPorSlug('magico-ink');
+  return [...estudiosDe('México'), ...(casa ? [casa] : [])].map((e) => ({ params: { slug: e.slug }, props: { e } }));
 }
 const { e } = Astro.props;
 const equipo = artistasDeEstudio(e.slug);
-const jsonld = { '@context': 'https://schema.org', '@type': 'TattooParlor', name: e.nombre, address: { '@type': 'PostalAddress', addressLocality: e.ciudad || undefined, addressCountry: 'MX' }, ...(e.web && { url: e.web }) };
+type Sede = { nombre: string; direccion?: string; horario?: string };
+const sedes: Sede[] = e.sedes ?? [];
+const jsonld = sedes.length
+  ? { '@context': 'https://schema.org', '@type': 'Organization', name: e.nombre, ...(e.web && { url: e.web }), subOrganization: sedes.map((s) => ({ '@type': 'TattooParlor', name: `${e.nombre} ${s.nombre}`, address: { '@type': 'PostalAddress', streetAddress: s.direccion, addressLocality: e.ciudad || undefined, addressCountry: 'MX' }, ...(s.horario && { openingHours: s.horario }) })) }
+  : { '@context': 'https://schema.org', '@type': 'TattooParlor', name: e.nombre, address: { '@type': 'PostalAddress', addressLocality: e.ciudad || undefined, addressCountry: 'MX' }, ...(e.web && { url: e.web }) };
 ---
 <Base titulo={`${e.nombre}${e.ciudad ? `, ${e.ciudad}` : ''}`} descripcion={e.descripcion || `${e.nombre}: estudio de tatuaje en México.`} jsonld={jsonld}>
   <header class="cab"><div class="contenedor">
@@ -16,14 +22,30 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'TattooParlor', name
     <p>{[e.zona, e.ciudad].filter(Boolean).join(', ') || 'Ubicación por confirmar'}</p>
   </div></header>
   <div class="contenedor prosa cuerpo">
+    {e.esMagico && <p class="aviso">{DIVULGACION}</p>}
     {e.descripcion && <p class="desc">{e.descripcion}</p>}
+    {sedes.length > 0 && (
+      <section class="sedes" aria-label="Sedes">
+        <h2>{sedes.length === 1 ? 'Sede' : 'Sedes'}</h2>
+        <div class="lista-sedes">
+          {sedes.map((s) => (
+            <div class="sede">
+              <h3>{s.nombre}</h3>
+              {s.direccion && <p><span class="etiqueta">Dirección</span> <span>{s.direccion}</span></p>}
+              {s.horario && <p><span class="etiqueta">Horario</span> <span>{s.horario}</span></p>}
+              {s.direccion && <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${e.nombre} ${s.direccion}`)}`} rel="noopener">Ver en el mapa →</a>}
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
     {e.estilos?.length > 0 && <p><strong>Estilos:</strong> {e.estilos.map(etiqueta).join(', ')}</p>}
     {e.web && <p><a href={e.web} rel="noopener">Sitio oficial →</a></p>}
     {e.instagram && <p><a href={`https://instagram.com/${e.instagram}`} rel="noopener">Instagram del estudio: @{e.instagram} →</a></p>}
     {equipo.length > 0 && (
       <>
         <h2>Artistas en el directorio</h2>
-        <ul>{equipo.map((a) => <li><a href={`/artistas/${a.slug}/`}>{a.nombre}</a></li>)}</ul>
+        <ul>{equipo.map((a) => <li><a href={`/artistas/${a.slug}/`}>{a.nombre}</a>{a.sede && <span class="sede-artista"> · {a.sede}</span>}</li>)}</ul>
       </>
     )}
     <h2>Antes de ir</h2>
@@ -37,4 +59,12 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'TattooParlor', name
   h1 { font-size: clamp(2.2rem, 6vw, 4rem); color: var(--amarillo); margin: 12px 0 4px; }
   .cuerpo { padding-top: 32px; }
   .desc { font-size: 1.25rem; }
+  .aviso { background: var(--negro); color: #fff; padding: 10px 14px; font-size: 14px; }
+  .lista-sedes { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: 16px; }
+  .sede { border: 3px solid var(--negro); padding: 18px; background: #fff; box-shadow: 5px 5px 0 var(--negro); }
+  .sede:nth-child(odd) { background: var(--amarillo); }
+  .sede h3 { font-size: 1.5rem; margin: 0 0 10px; }
+  .sede p { margin: 0 0 10px; display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
+  .sede a { font-weight: 700; }
+  .sede-artista { color: var(--sutil); font-size: 14px; }
 </style>

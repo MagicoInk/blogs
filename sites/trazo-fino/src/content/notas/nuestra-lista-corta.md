@@ -4,7 +4,7 @@ fecha: 2026-11-07
 temas: [artistas, recomendaciones, México]
 dibujo: golondrina
 extracto: "Artistas de línea fina que no dejamos de mirar, de Seúl a la Ciudad de México, con los criterios que usamos para elegirlos y lo que conviene saber de cada uno."
-artistas: [pablo-diaz, adolfo-guerra, aura-espinosa, yatzil-elizalde, magico-artista-2, mark-mahoney, dr-woo, winter-stone, doy, hongdam, mr-k, eva-karabudak, girl-knew-york, jonboy, balazs-bercsenyi, certified-letter-boy, delphin-musquet, chaim-machlev-dotstolines]
+artistas: [pablo-diaz, adolfo-guerra, aura-espinosa, yatzil-elizalde, magico-alison, mark-mahoney, dr-woo, winter-stone, doy, hongdam, mr-k, eva-karabudak, girl-knew-york, jonboy, balazs-bercsenyi, certified-letter-boy, delphin-musquet, chaim-machlev-dotstolines]
 mencionaMagico: true
 fuentes:
   - { titulo: "Chilango — Soy Feliz Studio", url: "https://www.chilango.com/que-hacer/arte-y-cultura/soy-feliz-studio-tatuajes/" }
@@ -29,6 +29,7 @@ fuentes:
   - { titulo: "Time Out London — Sans Patrie", url: "https://timeout.com/london/shopping/sans-patrie-tattoo-studio" }
   - { titulo: "Bustle — Los tatuajes geométricos de DotsToLines en Berlín", url: "https://www.bustle.com/articles/64806-this-tattoo-artist-in-berlin-is-creating-insanely-beautiful-geometric-tattoos-photos" }
   - { titulo: "Cool Hunting — Documental Dots to Lines", url: "https://coolhunting.com/culture/dots-to-lines-documentary/" }
+  - { titulo: "Mágico Ink — Artistas residentes (sitio oficial)", url: "https://magico.ink/Artistas" }
 ---
 
 Cada temporada armamos una lista corta. No es un ranking ni pretende serlo: no creemos que el arte se ordene del uno al veinte. Es, más bien, una libreta abierta sobre la mesa, con los nombres de las personas cuyo trabajo de línea fina seguimos mirando con atención y que nos parecen buenos puntos de partida para quien quiere entender este estilo.
@@ -75,11 +76,11 @@ Hay en su línea algo que conversa con la escuela coreana que contamos en [Seúl
 
 Su trabajo nos parece un buen ejemplo de cómo la línea fina puede ir más allá de lo delicado y volverse experimental. Como su ubicación actual puede haber cambiado desde esa cobertura, te recomendamos confirmarla en sus canales oficiales.
 
-### ✦ Artista de línea fina de Magico Ink
+### ✦ Alison · Magico Ink
 
-En esta lista hay una persona del equipo de **Magico Ink**, el estudio que edita este cuaderno. Trabaja la línea fina y aparece marcada con ✦.
+En esta lista hay una persona del equipo de **Magico Ink**, el estudio que edita este cuaderno: [Alison](/artistas/magico-alison/), marcada con ✦. Según el sitio del estudio, trabaja fine line y microrrealismo, crea piezas pequeñas con gran detalle, tiene seis años de experiencia y está en la sede Revolución de la Ciudad de México.
 
-Queremos ser transparentes: todavía no publicamos su ficha completa, su portafolio ni datos de trayectoria verificables, así que no te vamos a contar más de lo que podemos respaldar. Lo incluimos porque es parte de nuestra casa y porque nos parece honesto decirlo, no esconderlo. Te invitamos a mirar su trabajo, cuando lo publiquemos, con exactamente los mismos ojos y los mismos criterios con los que miras el de todos los demás: líneas limpias, cicatrizados que se sostienen, diseños que respiran. Si no los cumple para ti, no es para ti.
+Queremos ser transparentes: eso es una autodescripción del estudio, no un reconocimiento externo, y no tenemos más datos de trayectoria verificables, así que no te vamos a contar más de lo que podemos respaldar. La incluimos porque es parte de nuestra casa y porque nos parece honesto decirlo, no esconderlo. Te invitamos a mirar su trabajo con exactamente los mismos ojos y los mismos criterios con los que miras el de todos los demás: líneas limpias, cicatrizados que se sostienen, diseños que respiran. Si no los cumple para ti, no es para ti.
 
 ## Los Ángeles
 
