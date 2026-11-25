@@ -2,17 +2,46 @@
   {
     "slug": "magico-ink",
     "nombre": "Magico Ink",
-    "ciudad": "[Ciudad]",
+    "ciudad": "Ciudad de México",
     "pais": "México",
     "estilos": [
       "realismo",
       "fine-line",
       "color"
     ],
-    "instagram": "",
+    "instagram": "magico.ink",
     "web": "https://magico.ink",
     "esMagico": true,
-    "confirmado": false
+    "confirmado": true,
+    "zona": "Centro (Tabacalera) y Cuauhtémoc",
+    "descripcion": "Estudio de tatuaje con dos sedes en la Ciudad de México: Revolución (Pl. de la República 55, 4.º piso, Tabacalera; miércoles a domingo, 11:00 a 19:00) y Reforma (C. Río Lerma 198, Cuauhtémoc; martes a domingo, 11:00 a 19:00). Según su sitio, trabaja desde 2018 con 21 artistas residentes en fine line, microrrealismo, blackwork, ilustración y color, y ofrece retratos de mascotas, guest spots con artistas invitados, tatuaje en eventos, eliminación láser (ByeBye Ink) y un \"ritual mágico\" de cierre en el que se quema el stencil.",
+    "sedes": [
+      {
+        "nombre": "Revolución",
+        "direccion": "Pl. de la República 55, 4.º piso, Tabacalera, Cuauhtémoc, 06030 Ciudad de México",
+        "horario": "Miércoles a domingo, 11:00–19:00"
+      },
+      {
+        "nombre": "Reforma",
+        "direccion": "C. Río Lerma 198, Cuauhtémoc, 06500 Ciudad de México",
+        "horario": "Martes a domingo, 11:00–19:00"
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Mágico Ink — sitio oficial",
+        "url": "https://magico.ink/"
+      },
+      {
+        "titulo": "Mágico Ink — Estudios Revolución y Reforma",
+        "url": "https://magico.ink/Estudios"
+      },
+      {
+        "titulo": "Mágico Ink — Quiénes somos",
+        "url": "https://magico.ink/Nosotros"
+      }
+    ],
+    "verificacion": "sitio-oficial"
   },
   {
     "slug": "hideaway-at-suite-x",
